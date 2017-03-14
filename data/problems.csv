@@ -12,11 +12,11 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 7,最軽量のモビール,07本選5,070205,joi2007ho,joi2007ho_e,0520
 3,Score,07春合宿1-1,070301,joisc2007,joisc2007_score,
 5,Factorial,07春合宿1-2,070302,joisc2007,joisc2007_factor,
-5,Mall,07春合宿1-3,070303,joisc2007,joisc2007_mall,
+6,Mall,07春合宿1-3,070303,joisc2007,joisc2007_mall,
 5,Building,07春合宿2-1,070401,joisc2007,joisc2007_buildi,
 8,Fermat,07春合宿2-2,070402,joisc2007,joisc2007_fermat,
 10,SALT TREE XV,07春合宿2-3,070403,joisc2007,joisc2007_salt,
-7,Anagram,07春合宿3-1,070501,joisc2007,joisc2007_anagra,
+6,Anagram,07春合宿3-1,070501,joisc2007,joisc2007_anagra,
 8,Route,07春合宿3-2,070502,joisc2007,joisc2007_route,
 10,Circuit,07春合宿3-3,070503,joisc2007,joisc2007_circui,
 6,Fiber,07春合宿4-1,070601,joisc2007,joisc2007_fiber,
@@ -38,8 +38,8 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 6,Nile.Com,08春合宿2-1,080401,joisc2008,joisc2008_nile,
 7,Cheating,08春合宿2-2,080402,joisc2008,joisc2008_cheating,
 10,Belt,08春合宿2-3,080403,joisc2008,joisc2008_belt,
-5,Origami,08春合宿3-1,080501,joisc2008,joisc2008_origami,
-8,Fraction,08春合宿3-2,080502,joisc2008,joisc2008_fraction,
+6,Origami,08春合宿3-1,080501,joisc2008,joisc2008_origami,
+7,Fraction,08春合宿3-2,080502,joisc2008,joisc2008_fraction,
 10,Nightman,08春合宿3-3,080503,joisc2008,joisc2008_nightman,
 10,Ruins2,08春合宿4-1,080601,joisc2008,joisc2008_ruins,
 9,Typhoon,08春合宿4-2,080602,joisc2008,joisc2008_typhoon,
@@ -85,7 +85,7 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 9,Regions,10春合宿2-3,100403,joisc2010,joisc2010_regions,
 6,Finals,10春合宿3-1 ,10050 ,joisc2010,joisc2010_finals,
 9,Hide-and-seek,10春合宿3-2,100502,joisc2010,joisc2010_hideseek,
-6,Contest,10春合宿4-1,100601,joisc2010,joisc2010_contest,
+5,Contest,10春合宿4-1,100601,joisc2010,joisc2010_contest,
 10,Highway,10春合宿4-2,100602,joisc2010,joisc2010_highway,
 9,Lake,10春合宿4-3,100603,joisc2010,joisc2010_lake,
 9,Plugs,10春合宿4-4,100604,joisc2010,joisc2010_plugs,
@@ -100,7 +100,7 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 7,JOI国の買い物事情,11本選3,110203,joi2011ho,joi2011ho3,0562
 8,歩くサンタクロース,11本選4,110204,joi2011ho,joi2011ho4,0563
 9,微生物実験,11本選5,110205,joi2011ho,joi2011ho5,0564
-7,Banner,11春合宿1-1,110301,joisc2011,joisc2011_banner,
+6,Banner,11春合宿1-1,110301,joisc2011,joisc2011_banner,
 10,Dragon,11春合宿1-2,110302,joisc2011,joisc2011_dragon,
 9,Joitter,11春合宿1-3,110303,joisc2011,joisc2011_joitter,
 9,Guess Them All,11春合宿2-1,110401,joisc2011,joisc2011_guess,
@@ -171,22 +171,22 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 12,切り取り線,14本選5,140205,joi2014ho,joi2014ho5,0602
 9,Bus,14春合宿1-1,140301,joisc2014,joisc2014_a,
 9,Growing Vegetables is Fun,14春合宿1-2,140302,joisc2014,joisc2014_b,
-9,Historical Research,14春合宿1-3,140303,joisc2014,joisc2014_c,
+10,Historical Research,14春合宿1-3,140303,joisc2014,joisc2014_c,
 7,Ramen,14春合宿1-4,140304,joisc2014,joisc2014_d,
 10,Water Bottle,14春合宿2-1,140401,joisc2014,joisc2014_e,
 9,Making Friends is Fun,14春合宿2-2,140402,joisc2014,joisc2014_f,
 10,Collecting Stamps,14春合宿2-3,140403,joisc2014,joisc2014_g,
 6,JOIOJI,14春合宿3-1,140501,joisc2014,joisc2014_h,
-12,Scarecrows,14春合宿3-2,140502,joisc2014,joisc2014_i,
+11,Scarecrows,14春合宿3-2,140502,joisc2014,joisc2014_i,
 10,Voltage,14春合宿3-3,140503,joisc2014,joisc2014_j,
 11,Constellation 2,14春合宿4-1,140601,joisc2014,joisc2014_k,
-12,Kanji Shiritori,14春合宿4-2,140602,joisc2014,joisc2014_l,
+11,Kanji Shiritori,14春合宿4-2,140602,joisc2014,joisc2014_l,
 7,Straps,14春合宿4-3,140603,joisc2014,joisc2014_m,
 1,水道料金,15予選1,150101,joi2015yo,joi2015yo_a,0608
 2,クリスマスパーティー,15予選2,150102,joi2015yo,joi2015yo_b,0609
 3,気象予報士,15予選3,150103,joi2015yo,joi2015yo_c,0610
 5,シルクロード,15予選4,150104,joi2015yo,joi2015yo_d,0611
-7,砂の城,15予選5,150105,joi2015yo,joi2015yo_e,0612
+6,砂の城,15予選5,150105,joi2015yo,joi2015yo_e,0612
 8,財宝,15予選6,150106,joi2015yo,joi2015yo_f,0613
 5,鉄道旅行,15本選1,150201,joi2015ho,joi2015ho_a,0614
 6,ケーキの切り分け２,15本選2,150202,joi2015ho,joi2015ho_b,0615
