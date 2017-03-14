@@ -37,11 +37,28 @@ $(function(){
         arg[k[0]] = k[1];
     }
 
+
+
+    if(arg.form == undefined){
+        arg.con_yo = "1";
+        arg.con_ho = "1";
+        arg.con_sc = "1";
+        arg.year_begin = "2007";
+        arg.year_end = "2017";
+        arg.aoj_userid = "";
+        arg.atcoder_userid = "";
+    }else{
+        $("#con_yo").prop('checked', arg.con_yo === "1");
+        $("#con_ho").prop('checked', arg.con_ho === "1");
+        $("#con_sc").prop('checked', arg.con_sc === "1");
+        $("#year_begin").val(arg.year_begin);
+        $("#year_end").val(arg.year_end);
+        $("#aoj_userid").val(arg.aoj_userid);
+        $("#atcoder_userid").val(arg.atcoder_userid);
+    }
+
     var atcoder_userid = arg.atcoder_userid;
     var aoj_userid = arg.aoj_userid;
-    $("#aoj_userid").val(arg.aoj_userid);
-    $("#atcoder_userid").val(arg.atcoder_userid);
-
 
     //AC済みID
     var solved_atcoder = {};
@@ -100,6 +117,13 @@ $(function(){
 
             //難易度表作成
             $(data).each(function(){
+                //フィルター
+                if(this.sort.substr(0,2) < arg.year_begin.substr(2,2) || arg.year_end.substr(2,2) < this.sort.substr(0,2)) return; //年度
+                
+                if(arg.con_yo !== "1" && this.sort.substr(2,2) == "01") return;
+                if(arg.con_ho !== "1" && this.sort.substr(2,2) == "02") return;
+                if(arg.con_sc !== "1" && "03" <= this.sort.substr(2,2) && this.sort.substr(2,2) <= "06") return;
+                
                 var td_class = "none";
                 var aoj_link = "";
 
