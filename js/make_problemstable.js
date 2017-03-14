@@ -167,7 +167,7 @@ $(function(){
                 stat_problems_sum += stat_problems[i];
             }
             
-            stat_header += '<th>SUM</th>';
+            stat_header += '<th>ALL</th>';
             stat_body1 += '<td>'+stat_solved_sum+'/'+stat_problems_sum+'</td>';
             stat_body2 += '<td>'+Math.floor(100*stat_solved_sum/stat_problems_sum)+'%</td>';
             
