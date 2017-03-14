@@ -1,0 +1,252 @@
+name,contest,id
+A. joi2006ho_a,joi2006ho,joi2006ho_a
+B. joi2006ho_b,joi2006ho,joi2006ho_b
+C. joi2006ho_c,joi2006ho,joi2006ho_c
+D. joi2006ho_d,joi2006ho,joi2006ho_d
+E. joi2006ho_e,joi2006ho,joi2006ho_e
+A. joi2006yo_a,joi2006yo,joi2006yo_a
+B. joi2006yo_b,joi2006yo,joi2006yo_b
+C. joi2006yo_c,joi2006yo,joi2006yo_c
+D. joi2006yo_d,joi2006yo,joi2006yo_d
+E. joi2006yo_e,joi2006yo,joi2006yo_e
+A. 最大の和,joi2007ho,joi2007ho_a
+B. 最長の階段,joi2007ho,joi2007ho_b
+C. 最古の遺跡,joi2007ho,joi2007ho_c
+D. 最悪の記者,joi2007ho,joi2007ho_d
+E. 最軽量のモビール,joi2007ho,joi2007ho_e
+A. 得点,joi2007yo,joi2007yo_a
+B. 未提出者は誰だ,joi2007yo,joi2007yo_b
+C. シーザー暗号,joi2007yo,joi2007yo_c
+D. カードの並び替え,joi2007yo,joi2007yo_d
+E. 品質検査,joi2007yo,joi2007yo_e
+F. 通学経路,joi2007yo,joi2007yo_f
+A. 碁石ならべ,joi2008ho,joi2008ho_a
+B. 共通部分文字列,joi2008ho,joi2008ho_b
+C. ダーツ,joi2008ho,joi2008ho_c
+D. ぴょんぴょん川渡り,joi2008ho,joi2008ho_d
+E. ペンキの色,joi2008ho,joi2008ho_e
+A. おつり,joi2008yo,joi2008yo_a
+B. JOIとIOI,joi2008yo,joi2008yo_b
+C. カードゲーム,joi2008yo,joi2008yo_c
+D. 星座探し,joi2008yo,joi2008yo_d
+E. おせんべい,joi2008yo,joi2008yo_e
+F. 船旅,joi2008yo,joi2008yo_f
+A. IOIOI,joi2009ho,joi2009ho_a
+B. ピザ,joi2009ho,joi2009ho_b
+C. あみだくじ,joi2009ho,joi2009ho_c
+D. 散歩,joi2009ho,joi2009ho_d
+E. 認証レベル,joi2009ho,joi2009ho_e
+A. タイムカード,joi2009yo,joi2009yo_a
+B. コンテスト,joi2009yo,joi2009yo_b
+C. 連鎖,joi2009yo,joi2009yo_c
+D. 薄氷渡り,joi2009yo,joi2009yo_d
+E. シャッフル,joi2009yo,joi2009yo_e
+F. ビンゴ,joi2009yo,joi2009yo_f
+A. 旅人,joi2010ho,joi2010ho_a
+B. お菓子の分割,joi2010ho,joi2010ho_b
+C. つらら,joi2010ho,joi2010ho_c
+D. 博覧会,joi2010ho,joi2010ho_d
+E. ダンジョン,joi2010ho,joi2010ho_e
+A. レシート,joi2010yo,joi2010yo_a
+B. すごろく,joi2010yo,joi2010yo_b
+C. パーティー,joi2010yo,joi2010yo_c
+D. カード並べ,joi2010yo,joi2010yo_d
+E. 通勤経路,joi2010yo,joi2010yo_e
+F. 方向音痴のトナカイ,joi2010yo,joi2010yo_f
+A. 惑星探査 (Planetary Exploration),joi2011ho,joi2011ho1
+B. 古本屋 (Books),joi2011ho,joi2011ho2
+C. JOI 国の買い物事情 (Shopping in JOI Kingdom),joi2011ho,joi2011ho3
+D. 歩くサンタクロース (Walking Santa),joi2011ho,joi2011ho4
+E. 微生物実験 (Bug Party),joi2011ho,joi2011ho5
+A. 合計時間 (Total Time),joi2011yo,joi2011yo_a
+B. 指輪 (Ring),joi2011yo,joi2011yo_b
+C. タイル (Tile),joi2011yo,joi2011yo_c
+D. 1年生 (A First Grader),joi2011yo,joi2011yo_d
+E. チーズ (Cheese),joi2011yo,joi2011yo_e
+F. JOI旗 (JOI Flag),joi2011yo,joi2011yo_f
+A. JJOOII (JJOOII),joi2012ho,joi2012ho1
+B. たのしいカードゲーム (Card Game is Fun),joi2012ho,joi2012ho2
+C. 夜店 (Night Market),joi2012ho,joi2012ho3
+D. 釘 (Nails),joi2012ho,joi2012ho4
+E. JOI 国のお祭り事情 (Festivals in JOI Kingdom),joi2012ho,joi2012ho5
+A. ランチ (Lunch),joi2012yo,joi2012yo_a
+B. サッカー (Soccer),joi2012yo,joi2012yo_b
+C. 最高のピザ (Best Pizza),joi2012yo,joi2012yo_c
+D. パスタ (Pasta),joi2012yo,joi2012yo_d
+E. イルミネーション (Illumination),joi2012yo,joi2012yo_e
+F. ジグザグ数 (Zig-Zag Numbers),joi2012yo,joi2012yo_f
+1. 電飾 (illumination),joi2013ho,joi2013ho1
+2. IOI 列車で行こう (Take the 'IOI' train),joi2013ho,joi2013ho2
+3. 現代的な屋敷 (Modern Mansion),joi2013ho,joi2013ho3
+4. JOIOIの塔 (Tower of JOIOI),joi2013ho,joi2013ho4
+5. バブルソート (Bubble Sort),joi2013ho,joi2013ho5
+A. 宿題 (Homework),joi2013yo,joi2013yo_a
+B. 数当てゲーム (Unique Number),joi2013yo,joi2013yo_b
+C. 看板 (Signboard),joi2013yo,joi2013yo_c
+D. 暑い日々 (Hot days),joi2013yo,joi2013yo_d
+E. 魚の生息範囲 (Fish),joi2013yo,joi2013yo_e
+F. お土産購入計画 (Gifts),joi2013yo,joi2013yo_f
+A. JOI紋章（JOI Emblem）,joi2014ho,joi2014ho1
+B. IOI饅頭（IOI Manju）,joi2014ho,joi2014ho2
+C. バームクーヘン（Baumkuchen）,joi2014ho,joi2014ho3
+D. フクロモモンガ （Sugar Glider）,joi2014ho,joi2014ho4
+E. 切り取り線 （Cutting）,joi2014ho,joi2014ho5
+A. 平均点 (Average Score),joi2014yo,joi2014yo_a
+B. 投票 (Vote),joi2014yo,joi2014yo_b
+C. 超都観光 (Super Metropolis),joi2014yo,joi2014yo_c
+D. 部活のスケジュール表 (Schedule),joi2014yo,joi2014yo_d
+E. タクシー (Taxis),joi2014yo,joi2014yo_e
+F. 小籠包 (Xiao Long Bao),joi2014yo,joi2014yo_f
+A. 鉄道旅行 (Railroad Trip),joi2015ho,joi2015ho_a
+B. ケーキの切り分け２ (Cake 2),joi2015ho,joi2015ho_b
+C. JOI 公園 (JOI Park),joi2015ho,joi2015ho_c
+D. 舞踏会 (Ball),joi2015ho,joi2015ho_d
+E. 城壁 (Rampart),joi2015ho,joi2015ho_e
+A. 水道料金 (Water Rate),joi2015yo,joi2015yo_a
+B. クリスマスパーティー (Christmas Party),joi2015yo,joi2015yo_b
+C. 気象予報士 (Weather Forecaster),joi2015yo,joi2015yo_c
+D. シルクロード (Silk Road),joi2015yo,joi2015yo_d
+E. 砂の城 (Sandcastle),joi2015yo,joi2015yo_e
+F. 財宝 (Treasures),joi2015yo,joi2015yo_f
+A. オレンジの出荷 (Oranges),joi2016ho,joi2016ho_a
+B. スタンプラリー ２ (Collecting Stamps 2),joi2016ho,joi2016ho_b
+C. 鉄道運賃 (Train Fare),joi2016ho,joi2016ho_c
+D. 縄張り (Territory),joi2016ho,joi2016ho_d
+E. 断層 (Geologic Fault),joi2016ho,joi2016ho_e
+A. 科目選択 (Selecting Subjects),joi2016yo,joi2016yo_a
+B. ゼッケンの交換 (Swapping Bibs),joi2016yo,joi2016yo_b
+C. ロシアの旗 (Russian Flag),joi2016yo,joi2016yo_c
+D. JOI国のお散歩事情 (Walking in JOI Kingdom),joi2016yo,joi2016yo_d
+E. ゾンビ島 (Zombie Island),joi2016yo,joi2016yo_e
+F. 屋台 (Food stalls),joi2016yo,joi2016yo_f
+A. フェーン現象 (Foehn Phenomena),joi2017ho,joi2017ho_a
+B. 準急電車 (Semiexpress),joi2017ho,joi2017ho_b
+C. JOIOI 王国 (Kingdom of JOIOI),joi2017ho,joi2017ho_c
+D. サッカー (Soccer),joi2017ho,joi2017ho_d
+E. 縄 (Rope),joi2017ho,joi2017ho_e
+A. 電子レンジ (Microwave) ,joi2017yo,joi2017yo_a
+B. ポイントカード (Point Card) ,joi2017yo,joi2017yo_b
+C. 休憩スペース (Refreshment Area),joi2017yo,joi2017yo_c
+D. ぬいぐるみの整理 (Plush Toys) ,joi2017yo,joi2017yo_d
+E. 尾根 (Ridge),joi2017yo,joi2017yo_e
+F. ヘビの JOI 君 (Snake JOI),joi2017yo,joi2017yo_f
+anagram. アナグラム (Anagram),joisc2007,joisc2007_anagra
+building. ビルの飾り付け (Building),joisc2007,joisc2007_buildi
+circuit. 電気回路の結線 (Circuit),joisc2007,joisc2007_circui
+factorial. 階乗 (Factorial),joisc2007,joisc2007_factor
+fermat. フェルマー方程式 (Fermat),joisc2007,joisc2007_fermat
+fiber. 光ファイバー (Fiber),joisc2007,joisc2007_fiber
+lines. 直線 (Lines),joisc2007,joisc2007_lines
+mall. ショッピングモール (Mall),joisc2007,joisc2007_mall
+route. 象使い (Route),joisc2007,joisc2007_route
+salt. SALT TREE XV,joisc2007,joisc2007_salt
+score. 得点 (Score),joisc2007,joisc2007_score
+belt. ベルト (Belt),joisc2008,joisc2008_belt
+cheating. カンニング対策 (Cheating),joisc2008,joisc2008_cheating
+committee. 委員会 (Committee),joisc2008,joisc2008_committee
+flu. インフルエンザ (Flu),joisc2008,joisc2008_flu
+fraction. 分数 (Fraction),joisc2008,joisc2008_fraction
+nightman. 夜警 (Nightman),joisc2008,joisc2008_nightman
+nile. ナイルドットコム (Nile.Com),joisc2008,joisc2008_nile
+origami. 折り紙 (Origami),joisc2008,joisc2008_origami
+ruins. 最古の遺跡2 (Ruins),joisc2008,joisc2008_ruins
+sheet. 色紙 (Sheet),joisc2008,joisc2008_sheet
+typhoon. 台風 (Typhoon),joisc2008,joisc2008_typhoon
+abduction. 誘拐 (Abduction),joisc2009,joisc2009_abduction
+advertisement. 宣伝 (Advertisement),joisc2009,joisc2009_advertisement
+chopsticks. 塗り箸 (Chopsticks),joisc2009,joisc2009_chopsticks
+contest. コンテスト (Contest),joisc2009,joisc2009_contest
+distribution. 冊子の配布 (Distribution),joisc2009,joisc2009_distribution
+logo. ロゴマーク (Logo),joisc2009,joisc2009_logo
+pyramid. 貫きピラミッド (Pyramid),joisc2009,joisc2009_pyramid
+sequence. 数列 (Sequence),joisc2009,joisc2009_sequence
+ski. スキー (Ski),joisc2009,joisc2009_ski
+stamps. 判子 (はんこ) (Stamps),joisc2009,joisc2009_stamps
+starry_sky. 星空 (Starry Sky),joisc2009,joisc2009_starry_sky
+territory. 縄張り (Territory),joisc2009,joisc2009_territory
+aplusb. 足し算 (a + b problem),joisc2010,joisc2010_aplusb
+contest. コンテスト (Contest),joisc2010,joisc2010_contest
+dna. DNAの合成 (DNA Synthesizer),joisc2010,joisc2010_dna
+finals. 本選会場 (Finals),joisc2010,joisc2010_finals
+hideseek. かくれんぼ (Hide-and-seek),joisc2010,joisc2010_hideseek
+highway. 高速道路 (Highway),joisc2010,joisc2010_highway
+lake. 湖 (Lake),joisc2010,joisc2010_lake
+plugs. プラグ (Plugs),joisc2010,joisc2010_plugs
+poster. JOIポスター (JOI Poster),joisc2010,joisc2010_poster
+regions. 地域 (Regions),joisc2010,joisc2010_regions
+sengoku. 戦国時代 (Sengoku),joisc2010,joisc2010_sengoku
+stairs. 階段 (Stairs),joisc2010,joisc2010_stairs
+apples. リンゴの出荷 (Apples),joisc2011,joisc2011_apples
+banner. 横断幕 (Banner),joisc2011,joisc2011_banner
+bookshelf. 本棚 (Bookshelf),joisc2011,joisc2011_bookshelf
+deciphering. 解読 (Deciphering),joisc2011,joisc2011_deciphering
+dragon. ドラゴン (Dragon),joisc2011,joisc2011_dragon
+guess. 数当て (Guess Them All),joisc2011,joisc2011_guess
+ioi. 国際情報オリンピック (IOI),joisc2011,joisc2011_ioi
+joitter. ジョイッター (Joitter),joisc2011,joisc2011_joitter
+keycards. カードキー (Keycards),joisc2011,joisc2011_keycards
+orienteering. オリエンテーリング (Orienteering),joisc2011,joisc2011_orienteering
+report. 報告 (Report),joisc2011,joisc2011_report
+shiritori. しりとり (Shiritori),joisc2011,joisc2011_shiritori
+building2. ビルの飾り付け 2,joisc2012,joisc2012_building2
+chinese. 中華料理,joisc2012,joisc2012_chinese
+constellation. 星座,joisc2012,joisc2012_constellation
+copypaste. コピー＆ペースト,joisc2012,joisc2012_copypaste
+fish. 魚,joisc2012,joisc2012_fish
+fortune_telling. 占い,joisc2012,joisc2012_fortune_telling
+invitation. 招待,joisc2012,joisc2012_invitation
+joi_flag. 日本情報オリンピック旗,joisc2012,joisc2012_joi_flag
+kangaroo. カンガルー,joisc2012,joisc2012_kangaroo
+rotate. 回転,joisc2012,joisc2012_rotate
+sokoban. 倉庫番,joisc2012,joisc2012_sokoban
+1. バスの乗り継ぎ (Bus Tour),joisc2013-day1,joisc2013_bustour
+1. ケーキの切り分け (Cake),joisc2013-day3,joisc2013_cake
+2. たのしい画像収集 (Collecting Images is Fun),joisc2013-day1,joisc2013_collecting
+3. 通信妨害 (Communication Jamming),joisc2013-day1,joisc2013_communication
+1. 建設事業 (Construction Project),joisc2013-day2,joisc2013_construction
+4. JOIポスター (JOI Poster),joisc2013-day1,joisc2013_joi_poster
+2. コアラ (Koala),joisc2013-day3,joisc2013_koala
+2. マスコットの片付け (Mascots),joisc2013-day2,joisc2013_mascots
+1. メッセンジャー (Messenger),joisc2013-day4,joisc2013_messenger
+3. 山岳救助隊 (Mountain Rescue Team),joisc2013-day3,joisc2013_mountain
+2. プレゼント (Presents),joisc2013-day4,joisc2013_presents
+3. 宇宙船 (Spaceships),joisc2013-day4,joisc2013_spaceships
+3. スパイ (Spy),joisc2013-day2,joisc2013_spy
+A. バス通学,joisc2014,joisc2014_a
+B. たのしい家庭菜園,joisc2014,joisc2014_b
+C. 歴史の研究,joisc2014,joisc2014_c
+D. ラーメンの食べ比べ,joisc2014,joisc2014_d
+E. 水筒,joisc2014,joisc2014_e
+F. 友だちをつくろう,joisc2014,joisc2014_f
+G. スタンプラリー,joisc2014,joisc2014_g
+H. JOIOJI,joisc2014,joisc2014_h
+I. かかし,joisc2014,joisc2014_i
+J. 電圧,joisc2014,joisc2014_j
+K. 二人の星座,joisc2014,joisc2014_k
+L. 漢字しりとり,joisc2014,joisc2014_l
+M. ストラップ,joisc2014,joisc2014_m
+A. コピー&ペースト 2,joisc2015,joisc2015_a
+B. 愉快なロゴデザイン,joisc2015,joisc2015_b
+C. たのしいたのしい家庭菜園,joisc2015,joisc2015_c
+D. IOIOI カード占い,joisc2015,joisc2015_d
+E. ビルの飾りつけ 3,joisc2015,joisc2015_e
+F. 合鍵,joisc2015,joisc2015_f
+G. 道路整備,joisc2015,joisc2015_g
+H. AAQQZ,joisc2015,joisc2015_h
+I. とてもたのしいカードゲーム,joisc2015,joisc2015_i
+J. 道案内,joisc2015,joisc2015_j
+K. 遺産相続,joisc2015,joisc2015_k
+L. 記憶縛り,joisc2015,joisc2015_l
+M. 防壁,joisc2015,joisc2015_m
+A. マトリョーシカ人形,joisc2016,joisc2016_a
+B. 神経衰弱 (準備中),joisc2016,joisc2016_b
+C. ソリティア,joisc2016,joisc2016_c
+D. 雇用計画,joisc2016,joisc2016_d
+E. サンドイッチ,joisc2016,joisc2016_e
+F. トイレ,joisc2016,joisc2016_f
+G. ダンジョン2 (準備中),joisc2016,joisc2016_g
+H. 回転寿司,joisc2016,joisc2016_h
+I. 電報,joisc2016,joisc2016_i
+J. 危険なスケート,joisc2016,joisc2016_j
+K. 雪降る道路 (準備中),joisc2016,joisc2016_k
+L. 最悪の記者2,joisc2016,joisc2016_l

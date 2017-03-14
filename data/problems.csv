@@ -1,0 +1,242 @@
+level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
+1,得点,07予選1,070101,joi2007yo,joi2007yo_a,0510
+2,未提出者は誰だ,07予選2,070102,joi2007yo,joi2007yo_b,0511
+2,シーザー暗号,07予選3,070103,joi2007yo,joi2007yo_c,0512
+3,カードの並び替え,07予選4,070104,joi2007yo,joi2007yo_d,0513
+5,品質検査,07予選5,070105,joi2007yo,joi2007yo_e,0514
+4,通学経路,07予選6,070106,joi2007yo,joi2007yo_f,0515
+4,最大の和,07本選1,070201,joi2007ho,joi2007ho_a,0516
+5,最長の階段,07本選2,070202,joi2007ho,joi2007ho_b,0517
+5,最古の遺跡,07本選3,070203,joi2007ho,joi2007ho_c,0518
+7,最悪の記者,07本選4,070204,joi2007ho,joi2007ho_d,0519
+7,最軽量のモビール,07本選5,070205,joi2007ho,joi2007ho_e,0520
+3,Score,07春合宿1-1,070301,joisc2007,joisc2007_score,
+5,Factorial,07春合宿1-2,070302,joisc2007,joisc2007_factor,
+5,Mall,07春合宿1-3,070303,joisc2007,joisc2007_mall,
+5,Building,07春合宿2-1,070401,joisc2007,joisc2007_buildi,
+8,Fermat,07春合宿2-2,070402,joisc2007,joisc2007_fermat,
+10,SALT TREE XV,07春合宿2-3,070403,joisc2007,joisc2007_salt,
+7,Anagram,07春合宿3-1,070501,joisc2007,joisc2007_anagra,
+8,Route,07春合宿3-2,070502,joisc2007,joisc2007_route,
+10,Circuit,07春合宿3-3,070503,joisc2007,joisc2007_circui,
+6,Fiber,07春合宿4-1,070601,joisc2007,joisc2007_fiber,
+10,Lines,07春合宿4-2,070602,joisc2007,joisc2007_lines,
+1,おつり,08予選1,080101,joi2008yo,joi2008yo_a,0521
+2,JOIとIOI,08予選2,080102,joi2008yo,joi2008yo_b,0522
+3,カードゲーム,08予選3,080103,joi2008yo,joi2008yo_c,0523
+5,星座探し,08予選4,080104,joi2008yo,joi2008yo_d,0524
+6,おせんべい,08予選5,080105,joi2008yo,joi2008yo_e,0525
+5,船旅,08予選6,080106,joi2008yo,joi2008yo_f,0526
+5,碁石ならべ,08本選1,080201,joi2008ho,joi2008ho_a,0527
+5,共通部分文字列,08本選2,080202,joi2008ho,joi2008ho_b,0528
+6,ダーツ,08本選3,080203,joi2008ho,joi2008ho_c,0529
+7,ぴょんぴょん川渡り,08本選4,080204,joi2008ho,joi2008ho_d,0530
+7,ペンキの色,08本選5,080205,joi2008ho,joi2008ho_e,0531
+7,Committee,08春合宿1-1,080301,joisc2008,joisc2008_committee,
+7,Sheet,08春合宿1-2,080302,joisc2008,joisc2008_sheet,
+8,Flu,08春合宿1-3,080303,joisc2008,joisc2008_flu,
+6,Nile.Com,08春合宿2-1,080401,joisc2008,joisc2008_nile,
+7,Cheating,08春合宿2-2,080402,joisc2008,joisc2008_cheating,
+10,Belt,08春合宿2-3,080403,joisc2008,joisc2008_belt,
+5,Origami,08春合宿3-1,080501,joisc2008,joisc2008_origami,
+8,Fraction,08春合宿3-2,080502,joisc2008,joisc2008_fraction,
+10,Nightman,08春合宿3-3,080503,joisc2008,joisc2008_nightman,
+10,Ruins2,08春合宿4-1,080601,joisc2008,joisc2008_ruins,
+9,Typhoon,08春合宿4-2,080602,joisc2008,joisc2008_typhoon,
+1,タイムカード,09予選1,090101,joi2009yo,joi2009yo_a,0532
+2,コンテスト,09予選2,090102,joi2009yo,joi2009yo_b,0533
+5,連鎖,09予選3,090103,joi2009yo,joi2009yo_c,0534
+5,薄氷渡り,09予選4,090104,joi2009yo,joi2009yo_d,0535
+8,シャッフル,09予選5,090105,joi2009yo,joi2009yo_e,0536
+7,ビンゴ,09予選6,090106,joi2009yo,joi2009yo_f,0537
+5,IOIOI,09本選1,090201,joi2009ho,joi2009ho_a,0538
+6,ピザ,09本選2,090202,joi2009ho,joi2009ho_b,0539
+8,あみだくじ,09本選3,090203,joi2009ho,joi2009ho_c,0540
+8,散歩,09本選4,090204,joi2009ho,joi2009ho_d,0541
+8,認証レベル,09本選5,090205,joi2009ho,joi2009ho_e,0542
+8,Sequence,09春合宿1-1,090301,joisc2009,joisc2009_sequence,
+9,Stamps,09春合宿1-2,090302,joisc2009,joisc2009_stamps,
+8,Pyramid,09春合宿1-3,090303,joisc2009,joisc2009_pyramid,
+9,Abduction,09春合宿2-1,090401,joisc2009,joisc2009_abduction,
+8,Advertisement,09春合宿2-2,090402,joisc2009,joisc2009_advertisement,
+10,Contest,09春合宿2-3,090403,joisc2009,joisc2009_contest,
+11,Territory,09春合宿3-1,090501,joisc2009,joisc2009_territory,
+9,Ski,09春合宿3-2,090502,joisc2009,joisc2009_ski,
+12,Logo,09春合宿3-3,090503,joisc2009,joisc2009_logo,
+8,Distribution,09春合宿4-1,090601,joisc2009,joisc2009_distribution,
+9,Chopsticks,09春合宿4-2,090602,joisc2009,joisc2009_chopsticks,
+11,Starry Sky,09春合宿4-3,090603,joisc2009,joisc2009_starry_sky,
+1,レシート,10予選1,100101,joi2010yo,joi2010yo_a,0543
+3,すごろく,10予選2,100102,joi2010yo,joi2010yo_b,0544
+4,パーティ,10予選3,100103,joi2010yo,joi2010yo_c,0545
+5,カード並べ,10予選4,100104,joi2010yo,joi2010yo_d,0546
+6,通勤経路,10予選5,100105,joi2010yo,joi2010yo_e,0547
+8,方向音痴のトナカイ,10予選6,100106,joi2010yo,joi2010yo_f,0548
+5,旅人,10本選1,100201,joi2010ho,joi2010ho_a,0549
+7,お菓子の分割,10本選2,100202,joi2010ho,joi2010ho_b,0550
+6,つらら,10本選3,100203,joi2010ho,joi2010ho_c,0551
+10,博覧会,10本選4,100204,joi2010ho,joi2010ho_d,0552
+11,ダンジョン,10本選5,100205,joi2010ho,joi2010ho_e,0553
+5,JOI Poster,10春合宿1-1,100301,joisc2010,joisc2010_poster,
+9,Sengoku,10春合宿1-2,100302,joisc2010,joisc2010_sengoku,
+6,Stairs,10春合宿1-3,100303,joisc2010,joisc2010_stairs,
+8,a+b problem,10春合宿2-1,100401,joisc2010,joisc2010_aplusb,
+8,DNA synthesizer,10春合宿2-2,100402,joisc2010,joisc2010_dna,
+9,Regions,10春合宿2-3,100403,joisc2010,joisc2010_regions,
+6,Finals,10春合宿3-1 ,10050 ,joisc2010,joisc2010_finals,
+9,Hide-and-seek,10春合宿3-2,100502,joisc2010,joisc2010_hideseek,
+6,Contest,10春合宿4-1,100601,joisc2010,joisc2010_contest,
+10,Highway,10春合宿4-2,100602,joisc2010,joisc2010_highway,
+9,Lake,10春合宿4-3,100603,joisc2010,joisc2010_lake,
+9,Plugs,10春合宿4-4,100604,joisc2010,joisc2010_plugs,
+1,合計時間,11予選1,110101,joi2011yo,joi2011yo_a,0554
+3,指輪,11予選2,110102,joi2011yo,joi2011yo_b,0555
+4,タイル,11予選3,110103,joi2011yo,joi2011yo_c,0556
+5,1年生,11予選4,110104,joi2011yo,joi2011yo_d,0557
+5,チーズ,11予選5,110105,joi2011yo,joi2011yo_e,0558
+9,JOI旗,11予選6,110106,joi2011yo,joi2011yo_f,0559
+5,惑星探査,11本選1,110201,joi2011ho,joi2011ho1,0560
+6,古本屋,11本選2,110202,joi2011ho,joi2011ho2,0561
+7,JOI国の買い物事情,11本選3,110203,joi2011ho,joi2011ho3,0562
+8,歩くサンタクロース,11本選4,110204,joi2011ho,joi2011ho4,0563
+9,微生物実験,11本選5,110205,joi2011ho,joi2011ho5,0564
+7,Banner,11春合宿1-1,110301,joisc2011,joisc2011_banner,
+10,Dragon,11春合宿1-2,110302,joisc2011,joisc2011_dragon,
+9,Joitter,11春合宿1-3,110303,joisc2011,joisc2011_joitter,
+9,Guess Them All,11春合宿2-1,110401,joisc2011,joisc2011_guess,
+9,Keycards,11春合宿2-2,110402,joisc2011,joisc2011_keycards,
+11,Shiritori,11春合宿2-3,110403,joisc2011,joisc2011_shiritori,
+8,Deciphering,11春合宿3-1,110501,joisc2011,joisc2011_deciphering,
+10,Report,11春合宿3-2,110502,joisc2011,joisc2011_report,
+11,Apples,11春合宿4-1,110601,joisc2011,joisc2011_apples,
+9,Bookshelf,11春合宿4-2,110602,joisc2011,joisc2011_bookshelf,
+6,IOI,11春合宿4-3,110603,joisc2011,joisc2011_ioi,
+9,Orienteering,11春合宿4-4,110604,joisc2011,joisc2011_orienteering,
+1,ランチ,12予選1,120101,joi2012yo,joi2012yo_a,0565
+3,サッカー,12予選2,120102,joi2012yo,joi2012yo_b,0566
+5,最高のピザ,12予選3,120103,joi2012yo,joi2012yo_c,0567
+5,パスタ,12予選4,120104,joi2012yo,joi2012yo_d,0568
+6,イルミネーション,12予選5,120105,joi2012yo,joi2012yo_e,0569
+8,ジグザグ数,12予選6,120106,joi2012yo,joi2012yo_f,0570
+5,JJOOII ,12本選1,120201,joi2012ho,joi2012ho1,0571
+5,たのしいカードゲーム,12本選2,120202,joi2012ho,joi2012ho2,0572
+6,夜店,12本選3,120203,joi2012ho,joi2012ho3,0573
+8,釘,12本選4,120204,joi2012ho,joi2012ho4,0574
+10,JOI国のお祭り事情,12本選5,120205,joi2012ho,joi2012ho5,0575
+12,Building 2,12春合宿1-1,120301,joisc2012,joisc2012_building2,
+10,Fish,12春合宿1-2,120302,joisc2012,joisc2012_fish,
+8,JOI Flag,12春合宿1-3,120303,joisc2012,joisc2012_joi_flag,
+11,Constellation,12春合宿2-2,120402,joisc2012,joisc2012_constellation,
+11,Rotate,12春合宿2-3,120403,joisc2012,joisc2012_rotate,
+9,Fortune Telling,12春合宿3-1,120501,joisc2012,joisc2012_fortune_telling,
+11,Kangaroo,12春合宿3-2,120502,joisc2012,joisc2012_kangaroo,
+12,Sokoban,12春合宿3-3,120503,joisc2012,joisc2012_sokoban,
+9,Chinese,12春合宿4-1,120601,joisc2012,joisc2012_chinese,
+12,Copy and Paste,12春合宿4-2,120602,joisc2012,joisc2012_copypaste,
+11,Invitation,12春合宿4-3,120603,joisc2012,joisc2012_invitation,
+1,宿題,13予選1,130101,joi2013yo,joi2013yo_a,0576
+2,数当てゲーム,13予選2,130102,joi2013yo,joi2013yo_b,0577
+4,看板,13予選3,130103,joi2013yo,joi2013yo_c,0578
+5,暑い日々,13予選4,130104,joi2013yo,joi2013yo_d,0579
+7,魚の生息範囲,13予選5,130105,joi2013yo,joi2013yo_e,0580
+9,お土産購入計画,13予選6,130106,joi2013yo,joi2013yo_f,0581
+6,電飾,13本選1,130201,joi2013ho,joi2013ho1,0603
+7,IOI列車で行こう,13本選2,130202,joi2013ho,joi2013ho2,0604
+9,現代的な屋敷,13本選3,130203,joi2013ho,joi2013ho3,0605
+10,JOIOIの塔,13本選4,130204,joi2013ho,joi2013ho4,0606
+11,バブルソート,13本選5,130205,joi2013ho,joi2013ho5,0607
+9,Bus Tour,13春合宿1-1,130301,joisc2013-day1,joisc2013_bustour,
+9,Collecting Images is Fun,13春合宿1-2,130302,joisc2013-day1,joisc2013_collecting,
+11,Communication Jamming,13春合宿1-3,130303,joisc2013-day1,joisc2013_communication,
+5,JOI Poster,13春合宿1-4,130304,joisc2013-day1,joisc2013_joi_poster,
+10,Construction Project,13春合宿2-1,130401,joisc2013-day2,joisc2013_construction,
+8,Mascots,13春合宿2-2,130402,joisc2013-day2,joisc2013_mascots,
+8,Spy,13春合宿2-3,130403,joisc2013-day2,joisc2013_spy,
+12,Cake,13春合宿3-1,130501,joisc2013-day3,joisc2013_cake,
+10,Koala,13春合宿3-2,130502,joisc2013-day3,joisc2013_koala,
+8,Mountain Rescue Team,13春合宿3-3,130503,joisc2013-day3,joisc2013_mountain,
+10,Messenger,13春合宿4-1,130601,joisc2013-day4,joisc2013_messenger,
+8,Presents,13春合宿4-2,130602,joisc2013-day4,joisc2013_presents,
+12,Spaceships,13春合宿4-3,130603,joisc2013-day4,joisc2013_spaceships,
+1,平均点,14予選1,140101,joi2014yo,joi2014yo_a,0592
+3,投票,14予選2,140102,joi2014yo,joi2014yo_b,0593
+4,超都観光,14予選3,140103,joi2014yo,joi2014yo_c,0594
+6,部活のスケジュール表,14予選4,140104,joi2014yo,joi2014yo_d,0595
+7,タクシー,14予選5,140105,joi2014yo,joi2014yo_e,0596
+9,小籠包,14予選6,140106,joi2014yo,joi2014yo_f,0597
+6,JOI 紋章,14本選1,140201,joi2014ho,joi2014ho1,0598
+6,IOI 饅頭,14本選2,140202,joi2014ho,joi2014ho2,0599
+7,バウムクーヘン,14本選3,140203,joi2014ho,joi2014ho3,0600
+8,フクロモモンガ,14本選4,140204,joi2014ho,joi2014ho4,0601
+12,切り取り線,14本選5,140205,joi2014ho,joi2014ho5,0602
+9,Bus,14春合宿1-1,140301,joisc2014,joisc2014_a,
+9,Growing Vegetables is Fun,14春合宿1-2,140302,joisc2014,joisc2014_b,
+9,Historical Research,14春合宿1-3,140303,joisc2014,joisc2014_c,
+7,Ramen,14春合宿1-4,140304,joisc2014,joisc2014_d,
+10,Water Bottle,14春合宿2-1,140401,joisc2014,joisc2014_e,
+9,Making Friends is Fun,14春合宿2-2,140402,joisc2014,joisc2014_f,
+10,Collecting Stamps,14春合宿2-3,140403,joisc2014,joisc2014_g,
+6,JOIOJI,14春合宿3-1,140501,joisc2014,joisc2014_h,
+12,Scarecrows,14春合宿3-2,140502,joisc2014,joisc2014_i,
+10,Voltage,14春合宿3-3,140503,joisc2014,joisc2014_j,
+11,Constellation 2,14春合宿4-1,140601,joisc2014,joisc2014_k,
+12,Kanji Shiritori,14春合宿4-2,140602,joisc2014,joisc2014_l,
+7,Straps,14春合宿4-3,140603,joisc2014,joisc2014_m,
+1,水道料金,15予選1,150101,joi2015yo,joi2015yo_a,0608
+2,クリスマスパーティー,15予選2,150102,joi2015yo,joi2015yo_b,0609
+3,気象予報士,15予選3,150103,joi2015yo,joi2015yo_c,0610
+5,シルクロード,15予選4,150104,joi2015yo,joi2015yo_d,0611
+7,砂の城,15予選5,150105,joi2015yo,joi2015yo_e,0612
+8,財宝,15予選6,150106,joi2015yo,joi2015yo_f,0613
+5,鉄道旅行,15本選1,150201,joi2015ho,joi2015ho_a,0614
+6,ケーキの切り分け２,15本選2,150202,joi2015ho,joi2015ho_b,0615
+7,JOI 公園,15本選3,150203,joi2015ho,joi2015ho_c,0616
+10,舞踏会,15本選4,150204,joi2015ho,joi2015ho_d,0617
+10,城壁,15本選5,150205,joi2015ho,joi2015ho_e,0618
+8,Copy and Paste 2 ,15春合宿1-1,150301,joisc2015,joisc2015_a,
+7,En-JOI-able Logo Design ,15春合宿1-2,150302,joisc2015,joisc2015_b,
+9,Growing Vegetables is Fun 2 ,15春合宿1-3,150303,joisc2015,joisc2015_c,
+10,IOIOI Cards,15春合宿1-4,150304,joisc2015,joisc2015_d,
+8,Building 3 ,15春合宿2-1,150401,joisc2015,joisc2015_e,
+9,Keys ,15春合宿2-2,150402,joisc2015,joisc2015_f,
+10,Road Development ,15春合宿2-3,150403,joisc2015,joisc2015_g,
+12,AAQQZ,15春合宿3-1,150501,joisc2015,joisc2015_h,
+9,Card Game Is Great Fun,15春合宿3-2,150502,joisc2015,joisc2015_i,
+10,Navigation,15春合宿3-3,150503,joisc2015,joisc2015_j,
+8,Inheritance,15春合宿4-1,150601,joisc2015,joisc2015_k,
+10,Limited Memory,15春合宿4-2,150602,joisc2015,joisc2015_l,
+12,Walls,15春合宿4-3,150603,joisc2015,joisc2015_m,
+1,科目選択,16予選1,160101,joi2016yo,joi2016yo_a,0619
+2,ゼッケンの交換,16予選2,160102,joi2016yo,joi2016yo_b,0620
+3,ロシアの旗,16予選3,160103,joi2016yo,joi2016yo_c,0621
+5,JOI国のお散歩事情,16予選4,160104,joi2016yo,joi2016yo_d,0622
+6,ゾンビ島,16予選5,160105,joi2016yo,joi2016yo_e,0623
+8,屋台,16予選6,160106,joi2016yo,joi2016yo_f,0624
+6,オレンジの出荷,16本選1,160201,joi2016ho,joi2016ho_a,0625
+6,スタンプラリー２,16本選2,160202,joi2016ho,joi2016ho_b,0626
+8,鉄道運賃,16本選3,160203,joi2016ho,joi2016ho_c,0627
+10,縄張り,16本選4,160204,joi2016ho,joi2016ho_d,0628
+10,断層,16本選5,160205,joi2016ho,joi2016ho_e,0629
+10,Matryoshka,16春合宿1-1,160301,joisc2016,joisc2016_a,
+9,Memory2,16春合宿1-2,160302,joisc2016,joisc2016_b,
+11,Solitaire,16春合宿1-3,160303,joisc2016,joisc2016_c,
+8,Employment,16春合宿2-1,160401,joisc2016,joisc2016_d,
+12,Sandwich,16春合宿2-2,160402,joisc2016,joisc2016_e,
+9,Toilets,16春合宿2-3,160403,joisc2016,joisc2016_f,
+11,Dungeon 2,16春合宿3-1,160501,joisc2016,joisc2016_g,
+11,Sushi,16春合宿3-2,160502,joisc2016,joisc2016_h,
+9,Telegraph,16春合宿3-3,160503,joisc2016,joisc2016_i,
+10,Dangerous Skating,16春合宿4-1,160601,joisc2016,joisc2016_j,
+9,Snowy Roads,16春合宿4-2,160602,joisc2016,joisc2016_k,
+10,Worst Reporter 2,16春合宿4-3,160603,joisc2016,joisc2016_l,
+1,電子レンジ,17予選1,170101,joi2017yo,joi2017yo_a,0630
+3,ポイントカード,17予選2,170102,joi2017yo,joi2017yo_b,0631
+3,休憩所,17予選3,170103,joi2017yo,joi2017yo_c,0632
+7,ぬいぐるみ,17予選4,170104,joi2017yo,joi2017yo_d,0633
+7,尾根,17予選5,170105,joi2017yo,joi2017yo_e,0634
+7,ヘビのJOI君,17予選6,170106,joi2017yo,joi2017yo_f,0635
+5,フェーン現象,17本選1,170201,joi2017ho,joi2017ho_a,0636
+8,準急電車,17本選2,170202,joi2017ho,joi2017ho_b,0637
+8,JOIOI王国,17本選3,170203,joi2017ho,joi2017ho_c,0638
+10,サッカー,17本選4,170204,joi2017ho,joi2017ho_d,0639
+10,縄,17本選5,170205,joi2017ho,joi2017ho_e,0640
