@@ -37,17 +37,7 @@ $(function(){
         arg[k[0]] = k[1];
     }
 
-
-
-    if(arg.form == undefined){
-        arg.con_yo = "1";
-        arg.con_ho = "1";
-        arg.con_sc = "1";
-        arg.year_begin = "2007";
-        arg.year_end = "2017";
-        arg.aoj_userid = "";
-        arg.atcoder_userid = "";
-    }else{
+    if("form" in arg){
         $("#con_yo").prop('checked', arg.con_yo === "1");
         $("#con_ho").prop('checked', arg.con_ho === "1");
         $("#con_sc").prop('checked', arg.con_sc === "1");
@@ -55,6 +45,14 @@ $(function(){
         $("#year_end").val(arg.year_end);
         $("#aoj_userid").val(arg.aoj_userid);
         $("#atcoder_userid").val(arg.atcoder_userid);
+    }else{
+        arg.con_yo = "1";
+        arg.con_ho = "1";
+        arg.con_sc = "1";
+        arg.year_begin = "2007";
+        arg.year_end = "2017";
+        arg.aoj_userid = "";
+        arg.atcoder_userid = "";
     }
 
     var atcoder_userid = arg.atcoder_userid;
@@ -85,7 +83,7 @@ $(function(){
             });
             
         }).error(function(){
-            alert("Atcoder読み込み失敗");
+            //alert("Atcoder読み込み失敗");
         }),
         
         //AOJ 状態取得
@@ -97,7 +95,7 @@ $(function(){
 		    timeout:1000,
 		    cache:false,
 		    error:function(){
-			    alert("AOJ読み込み失敗");
+			    //alert("AOJ読み込み失敗");
 			},
             success:function(xml){
 			    $(xml).find("solved").each(function(){
@@ -136,7 +134,7 @@ $(function(){
                 }
 
                 if(this.aoj_id != ""){
-                    aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'">★</a>'
+                    aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'"  target="_blank">★</a>'
                 }
                 
                 $('<tr>'+
@@ -144,7 +142,8 @@ $(function(){
                   '<font color="'+color[this.level].str+'">'+
                   this.level+
                   '</font></td>'+
-                  '<td class="'+td_class+'"><a href="http://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'">'+
+                  '<td class="'+td_class+'">'+
+                  '<a href="http://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+
                   this.name+
                   '</a></td>'+
                   '<td class="'+td_class+'" style="text-align:center">'+aoj_link+'</td>'+
@@ -159,17 +158,29 @@ $(function(){
             var stat_solved_sum = 0;
             var stat_problems_sum = 0;
 
+            var solved_rate = 0;
+
             for(var i=1;i<=12;i++){
+                if(stat_problems[i] > 0)
+                    solved_rate = Math.floor(100*stat_solved[i]/stat_problems[i]);
+                else
+                    solved_rate = "--";
+                
                 stat_header += '<th style="background:'+color[i].back+'"><font color="'+color[i].str+'">'+i+'</font></th>';
                 stat_body1 += '<td>'+stat_solved[i]+'/'+stat_problems[i]+'</td>';
-                stat_body2 += '<td>'+Math.floor(100*stat_solved[i]/stat_problems[i])+'%</td>';
+                stat_body2 += '<td>'+solved_rate+'%</td>';
                 stat_solved_sum += stat_solved[i];
                 stat_problems_sum += stat_problems[i];
             }
             
+            if(stat_problems_sum > 0)
+                solved_rate = Math.floor(100*stat_solved_sum/stat_problems_sum);
+            else
+                solved_rate = "--";
+            
             stat_header += '<th>ALL</th>';
             stat_body1 += '<td>'+stat_solved_sum+'/'+stat_problems_sum+'</td>';
-            stat_body2 += '<td>'+Math.floor(100*stat_solved_sum/stat_problems_sum)+'%</td>';
+            stat_body2 += '<td>'+solved_rate+'%</td>';
             
             
             $("table.statistics tbody").html('<tr>'+stat_header+'</tr><tr>'+stat_body1+'</tr><tr>'+stat_body2+'</tr>');
