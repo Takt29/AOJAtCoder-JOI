@@ -37,7 +37,16 @@ $(function(){
         arg[k[0]] = k[1];
     }
 
-    if("form" in arg){
+
+    //パラメータ確認
+    if("year_begin" in arg == false){
+        arg.year_begin = "2007";
+    }
+    if("year_end" in arg == false){
+        arg.year_end = "2017";
+    }
+    
+    if("aoj_userid" in arg && "atcoder_userid" in arg){
         $("#con_yo").prop('checked', arg.con_yo === "1");
         $("#con_ho").prop('checked', arg.con_ho === "1");
         $("#con_sc").prop('checked', arg.con_sc === "1");
