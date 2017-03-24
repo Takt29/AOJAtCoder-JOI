@@ -63,6 +63,7 @@
                 </th>
                 <td>
                   <select name="year_begin" id="year_begin">
+                    <option value="2006">2006</option>
                     <option value="2007" selected>2007</option>
                     <option value="2008">2008</option>
                     <option value="2009">2009</option>
@@ -77,6 +78,7 @@
                   </select>
                   〜
                   <select name="year_end" id="year_end">
+                    <option value="2006">2006</option>
                     <option value="2007">2007</option>
                     <option value="2008">2008</option>
                     <option value="2009">2009</option>
@@ -141,7 +143,7 @@
           <tr><th>難易度</th><th>問題名</th><th>AOJ</th><th>出典</th></tr>
         </tbody>
       </table>
-      <script src="js/make_problemstable.js"></script>
+      <script src="js/problems.js"></script>
 
       <h2 id="link">リンク</h2>
 	  <dl class="information">
@@ -151,7 +153,10 @@
             問題文,入出力データ,解説等はこのサイトからダウンロードしてください。
 	      </div>
 	    </dd>
-	    <dt><span><a href="http://kenkoooo.com/atcoder">Atcoder Problems</a></span></dt>
+	    <dt><span>
+            <a href="http://kenkoooo.com/atcoder">Atcoder Problems</a>
+            (<a href="https://gist.github.com/kenkoooo/4618461adf0f5b4d3e3e">API</a>)
+        </span></dt>
 	    <dd>
 	      <div>
             Atcoderの正答状況の取得にはここのAPIを使用しています。

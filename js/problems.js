@@ -1,32 +1,49 @@
 $(function(){
     
     //難易度別 背景色 - 文字色
-    var color = {1:  {back:"#EBF1DE", str:"#000000"},
-                 2:  {back:"#DCE6F2", str:"#000000"},
-                 3:  {back:"#DBEEF4", str:"#000000"},
-                 4:  {back:"#D2DBE5", str:"#000000"},
-                 5:  {back:"#A5B6CB", str:"#000000"},
-                 6:  {back:"#CCC1DA", str:"#000000"},
-                 7:  {back:"#B3A2C7", str:"#000000"},
-                 8:  {back:"#FCD5B5", str:"#000000"},
-                 9:  {back:"#FFFF00", str:"#000000"},
-                 10: {back:"#FF6600", str:"#000000"},
-                 11: {back:"#FF0000", str:"#000000"},
-                 12: {back:"#000000", str:"#FF0000"},
-                };
+    var color = {
+        "-1": {back:"#B3B3B3", str:"#FFFFFF"},
+        "1" : {back:"#EBF1DE", str:"#000000"},
+        "2" : {back:"#DCE6F2", str:"#000000"},
+        "3" : {back:"#DBEEF4", str:"#000000"},
+        "4" : {back:"#D2DBE5", str:"#000000"},
+        "5" : {back:"#A5B6CB", str:"#000000"},
+        "6" : {back:"#CCC1DA", str:"#000000"},
+        "7" : {back:"#B3A2C7", str:"#000000"},
+        "8" : {back:"#FCD5B5", str:"#000000"},
+        "9" : {back:"#FFFF00", str:"#000000"},
+        "10": {back:"#FF6600", str:"#000000"},
+        "11": {back:"#FF0000", str:"#000000"},
+        "12": {back:"#000000", str:"#FF0000"},
+    };
 
     //ソート関数
     var sort_by = function(field1,field2,reverse){
         reverse = (reverse) ? -1 : 1;
         return function(a,b){
-            if (parseInt(a[field1])>parseInt(b[field1])) return reverse * -1;
-            if (parseInt(a[field1])<parseInt(b[field1])) return reverse * 1;
+            var a_1 = parseInt(a[field1]);
+            var b_1 = parseInt(b[field1]);
+            var a_2 = parseInt(a[field2]);
+            var b_2 = parseInt(b[field2]);
+
+            if (a_1 == -1 && b_1 != -1) return reverse * -1;
+            if (a_1 != -1 && b_1 == -1) return reverse * 1;
+            if (a_1 > b_1) return reverse * -1;
+            if (a_1 < b_1) return reverse * 1;
+
+            if (a_2 == -1 && b_2 != -1) return reverse * -1;
+            if (a_2 != -1 && b_2 == -1) return reverse * 1;
+            if (a_2 > b_2) return reverse * -1;
+            if (a_2 < b_2) return reverse * 1;
             
-            if (parseInt(a[field2])>parseInt(b[field2])) return reverse * -1;
-            if (parseInt(a[field2])<parseInt(b[field2])) return reverse * 1;
             return 0;
         }
     }
+
+    //初期地
+    INIT_YEAR_BEGIN = "2007";
+    INIT_YEAR_END   = "2017";
+    
 
     //パラメータ取得
     var arg  = new Object;
@@ -40,10 +57,10 @@ $(function(){
 
     //パラメータ確認
     if("year_begin" in arg == false){
-        arg.year_begin = "2007";
+        arg.year_begin = INIT_YEAR_BEGIN;
     }
     if("year_end" in arg == false){
-        arg.year_end = "2017";
+        arg.year_end = INIT_YEAR_END;
     }
     
     if("aoj_userid" in arg && "atcoder_userid" in arg){
@@ -58,8 +75,8 @@ $(function(){
         arg.con_yo = "1";
         arg.con_ho = "1";
         arg.con_sc = "1";
-        arg.year_begin = "2007";
-        arg.year_end = "2017";
+        arg.year_begin = INIT_YEAR_BEGIN;
+        arg.year_end = INIT_YEAR_END;
         arg.aoj_userid = "";
         arg.atcoder_userid = "";
     }
@@ -133,7 +150,10 @@ $(function(){
                 
                 var td_class = "none";
                 var aoj_link = "";
+                var level_st = this.level;
 
+                if(this.level == -1) level_st = "?";
+                
                 stat_problems[this.level]++;   //統計カウント
                 
                 if((!!this.aoj_id && solved_aoj[this.aoj_id] === "1") ||
@@ -149,7 +169,7 @@ $(function(){
                 $('<tr>'+
                   '<td style="background:'+color[this.level].back+'; text-align:center; font-weight:bold;">'+
                   '<font color="'+color[this.level].str+'">'+
-                  this.level+
+                  level_st+
                   '</font></td>'+
                   '<td class="'+td_class+'">'+
                   '<a href="http://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+
