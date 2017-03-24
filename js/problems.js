@@ -1,7 +1,7 @@
 $(function(){
     
     //難易度別 背景色 - 文字色
-    var color = {
+    var level_color = {
         "-1": {back:"#B3B3B3", str:"#FFFFFF"},
         "1" : {back:"#EBF1DE", str:"#000000"},
         "2" : {back:"#DCE6F2", str:"#000000"},
@@ -100,16 +100,23 @@ $(function(){
         //先に終わらす処理
         
         //Atcoder 状態取得
-        $.getJSON("http://joi.azurewebsites.net/proxy.php?url=http://kenkoooo.com/atcoder-api/problems?user="+atcoder_userid, function(data){
-
-            $(data).each(function(){
-                if(this.status === "AC"){
-                    solved_atcoder[this.id] = "1";
-                }
-            });
-            
-        }).error(function(){
-            //alert("Atcoder読み込み失敗");
+        $.ajax({
+		    url:"http://joi.azurewebsites.net/proxy.php",
+            data:{url : "http://kenkoooo.com/atcoder-api/problems?user="+atcoder_userid},
+            type:"get",
+		    dataType:"json",
+		    timeout:3000,
+		    cache:false,
+            error:function(){
+                //alert("Atcoder読み込み失敗");
+            },
+            success:function(data){
+                $(data).each(function(){
+                    if(this.status === "AC"){
+                        solved_atcoder[this.id] = "1";
+                    }
+                });
+            }
         }),
         
         //AOJ 状態取得
@@ -118,7 +125,7 @@ $(function(){
             data:{url : "http://judge.u-aizu.ac.jp/onlinejudge/webservice/solved_record?user_id=" + aoj_userid},
 		    type:"get",
 		    dataType:"xml",
-		    timeout:1000,
+		    timeout:3000,
 		    cache:false,
 		    error:function(){
 			    //alert("AOJ読み込み失敗");
@@ -167,8 +174,8 @@ $(function(){
                 }
                 
                 $('<tr>'+
-                  '<td style="background:'+color[this.level].back+'; text-align:center; font-weight:bold;">'+
-                  '<font color="'+color[this.level].str+'">'+
+                  '<td style="background:'+level_color[this.level].back+'; text-align:center; font-weight:bold;">'+
+                  '<font color="'+level_color[this.level].str+'">'+
                   level_st+
                   '</font></td>'+
                   '<td class="'+td_class+'">'+
@@ -195,7 +202,7 @@ $(function(){
                 else
                     solved_rate = "--";
                 
-                stat_header += '<th style="background:'+color[i].back+'"><font color="'+color[i].str+'">'+i+'</font></th>';
+                stat_header += '<th style="background:'+level_color[i].back+'"><font color="'+level_color[i].str+'">'+i+'</font></th>';
                 stat_body1 += '<td>'+stat_solved[i]+'/'+stat_problems[i]+'</td>';
                 stat_body2 += '<td>'+solved_rate+'%</td>';
                 stat_solved_sum += stat_solved[i];
