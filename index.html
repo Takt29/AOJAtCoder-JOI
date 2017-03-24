@@ -46,17 +46,23 @@
 	    <form method="get">
           <table cellpadding="0" cellspacing="0" border="0" class="search">
             <col width="15%" />
-            <col width="30%" />
+            <col width="20%" />
+            <col width="25%" />
             <col width="15%" />
-            <col width="30%" />
+            <col width="25%" />
 
             <tbody>
               <tr>
                 <th>
-                  AOJ ID
+                  自分
                 </th>
-                <td>
-                  <input type="text" id="aoj_userid" name="aoj_userid" size="30" maxlength="20"/>
+                <td class="none-r">
+                  AOJ :
+                  <input type="text" id="aoj_userid" name="aoj_userid" placeholder="自分のAOJ ID" size="17" maxlength="20"/>
+                </td>
+                <td class="none-l">
+                  Atcoder :
+                  <input type="text" id="atcoder_userid" name="atcoder_userid" placeholder="自分のAtcoder ID" size="17" maxlength="20"/>
                 </td>
                 <th>
                   年度
@@ -95,10 +101,15 @@
               </tr>
               <tr>
                 <th>
-                  Atcoder ID
+                  ライバル
                 </th>
-                <td>
-                  <input type="text" id="atcoder_userid" name="atcoder_userid" size="30" maxlength="20"/>
+                <td class="none-r">
+                  AOJ :
+                  <input type="text" id="rival_aoj_userid" name="rival_aoj_userid" placeholder="ライバルのAOJ ID" size="17" maxlength="20"/>
+                </td>
+                <td class="none-l">
+                  Atcoder :
+                  <input type="text" id="rival_atcoder_userid" name="rival_atcoder_userid" placeholder="ライバルのAtcoder ID" size="17" maxlength="20"/>
                 </td>
                 <th>
                   大会
@@ -120,13 +131,13 @@
       
 	  <h2 id="statistics">統計</h2>
       <table cellpadding="0" cellspacing="0" border="0" class="statistics">
-        <col width="7.5%" span="12"/>
-        <col width="10%"  />
+        <col width="7%" span="13"/>
+        <col width="9%"  />
         <tbody>
           <tr>
             <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
             <th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th>
-            <th>ALL</th>
+            <th>?</th><th>ALL</th>
           </tr>
         </tbody>
       </table>
@@ -134,6 +145,8 @@
       
 
       <h2 id="list">難易度表</h2>
+      <div class="user_color"></div>
+      
       <table cellpadding="0" cellspacing="0" border="0" class="problems">
         <col width="10%" />
         <col width="55%" />
@@ -146,7 +159,7 @@
       <script src="js/problems.js"></script>
 
       <h2 id="link">リンク</h2>
-	  <dl class="information">
+	    <dl class="information">
         <dt><span><a href="http://www.ioi-jp.org">情報オリンピック委員会</a></span></dt>
 	    <dd>
 	      <div>

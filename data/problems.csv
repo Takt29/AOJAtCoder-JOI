@@ -1,4 +1,4 @@
-level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
+level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id
 1,得点,07予選1,070101,joi2007yo,joi2007yo_a,0510
 2,未提出者は誰だ,07予選2,070102,joi2007yo,joi2007yo_b,0511
 2,シーザー暗号,07予選3,070103,joi2007yo,joi2007yo_c,0512
@@ -218,7 +218,7 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 10,縄張り,16本選4,160204,joi2016ho,joi2016ho_d,0628
 10,断層,16本選5,160205,joi2016ho,joi2016ho_e,0629
 10,Matryoshka,16春合宿1-1,160301,joisc2016,joisc2016_a,
-9,Memory2,16春合宿1-2,160302,joisc2016,joisc2016_b,
+9,Memory 2,16春合宿1-2,160302,joisc2016,joisc2016_b,
 11,Solitaire,16春合宿1-3,160303,joisc2016,joisc2016_c,
 8,Employment,16春合宿2-1,160401,joisc2016,joisc2016_d,
 12,Sandwich,16春合宿2-2,160402,joisc2016,joisc2016_e,
@@ -240,3 +240,25 @@ level,name,source,sort,atcoder_contest,atcoder_id,aoj_id
 8,JOIOI王国,17本選3,170203,joi2017ho,joi2017ho_c,0638
 10,サッカー,17本選4,170204,joi2017ho,joi2017ho_d,0639
 10,縄,17本選5,170205,joi2017ho,joi2017ho_e,0640
+-1,アンケート(AOJ名),06本選1,060201,joi2006ho,joi2006ho_a,0505
+-1,文字列(AOJ名),06本選2,060202,joi2006ho,joi2006ho_b,0506
+-1,正方形(AOJ名),06本選3,060203,joi2006ho,joi2006ho_c,0507
+-1,リング(AOJ名),06本選4,060204,joi2006ho,joi2006ho_d,0508
+-1,シート(AOJ名),06本選5,060205,joi2006ho,joi2006ho_e,0509
+-1,カードゲーム(AOJ名),06予選1,060101,joi2006yo,joi2006yo_a,0500
+-1,データ変換(AOJ名),06予選2,060102,joi2006yo,joi2006yo_b,0501
+-1,サイコロ(AOJ名),06予選3,060103,joi2006yo,joi2006yo_c,0502
+-1,カップ(AOJ名),06予選4,060104,joi2006yo,joi2006yo_d,0503
+-1,カードゲーム２(AOJ名),06予選5,060105,joi2006yo,joi2006yo_e,0504
+-1,Cultivation,17春合宿1-1,170301,joisc2017,joisc2017_a,
+-1,Port Facility,17春合宿1-2,170302,joisc2017,joisc2017_b,
+-1,Sparklers,17春合宿1-3,170303,joisc2017,joisc2017_c,
+-1,Arranging Tickets,17春合宿2-1,170401,joisc2017,joisc2017_d,
+-1,Broken Device,17春合宿2-2,170402,joisc2017,joisc2017_e,
+-1,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,
+-1,Long Distance Coach,17春合宿3-1,170501,joisc2017,joisc2017_g,
+-1,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,
+-1,Natural Park,17春合宿3-3,170503,joisc2017,joisc2017_i,
+-1,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,
+-1,City,17春合宿4-2,170602,joisc2017,joisc2017_k,
+-1,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,

@@ -133,11 +133,38 @@ dd {
   margin-bottom:1em;
 }
 
+div.user_color{
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+span.user-mark {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: #D7FBD7;
+}
+span.rival-mark {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: #FFC7C8;
+}
+span.both-mark {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  border-radius: 4px;
+  background-color: #EEF2C9;
+}
+
 table {
   width:100%;
   margin-bottom:1em;
   border-collapse:collapse;
-  border:1px solid #ddd;
+  border:0px;
 }
 th {
   padding:10px;
@@ -150,6 +177,28 @@ td {
   padding:10px;
   text-align:left;
   border:1px solid #ddd;
+}
+
+td.none-l {
+  padding:10px;
+  text-align:left;
+  border:1px solid #ddd;
+  border-left-style:none;
+}
+
+td.none-r {
+  padding:10px;
+  text-align:left;
+  border:1px solid #ddd;
+  border-right-style:none;
+}
+
+td.none-lr {
+  padding:10px;
+  text-align:left;
+  border:1px solid #ddd;
+  border-left-style:none;
+  border-right-style:none;
 }
 
 table.problems th {
@@ -177,6 +226,44 @@ table.problems td.ac {
   background: #D7FBD7;
 }
 
+table.problems td.ac-ac {
+  line-height: 100%;
+  font-size: 1em;
+  padding:10px;
+  text-align: left;
+  border:1px solid #ddd;
+  background: #EEF2C9;
+}
+
+table.problems td.ac-none {
+  line-height: 100%;
+  font-size: 1em;
+  padding:10px;
+  text-align: left;
+  border:1px solid #ddd;
+  background: #D7FBD7;
+}
+
+
+table.problems td.none-ac {
+  line-height: 100%;
+  font-size: 1em;
+  padding:10px;
+  text-align: left;
+  border:1px solid #ddd;
+  background: #FFC7C8;
+}
+
+table.problems td.none-none {
+  line-height: 100%;
+  font-size: 1em;
+  padding:10px;
+  text-align: left;
+  border:1px solid #ddd;
+  background: #FFFFFF;
+}
+
+
 table.statistics th {
   padding: 10px;
   text-align: center;
@@ -191,6 +278,16 @@ table.statistics td {
   padding: 10px;
   text-align: center;
   border:1px solid #ddd;
+}
+
+table.statistics td.user-name {
+  line-height: 100%;
+  font-size: 1em;
+  padding: 12px 0px;
+  text-align: left;
+  border:1px solid #ddd;
+  border-left-style:none;
+  border-right-style:none;
 }
 
 
