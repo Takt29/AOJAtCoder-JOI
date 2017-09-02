@@ -120,11 +120,31 @@
                   <input type="checkbox" name="con_sc" id="con_sc" value="1" checked> 春合宿
                 </td>
               </tr>
+              <tr>
+                <th>
+                  問題タイプ
+                </th>
+                <td colspan="2">
+                  <input type="checkbox" name="Batch" id="Batch" value="1" checked> Batch
+                  <input type="checkbox" name="Communication" id="Communication" value="1" checked> Communication
+                  <input type="checkbox" name="OutputOnly" id="OutputOnly" value="1" disabled> OutputOnly
+                </td>
+                <th>
+                  並び替え
+                </th>
+                <td>
+                  <select name="sort" id="sort">
+                    <option value="level" selected>難易度順</option>
+                    <option value="id">出題年度順</option>
+                  </select>
+                </td>
             </tbody>
           </table>
 
           <div style=" text-align: left;">
             <button type="submit" size="20" id="btn" style="WIDTH: 300px;" >表示</button>
+          </div>
+          <div style="text-align: left; color:red;" id="error_msg">            
           </div>
 	    </form>
       </p>

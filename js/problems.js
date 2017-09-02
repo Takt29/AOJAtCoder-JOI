@@ -45,6 +45,8 @@ $(function(){
 
     //初期化
     var solved = {};
+    var failed_aoj = false;
+    var failed_atcoder = false;
 
     if(user.atcoder_id == "" && user.aoj_id == ""){
       callback(solved);
@@ -60,6 +62,7 @@ $(function(){
         timeout:3000,
         cache:false,
         error:function(){
+          failed_atcoder = true;
           //alert("Atcoder読み込み失敗");
         },
         success:function(data){
@@ -80,6 +83,7 @@ $(function(){
         timeout:3000,
         cache:false,
         error:function(){
+          failed_aoj = true;
           //alert("AOJ読み込み失敗");
         },
         success:function(xml){
@@ -90,9 +94,9 @@ $(function(){
         }
       })
       
-    ).done(
+    ).always(
       function(){
-        callback(solved);
+        callback(solved, failed_aoj, failed_atcoder);
       }
     );
 
@@ -101,6 +105,7 @@ $(function(){
   //初期地
   INIT_YEAR_BEGIN = "2007";
   INIT_YEAR_END   = "2017";
+  INIT_SORT       = "level";
   
 
   //パラメータ取得
@@ -114,11 +119,24 @@ $(function(){
 
 
   //パラメータ確認
-  if("year_begin" in arg == false){
+  if(("year_begin" in arg == false) || ("year_end" in arg == false)){
     arg.year_begin = INIT_YEAR_BEGIN;
-  }
-  if("year_end" in arg == false){
     arg.year_end = INIT_YEAR_END;
+    arg.con_yo = "1";
+    arg.con_ho = "1";
+    arg.con_sc = "1";
+  }
+  
+  if(("rival_aoj_userid" in arg == false) || ("rival_atcoder_userid" in arg == false)){
+    arg.rival_aoj_userid = "";
+    arg.rival_atcoder_userid = "";
+  }
+  
+  if("sort" in arg == false){
+    arg.sort = INIT_SORT;
+    arg.Batch = "1";
+    arg.Communication = "1";
+    arg.OutputOnly = "0";
   }
 
   if(("aoj_userid" in arg && "atcoder_userid" in arg) == false){
@@ -131,17 +149,24 @@ $(function(){
     arg.atcoder_userid = "";
     arg.rival_aoj_userid = "";
     arg.rival_atcoder_userid = "";
+    arg.Batch = "1";
+    arg.Communication = "1";
+    arg.OutputOnly = "0";
   }
   
   $("#con_yo").prop('checked', arg.con_yo === "1");
   $("#con_ho").prop('checked', arg.con_ho === "1");
   $("#con_sc").prop('checked', arg.con_sc === "1");
+  $("#Batch").prop('checked', arg.Batch === "1");
+  $("#Communication").prop('checked', arg.Communication === "1");
+  $("#OutputOnly").prop('checked', arg.OutputOnly === "1");
   $("#year_begin").val(arg.year_begin);
   $("#year_end").val(arg.year_end);
   $("#aoj_userid").val(arg.aoj_userid);
   $("#atcoder_userid").val(arg.atcoder_userid);
   $("#rival_aoj_userid").val(arg.rival_aoj_userid);
   $("#rival_atcoder_userid").val(arg.rival_atcoder_userid);
+  $("#sort").val(arg.sort);
 
 
   var user_id = {"atcoder" : arg.atcoder_userid,
@@ -169,9 +194,9 @@ $(function(){
       aoj_to_problemid[this.aoj_id] = this.problem_id;
     });
 
-    get_user_status(aoj_to_problemid, atcoder_to_problemid, user_id, function(user_ac){
+    get_user_status(aoj_to_problemid, atcoder_to_problemid, user_id, function(user_ac, failed_aoj_user, failed_atcoder_user){
 
-      get_user_status(aoj_to_problemid, atcoder_to_problemid, rival_id, function(rival_ac){
+      get_user_status(aoj_to_problemid, atcoder_to_problemid, rival_id, function(rival_ac, failed_aoj_rival, failed_atcoder_rival){
 
         
         $("div.user_color").html('');
@@ -190,7 +215,10 @@ $(function(){
         );
         
         //並び替え
-        data.sort(sort_by("level","problem_id","false"));
+        if(arg.sort == 'id')
+          data.sort(sort_by("problem_id","level","false"));
+        else //arg.sort == level
+          data.sort(sort_by("level","problem_id","false"));
 
         $(data).each(function(){
           //フィルター
@@ -198,6 +226,8 @@ $(function(){
           if(arg.con_yo !== "1" && this.problem_id.substr(2,2) == "01") return;
           if(arg.con_ho !== "1" && this.problem_id.substr(2,2) == "02") return;
           if(arg.con_sc !== "1" && "03" <= this.problem_id.substr(2,2) && this.problem_id.substr(2,2) <= "06") return;
+
+          if(arg[this.tasktype] != "1") return;
           
           //統計カウント
           if(user_ac[this.problem_id] == "1"){
@@ -233,6 +263,20 @@ $(function(){
             aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'"  target="_blank">★</a>'
           }
 
+          //エラー表示
+          if(failed_aoj_user || failed_aoj_rival){
+            if(failed_atcoder_user || failed_atcoder_rival){
+              $("#error_msg").text("AOJ, Atcoder情報取得失敗");
+            }else{
+              $("#error_msg").text("AOJ情報取得失敗");
+            }
+          }else{
+            if(failed_atcoder_user || failed_atcoder_rival){
+              $("#error_msg").text("Atcoder情報取得失敗");
+            }else{
+              $("#error_msg").text("");
+            }
+          }
           
           //表示
           $('<tr>'+
@@ -254,12 +298,14 @@ $(function(){
           
           var solved_rate = 0;
 
-          var add_statistics = function(user, ac_counter, problem_counter, rival){
-            var ac_counter_all = 0;
-            var problem_counter_all = 0;
-            var stat_body1 = '';
-            var stat_body2 = '';
+          $("table.statistics tbody").html('');
+          for(var i=1;i<=12;i++){
+            stat_header += '<th style="background:'+level_color[i].back+'"><font color="'+level_color[i].str+'">'+i+'</font></th>';
+          }
+          stat_header += '<th style="background:'+level_color["-1"].back+'">?</th><th>ALL</th>';
 
+          var add_statistics = function(user, ac_counter, problem_counter, rival){
+            //ユーザー名
             if(rival){
               $('<tr><td colspan="14" class="user-name">'+
                 '<span class="rival-mark">'+user.aoj+'/'+user.atcoder+'</span></td></tr>'
@@ -269,6 +315,16 @@ $(function(){
                 '<span class="user-mark">'+user.aoj+'/'+user.atcoder+'</span></td></tr>'
                ).appendTo("table.statistics tbody");
             }
+            
+            //ヘッダー
+            $('<tr>'+stat_header+'</tr>').appendTo("table.statistics tbody");
+
+            //回答数/割合
+            var ac_counter_all = 0;
+            var problem_counter_all = 0;
+            var stat_body1 = '';
+            var stat_body2 = '';
+
             for(var i=1;i<=12;i++){
               if(problem_counter[i] > 0)
                 solved_rate = Math.floor(100*ac_counter[i]/problem_counter[i]);
@@ -303,12 +359,6 @@ $(function(){
 
             $('<tr>'+stat_body1+'</tr><tr>'+stat_body2+'</tr>').appendTo("table.statistics tbody");
           }
-          
-          for(var i=1;i<=12;i++){
-            stat_header += '<th style="background:'+level_color[i].back+'"><font color="'+level_color[i].str+'">'+i+'</font></th>';
-          }
-          stat_header += '<th style="background:'+level_color["-1"].back+'">?</th><th>ALL</th>';
-          $("table.statistics tbody").html('<tr>'+stat_header+'</tr>');
 
           add_statistics(user_id, user_ac_counter, problem_counter,false);
           
