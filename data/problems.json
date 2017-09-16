@@ -2310,7 +2310,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "Employment",
     "source": "16春合宿2-1",
     "problem_id": "160401",
@@ -2410,7 +2410,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "3",
+    "level": "2",
     "name": "ポイントカード",
     "source": "17予選2",
     "problem_id": "170102",
@@ -2510,7 +2510,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Cultivation",
     "source": "17春合宿1-1",
     "problem_id": "170301",
@@ -2520,7 +2520,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Port Facility",
     "source": "17春合宿1-2",
     "problem_id": "170302",
@@ -2530,7 +2530,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Sparklers",
     "source": "17春合宿1-3",
     "problem_id": "170303",
@@ -2540,7 +2540,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Arranging Tickets",
     "source": "17春合宿2-1",
     "problem_id": "170401",
@@ -2550,7 +2550,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Broken Device",
     "source": "17春合宿2-2",
     "problem_id": "170402",
@@ -2560,7 +2560,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Railway Trip",
     "source": "17春合宿2-3",
     "problem_id": "170403",
@@ -2570,7 +2570,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Long Distance Coach",
     "source": "17春合宿3-1",
     "problem_id": "170501",
@@ -2580,7 +2580,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Long Mansion",
     "source": "17春合宿3-2",
     "problem_id": "170502",
@@ -2590,7 +2590,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Natural Park",
     "source": "17春合宿3-3",
     "problem_id": "170503",
@@ -2600,7 +2600,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Abduction 2",
     "source": "17春合宿4-1",
     "problem_id": "170601",
@@ -2610,7 +2610,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "City",
     "source": "17春合宿4-2",
     "problem_id": "170602",
@@ -2620,7 +2620,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Dragon 2",
     "source": "17春合宿4-3",
     "problem_id": "170603",

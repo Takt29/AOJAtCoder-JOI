@@ -230,7 +230,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Matryoshka,16春合宿1-1,160301,joisc2016,joisc2016_a,,Batch
 9,Memory 2,16春合宿1-2,160302,joisc2016,joisc2016_b,,Communication
 11,Solitaire,16春合宿1-3,160303,joisc2016,joisc2016_c,,Batch
-8,Employment,16春合宿2-1,160401,joisc2016,joisc2016_d,,Batch
+9,Employment,16春合宿2-1,160401,joisc2016,joisc2016_d,,Batch
 12,Sandwich,16春合宿2-2,160402,joisc2016,joisc2016_e,,Batch
 9,Toilets,16春合宿2-3,160403,joisc2016,joisc2016_f,,Batch
 11,Dungeon 2,16春合宿3-1,160501,joisc2016,joisc2016_g,,Communication
@@ -240,7 +240,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,Snowy Roads,16春合宿4-2,160602,joisc2016,joisc2016_k,,Communication
 10,Worst Reporter 2,16春合宿4-3,160603,joisc2016,joisc2016_l,,Batch
 1,電子レンジ,17予選1,170101,joi2017yo,joi2017yo_a,0630,Batch
-3,ポイントカード,17予選2,170102,joi2017yo,joi2017yo_b,0631,Batch
+2,ポイントカード,17予選2,170102,joi2017yo,joi2017yo_b,0631,Batch
 3,休憩所,17予選3,170103,joi2017yo,joi2017yo_c,0632,Batch
 7,ぬいぐるみ,17予選4,170104,joi2017yo,joi2017yo_d,0633,Batch
 7,尾根,17予選5,170105,joi2017yo,joi2017yo_e,0634,Batch
@@ -250,15 +250,15 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 8,JOIOI王国,17本選3,170203,joi2017ho,joi2017ho_c,0638,Batch
 10,サッカー,17本選4,170204,joi2017ho,joi2017ho_d,0639,Batch
 10,縄,17本選5,170205,joi2017ho,joi2017ho_e,0640,Batch
--1,Cultivation,17春合宿1-1,170301,joisc2017,joisc2017_a,,Batch
--1,Port Facility,17春合宿1-2,170302,joisc2017,joisc2017_b,,Batch
--1,Sparklers,17春合宿1-3,170303,joisc2017,joisc2017_c,,Batch
--1,Arranging Tickets,17春合宿2-1,170401,joisc2017,joisc2017_d,,Batch
--1,Broken Device,17春合宿2-2,170402,joisc2017,joisc2017_e,,Communication
--1,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,,Batch
--1,Long Distance Coach,17春合宿3-1,170501,joisc2017,joisc2017_g,,Batch
--1,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,,Batch
--1,Natural Park,17春合宿3-3,170503,joisc2017,joisc2017_i,,Communication
--1,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
--1,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
--1,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
+12,Cultivation,17春合宿1-1,170301,joisc2017,joisc2017_a,,Batch
+11,Port Facility,17春合宿1-2,170302,joisc2017,joisc2017_b,,Batch
+12,Sparklers,17春合宿1-3,170303,joisc2017,joisc2017_c,,Batch
+12,Arranging Tickets,17春合宿2-1,170401,joisc2017,joisc2017_d,,Batch
+11,Broken Device,17春合宿2-2,170402,joisc2017,joisc2017_e,,Communication
+12,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,,Batch
+11,Long Distance Coach,17春合宿3-1,170501,joisc2017,joisc2017_g,,Batch
+10,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,,Batch
+12,Natural Park,17春合宿3-3,170503,joisc2017,joisc2017_i,,Communication
+10,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
+12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
+11,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
