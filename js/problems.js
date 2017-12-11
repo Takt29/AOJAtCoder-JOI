@@ -56,7 +56,7 @@ $(function(){
       //Atcoder 状態取得
       $.ajax({
         url:"http://joi.azurewebsites.net/proxy.php",
-        data:{url : "http://kenkoooo.com/atcoder-api/problems?user="+user.atcoder},
+        data:{url : "http://kenkoooo.com/atcoder/atcoder-api/results?user="+user.atcoder},
         type:"get",
         dataType:"json",
         timeout:3000,
@@ -67,8 +67,8 @@ $(function(){
         },
         success:function(data){
           $(data).each(function(){
-            if(this.status === "AC"){
-              solved[atcoder_to_problemid[this.id]] = "1";
+            if(this.result === "AC"){
+              solved[atcoder_to_problemid[this.problem_id]] = "1";
             }
           });
         }
