@@ -14,7 +14,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 2,シーザー暗号,07予選3,070103,joi2007yo,joi2007yo_c,0512,Batch
 3,カードの並び替え,07予選4,070104,joi2007yo,joi2007yo_d,0513,Batch
 5,品質検査,07予選5,070105,joi2007yo,joi2007yo_e,0514,Batch
-4,通学経路,07予選6,070106,joi2007yo,joi2007yo_f,0515,Batch
+5,通学経路,07予選6,070106,joi2007yo,joi2007yo_f,0515,Batch
 4,最大の和,07本選1,070201,joi2007ho,joi2007ho_a,0516,Batch
 5,最長の階段,07本選2,070202,joi2007ho,joi2007ho_b,0517,Batch
 5,最古の遺跡,07本選3,070203,joi2007ho,joi2007ho_c,0518,Batch
@@ -24,16 +24,16 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 5,Factorial,07春合宿1-2,070302,joisc2007,joisc2007_factor,,Batch
 6,Mall,07春合宿1-3,070303,joisc2007,joisc2007_mall,,Batch
 5,Building,07春合宿2-1,070401,joisc2007,joisc2007_buildi,,Batch
-8,Fermat,07春合宿2-2,070402,joisc2007,joisc2007_fermat,,Batch
+7,Fermat,07春合宿2-2,070402,joisc2007,joisc2007_fermat,,Batch
 10,SALT TREE XV,07春合宿2-3,070403,joisc2007,joisc2007_salt,,Batch
-6,Anagram,07春合宿3-1,070501,joisc2007,joisc2007_anagra,,Batch
+7,Anagram,07春合宿3-1,070501,joisc2007,joisc2007_anagra,,Batch
 8,Route,07春合宿3-2,070502,joisc2007,joisc2007_route,,Batch
 10,Circuit,07春合宿3-3,070503,joisc2007,joisc2007_circui,,Batch
-6,Fiber,07春合宿4-1,070601,joisc2007,joisc2007_fiber,,Batch
-10,Lines,07春合宿4-2,070602,joisc2007,joisc2007_lines,,Batch
+5,Fiber,07春合宿4-1,070601,joisc2007,joisc2007_fiber,,Batch
+9,Lines,07春合宿4-2,070602,joisc2007,joisc2007_lines,,Batch
 1,おつり,08予選1,080101,joi2008yo,joi2008yo_a,0521,Batch
 2,JOIとIOI,08予選2,080102,joi2008yo,joi2008yo_b,0522,Batch
-3,カードゲーム,08予選3,080103,joi2008yo,joi2008yo_c,0523,Batch
+4,カードゲーム,08予選3,080103,joi2008yo,joi2008yo_c,0523,Batch
 5,星座探し,08予選4,080104,joi2008yo,joi2008yo_d,0524,Batch
 6,おせんべい,08予選5,080105,joi2008yo,joi2008yo_e,0525,Batch
 5,船旅,08予選6,080106,joi2008yo,joi2008yo_f,0526,Batch
@@ -55,7 +55,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,Typhoon,08春合宿4-2,080602,joisc2008,joisc2008_typhoon,,Batch
 1,タイムカード,09予選1,090101,joi2009yo,joi2009yo_a,0532,Batch
 2,コンテスト,09予選2,090102,joi2009yo,joi2009yo_b,0533,Batch
-5,連鎖,09予選3,090103,joi2009yo,joi2009yo_c,0534,Batch
+6,連鎖,09予選3,090103,joi2009yo,joi2009yo_c,0534,Batch
 5,薄氷渡り,09予選4,090104,joi2009yo,joi2009yo_d,0535,Batch
 8,シャッフル,09予選5,090105,joi2009yo,joi2009yo_e,0536,Batch
 7,ビンゴ,09予選6,090106,joi2009yo,joi2009yo_f,0537,Batch
@@ -88,12 +88,12 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,博覧会,10本選4,100204,joi2010ho,joi2010ho_d,0552,Batch
 11,ダンジョン,10本選5,100205,joi2010ho,joi2010ho_e,0553,Batch
 5,JOI Poster,10春合宿1-1,100301,joisc2010,joisc2010_poster,,Batch
-9,Sengoku,10春合宿1-2,100302,joisc2010,joisc2010_sengoku,,Batch
+8,Sengoku,10春合宿1-2,100302,joisc2010,joisc2010_sengoku,,Batch
 6,Stairs,10春合宿1-3,100303,joisc2010,joisc2010_stairs,,Batch
 8,a+b problem,10春合宿2-1,100401,joisc2010,joisc2010_aplusb,,Batch
 8,DNA synthesizer,10春合宿2-2,100402,joisc2010,joisc2010_dna,,Batch
 9,Regions,10春合宿2-3,100403,joisc2010,joisc2010_regions,,Batch
-6,Finals,10春合宿3-1,100501,joisc2010,joisc2010_finals,,Batch
+7,Finals,10春合宿3-1,100501,joisc2010,joisc2010_finals,,Batch
 9,Hide-and-seek,10春合宿3-2,100502,joisc2010,joisc2010_hideseek,,Batch
 5,Contest,10春合宿4-1,100601,joisc2010,joisc2010_contest,,Batch
 10,Highway,10春合宿4-2,100602,joisc2010,joisc2010_highway,,Batch
@@ -127,7 +127,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 5,最高のピザ,12予選3,120103,joi2012yo,joi2012yo_c,0567,Batch
 5,パスタ,12予選4,120104,joi2012yo,joi2012yo_d,0568,Batch
 6,イルミネーション,12予選5,120105,joi2012yo,joi2012yo_e,0569,Batch
-8,ジグザグ数,12予選6,120106,joi2012yo,joi2012yo_f,0570,Batch
+9,ジグザグ数,12予選6,120106,joi2012yo,joi2012yo_f,0570,Batch
 5,JJOOII ,12本選1,120201,joi2012ho,joi2012ho1,0571,Batch
 5,たのしいカードゲーム,12本選2,120202,joi2012ho,joi2012ho2,0572,Batch
 6,夜店,12本選3,120203,joi2012ho,joi2012ho3,0573,Batch
@@ -152,7 +152,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,お土産購入計画,13予選6,130106,joi2013yo,joi2013yo_f,0581,Batch
 6,電飾,13本選1,130201,joi2013ho,joi2013ho1,0603,Batch
 7,IOI列車で行こう,13本選2,130202,joi2013ho,joi2013ho2,0604,Batch
-9,現代的な屋敷,13本選3,130203,joi2013ho,joi2013ho3,0605,Batch
+8,現代的な屋敷,13本選3,130203,joi2013ho,joi2013ho3,0605,Batch
 10,JOIOIの塔,13本選4,130204,joi2013ho,joi2013ho4,0606,Batch
 11,バブルソート,13本選5,130205,joi2013ho,joi2013ho5,0607,Batch
 9,Bus Tour,13春合宿1-1,130301,joisc2013-day1,joisc2013_bustour,,Batch
@@ -161,7 +161,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 5,JOI Poster,13春合宿1-4,130304,joisc2013-day1,joisc2013_joi_poster,,Batch
 10,Construction Project,13春合宿2-1,130401,joisc2013-day2,joisc2013_construction,,Batch
 8,Mascots,13春合宿2-2,130402,joisc2013-day2,joisc2013_mascots,,Batch
-8,Spy,13春合宿2-3,130403,joisc2013-day2,joisc2013_spy,,Batch
+9,Spy,13春合宿2-3,130403,joisc2013-day2,joisc2013_spy,,Batch
 12,Cake,13春合宿3-1,130501,joisc2013-day3,joisc2013_cake,,Batch
 10,Koala,13春合宿3-2,130502,joisc2013-day3,joisc2013_koala,,Batch
 8,Mountain Rescue Team,13春合宿3-3,130503,joisc2013-day3,joisc2013_mountain,,Communication
@@ -196,7 +196,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 2,クリスマスパーティー,15予選2,150102,joi2015yo,joi2015yo_b,0609,Batch
 3,気象予報士,15予選3,150103,joi2015yo,joi2015yo_c,0610,Batch
 5,シルクロード,15予選4,150104,joi2015yo,joi2015yo_d,0611,Batch
-6,砂の城,15予選5,150105,joi2015yo,joi2015yo_e,0612,Batch
+7,砂の城,15予選5,150105,joi2015yo,joi2015yo_e,0612,Batch
 8,財宝,15予選6,150106,joi2015yo,joi2015yo_f,0613,Batch
 5,鉄道旅行,15本選1,150201,joi2015ho,joi2015ho_a,0614,Batch
 6,ケーキの切り分け２,15本選2,150202,joi2015ho,joi2015ho_b,0615,Batch
@@ -208,7 +208,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,Growing Vegetables is Fun 2 ,15春合宿1-3,150303,joisc2015,joisc2015_c,,Batch
 10,IOIOI Cards,15春合宿1-4,150304,joisc2015,joisc2015_d,,Batch
 8,Building 3 ,15春合宿2-1,150401,joisc2015,joisc2015_e,,Batch
-9,Keys ,15春合宿2-2,150402,joisc2015,joisc2015_f,,Batch
+10,Keys ,15春合宿2-2,150402,joisc2015,joisc2015_f,,Batch
 10,Road Development ,15春合宿2-3,150403,joisc2015,joisc2015_g,,Batch
 12,AAQQZ,15春合宿3-1,150501,joisc2015,joisc2015_h,,Batch
 9,Card Game Is Great Fun,15春合宿3-2,150502,joisc2015,joisc2015_i,,Batch
@@ -220,7 +220,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 2,ゼッケンの交換,16予選2,160102,joi2016yo,joi2016yo_b,0620,Batch
 3,ロシアの旗,16予選3,160103,joi2016yo,joi2016yo_c,0621,Batch
 5,JOI国のお散歩事情,16予選4,160104,joi2016yo,joi2016yo_d,0622,Batch
-6,ゾンビ島,16予選5,160105,joi2016yo,joi2016yo_e,0623,Batch
+7,ゾンビ島,16予選5,160105,joi2016yo,joi2016yo_e,0623,Batch
 8,屋台,16予選6,160106,joi2016yo,joi2016yo_f,0624,Batch
 6,オレンジの出荷,16本選1,160201,joi2016ho,joi2016ho_a,0625,Batch
 6,スタンプラリー２,16本選2,160202,joi2016ho,joi2016ho_b,0626,Batch
@@ -250,14 +250,14 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 8,JOIOI王国,17本選3,170203,joi2017ho,joi2017ho_c,0638,Batch
 10,サッカー,17本選4,170204,joi2017ho,joi2017ho_d,0639,Batch
 10,縄,17本選5,170205,joi2017ho,joi2017ho_e,0640,Batch
-12,Cultivation,17春合宿1-1,170301,joisc2017,joisc2017_a,,Batch
+11,Cultivation,17春合宿1-1,170301,joisc2017,joisc2017_a,,Batch
 11,Port Facility,17春合宿1-2,170302,joisc2017,joisc2017_b,,Batch
 12,Sparklers,17春合宿1-3,170303,joisc2017,joisc2017_c,,Batch
 12,Arranging Tickets,17春合宿2-1,170401,joisc2017,joisc2017_d,,Batch
 11,Broken Device,17春合宿2-2,170402,joisc2017,joisc2017_e,,Communication
-12,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,,Batch
+11,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,,Batch
 11,Long Distance Coach,17春合宿3-1,170501,joisc2017,joisc2017_g,,Batch
-10,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,,Batch
+9,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,,Batch
 12,Natural Park,17春合宿3-3,170503,joisc2017,joisc2017_i,,Communication
 10,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
 12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication

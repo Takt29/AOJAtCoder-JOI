@@ -150,7 +150,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "4",
+    "level": "5",
     "name": "通学経路",
     "source": "07予選6",
     "problem_id": "070106",
@@ -250,7 +250,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "Fermat",
     "source": "07春合宿2-2",
     "problem_id": "070402",
@@ -270,7 +270,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "Anagram",
     "source": "07春合宿3-1",
     "problem_id": "070501",
@@ -300,7 +300,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "5",
     "name": "Fiber",
     "source": "07春合宿4-1",
     "problem_id": "070601",
@@ -310,7 +310,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Lines",
     "source": "07春合宿4-2",
     "problem_id": "070602",
@@ -340,7 +340,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "3",
+    "level": "4",
     "name": "カードゲーム",
     "source": "08予選3",
     "problem_id": "080103",
@@ -560,7 +560,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "5",
+    "level": "6",
     "name": "連鎖",
     "source": "09予選3",
     "problem_id": "090103",
@@ -890,7 +890,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Sengoku",
     "source": "10春合宿1-2",
     "problem_id": "100302",
@@ -940,7 +940,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "Finals",
     "source": "10春合宿3-1",
     "problem_id": "100501",
@@ -1280,7 +1280,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "ジグザグ数",
     "source": "12予選6",
     "problem_id": "120106",
@@ -1530,7 +1530,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "現代的な屋敷",
     "source": "13本選3",
     "problem_id": "130203",
@@ -1620,7 +1620,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "Spy",
     "source": "13春合宿2-3",
     "problem_id": "130403",
@@ -1970,7 +1970,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "砂の城",
     "source": "15予選5",
     "problem_id": "150105",
@@ -2090,7 +2090,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "Keys",
     "source": "15春合宿2-2",
     "problem_id": "150402",
@@ -2210,7 +2210,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "ゾンビ島",
     "source": "16予選5",
     "problem_id": "160105",
@@ -2510,7 +2510,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Cultivation",
     "source": "17春合宿1-1",
     "problem_id": "170301",
@@ -2560,7 +2560,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Railway Trip",
     "source": "17春合宿2-3",
     "problem_id": "170403",
@@ -2580,7 +2580,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Long Mansion",
     "source": "17春合宿3-2",
     "problem_id": "170502",
