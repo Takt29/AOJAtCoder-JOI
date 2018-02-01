@@ -263,6 +263,15 @@ table.problems td.none-none {
   background: #FFFFFF;
 }
 
+table.problems td.not_exist {
+  line-height: 100%;
+  font-size: 1em;
+  padding:10px;
+  text-align: left;
+  border:1px solid #ddd;
+  background: #D6D6D6;
+}
+
 
 table.statistics th {
   padding: 2px 10px;

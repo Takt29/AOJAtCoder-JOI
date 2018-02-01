@@ -2628,5 +2628,65 @@
     "atcoder_id": "joisc2017_l",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "鉛筆",
+    "source": "18予選1",
+    "problem_id": "180101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "すごろく",
+    "source": "18予選2",
+    "problem_id": "180102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "幹線道路",
+    "source": "18予選3",
+    "problem_id": "180103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "水ようかん",
+    "source": "18予選4",
+    "problem_id": "180104",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "森林伐採",
+    "source": "18予選5",
+    "problem_id": "180105",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "L番目のK番目の数",
+    "source": "18予選6",
+    "problem_id": "180106",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]

@@ -262,3 +262,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
 12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
 11,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
+1,鉛筆,18予選1,180101,,,,Batch
+2,すごろく,18予選2,180102,,,,Batch
+3,幹線道路,18予選3,180103,,,,Batch
+7,水ようかん,18予選4,180104,,,,Batch
+7,森林伐採,18予選5,180105,,,,Batch
+9,L番目のK番目の数,18予選6,180106,,,,Batch

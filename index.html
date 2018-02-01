@@ -12,15 +12,15 @@
     <script type="text/javascript" src="js/jquery.scrollshow.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script>
-      $(function($){
-	  $('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 30, headerfix : $('nav')});
-	  $('.totop').scrollshow({position : 500});
-      });
+     $(function($){
+       $('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 30, headerfix : $('nav')});
+       $('.totop').scrollshow({position : 500});
+     });
     </script>
     <!--[if lt IE 9]>
-	    <script src="js/html5shiv.js"></script>
-	    <script src="js/css3-mediaqueries.js"></script>
-        <![endif]-->
+      <script src="js/html5shiv.js"></script>
+      <script src="js/css3-mediaqueries.js"></script>
+    <![endif]-->
   </head>
   <body>
     <header>
@@ -29,21 +29,21 @@
 
     <nav>
       <ul>
-	    <li><a href="#top">TOP</a></li>
-	    <li><a href="#search">SEARCH</a></li>
-	    <li><a href="#statistics">STATISTICS</a></li>
-	    <li><a href="#list">LIST</a></li>
-	    <li><a href="#link">LINK</a></li>
+        <li><a href="#top">TOP</a></li>
+        <li><a href="#search">SEARCH</a></li>
+        <li><a href="#statistics">STATISTICS</a></li>
+        <li><a href="#list">LIST</a></li>
+        <li><a href="#link">LINK</a></li>
       </ul>
     </nav>
 
     <div id="contents">
       <h2 id="search">検索</h2>
       <p>
-  	    AOJ,Atcoderの両方に問題がある場合は、どちらかがACであればACであると判断しています。
+        AOJ,Atcoderの両方に問題がある場合は、どちらかがACであればACであると判断しています。
       </p>
       <p>
-	    <form method="get">
+        <form method="get">
           <table cellpadding="0" cellspacing="0" border="0" class="search">
             <col width="15%" />
             <col width="20%" />
@@ -81,6 +81,7 @@
                     <option value="2015">2015</option>
                     <option value="2016">2016</option>
                     <option value="2017">2017</option>
+                    <option value="2018">2018</option>
                   </select>
                   〜
                   <select name="year_end" id="year_end">
@@ -95,7 +96,8 @@
                     <option value="2014">2014</option>
                     <option value="2015">2015</option>
                     <option value="2016">2016</option>
-                    <option value="2017" selected>2017</option>
+                    <option value="2017">2017</option>
+                    <option value="2018" selected>2018</option>
                   </select>
                 </td>
               </tr>
@@ -144,12 +146,12 @@
           <div style=" text-align: left;">
             <button type="submit" size="20" id="btn" style="WIDTH: 300px;" >表示</button>
           </div>
-          <div style="text-align: left; color:red;" id="error_msg">            
+          <div style="text-align: left; color:red;" id="error_msg">
           </div>
-	    </form>
+        </form>
       </p>
       
-	  <h2 id="statistics">統計</h2>
+      <h2 id="statistics">統計</h2>
       <table cellpadding="0" cellspacing="0" border="0" class="statistics">
         <col width="7%" span="13"/>
         <col width="9%"  />
@@ -179,31 +181,31 @@
       <script src="js/problems.js"></script>
 
       <h2 id="link">リンク</h2>
-	    <dl class="information">
+      <dl class="information">
         <dt><span><a href="http://www.ioi-jp.org">情報オリンピック委員会</a></span></dt>
-	    <dd>
-	      <div>
+        <dd>
+          <div>
             問題文,入出力データ,解説等はこのサイトからダウンロードしてください。
-	      </div>
-	    </dd>
-	    <dt><span>
-            <a href="http://kenkoooo.com/atcoder">Atcoder Problems</a>
-            (<a href="https://gist.github.com/kenkoooo/4618461adf0f5b4d3e3e">API</a>)
+          </div>
+        </dd>
+        <dt><span>
+          <a href="http://kenkoooo.com/atcoder">Atcoder Problems</a>
+          (<a href="https://gist.github.com/kenkoooo/4618461adf0f5b4d3e3e">API</a>)
         </span></dt>
-	    <dd>
-	      <div>
+        <dd>
+          <div>
             Atcoderの正答状況の取得にはここのAPIを使用しています。
-	      </div>
-	    </dd>
-	    <dt><span><a href="https://docs.google.com/spreadsheets/d/1zXDtkFmskO5NSxkqck8uDbcJtAhTVZtzPh2hLw64Sw4/edit?pli=1#gid=0">
-              JOI非公式難易度
+          </div>
+        </dd>
+        <dt><span><a href="https://docs.google.com/spreadsheets/d/1zXDtkFmskO5NSxkqck8uDbcJtAhTVZtzPh2hLw64Sw4/edit?pli=1#gid=0">
+          JOI非公式難易度
         </a></span></dt>
-	    <dd>
-	      <div>
+        <dd>
+          <div>
             難易度はこのページのものを採用しています。投票等はここでお願いします。
-	      </div>
-	    </dd>
-	  </dl>
+          </div>
+        </dd>
+      </dl>
     </div><!-- /.contents -->
 
     <footer>
@@ -215,13 +217,13 @@
 
     <!-- google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-93707015-1', 'auto');
-      ga('send', 'pageview');
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     
+     ga('create', 'UA-93707015-1', 'auto');
+     ga('send', 'pageview');
     </script>
 
   </body>

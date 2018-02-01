@@ -104,7 +104,7 @@ $(function(){
 
   //初期地
   INIT_YEAR_BEGIN = "2007";
-  INIT_YEAR_END   = "2017";
+  INIT_YEAR_END   = "2018";
   INIT_SORT       = "level";
   
 
@@ -230,13 +230,15 @@ $(function(){
           if(arg[this.tasktype] != "1") return;
           
           //統計カウント
-          if(user_ac[this.problem_id] == "1"){
-            user_ac_counter[this.level]++;
+          if(this.aoj_id !== "" || this.atcoder_id !== ""){
+            if(user_ac[this.problem_id] == "1"){
+              user_ac_counter[this.level]++;
+            }
+            if(rival_ac[this.problem_id] == "1"){
+              rival_ac_counter[this.level]++;
+            }
+            problem_counter[this.level]++;
           }
-          if(rival_ac[this.problem_id] == "1"){
-            rival_ac_counter[this.level]++;
-          }
-          problem_counter[this.level]++;
           
           //表示関連
           var level_str = this.level;
@@ -244,23 +246,34 @@ $(function(){
           if(this.level == -1) level_str = "?";
           
           var td_class = "";
-          if(user_ac[this.problem_id] == "1"){
-            td_class += "ac";
+          if(this.aoj_id !== "" || this.atcoder_id !== ""){
+            if(user_ac[this.problem_id] == "1"){
+              td_class += "ac";
+            }else{
+              td_class += "none";
+            }
+          
+            td_class += "-";
+            
+            if(rival_ac[this.problem_id] == "1"){
+              td_class += "ac";
+            }else{
+              td_class += "none";
+            }
           }else{
-            td_class += "none";
+            td_class = "not_exist"
           }
-          
-          td_class += "-";
-          
-          if(rival_ac[this.problem_id] == "1"){
-            td_class += "ac";
+
+          var atcoder_link = "";
+          if(this.atcoder_id !== ""){
+            atcoder_link = '<a href="http://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+this.name+'</a>';
           }else{
-            td_class += "none";
+            atcoder_link = this.name;
           }
           
           var aoj_link = "";
-          if(this.aoj_id != ""){
-            aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'"  target="_blank">★</a>'
+          if(this.aoj_id !== ""){
+            aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'"  target="_blank">★</a>';
           }
 
           //エラー表示
@@ -284,88 +297,85 @@ $(function(){
             '<font color="'+level_color[this.level].str+'">'+
             level_str+
             '</font></td>'+
-            '<td class="'+td_class+'">'+
-            '<a href="http://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+
-            this.name+
-            '</a></td>'+
+            '<td class="'+td_class+'">'+atcoder_link+'</td>'+
             '<td class="'+td_class+'" style="text-align:center">'+aoj_link+'</td>'+
             '<td class="'+td_class+'">'+this.source+'</td>'+
             '</tr>'
            ).appendTo('table.problems tbody');
 
-          //統計表
-          var stat_header = '';
-          
-          var solved_rate = 0;
-
-          $("table.statistics tbody").html('');
-          for(var i=1;i<=12;i++){
-            stat_header += '<th style="background:'+level_color[i].back+'"><font color="'+level_color[i].str+'">'+i+'</font></th>';
-          }
-          stat_header += '<th style="background:'+level_color["-1"].back+'">?</th><th>ALL</th>';
-
-          var add_statistics = function(user, ac_counter, problem_counter, rival){
-            //ユーザー名
-            if(rival){
-              $('<tr><td colspan="14" class="user-name">'+
-                '<span class="rival-mark">'+user.aoj+'/'+user.atcoder+'</span></td></tr>'
-               ).appendTo("table.statistics tbody");
-            }else{
-              $('<tr><td colspan="14" class="user-name">'+
-                '<span class="user-mark">'+user.aoj+'/'+user.atcoder+'</span></td></tr>'
-               ).appendTo("table.statistics tbody");
-            }
-            
-            //ヘッダー
-            $('<tr>'+stat_header+'</tr>').appendTo("table.statistics tbody");
-
-            //回答数/割合
-            var ac_counter_all = 0;
-            var problem_counter_all = 0;
-            var stat_body1 = '';
-            var stat_body2 = '';
-
-            for(var i=1;i<=12;i++){
-              if(problem_counter[i] > 0)
-                solved_rate = Math.floor(100*ac_counter[i]/problem_counter[i]);
-              else
-                solved_rate = "--";
-              
-              stat_body1 += '<td>'+ac_counter[i]+'/'+problem_counter[i]+'</td>';
-              stat_body2 += '<td>'+solved_rate+'%</td>';
-              ac_counter_all += ac_counter[i];
-              problem_counter_all += problem_counter[i];
-            }
-
-            // ?
-            if(problem_counter[-1] > 0)
-              solved_rate = Math.floor(100*ac_counter[-1]/problem_counter[-1]);
-            else
-              solved_rate = "--";
-            
-            stat_body1 += '<td>'+ac_counter[-1]+'/'+problem_counter[-1]+'</td>';
-            stat_body2 += '<td>'+solved_rate+'%</td>';
-            ac_counter_all += ac_counter[-1];
-            problem_counter_all += problem_counter[-1];
-            
-            // ALL
-            if(problem_counter_all > 0)
-              solved_rate = Math.floor(100*ac_counter_all/problem_counter_all);
-            else
-              solved_rate = "--";
-            
-            stat_body1 += '<td>'+ac_counter_all+'/'+problem_counter_all+'</td>';
-            stat_body2 += '<td>'+solved_rate+'%</td>';
-
-            $('<tr>'+stat_body1+'</tr><tr>'+stat_body2+'</tr>').appendTo("table.statistics tbody");
-          }
-
-          add_statistics(user_id, user_ac_counter, problem_counter,false);
-          
-          if((rival_id.aoj == "" && rival_id.atcoder == "") == false)
-            add_statistics(rival_id, rival_ac_counter, problem_counter,true);
-          
         });
+          
+        //統計表
+        var stat_header = '';
+        
+        var solved_rate = 0;
+        
+        $("table.statistics tbody").html('');
+        for(var i=1;i<=12;i++){
+          stat_header += '<th style="background:'+level_color[i].back+'"><font color="'+level_color[i].str+'">'+i+'</font></th>';
+        }
+        stat_header += '<th style="background:'+level_color["-1"].back+'">?</th><th>ALL</th>';
+        
+        var add_statistics = function(user, ac_counter, problem_counter, rival){
+          //ユーザー名
+          if(rival){
+            $('<tr><td colspan="14" class="user-name">'+
+              '<span class="rival-mark">'+user.aoj+'/'+user.atcoder+'</span></td></tr>'
+             ).appendTo("table.statistics tbody");
+          }else{
+            $('<tr><td colspan="14" class="user-name">'+
+              '<span class="user-mark">'+user.aoj+'/'+user.atcoder+'</span></td></tr>'
+             ).appendTo("table.statistics tbody");
+          }
+          
+          //ヘッダー
+          $('<tr>'+stat_header+'</tr>').appendTo("table.statistics tbody");
+          
+          //回答数/割合
+          var ac_counter_all = 0;
+          var problem_counter_all = 0;
+          var stat_body1 = '';
+          var stat_body2 = '';
+          
+          for(var i=1;i<=12;i++){
+            if(problem_counter[i] > 0)
+              solved_rate = Math.floor(100*ac_counter[i]/problem_counter[i]);
+            else
+              solved_rate = "--";
+            
+            stat_body1 += '<td>'+ac_counter[i]+'/'+problem_counter[i]+'</td>';
+            stat_body2 += '<td>'+solved_rate+'%</td>';
+            ac_counter_all += ac_counter[i];
+            problem_counter_all += problem_counter[i];
+          }
+          
+          // ?
+          if(problem_counter[-1] > 0)
+            solved_rate = Math.floor(100*ac_counter[-1]/problem_counter[-1]);
+          else
+            solved_rate = "--";
+          
+          stat_body1 += '<td>'+ac_counter[-1]+'/'+problem_counter[-1]+'</td>';
+          stat_body2 += '<td>'+solved_rate+'%</td>';
+          ac_counter_all += ac_counter[-1];
+          problem_counter_all += problem_counter[-1];
+          
+          // ALL
+          if(problem_counter_all > 0)
+            solved_rate = Math.floor(100*ac_counter_all/problem_counter_all);
+          else
+            solved_rate = "--";
+          
+          stat_body1 += '<td>'+ac_counter_all+'/'+problem_counter_all+'</td>';
+          stat_body2 += '<td>'+solved_rate+'%</td>';
+          
+          $('<tr>'+stat_body1+'</tr><tr>'+stat_body2+'</tr>').appendTo("table.statistics tbody");
+        }
+        
+        add_statistics(user_id, user_ac_counter, problem_counter,false);
+        
+        if((rival_id.aoj == "" && rival_id.atcoder == "") == false)
+          add_statistics(rival_id, rival_ac_counter, problem_counter,true);
       });  
     });
   });
