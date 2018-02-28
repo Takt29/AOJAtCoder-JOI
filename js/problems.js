@@ -48,15 +48,15 @@ $(function(){
     var failed_aoj = false;
     var failed_atcoder = false;
 
-    if(user.atcoder_id == "" && user.aoj_id == ""){
+    if(!user.atcoder && !user.aoj){
       callback(solved);
+      return;
     }
     
     $.when(
-      //Atcoder 状態取得
       $.ajax({
-        url:"http://joi.azurewebsites.net/proxy.php",
-        data:{url : "http://kenkoooo.com/atcoder/atcoder-api/results?user="+user.atcoder},
+        url:"http://kenkoooo.com/atcoder/atcoder-api/results",
+        data:{user : user.atcoder},
         type:"get",
         dataType:"json",
         timeout:3000,
@@ -73,27 +73,26 @@ $(function(){
           });
         }
       }),
-      
+
       //AOJ 状態取得
       $.ajax({
-        url:"http://joi.azurewebsites.net/proxy.php",
-        data:{url : "http://judge.u-aizu.ac.jp/onlinejudge/webservice/solved_record?user_id=" + user.aoj},
+        url:"https://judgeapi.u-aizu.ac.jp/solutions/users/" + user.aoj,
+        data:{size: 9999},
         type:"get",
-        dataType:"xml",
+        dataType:"json",
         timeout:3000,
         cache:false,
         error:function(){
-          failed_aoj = true;
+          if (user.aoj)
+            failed_aoj = true;
           //alert("AOJ読み込み失敗");
         },
-        success:function(xml){
-          $(xml).find("solved").each(function(){
-            var id=$(this).find("problem_id").text().replace(/\n/g, "");
-            solved[aoj_to_problemid[id]] = "1";
+        success:function(data){
+          $(data).each(function(){
+            solved[aoj_to_problemid[this.problemId]] = "1";
           });
         }
       })
-      
     ).always(
       function(){
         callback(solved, failed_aoj, failed_atcoder);
