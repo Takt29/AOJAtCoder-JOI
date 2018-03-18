@@ -228,16 +228,16 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 11,縄張り,16本選4,160204,joi2016ho,joi2016ho_d,0628,Batch
 10,断層,16本選5,160205,joi2016ho,joi2016ho_e,0629,Batch
 10,Matryoshka,16春合宿1-1,160301,joisc2016,joisc2016_a,,Batch
-9,Memory 2,16春合宿1-2,160302,joisc2016,joisc2016_b,,Communication
+9,Memory 2,16春合宿1-2,160302,,,,Communication
 11,Solitaire,16春合宿1-3,160303,joisc2016,joisc2016_c,,Batch
 9,Employment,16春合宿2-1,160401,joisc2016,joisc2016_d,,Batch
 12,Sandwich,16春合宿2-2,160402,joisc2016,joisc2016_e,,Batch
 9,Toilets,16春合宿2-3,160403,joisc2016,joisc2016_f,,Batch
-11,Dungeon 2,16春合宿3-1,160501,joisc2016,joisc2016_g,,Communication
+11,Dungeon 2,16春合宿3-1,160501,,,,Communication
 11,Sushi,16春合宿3-2,160502,joisc2016,joisc2016_h,,Batch
 9,Telegraph,16春合宿3-3,160503,joisc2016,joisc2016_i,,Batch
 10,Dangerous Skating,16春合宿4-1,160601,joisc2016,joisc2016_j,,Batch
-9,Snowy Roads,16春合宿4-2,160602,joisc2016,joisc2016_k,,Communication
+9,Snowy Roads,16春合宿4-2,160602,,,,Communication
 10,Worst Reporter 2,16春合宿4-3,160603,joisc2016,joisc2016_l,,Batch
 1,電子レンジ,17予選1,170101,joi2017yo,joi2017yo_a,0630,Batch
 2,ポイントカード,17予選2,170102,joi2017yo,joi2017yo_b,0631,Batch

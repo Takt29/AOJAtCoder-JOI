@@ -2294,8 +2294,8 @@
     "name": "Memory 2",
     "source": "16春合宿1-2",
     "problem_id": "160302",
-    "atcoder_contest": "joisc2016",
-    "atcoder_id": "joisc2016_b",
+    "atcoder_contest": "",
+    "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Communication"
   },
@@ -2344,8 +2344,8 @@
     "name": "Dungeon 2",
     "source": "16春合宿3-1",
     "problem_id": "160501",
-    "atcoder_contest": "joisc2016",
-    "atcoder_id": "joisc2016_g",
+    "atcoder_contest": "",
+    "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Communication"
   },
@@ -2384,8 +2384,8 @@
     "name": "Snowy Roads",
     "source": "16春合宿4-2",
     "problem_id": "160602",
-    "atcoder_contest": "joisc2016",
-    "atcoder_id": "joisc2016_k",
+    "atcoder_contest": "",
+    "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Communication"
   },
