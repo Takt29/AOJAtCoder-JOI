@@ -52,7 +52,7 @@ $(function(){
       callback(solved);
       return;
     }
-    
+
     $.when(
       //Atcoder 状態取得
       $.ajax({
@@ -184,6 +184,11 @@ $(function(){
     rival_ac_counter[i] = 0;
     problem_counter[i] = 0;
   }
+
+  //キャッシュ防止
+  $.ajaxSetup({
+    cache: false
+  });
 
   $.getJSON("data/problems.json", function(data){
     var atcoder_to_problemid = {};
