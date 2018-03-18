@@ -2688,5 +2688,55 @@
     "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "ストーブ",
+    "source": "18本選1",
+    "problem_id": "180201",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "美術展",
+    "source": "18本選2",
+    "problem_id": "180202",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "団子職人",
+    "source": "18本選3",
+    "problem_id": "180203",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "定期券",
+    "source": "18本選4",
+    "problem_id": "180204",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "毒蛇の脱走",
+    "source": "18本選5",
+    "problem_id": "180205",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
