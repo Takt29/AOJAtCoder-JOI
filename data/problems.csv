@@ -27,10 +27,10 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 7,Fermat,07春合宿2-2,070402,joisc2007,joisc2007_fermat,,Batch
 10,SALT TREE XV,07春合宿2-3,070403,joisc2007,joisc2007_salt,,Batch
 7,Anagram,07春合宿3-1,070501,joisc2007,joisc2007_anagra,,Batch
-8,Route,07春合宿3-2,070502,joisc2007,joisc2007_route,,Batch
+7,Route,07春合宿3-2,070502,joisc2007,joisc2007_route,,Batch
 10,Circuit,07春合宿3-3,070503,joisc2007,joisc2007_circui,,Batch
 5,Fiber,07春合宿4-1,070601,joisc2007,joisc2007_fiber,,Batch
-9,Lines,07春合宿4-2,070602,joisc2007,joisc2007_lines,,Batch
+10,Lines,07春合宿4-2,070602,joisc2007,joisc2007_lines,,Batch
 1,おつり,08予選1,080101,joi2008yo,joi2008yo_a,0521,Batch
 2,JOIとIOI,08予選2,080102,joi2008yo,joi2008yo_b,0522,Batch
 4,カードゲーム,08予選3,080103,joi2008yo,joi2008yo_c,0523,Batch
@@ -221,11 +221,11 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 3,ロシアの旗,16予選3,160103,joi2016yo,joi2016yo_c,0621,Batch
 5,JOI国のお散歩事情,16予選4,160104,joi2016yo,joi2016yo_d,0622,Batch
 7,ゾンビ島,16予選5,160105,joi2016yo,joi2016yo_e,0623,Batch
-8,屋台,16予選6,160106,joi2016yo,joi2016yo_f,0624,Batch
+9,屋台,16予選6,160106,joi2016yo,joi2016yo_f,0624,Batch
 6,オレンジの出荷,16本選1,160201,joi2016ho,joi2016ho_a,0625,Batch
 6,スタンプラリー２,16本選2,160202,joi2016ho,joi2016ho_b,0626,Batch
 8,鉄道運賃,16本選3,160203,joi2016ho,joi2016ho_c,0627,Batch
-10,縄張り,16本選4,160204,joi2016ho,joi2016ho_d,0628,Batch
+11,縄張り,16本選4,160204,joi2016ho,joi2016ho_d,0628,Batch
 10,断層,16本選5,160205,joi2016ho,joi2016ho_e,0629,Batch
 10,Matryoshka,16春合宿1-1,160301,joisc2016,joisc2016_a,,Batch
 9,Memory 2,16春合宿1-2,160302,joisc2016,joisc2016_b,,Communication

@@ -280,7 +280,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "Route",
     "source": "07春合宿3-2",
     "problem_id": "070502",
@@ -310,7 +310,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "Lines",
     "source": "07春合宿4-2",
     "problem_id": "070602",
@@ -2220,7 +2220,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "屋台",
     "source": "16予選6",
     "problem_id": "160106",
@@ -2260,7 +2260,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "11",
     "name": "縄張り",
     "source": "16本選4",
     "problem_id": "160204",

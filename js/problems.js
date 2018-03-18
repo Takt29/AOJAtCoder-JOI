@@ -54,6 +54,7 @@ $(function(){
     }
     
     $.when(
+      //Atcoder 状態取得
       $.ajax({
         url:"http://kenkoooo.com/atcoder/atcoder-api/results",
         data:{user : user.atcoder},
@@ -72,8 +73,8 @@ $(function(){
             }
           });
         }
-      }),
-
+      })
+    ).always(
       //AOJ 状態取得
       $.ajax({
         url:"https://judgeapi.u-aizu.ac.jp/solutions/users/" + user.aoj,
@@ -93,7 +94,7 @@ $(function(){
           });
         }
       })
-    ).always(
+    ).done(
       function(){
         callback(solved, failed_aoj, failed_atcoder);
       }
