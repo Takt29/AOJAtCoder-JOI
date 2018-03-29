@@ -262,14 +262,26 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
 12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
 11,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
-1,鉛筆,18予選1,180101,,,,Batch
-2,すごろく,18予選2,180102,,,,Batch
-3,幹線道路,18予選3,180103,,,,Batch
-7,水ようかん,18予選4,180104,,,,Batch
-7,森林伐採,18予選5,180105,,,,Batch
-9,L番目のK番目の数,18予選6,180106,,,,Batch
--1,ストーブ,18本選1,180201,,,,Batch
--1,美術展,18本選2,180202,,,,Batch
--1,団子職人,18本選3,180203,,,,Batch
--1,定期券,18本選4,180204,,,,Batch
--1,毒蛇の脱走,18本選5,180205,,,,Batch
+1,鉛筆,18予選1,180101,,,0641,Batch
+2,すごろく,18予選2,180102,,,0642,Batch
+3,幹線道路,18予選3,180103,,,0643,Batch
+7,水ようかん,18予選4,180104,,,0644,Batch
+7,森林伐採,18予選5,180105,,,0645,Batch
+9,L番目のK番目の数,18予選6,180106,,,0646,Batch
+-1,ストーブ,18本選1,180201,,,0647,Batch
+-1,美術展,18本選2,180202,,,0648,Batch
+-1,団子職人,18本選3,180203,,,0649,Batch
+-1,定期券,18本選4,180204,,,0650,Batch
+-1,毒蛇の脱走,18本選5,180205,,,0651,Batch
+-1,Construction of Highway,18春合宿1-1,180301,,,,Batch
+-1,Fences,18春合宿1-2,180302,,,,Batch
+-1,Tents,18春合宿1-3,180303,,,,Batch
+-1,Asceticism,18春合宿2-1,180401,,,,Batch
+-1,Road Service,18春合宿2-2,180402,,,,OutputOnly
+-1,Worst Reporter 3,18春合宿2-3,180403,,,,Batch
+-1,Airline Route Map,18春合宿3-1,180501,,,,Communication
+-1,Bitaro’s Party,18春合宿3-2,180502,,,,Batch
+-1,Security Gate,18春合宿3-3,180503,,,,Batch
+-1,Candies,18春合宿4-1,180601,,,,Batch
+-1,Library,18春合宿4-2,180602,,,,Communication
+-1,Wild Boar,18春合宿4-3,180603,,,,Batch

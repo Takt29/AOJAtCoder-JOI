@@ -2636,7 +2636,7 @@
     "problem_id": "180101",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0641",
     "tasktype": "Batch"
   },
   {
@@ -2646,7 +2646,7 @@
     "problem_id": "180102",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0642",
     "tasktype": "Batch"
   },
   {
@@ -2656,7 +2656,7 @@
     "problem_id": "180103",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0643",
     "tasktype": "Batch"
   },
   {
@@ -2666,7 +2666,7 @@
     "problem_id": "180104",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0644",
     "tasktype": "Batch"
   },
   {
@@ -2676,7 +2676,7 @@
     "problem_id": "180105",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0645",
     "tasktype": "Batch"
   },
   {
@@ -2686,7 +2686,7 @@
     "problem_id": "180106",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0646",
     "tasktype": "Batch"
   },
   {
@@ -2696,7 +2696,7 @@
     "problem_id": "180201",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0647",
     "tasktype": "Batch"
   },
   {
@@ -2706,7 +2706,7 @@
     "problem_id": "180202",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0648",
     "tasktype": "Batch"
   },
   {
@@ -2716,7 +2716,7 @@
     "problem_id": "180203",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0649",
     "tasktype": "Batch"
   },
   {
@@ -2726,7 +2726,7 @@
     "problem_id": "180204",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0650",
     "tasktype": "Batch"
   },
   {
@@ -2734,6 +2734,126 @@
     "name": "毒蛇の脱走",
     "source": "18本選5",
     "problem_id": "180205",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "0651",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Construction of Highway",
+    "source": "18春合宿1-1",
+    "problem_id": "180301",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Fences",
+    "source": "18春合宿1-2",
+    "problem_id": "180302",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Tents",
+    "source": "18春合宿1-3",
+    "problem_id": "180303",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Asceticism",
+    "source": "18春合宿2-1",
+    "problem_id": "180401",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Road Service",
+    "source": "18春合宿2-2",
+    "problem_id": "180402",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "-1",
+    "name": "Worst Reporter 3",
+    "source": "18春合宿2-3",
+    "problem_id": "180403",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Airline Route Map",
+    "source": "18春合宿3-1",
+    "problem_id": "180501",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "-1",
+    "name": "Bitaro’s Party",
+    "source": "18春合宿3-2",
+    "problem_id": "180502",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Security Gate",
+    "source": "18春合宿3-3",
+    "problem_id": "180503",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Candies",
+    "source": "18春合宿4-1",
+    "problem_id": "180601",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Library",
+    "source": "18春合宿4-2",
+    "problem_id": "180602",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "-1",
+    "name": "Wild Boar",
+    "source": "18春合宿4-3",
+    "problem_id": "180603",
     "atcoder_contest": "",
     "atcoder_id": "",
     "aoj_id": "",
