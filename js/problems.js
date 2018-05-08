@@ -54,7 +54,7 @@ $(function(){
     }
 
     $.when(
-      //Atcoder 状態取得
+      //AtCoder 状態取得
       $.ajax({
         url:"http://kenkoooo.com/atcoder/atcoder-api/results",
         data:{user : user.atcoder},
@@ -64,7 +64,7 @@ $(function(){
         cache:false,
         error:function(){
           failed_atcoder = true;
-          //alert("Atcoder読み込み失敗");
+          //alert("AtCoder読み込み失敗");
         },
         success:function(data){
           $(data).each(function(){
@@ -284,13 +284,13 @@ $(function(){
           //エラー表示
           if(failed_aoj_user || failed_aoj_rival){
             if(failed_atcoder_user || failed_atcoder_rival){
-              $("#error_msg").text("AOJ, Atcoder情報取得失敗");
+              $("#error_msg").text("AOJ, AtCoder情報取得失敗");
             }else{
               $("#error_msg").text("AOJ情報取得失敗");
             }
           }else{
             if(failed_atcoder_user || failed_atcoder_rival){
-              $("#error_msg").text("Atcoder情報取得失敗");
+              $("#error_msg").text("AtCoder情報取得失敗");
             }else{
               $("#error_msg").text("");
             }
