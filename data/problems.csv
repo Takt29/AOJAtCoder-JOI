@@ -262,12 +262,12 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
 12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
 11,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
-1,鉛筆,18予選1,180101,,,0641,Batch
-2,すごろく,18予選2,180102,,,0642,Batch
-3,幹線道路,18予選3,180103,,,0643,Batch
-7,水ようかん,18予選4,180104,,,0644,Batch
-7,森林伐採,18予選5,180105,,,0645,Batch
-9,L番目のK番目の数,18予選6,180106,,,0646,Batch
+1,鉛筆,18予選1,180101,joi2018yo,joi2018_yo_a,0641,Batch
+2,すごろく,18予選2,180102,joi2018yo,joi2018_yo_b,0642,Batch
+3,幹線道路,18予選3,180103,joi2018yo,joi2018_yo_c,0643,Batch
+7,水ようかん,18予選4,180104,joi2018yo,joi2018_yo_d,0644,Batch
+7,森林伐採,18予選5,180105,joi2018yo,joi2018_yo_e,0645,Batch
+9,L番目のK番目の数,18予選6,180106,joi2018yo,joi2018_yo_f,0646,Batch
 -1,ストーブ,18本選1,180201,,,0647,Batch
 -1,美術展,18本選2,180202,,,0648,Batch
 -1,団子職人,18本選3,180203,,,0649,Batch
