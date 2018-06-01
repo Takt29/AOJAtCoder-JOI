@@ -1,4 +1,4 @@
-DirectoryIndex index.html index.php main.html
-RewriteEngine on
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ http://joi.goodbaton.com/$1 [R=301,L]
+DirectoryIndex index.html
+<Files ~ "^\.(.*)$|README">
+  deny from all
+</Files>
