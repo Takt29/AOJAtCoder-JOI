@@ -56,8 +56,8 @@ $(function(){
     $.when(
       //AtCoder 状態取得
       $.ajax({
-        url:"http://kenkoooo.com/atcoder/atcoder-api/results",
-        data:{user : user.atcoder},
+        url:"http://joi.azurewebsites.net/proxy.php",
+        data:{ url:"http://kenkoooo.com/atcoder/atcoder-api/results?user="+user.atcoder },
         type:"get",
         dataType:"json",
         timeout:3000,
