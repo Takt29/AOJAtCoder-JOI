@@ -41,7 +41,7 @@ $(function(){
   }
 
   //回答状況取得
-  var get_user_status = function(aoj_to_problemid, atcoder_to_problemid, user, callback){
+  var get_user_status = async function(aoj_to_problemid, atcoder_to_problemid, user, callback){
 
     //初期化
     var solved = {};
@@ -53,9 +53,9 @@ $(function(){
       return;
     }
 
-    $.when(
-      //AtCoder 状態取得
-      $.ajax({
+    //AtCoder 状態取得
+    if (user.atcoder) {
+      await $.ajax({
         url:"https://kenkoooo.com/atcoder/atcoder-api/results?user="+user.atcoder,
         type:"get",
         dataType:"json",
@@ -73,9 +73,11 @@ $(function(){
           });
         }
       })
-    ).always(
-      //AOJ 状態取得
-      $.ajax({
+    }
+    
+    //AOJ 状態取得
+    if (user.aoj) {
+      await $.ajax({
         url:"https://judgeapi.u-aizu.ac.jp/solutions/users/" + user.aoj,
         data:{size: 9999},
         type:"get",
@@ -93,12 +95,9 @@ $(function(){
           });
         }
       })
-    ).done(
-      function(){
-        callback(solved, failed_aoj, failed_atcoder);
-      }
-    );
-
+    }
+  
+    await callback(solved, failed_aoj, failed_atcoder);
   }
 
   //初期地
