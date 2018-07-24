@@ -190,7 +190,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 11,Scarecrows,14春合宿3-2,140502,joisc2014,joisc2014_i,,Batch
 10,Voltage,14春合宿3-3,140503,joisc2014,joisc2014_j,,Batch
 11,Constellation 2,14春合宿4-1,140601,joisc2014,joisc2014_k,,Batch
-11,Kanji Shiritori,14春合宿4-2,140602,joisc2014,joisc2014_l,,Communication
+12,Kanji Shiritori,14春合宿4-2,140602,joisc2014,joisc2014_l,,Communication
 7,Straps,14春合宿4-3,140603,joisc2014,joisc2014_m,,Batch
 1,水道料金,15予選1,150101,joi2015yo,joi2015yo_a,0608,Batch
 2,クリスマスパーティー,15予選2,150102,joi2015yo,joi2015yo_b,0609,Batch
@@ -255,24 +255,24 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 12,Sparklers,17春合宿1-3,170303,joisc2017,joisc2017_c,,Batch
 12,Arranging Tickets,17春合宿2-1,170401,joisc2017,joisc2017_d,,Batch
 11,Broken Device,17春合宿2-2,170402,joisc2017,joisc2017_e,,Communication
-11,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,,Batch
+12,Railway Trip,17春合宿2-3,170403,joisc2017,joisc2017_f,,Batch
 11,Long Distance Coach,17春合宿3-1,170501,joisc2017,joisc2017_g,,Batch
-9,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,,Batch
+10,Long Mansion,17春合宿3-2,170502,joisc2017,joisc2017_h,,Batch
 12,Natural Park,17春合宿3-3,170503,joisc2017,joisc2017_i,,Communication
-10,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
+11,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
 12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
 11,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
-1,鉛筆,18予選1,180101,joi2018yo,joi2018_yo_a,0641,Batch
-2,すごろく,18予選2,180102,joi2018yo,joi2018_yo_b,0642,Batch
-3,幹線道路,18予選3,180103,joi2018yo,joi2018_yo_c,0643,Batch
-7,水ようかん,18予選4,180104,joi2018yo,joi2018_yo_d,0644,Batch
-7,森林伐採,18予選5,180105,joi2018yo,joi2018_yo_e,0645,Batch
-9,L番目のK番目の数,18予選6,180106,joi2018yo,joi2018_yo_f,0646,Batch
--1,ストーブ,18本選1,180201,,,0647,Batch
--1,美術展,18本選2,180202,,,0648,Batch
--1,団子職人,18本選3,180203,,,0649,Batch
--1,定期券,18本選4,180204,,,0650,Batch
--1,毒蛇の脱走,18本選5,180205,,,0651,Batch
+1,鉛筆,18予選1,180101,joi2018yo,joi2018yo_a,0641,Batch
+2,すごろく,18予選2,180102,joi2018yo,joi2018yo_b,0642,Batch
+3,幹線道路,18予選3,180103,joi2018yo,joi2018yo_c,0643,Batch
+7,水ようかん,18予選4,180104,joi2018yo,joi2018yo_d,0644,Batch
+7,森林伐採,18予選5,180105,joi2018yo,joi2018yo_e,0645,Batch
+9,L番目のK番目の数,18予選6,180106,joi2018yo,joi2018yo_f,0646,Batch
+5,ストーブ,18本選1,180201,,,0647,Batch
+7,美術展,18本選2,180202,,,0648,Batch
+9,団子職人,18本選3,180203,,,0649,Batch
+9,定期券,18本選4,180204,,,0650,Batch
+11,毒蛇の脱走,18本選5,180205,,,0651,Batch
 -1,Construction of Highway,18春合宿1-1,180301,,,,Batch
 -1,Fences,18春合宿1-2,180302,,,,Batch
 -1,Tents,18春合宿1-3,180303,,,,Batch

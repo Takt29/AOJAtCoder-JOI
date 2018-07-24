@@ -1910,7 +1910,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "11",
+    "level": "12",
     "name": "Kanji Shiritori",
     "source": "14春合宿4-2",
     "problem_id": "140602",
@@ -2560,7 +2560,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "11",
+    "level": "12",
     "name": "Railway Trip",
     "source": "17春合宿2-3",
     "problem_id": "170403",
@@ -2580,7 +2580,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "Long Mansion",
     "source": "17春合宿3-2",
     "problem_id": "170502",
@@ -2600,7 +2600,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "10",
+    "level": "11",
     "name": "Abduction 2",
     "source": "17春合宿4-1",
     "problem_id": "170601",
@@ -2635,7 +2635,7 @@
     "source": "18予選1",
     "problem_id": "180101",
     "atcoder_contest": "joi2018yo",
-    "atcoder_id": "joi2018_yo_a",
+    "atcoder_id": "joi2018yo_a",
     "aoj_id": "0641",
     "tasktype": "Batch"
   },
@@ -2645,7 +2645,7 @@
     "source": "18予選2",
     "problem_id": "180102",
     "atcoder_contest": "joi2018yo",
-    "atcoder_id": "joi2018_yo_b",
+    "atcoder_id": "joi2018yo_b",
     "aoj_id": "0642",
     "tasktype": "Batch"
   },
@@ -2655,7 +2655,7 @@
     "source": "18予選3",
     "problem_id": "180103",
     "atcoder_contest": "joi2018yo",
-    "atcoder_id": "joi2018_yo_c",
+    "atcoder_id": "joi2018yo_c",
     "aoj_id": "0643",
     "tasktype": "Batch"
   },
@@ -2665,7 +2665,7 @@
     "source": "18予選4",
     "problem_id": "180104",
     "atcoder_contest": "joi2018yo",
-    "atcoder_id": "joi2018_yo_d",
+    "atcoder_id": "joi2018yo_d",
     "aoj_id": "0644",
     "tasktype": "Batch"
   },
@@ -2675,7 +2675,7 @@
     "source": "18予選5",
     "problem_id": "180105",
     "atcoder_contest": "joi2018yo",
-    "atcoder_id": "joi2018_yo_e",
+    "atcoder_id": "joi2018yo_e",
     "aoj_id": "0645",
     "tasktype": "Batch"
   },
@@ -2685,12 +2685,12 @@
     "source": "18予選6",
     "problem_id": "180106",
     "atcoder_contest": "joi2018yo",
-    "atcoder_id": "joi2018_yo_f",
+    "atcoder_id": "joi2018yo_f",
     "aoj_id": "0646",
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "5",
     "name": "ストーブ",
     "source": "18本選1",
     "problem_id": "180201",
@@ -2700,7 +2700,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "7",
     "name": "美術展",
     "source": "18本選2",
     "problem_id": "180202",
@@ -2710,7 +2710,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "9",
     "name": "団子職人",
     "source": "18本選3",
     "problem_id": "180203",
@@ -2720,7 +2720,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "9",
     "name": "定期券",
     "source": "18本選4",
     "problem_id": "180204",
@@ -2730,7 +2730,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "毒蛇の脱走",
     "source": "18本選5",
     "problem_id": "180205",
