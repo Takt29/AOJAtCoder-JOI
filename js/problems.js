@@ -18,7 +18,7 @@ $(function(){
   };
 
   //ソート関数
-  var sort_by = function(field1,field2,reverse){
+  var sort_by = function(field1, field2, reverse){
     reverse = (reverse) ? -1 : 1;
     return function(a,b){
       var a_1 = parseInt(a[field1]);
@@ -41,7 +41,7 @@ $(function(){
   }
 
   //回答状況取得
-  var get_user_status = async function(aoj_to_problemid, atcoder_to_problemid, user, callback){
+  var get_user_status = async (aoj_to_problemid, atcoder_to_problemid, user, callback) => {
 
     //初期化
     var solved = {};
@@ -52,48 +52,44 @@ $(function(){
       callback(solved);
       return;
     }
-
+    
     //AtCoder 状態取得
     if (user.atcoder) {
-      await $.ajax({
-        url:"https://kenkoooo.com/atcoder/atcoder-api/results?user="+user.atcoder,
-        type:"get",
-        dataType:"json",
-        timeout:3000,
-        cache:false,
-        error:function(){
-          failed_atcoder = true;
-          //alert("AtCoder読み込み失敗");
+      await axios({
+        method:'get',
+        url:'https://kenkoooo.com/atcoder/atcoder-api/results',
+        responseType:'json',
+        timeout: 3000,
+        params: {
+          user: user.atcoder,
         },
-        success:function(data){
-          $(data).each(function(){
-            if(this.result === "AC"){
-              solved[atcoder_to_problemid[this.problem_id]] = "1";
-            }
-          });
+      }).then(({data}) => {
+        for (const item of data) {
+          if (item.result === 'AC') {
+            solved[atcoder_to_problemid[item.problem_id]] = '1';
+          }
         }
+      }).catch((err) => {
+        failed_atcoder = true;
       })
     }
     
     //AOJ 状態取得
     if (user.aoj) {
-      await $.ajax({
-        url:"https://judgeapi.u-aizu.ac.jp/solutions/users/" + user.aoj,
-        data:{size: 9999},
-        type:"get",
-        dataType:"json",
+      await axios({
+        method: 'get',
+        url: `https://judgeapi.u-aizu.ac.jp/solutions/users/${user.aoj}`,
+        responseType: 'json',
         timeout:3000,
-        cache:false,
-        error:function(){
-          if (user.aoj)
-            failed_aoj = true;
-          //alert("AOJ読み込み失敗");
+        params: {
+          size: 9999
         },
-        success:function(data){
-          $(data).each(function(){
-            solved[aoj_to_problemid[this.problemId]] = "1";
-          });
+      }).then(({data}) => {
+        for (const item of data) {
+          solved[aoj_to_problemid[item.problemId]] = '1';
         }
+      }).catch((err) => {
+        failed_aoj = true;
       })
     }
   
@@ -114,8 +110,7 @@ $(function(){
     var k = url[i].split('=');
     arg[k[0]] = k[1];
   }
-
-
+  
   //パラメータ確認
   if(("year_begin" in arg == false) || ("year_end" in arg == false)){
     arg.year_begin = INIT_YEAR_BEGIN;
