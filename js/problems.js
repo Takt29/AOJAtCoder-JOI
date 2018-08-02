@@ -64,11 +64,11 @@ $(function(){
           user: user.atcoder,
         },
       }).then(({data}) => {
-        for (const item of data) {
+        data.forEach((item) => {
           if (item.result === 'AC') {
             solved[atcoder_to_problemid[item.problem_id]] = '1';
           }
-        }
+        })
       }).catch((err) => {
         failed_atcoder = true;
       })
@@ -85,9 +85,9 @@ $(function(){
           size: 9999
         },
       }).then(({data}) => {
-        for (const item of data) {
+        data.forEach((item) => {
           solved[aoj_to_problemid[item.problemId]] = '1';
-        }
+        })
       }).catch((err) => {
         failed_aoj = true;
       })
