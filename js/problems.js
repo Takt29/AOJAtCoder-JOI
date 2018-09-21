@@ -192,6 +192,8 @@ $(function(){
       aoj_to_problemid[this.aoj_id] = this.problem_id;
     });
 
+    $("#error_msg").text("情報取得中...(最大20秒)");
+    
     get_user_status(aoj_to_problemid, atcoder_to_problemid, user_id, function(user_ac, failed_aoj_user, failed_atcoder_user){
 
       get_user_status(aoj_to_problemid, atcoder_to_problemid, rival_id, function(rival_ac, failed_aoj_rival, failed_atcoder_rival){
