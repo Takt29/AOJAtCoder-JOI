@@ -59,7 +59,7 @@ $(function(){
         method:'get',
         url:'https://kenkoooo.com/atcoder/atcoder-api/results',
         responseType:'json',
-        timeout: 5000,
+        timeout: 15000,
         params: {
           user: user.atcoder,
         },
