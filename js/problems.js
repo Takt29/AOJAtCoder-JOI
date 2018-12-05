@@ -266,7 +266,7 @@ $(function(){
 
           var atcoder_link = "";
           if(this.atcoder_id !== ""){
-            atcoder_link = '<a href="http://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+this.name+'</a>';
+            atcoder_link = '<a href="https://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+this.name+'</a>';
           }else{
             atcoder_link = this.name;
           }
