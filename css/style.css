@@ -357,6 +357,14 @@ header h1 {
 h1 span {
   font-size:12px;
 }
+h1 a {
+  color: black;
+}
+
+h1 a:hover {
+  color: black;
+}
+
 
 /*================================================
  *  グローバルナビゲーション

@@ -98,7 +98,7 @@ $(function(){
 
   //初期地
   INIT_YEAR_BEGIN = "2007";
-  INIT_YEAR_END   = "2018";
+  INIT_YEAR_END   = "2019";
   INIT_SORT       = "level";
   
 
@@ -146,6 +146,8 @@ $(function(){
     arg.Communication = "1";
     arg.OutputOnly = "0";
   }
+
+  var beta_url = arg.beta_url === "1"
   
   $("#con_yo").prop('checked', arg.con_yo === "1");
   $("#con_ho").prop('checked', arg.con_ho === "1");
@@ -160,7 +162,7 @@ $(function(){
   $("#rival_aoj_userid").val(arg.rival_aoj_userid);
   $("#rival_atcoder_userid").val(arg.rival_atcoder_userid);
   $("#sort").val(arg.sort);
-
+  $("#beta_url").prop('checked', arg.beta_url === "1");
 
   var user_id = {"atcoder" : arg.atcoder_userid,
                  "aoj" : arg.aoj_userid};
@@ -266,14 +268,22 @@ $(function(){
 
           var atcoder_link = "";
           if(this.atcoder_id !== ""){
-            atcoder_link = '<a href="https://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+this.name+'</a>';
+            if(!beta_url)
+              atcoder_link = '<a href="https://'+this.atcoder_contest+'.contest.atcoder.jp/tasks/'+this.atcoder_id+'"  target="_blank">'+this.name+'</a>';
+            else
+              atcoder_link = '<a href="https://beta.atcoder.jp/contests/'+this.atcoder_contest+'/tasks/'+this.atcoder_id+'"  target="_blank">'+this.name+'</a>';
           }else{
             atcoder_link = this.name;
           }
           
           var aoj_link = "";
           if(this.aoj_id !== ""){
-            aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'"  target="_blank">★</a>';
+            var stage = this.source.match(/予選/) ? 'Prelim' : 'Final';
+                
+            if(!beta_url)
+              aoj_link = '<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id='+this.aoj_id+'"  target="_blank">★</a>';
+            else
+              aoj_link = '<a href="https://onlinejudge.u-aizu.ac.jp/challenges/sources/JOI/'+stage+'/'+this.aoj_id+'"  target="_blank">★</a>';
           }
 
           //エラー表示
