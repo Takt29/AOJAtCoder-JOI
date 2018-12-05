@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://joi.goodbaton.com/$1 [R=301,L]
