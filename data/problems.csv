@@ -144,6 +144,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,Chinese,12春合宿4-1,120601,joisc2012,joisc2012_chinese,,Batch
 12,Copy and Paste,12春合宿4-2,120602,joisc2012,joisc2012_copypaste,,Batch
 11,Invitation,12春合宿4-3,120603,joisc2012,joisc2012_invitation,,Batch
+-1,Code,12Open1,120701,joiopen2012,apio_code,,Batch
+-1,Jumps,12Open2,120702,joiopen2012,apio_jumps,,Batch
+-1,Mansion,12Open3,120703,joiopen2012,apio_mansion,,Batch
 1,宿題,13予選1,130101,joi2013yo,joi2013yo_a,0576,Batch
 2,数当てゲーム,13予選2,130102,joi2013yo,joi2013yo_b,0577,Batch
 4,看板,13予選3,130103,joi2013yo,joi2013yo_c,0578,Batch
@@ -168,6 +171,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Messenger,13春合宿4-1,130601,joisc2013-day4,joisc2013_messenger,,Communication
 8,Presents,13春合宿4-2,130602,joisc2013-day4,joisc2013_presents,,Batch
 12,Spaceships,13春合宿4-3,130603,joisc2013-day4,joisc2013_spaceships,,Batch
+-1,Vote-Value Disparity,13Open1,130701,,,,OutputOnly
+-1,Synchronization,13Open2,130702,,,,Batch
+-1,Watching,13Open3,130703,,,,Batch
 1,平均点,14予選1,140101,joi2014yo,joi2014yo_a,0592,Batch
 3,投票,14予選2,140102,joi2014yo,joi2014yo_b,0593,Batch
 4,超都観光,14予選3,140103,joi2014yo,joi2014yo_c,0594,Batch
@@ -192,6 +198,12 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 11,Constellation 2,14春合宿4-1,140601,joisc2014,joisc2014_k,,Batch
 12,Kanji Shiritori,14春合宿4-2,140602,joisc2014,joisc2014_l,,Communication
 7,Straps,14春合宿4-3,140603,joisc2014,joisc2014_m,,Batch
+-1,Factories,14Open1-1,140701,,,,Communication
+-1,Fortune Telling 2,14Open1-2,140702,,,,Batch
+-1,Space Pirate,14Open1-3,140703,,,,Batch
+-1,Project of Migration,14Open2-1,140801,,,,OutputOnly
+-1,Pinball,14Open2-2,140802,,,,Batch
+-1,Secret,14Open2-3,140803,,,,Communication
 1,水道料金,15予選1,150101,joi2015yo,joi2015yo_a,0608,Batch
 2,クリスマスパーティー,15予選2,150102,joi2015yo,joi2015yo_b,0609,Batch
 3,気象予報士,15予選3,150103,joi2015yo,joi2015yo_c,0610,Batch
@@ -216,6 +228,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 8,Inheritance,15春合宿4-1,150601,joisc2015,joisc2015_k,,Batch
 10,Limited Memory,15春合宿4-2,150602,joisc2015,joisc2015_l,,Communication
 12,Walls,15春合宿4-3,150603,joisc2015,joisc2015_m,,Batch
+-1,Colored Tiles,15Open1,150701,,,,OutputOnly
+-1,Election Campaign,15Open2,150702,,,,Batch
+-1,Sterilizing Spray,15Open3,150703,,,,Batch
 1,科目選択,16予選1,160101,joi2016yo,joi2016yo_a,0619,Batch
 2,ゼッケンの交換,16予選2,160102,joi2016yo,joi2016yo_b,0620,Batch
 3,ロシアの旗,16予選3,160103,joi2016yo,joi2016yo_c,0621,Batch
@@ -239,6 +254,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Dangerous Skating,16春合宿4-1,160601,joisc2016,joisc2016_j,,Batch
 9,Snowy Roads,16春合宿4-2,160602,,,,Communication
 10,Worst Reporter 2,16春合宿4-3,160603,joisc2016,joisc2016_l,,Batch
+-1,JOIRIS,16Open1,160701,,,,Batch
+-1,Selling RNA Strands,16Open2,160702,,,,Batch
+-1,Skyscraper,16Open3,160703,,,,Batch
 1,電子レンジ,17予選1,170101,joi2017yo,joi2017yo_a,0630,Batch
 2,ポイントカード,17予選2,170102,joi2017yo,joi2017yo_b,0631,Batch
 3,休憩所,17予選3,170103,joi2017yo,joi2017yo_c,0632,Batch
@@ -262,6 +280,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 11,Abduction 2,17春合宿4-1,170601,joisc2017,joisc2017_j,,Batch
 12,City,17春合宿4-2,170602,joisc2017,joisc2017_k,,Communication
 11,Dragon 2,17春合宿4-3,170603,joisc2017,joisc2017_l,,Batch
+-1,Amusement Park,17Open1,170701,,,,Communication
+-1,Bulldozer,17Open2,170702,,,,Batch
+-1,Golf,17Open3,170703,,,,Batch
 1,鉛筆,18予選1,180101,joi2018yo,joi2018_yo_a,0641,Batch
 2,すごろく,18予選2,180102,joi2018yo,joi2018_yo_b,0642,Batch
 3,幹線道路,18予選3,180103,joi2018yo,joi2018_yo_c,0643,Batch
@@ -285,6 +306,10 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 12,Candies,18春合宿4-1,180601,,,,Batch
 10,Library,18春合宿4-2,180602,,,,Communication
 12,Wild Boar,18春合宿4-3,180603,,,,Batch
+-1,Bubble Sort 2,18Open1,180701,,,,Batch
+-1,Cats or Dogs,18Open2,180702,,,,Batch
+-1,Collapse,18Open3,180703,,,,Batch
+-1,Xylophone,18Open4,180704,,,,Communication
 2,ソーシャルゲーム,19予選1,190101,,,,Batch
 2,すごろくと駒,19予選2,190102,,,,Batch
 4,マルバツスタンプ,19予選3,190103,,,,Batch

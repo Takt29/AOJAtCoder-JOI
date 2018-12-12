@@ -1450,6 +1450,36 @@
     "tasktype": "Batch"
   },
   {
+    "level": "-1",
+    "name": "Code",
+    "source": "12Open1",
+    "problem_id": "120701",
+    "atcoder_contest": "joiopen2012",
+    "atcoder_id": "apio_code",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Jumps",
+    "source": "12Open2",
+    "problem_id": "120702",
+    "atcoder_contest": "joiopen2012",
+    "atcoder_id": "apio_jumps",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Mansion",
+    "source": "12Open3",
+    "problem_id": "120703",
+    "atcoder_contest": "joiopen2012",
+    "atcoder_id": "apio_mansion",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
     "level": "1",
     "name": "宿題",
     "source": "13予選1",
@@ -1686,6 +1716,36 @@
     "problem_id": "130603",
     "atcoder_contest": "joisc2013-day4",
     "atcoder_id": "joisc2013_spaceships",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Vote-Value Disparity",
+    "source": "13Open1",
+    "problem_id": "130701",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "-1",
+    "name": "Synchronization",
+    "source": "13Open2",
+    "problem_id": "130702",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Watching",
+    "source": "13Open3",
+    "problem_id": "130703",
+    "atcoder_contest": "",
+    "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Batch"
   },
@@ -1930,6 +1990,66 @@
     "tasktype": "Batch"
   },
   {
+    "level": "-1",
+    "name": "Factories",
+    "source": "14Open1-1",
+    "problem_id": "140701",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "-1",
+    "name": "Fortune Telling 2",
+    "source": "14Open1-2",
+    "problem_id": "140702",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Space Pirate",
+    "source": "14Open1-3",
+    "problem_id": "140703",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Project of Migration",
+    "source": "14Open2-1",
+    "problem_id": "140801",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "-1",
+    "name": "Pinball",
+    "source": "14Open2-2",
+    "problem_id": "140802",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Secret",
+    "source": "14Open2-3",
+    "problem_id": "140803",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
     "level": "1",
     "name": "水道料金",
     "source": "15予選1",
@@ -2170,6 +2290,36 @@
     "tasktype": "Batch"
   },
   {
+    "level": "-1",
+    "name": "Colored Tiles",
+    "source": "15Open1",
+    "problem_id": "150701",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "-1",
+    "name": "Election Campaign",
+    "source": "15Open2",
+    "problem_id": "150702",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Sterilizing Spray",
+    "source": "15Open3",
+    "problem_id": "150703",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
     "level": "1",
     "name": "科目選択",
     "source": "16予選1",
@@ -2396,6 +2546,36 @@
     "problem_id": "160603",
     "atcoder_contest": "joisc2016",
     "atcoder_id": "joisc2016_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "JOIRIS",
+    "source": "16Open1",
+    "problem_id": "160701",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Selling RNA Strands",
+    "source": "16Open2",
+    "problem_id": "160702",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Skyscraper",
+    "source": "16Open3",
+    "problem_id": "160703",
+    "atcoder_contest": "",
+    "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Batch"
   },
@@ -2630,6 +2810,36 @@
     "tasktype": "Batch"
   },
   {
+    "level": "-1",
+    "name": "Amusement Park",
+    "source": "17Open1",
+    "problem_id": "170701",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "-1",
+    "name": "Bulldozer",
+    "source": "17Open2",
+    "problem_id": "170702",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Golf",
+    "source": "17Open3",
+    "problem_id": "170703",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
     "level": "1",
     "name": "鉛筆",
     "source": "18予選1",
@@ -2858,6 +3068,46 @@
     "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Bubble Sort 2",
+    "source": "18Open1",
+    "problem_id": "180701",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Cats or Dogs",
+    "source": "18Open2",
+    "problem_id": "180702",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Collapse",
+    "source": "18Open3",
+    "problem_id": "180703",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Xylophone",
+    "source": "18Open4",
+    "problem_id": "180704",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
   },
   {
     "level": "2",

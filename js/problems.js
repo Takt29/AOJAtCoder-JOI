@@ -118,6 +118,7 @@ $(function(){
     arg.con_yo = "1";
     arg.con_ho = "1";
     arg.con_sc = "1";
+    arg.con_op = "0";
   }
   
   if(("rival_aoj_userid" in arg == false) || ("rival_atcoder_userid" in arg == false)){
@@ -136,6 +137,7 @@ $(function(){
     arg.con_yo = "1";
     arg.con_ho = "1";
     arg.con_sc = "1";
+    arg.con_op = "0";
     arg.year_begin = INIT_YEAR_BEGIN;
     arg.year_end = INIT_YEAR_END;
     arg.aoj_userid = "";
@@ -152,6 +154,7 @@ $(function(){
   $("#con_yo").prop('checked', arg.con_yo === "1");
   $("#con_ho").prop('checked', arg.con_ho === "1");
   $("#con_sc").prop('checked', arg.con_sc === "1");
+  $("#con_op").prop('checked', arg.con_op === "1");
   $("#Batch").prop('checked', arg.Batch === "1");
   $("#Communication").prop('checked', arg.Communication === "1");
   $("#OutputOnly").prop('checked', arg.OutputOnly === "1");
@@ -228,6 +231,7 @@ $(function(){
           if(arg.con_yo !== "1" && this.problem_id.substr(2,2) == "01") return;
           if(arg.con_ho !== "1" && this.problem_id.substr(2,2) == "02") return;
           if(arg.con_sc !== "1" && "03" <= this.problem_id.substr(2,2) && this.problem_id.substr(2,2) <= "06") return;
+          if(arg.con_op !== "1" && "07" <= this.problem_id.substr(2,2) && this.problem_id.substr(2,2) <= "08") return;
 
           if(arg[this.tasktype] != "1") return;
           
