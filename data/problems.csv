@@ -273,15 +273,21 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,団子職人,18本選3,180203,,,0649,Batch
 9,定期券,18本選4,180204,,,0650,Batch
 11,毒蛇の脱走,18本選5,180205,,,0651,Batch
--1,Construction of Highway,18春合宿1-1,180301,,,,Batch
--1,Fences,18春合宿1-2,180302,,,,Batch
--1,Tents,18春合宿1-3,180303,,,,Batch
--1,Asceticism,18春合宿2-1,180401,,,,Batch
+11,Construction of Highway,18春合宿1-1,180301,,,,Batch
+12,Fences,18春合宿1-2,180302,,,,Batch
+9,Tents,18春合宿1-3,180303,,,,Batch
+12,Asceticism,18春合宿2-1,180401,,,,Batch
 -1,Road Service,18春合宿2-2,180402,,,,OutputOnly
--1,Worst Reporter 3,18春合宿2-3,180403,,,,Batch
--1,Airline Route Map,18春合宿3-1,180501,,,,Communication
--1,Bitaro’s Party,18春合宿3-2,180502,,,,Batch
--1,Security Gate,18春合宿3-3,180503,,,,Batch
--1,Candies,18春合宿4-1,180601,,,,Batch
--1,Library,18春合宿4-2,180602,,,,Communication
--1,Wild Boar,18春合宿4-3,180603,,,,Batch
+9,Worst Reporter 3,18春合宿2-3,180403,,,,Batch
+10,Airline Route Map,18春合宿3-1,180501,,,,Communication
+10,Bitaro’s Party,18春合宿3-2,180502,,,,Batch
+12,Security Gate,18春合宿3-3,180503,,,,Batch
+12,Candies,18春合宿4-1,180601,,,,Batch
+10,Library,18春合宿4-2,180602,,,,Communication
+12,Wild Boar,18春合宿4-3,180603,,,,Batch
+2,ソーシャルゲーム,19予選1,190101,,,,Batch
+2,すごろくと駒,19予選2,190102,,,,Batch
+4,マルバツスタンプ,19予選3,190103,,,,Batch
+6,日本沈没,19予選4,190104,,,,Batch
+7,イルミネーション,19予選5,190105,,,,Batch
+10,座席,19予選6,190106,,,,Batch

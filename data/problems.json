@@ -2740,7 +2740,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Construction of Highway",
     "source": "18春合宿1-1",
     "problem_id": "180301",
@@ -2750,7 +2750,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Fences",
     "source": "18春合宿1-2",
     "problem_id": "180302",
@@ -2760,7 +2760,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "9",
     "name": "Tents",
     "source": "18春合宿1-3",
     "problem_id": "180303",
@@ -2770,7 +2770,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Asceticism",
     "source": "18春合宿2-1",
     "problem_id": "180401",
@@ -2790,7 +2790,7 @@
     "tasktype": "OutputOnly"
   },
   {
-    "level": "-1",
+    "level": "9",
     "name": "Worst Reporter 3",
     "source": "18春合宿2-3",
     "problem_id": "180403",
@@ -2800,7 +2800,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Airline Route Map",
     "source": "18春合宿3-1",
     "problem_id": "180501",
@@ -2810,7 +2810,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Bitaro’s Party",
     "source": "18春合宿3-2",
     "problem_id": "180502",
@@ -2820,7 +2820,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Security Gate",
     "source": "18春合宿3-3",
     "problem_id": "180503",
@@ -2830,7 +2830,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Candies",
     "source": "18春合宿4-1",
     "problem_id": "180601",
@@ -2840,7 +2840,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Library",
     "source": "18春合宿4-2",
     "problem_id": "180602",
@@ -2850,10 +2850,70 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Wild Boar",
     "source": "18春合宿4-3",
     "problem_id": "180603",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "ソーシャルゲーム",
+    "source": "19予選1",
+    "problem_id": "190101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "すごろくと駒",
+    "source": "19予選2",
+    "problem_id": "190102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "マルバツスタンプ",
+    "source": "19予選3",
+    "problem_id": "190103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "日本沈没",
+    "source": "19予選4",
+    "problem_id": "190104",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "イルミネーション",
+    "source": "19予選5",
+    "problem_id": "190105",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "座席",
+    "source": "19予選6",
+    "problem_id": "190106",
     "atcoder_contest": "",
     "atcoder_id": "",
     "aoj_id": "",
