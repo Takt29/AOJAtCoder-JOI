@@ -310,9 +310,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 -1,Cats or Dogs,18Open2,180702,,,,Batch
 -1,Collapse,18Open3,180703,,,,Batch
 -1,Xylophone,18Open4,180704,,,,Communication
-2,ソーシャルゲーム,19予選1,190101,,,,Batch
-2,すごろくと駒,19予選2,190102,,,,Batch
-4,マルバツスタンプ,19予選3,190103,,,,Batch
-6,日本沈没,19予選4,190104,,,,Batch
-7,イルミネーション,19予選5,190105,,,,Batch
-10,座席,19予選6,190106,,,,Batch
+2,ソーシャルゲーム,19予選1,190101,joi2019yo,joi2019_yo_a,,Batch
+2,すごろくと駒,19予選2,190102,joi2019yo,joi2019_yo_b,,Batch
+4,マルバツスタンプ,19予選3,190103,joi2019yo,joi2019_yo_c,,Batch
+6,日本沈没,19予選4,190104,joi2019yo,joi2019_yo_d,,Batch
+7,イルミネーション,19予選5,190105,joi2019yo,joi2019_yo_e,,Batch
+10,座席,19予選6,190106,joi2019yo,joi2019_yo_f,,Batch
