@@ -289,11 +289,11 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 7,水ようかん,18予選4,180104,joi2018yo,joi2018_yo_d,0644,Batch
 7,森林伐採,18予選5,180105,joi2018yo,joi2018_yo_e,0645,Batch
 9,L番目のK番目の数,18予選6,180106,joi2018yo,joi2018_yo_f,0646,Batch
-5,ストーブ,18本選1,180201,,,0647,Batch
-7,美術展,18本選2,180202,,,0648,Batch
-9,団子職人,18本選3,180203,,,0649,Batch
-9,定期券,18本選4,180204,,,0650,Batch
-11,毒蛇の脱走,18本選5,180205,,,0651,Batch
+5,ストーブ,18本選1,180201,joi2018ho,joi2018ho_a,0647,Batch
+7,美術展,18本選2,180202,joi2018ho,joi2018ho_b,0648,Batch
+9,団子職人,18本選3,180203,joi2018ho,joi2018ho_c,0649,Batch
+9,定期券,18本選4,180204,joi2018ho,joi2018ho_d,0650,Batch
+11,毒蛇の脱走,18本選5,180205,joi2018ho,joi2018ho_e,0651,Batch
 11,Construction of Highway,18春合宿1-1,180301,,,,Batch
 12,Fences,18春合宿1-2,180302,,,,Batch
 9,Tents,18春合宿1-3,180303,,,,Batch
