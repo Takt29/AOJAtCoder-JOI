@@ -315,4 +315,9 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 4,マルバツスタンプ,19予選3,190103,joi2019yo,joi2019_yo_c,,Batch
 6,日本沈没,19予選4,190104,joi2019yo,joi2019_yo_d,,Batch
 7,イルミネーション,19予選5,190105,joi2019yo,joi2019_yo_e,,Batch
-10,座席,19予選6,190106,joi2019yo,joi2019_yo_f,,Batch
+11,座席,19予選6,190106,joi2019yo,joi2019_yo_f,,Batch
+5,勇者ビ太郎,19本選1,190201,,,,Batch
+7,展覧会,19本選2,190202,,,,Batch
+9,たのしいたのしいたのしい家庭菜園,19本選3,190203,,,,Batch
+11,コイン集め,19本選4,190204,,,,Batch
+12,珍しい都市,19本選5,190205,,,,Batch

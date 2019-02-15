@@ -3160,12 +3160,62 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "11",
     "name": "座席",
     "source": "19予選6",
     "problem_id": "190106",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "勇者ビ太郎",
+    "source": "19本選1",
+    "problem_id": "190201",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "展覧会",
+    "source": "19本選2",
+    "problem_id": "190202",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "たのしいたのしいたのしい家庭菜園",
+    "source": "19本選3",
+    "problem_id": "190203",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "コイン集め",
+    "source": "19本選4",
+    "problem_id": "190204",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "珍しい都市",
+    "source": "19本選5",
+    "problem_id": "190205",
+    "atcoder_contest": "",
+    "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Batch"
   }
