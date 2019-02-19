@@ -148,8 +148,13 @@
               </tr>
               <tr>
                 <th>
+                  フィルタ
                 </th>
                 <td colspan="2">
+                  <input type="checkbox" name="unsolvedOnly" id="unsolvedOnly" value="1">
+                  <label for="unsolvedOnly">ACした問題を非表示</label>
+                  <input type="checkbox" name="noJudge" id="noJudge" value="1">
+                  <label for="noJudge">Judge未存在問題を非表示</label>
                 </td>
                 <th>
                   URL
@@ -168,7 +173,7 @@
           </div>
         </form>
       </p>
-      
+
       <h2 id="statistics">統計</h2>
       <table cellpadding="0" cellspacing="0" border="0" class="statistics">
         <col width="7%" span="13"/>
@@ -181,12 +186,12 @@
           </tr>
         </tbody>
       </table>
-      
-      
+
+
 
       <h2 id="list">難易度表</h2>
       <div class="user_color"></div>
-      
+
       <table cellpadding="0" cellspacing="0" border="0" class="problems">
         <col width="10%" />
         <col width="55%" />

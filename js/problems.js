@@ -167,6 +167,8 @@ $(function(){
   $("#rival_atcoder_userid").val(arg.rival_atcoder_userid);
   $("#sort").val(arg.sort);
   $("#beta_url").prop('checked', arg.beta_url === "1");
+  $("#unsolvedOnly").prop('checked', arg.unsolvedOnly === "1")
+  $("#noJudge").prop('checked', arg.noJudge === "1")
 
   var user_id = {"atcoder" : arg.atcoder_userid,
                  "aoj" : arg.aoj_userid};
@@ -307,17 +309,22 @@ $(function(){
           }
 
           //表示
-          $('<tr>'+
-            '<td style="background:'+level_color[this.level].back+'; text-align:center; font-weight:bold;">'+
-            '<font color="'+level_color[this.level].str+'">'+
-            level_str+
-            '</font></td>'+
-            '<td class="'+td_class+'">'+atcoder_link+'</td>'+
-            '<td class="'+td_class+'" style="text-align:center">'+aoj_link+'</td>'+
-            '<td class="'+td_class+'">'+this.source+'</td>'+
-            '</tr>'
-           ).appendTo('table.problems tbody');
+          var show = true
+          show &= arg.unsolvedOnly !== "1" || user_ac[this.problem_id] !== "1"
+          show &= arg.noJudge !== "1" || td_class !== "not_exist"
 
+          if (show) {
+            $('<tr>'+
+              '<td style="background:'+level_color[this.level].back+'; text-align:center; font-weight:bold;">'+
+              '<font color="'+level_color[this.level].str+'">'+
+              level_str+
+              '</font></td>'+
+              '<td class="'+td_class+'">'+atcoder_link+'</td>'+
+              '<td class="'+td_class+'" style="text-align:center">'+aoj_link+'</td>'+
+              '<td class="'+td_class+'">'+this.source+'</td>'+
+              '</tr>'
+             ).appendTo('table.problems tbody');
+          }
         });
 
         //統計表
