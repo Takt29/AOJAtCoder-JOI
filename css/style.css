@@ -297,6 +297,9 @@ table.statistics td.user-name {
   border: 0px;
 }
 
+.downloadButton {
+  text-align: right;
+}
 
 
 /*================================================

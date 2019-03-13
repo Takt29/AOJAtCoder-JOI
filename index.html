@@ -12,7 +12,9 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
     <script type="text/javascript" src="js/jquery.scrollshow.js"></script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/downloadImage.js"></script>
     <script>
      $(function($){
        $('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 30, headerfix : $('nav')});
@@ -175,7 +177,7 @@
       </p>
 
       <h2 id="statistics">統計</h2>
-      <table cellpadding="0" cellspacing="0" border="0" class="statistics">
+      <table cellpadding="0" cellspacing="0" border="0" class="statistics" id="statistics-table">
         <col width="7%" span="13"/>
         <col width="9%"  />
         <tbody>
@@ -186,8 +188,10 @@
           </tr>
         </tbody>
       </table>
-
-
+      <div class="downloadButton">
+        <a onClick="getStatisticsTableImage()">画像ダウンロード</a>
+        <a id="getImage"></a>
+      </div>
 
       <h2 id="list">難易度表</h2>
       <div class="user_color"></div>
