@@ -7,6 +7,6 @@ RewriteRule ^(.*)$ https://joi.goodbaton.com/$1 [R=301,L]
 </Files>
 <IfModule mod_headers.c>
   <filesMatch "\.(css|js)$">
-    Header set Cache-Control "public, must-revalidate"
+    Header set Cache-Control "must-revalidate"
   </filesMatch>
 </IfModule>
