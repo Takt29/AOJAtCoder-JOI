@@ -3218,5 +3218,125 @@
     "atcoder_id": "",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Examination",
+    "source": "19春合宿1-1",
+    "problem_id": "190301",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Naan",
+    "source": "19春合宿1-2",
+    "problem_id": "190302",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Meetings",
+    "source": "19春合宿1-3",
+    "problem_id": "190303",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "-1",
+    "name": "Two Antennas",
+    "source": "19春合宿2-1",
+    "problem_id": "190401",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Two Dishes",
+    "source": "19春合宿2-2",
+    "problem_id": "190402",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Two Transportations",
+    "source": "19春合宿2-3",
+    "problem_id": "190403",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "-1",
+    "name": "Designated Cities",
+    "source": "19春合宿3-1",
+    "problem_id": "190501",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Lamps",
+    "source": "19春合宿3-2",
+    "problem_id": "190502",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Bitaro, who Leaps through Time",
+    "source": "19春合宿3-3",
+    "problem_id": "190503",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Cake 3",
+    "source": "19春合宿4-1",
+    "problem_id": "190601",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Mergers",
+    "source": "19春合宿4-2",
+    "problem_id": "190602",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "-1",
+    "name": "Minerals",
+    "source": "19春合宿4-3",
+    "problem_id": "190603",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
   }
 ]
