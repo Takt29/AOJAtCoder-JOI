@@ -3040,7 +3040,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Candies",
     "source": "18春合宿4-1",
     "problem_id": "180601",
@@ -3050,7 +3050,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Library",
     "source": "18春合宿4-2",
     "problem_id": "180602",
@@ -3116,7 +3116,7 @@
     "problem_id": "190101",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_a",
-    "aoj_id": "",
+    "aoj_id": "0652",
     "tasktype": "Batch"
   },
   {
@@ -3126,7 +3126,7 @@
     "problem_id": "190102",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_b",
-    "aoj_id": "",
+    "aoj_id": "0653",
     "tasktype": "Batch"
   },
   {
@@ -3136,7 +3136,7 @@
     "problem_id": "190103",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_c",
-    "aoj_id": "",
+    "aoj_id": "0654",
     "tasktype": "Batch"
   },
   {
@@ -3146,7 +3146,7 @@
     "problem_id": "190104",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_d",
-    "aoj_id": "",
+    "aoj_id": "0655",
     "tasktype": "Batch"
   },
   {
@@ -3156,7 +3156,7 @@
     "problem_id": "190105",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_e",
-    "aoj_id": "",
+    "aoj_id": "0656",
     "tasktype": "Batch"
   },
   {
@@ -3166,7 +3166,7 @@
     "problem_id": "190106",
     "atcoder_contest": "joi2019yo",
     "atcoder_id": "joi2019_yo_f",
-    "aoj_id": "",
+    "aoj_id": "0657",
     "tasktype": "Batch"
   },
   {
@@ -3176,7 +3176,7 @@
     "problem_id": "190201",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0658",
     "tasktype": "Batch"
   },
   {
@@ -3186,7 +3186,7 @@
     "problem_id": "190202",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0659",
     "tasktype": "Batch"
   },
   {
@@ -3196,7 +3196,7 @@
     "problem_id": "190203",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0660",
     "tasktype": "Batch"
   },
   {
@@ -3206,7 +3206,7 @@
     "problem_id": "190204",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0661",
     "tasktype": "Batch"
   },
   {
@@ -3216,11 +3216,11 @@
     "problem_id": "190205",
     "atcoder_contest": "",
     "atcoder_id": "",
-    "aoj_id": "",
+    "aoj_id": "0662",
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Examination",
     "source": "19春合宿1-1",
     "problem_id": "190301",
@@ -3230,7 +3230,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Naan",
     "source": "19春合宿1-2",
     "problem_id": "190302",
@@ -3240,7 +3240,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Meetings",
     "source": "19春合宿1-3",
     "problem_id": "190303",
@@ -3250,7 +3250,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Two Antennas",
     "source": "19春合宿2-1",
     "problem_id": "190401",
@@ -3260,7 +3260,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Two Dishes",
     "source": "19春合宿2-2",
     "problem_id": "190402",
@@ -3270,7 +3270,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Two Transportations",
     "source": "19春合宿2-3",
     "problem_id": "190403",
@@ -3280,7 +3280,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Designated Cities",
     "source": "19春合宿3-1",
     "problem_id": "190501",
@@ -3290,7 +3290,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Lamps",
     "source": "19春合宿3-2",
     "problem_id": "190502",
@@ -3300,7 +3300,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "9",
     "name": "Bitaro, who Leaps through Time",
     "source": "19春合宿3-3",
     "problem_id": "190503",
@@ -3310,7 +3310,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "11",
     "name": "Cake 3",
     "source": "19春合宿4-1",
     "problem_id": "190601",
@@ -3320,7 +3320,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "10",
     "name": "Mergers",
     "source": "19春合宿4-2",
     "problem_id": "190602",
@@ -3330,7 +3330,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "12",
     "name": "Minerals",
     "source": "19春合宿4-3",
     "problem_id": "190603",

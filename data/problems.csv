@@ -303,33 +303,33 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 10,Airline Route Map,18春合宿3-1,180501,,,,Communication
 10,Bitaro’s Party,18春合宿3-2,180502,,,,Batch
 12,Security Gate,18春合宿3-3,180503,,,,Batch
-12,Candies,18春合宿4-1,180601,,,,Batch
-10,Library,18春合宿4-2,180602,,,,Communication
+11,Candies,18春合宿4-1,180601,,,,Batch
+9,Library,18春合宿4-2,180602,,,,Communication
 12,Wild Boar,18春合宿4-3,180603,,,,Batch
 -1,Bubble Sort 2,18Open1,180701,,,,Batch
 -1,Cats or Dogs,18Open2,180702,,,,Batch
 -1,Collapse,18Open3,180703,,,,Batch
 -1,Xylophone,18Open4,180704,,,,Communication
-2,ソーシャルゲーム,19予選1,190101,joi2019yo,joi2019_yo_a,,Batch
-2,すごろくと駒,19予選2,190102,joi2019yo,joi2019_yo_b,,Batch
-4,マルバツスタンプ,19予選3,190103,joi2019yo,joi2019_yo_c,,Batch
-6,日本沈没,19予選4,190104,joi2019yo,joi2019_yo_d,,Batch
-7,イルミネーション,19予選5,190105,joi2019yo,joi2019_yo_e,,Batch
-11,座席,19予選6,190106,joi2019yo,joi2019_yo_f,,Batch
-5,勇者ビ太郎,19本選1,190201,,,,Batch
-7,展覧会,19本選2,190202,,,,Batch
-9,たのしいたのしいたのしい家庭菜園,19本選3,190203,,,,Batch
-11,コイン集め,19本選4,190204,,,,Batch
-12,珍しい都市,19本選5,190205,,,,Batch
--1,Examination,19春合宿1-1,190301,,,,Batch
--1,Naan,19春合宿1-2,190302,,,,Batch
--1,Meetings,19春合宿1-3,190303,,,,Communication
--1,Two Antennas,19春合宿2-1,190401,,,,Batch
--1,Two Dishes,19春合宿2-2,190402,,,,Batch
--1,Two Transportations,19春合宿2-3,190403,,,,Communication
--1,Designated Cities,19春合宿3-1,190501,,,,Batch
--1,Lamps,19春合宿3-2,190502,,,,Batch
--1,"Bitaro, who Leaps through Time",19春合宿3-3,190503,,,,Batch
--1,Cake 3,19春合宿4-1,190601,,,,Batch
--1,Mergers,19春合宿4-2,190602,,,,Batch
--1,Minerals,19春合宿4-3,190603,,,,Communication
+2,ソーシャルゲーム,19予選1,190101,joi2019yo,joi2019_yo_a,0652,Batch
+2,すごろくと駒,19予選2,190102,joi2019yo,joi2019_yo_b,0653,Batch
+4,マルバツスタンプ,19予選3,190103,joi2019yo,joi2019_yo_c,0654,Batch
+6,日本沈没,19予選4,190104,joi2019yo,joi2019_yo_d,0655,Batch
+7,イルミネーション,19予選5,190105,joi2019yo,joi2019_yo_e,0656,Batch
+11,座席,19予選6,190106,joi2019yo,joi2019_yo_f,0657,Batch
+5,勇者ビ太郎,19本選1,190201,,,0658,Batch
+7,展覧会,19本選2,190202,,,0659,Batch
+9,たのしいたのしいたのしい家庭菜園,19本選3,190203,,,0660,Batch
+11,コイン集め,19本選4,190204,,,0661,Batch
+12,珍しい都市,19本選5,190205,,,0662,Batch
+10,Examination,19春合宿1-1,190301,,,,Batch
+11,Naan,19春合宿1-2,190302,,,,Batch
+11,Meetings,19春合宿1-3,190303,,,,Communication
+12,Two Antennas,19春合宿2-1,190401,,,,Batch
+12,Two Dishes,19春合宿2-2,190402,,,,Batch
+11,Two Transportations,19春合宿2-3,190403,,,,Communication
+11,Designated Cities,19春合宿3-1,190501,,,,Batch
+12,Lamps,19春合宿3-2,190502,,,,Batch
+9,"Bitaro, who Leaps through Time",19春合宿3-3,190503,,,,Batch
+11,Cake 3,19春合宿4-1,190601,,,,Batch
+10,Mergers,19春合宿4-2,190602,,,,Batch
+12,Minerals,19春合宿4-3,190603,,,,Communication
