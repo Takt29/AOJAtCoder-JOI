@@ -3174,8 +3174,8 @@
     "name": "勇者ビ太郎",
     "source": "19本選1",
     "problem_id": "190201",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_a",
     "aoj_id": "0658",
     "tasktype": "Batch"
   },
@@ -3184,8 +3184,8 @@
     "name": "展覧会",
     "source": "19本選2",
     "problem_id": "190202",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_b",
     "aoj_id": "0659",
     "tasktype": "Batch"
   },
@@ -3194,8 +3194,8 @@
     "name": "たのしいたのしいたのしい家庭菜園",
     "source": "19本選3",
     "problem_id": "190203",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_c",
     "aoj_id": "0660",
     "tasktype": "Batch"
   },
@@ -3204,8 +3204,8 @@
     "name": "コイン集め",
     "source": "19本選4",
     "problem_id": "190204",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_d",
     "aoj_id": "0661",
     "tasktype": "Batch"
   },
@@ -3214,8 +3214,8 @@
     "name": "珍しい都市",
     "source": "19本選5",
     "problem_id": "190205",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_e",
     "aoj_id": "0662",
     "tasktype": "Batch"
   },
@@ -3280,7 +3280,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "11",
+    "level": "12",
     "name": "Designated Cities",
     "source": "19春合宿3-1",
     "problem_id": "190501",
@@ -3290,7 +3290,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "9",
     "name": "Lamps",
     "source": "19春合宿3-2",
     "problem_id": "190502",
@@ -3300,7 +3300,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "11",
     "name": "Bitaro, who Leaps through Time",
     "source": "19春合宿3-3",
     "problem_id": "190503",

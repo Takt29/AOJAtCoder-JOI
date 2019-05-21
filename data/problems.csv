@@ -316,20 +316,20 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 6,日本沈没,19予選4,190104,joi2019yo,joi2019_yo_d,0655,Batch
 7,イルミネーション,19予選5,190105,joi2019yo,joi2019_yo_e,0656,Batch
 11,座席,19予選6,190106,joi2019yo,joi2019_yo_f,0657,Batch
-5,勇者ビ太郎,19本選1,190201,,,0658,Batch
-7,展覧会,19本選2,190202,,,0659,Batch
-9,たのしいたのしいたのしい家庭菜園,19本選3,190203,,,0660,Batch
-11,コイン集め,19本選4,190204,,,0661,Batch
-12,珍しい都市,19本選5,190205,,,0662,Batch
+5,勇者ビ太郎,19本選1,190201,joi2019ho,joi2019ho_a,0658,Batch
+7,展覧会,19本選2,190202,joi2019ho,joi2019ho_b,0659,Batch
+9,たのしいたのしいたのしい家庭菜園,19本選3,190203,joi2019ho,joi2019ho_c,0660,Batch
+11,コイン集め,19本選4,190204,joi2019ho,joi2019ho_d,0661,Batch
+12,珍しい都市,19本選5,190205,joi2019ho,joi2019ho_e,0662,Batch
 10,Examination,19春合宿1-1,190301,,,,Batch
 11,Naan,19春合宿1-2,190302,,,,Batch
 11,Meetings,19春合宿1-3,190303,,,,Communication
 12,Two Antennas,19春合宿2-1,190401,,,,Batch
 12,Two Dishes,19春合宿2-2,190402,,,,Batch
 11,Two Transportations,19春合宿2-3,190403,,,,Communication
-11,Designated Cities,19春合宿3-1,190501,,,,Batch
-12,Lamps,19春合宿3-2,190502,,,,Batch
-9,"Bitaro, who Leaps through Time",19春合宿3-3,190503,,,,Batch
+12,Designated Cities,19春合宿3-1,190501,,,,Batch
+9,Lamps,19春合宿3-2,190502,,,,Batch
+11,"Bitaro, who Leaps through Time",19春合宿3-3,190503,,,,Batch
 11,Cake 3,19春合宿4-1,190601,,,,Batch
 10,Mergers,19春合宿4-2,190602,,,,Batch
 12,Minerals,19春合宿4-3,190603,,,,Communication
