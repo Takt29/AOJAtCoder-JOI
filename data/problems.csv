@@ -294,18 +294,18 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,団子職人,18本選3,180203,joi2018ho,joi2018ho_c,0649,Batch
 9,定期券,18本選4,180204,joi2018ho,joi2018ho_d,0650,Batch
 11,毒蛇の脱走,18本選5,180205,joi2018ho,joi2018ho_e,0651,Batch
-11,Construction of Highway,18春合宿1-1,180301,,,,Batch
-12,Fences,18春合宿1-2,180302,,,,Batch
-9,Tents,18春合宿1-3,180303,,,,Batch
-12,Asceticism,18春合宿2-1,180401,,,,Batch
--1,Road Service,18春合宿2-2,180402,,,,OutputOnly
-9,Worst Reporter 3,18春合宿2-3,180403,,,,Batch
+11,Construction of Highway,18春合宿1-1,180301,joisc2018,joisc2018_a,,Batch
+12,Fences,18春合宿1-2,180302,joisc2018,joisc2018_b,,Batch
+9,Tents,18春合宿1-3,180303,joisc2018,joisc2018_c,,Batch
+12,Asceticism,18春合宿2-1,180401,joisc2018,joisc2018_d,,Batch
+-1,Road Service,18春合宿2-2,180402,joisc2018,joisc2018_e,,OutputOnly
+9,Worst Reporter 3,18春合宿2-3,180403,joisc2018,joisc2018_f,,Batch
 10,Airline Route Map,18春合宿3-1,180501,,,,Communication
-10,Bitaro’s Party,18春合宿3-2,180502,,,,Batch
-12,Security Gate,18春合宿3-3,180503,,,,Batch
-11,Candies,18春合宿4-1,180601,,,,Batch
-9,Library,18春合宿4-2,180602,,,,Communication
-12,Wild Boar,18春合宿4-3,180603,,,,Batch
+10,Bitaro’s Party,18春合宿3-2,180502,joisc2018,joisc2018_h,,Batch
+12,Security Gate,18春合宿3-3,180503,joisc2018,joisc2018_i,,Batch
+11,Candies,18春合宿4-1,180601,joisc2018,joisc2018_j,,Batch
+9,Library,18春合宿4-2,180602,joisc2018,joisc2018_k,,Communication
+12,Wild Boar,18春合宿4-3,180603,joisc2018,joisc2018_l,,Batch
 -1,Bubble Sort 2,18Open1,180701,,,,Batch
 -1,Cats or Dogs,18Open2,180702,,,,Batch
 -1,Collapse,18Open3,180703,,,,Batch
