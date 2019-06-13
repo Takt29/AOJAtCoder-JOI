@@ -300,7 +300,7 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 12,Asceticism,18春合宿2-1,180401,joisc2018,joisc2018_d,,Batch
 -1,Road Service,18春合宿2-2,180402,joisc2018,joisc2018_e,,OutputOnly
 9,Worst Reporter 3,18春合宿2-3,180403,joisc2018,joisc2018_f,,Batch
-10,Airline Route Map,18春合宿3-1,180501,,,,Communication
+10,Airline Route Map,18春合宿3-1,180501,joisc2018,joisc2018_g,,Communication
 10,Bitaro’s Party,18春合宿3-2,180502,joisc2018,joisc2018_h,,Batch
 12,Security Gate,18春合宿3-3,180503,joisc2018,joisc2018_i,,Batch
 11,Candies,18春合宿4-1,180601,joisc2018,joisc2018_j,,Batch
@@ -321,15 +321,15 @@ level,name,source,problem_id,atcoder_contest,atcoder_id,aoj_id,tasktype
 9,たのしいたのしいたのしい家庭菜園,19本選3,190203,joi2019ho,joi2019ho_c,0660,Batch
 11,コイン集め,19本選4,190204,joi2019ho,joi2019ho_d,0661,Batch
 12,珍しい都市,19本選5,190205,joi2019ho,joi2019ho_e,0662,Batch
-10,Examination,19春合宿1-1,190301,,,,Batch
-11,Naan,19春合宿1-2,190302,,,,Batch
-11,Meetings,19春合宿1-3,190303,,,,Communication
-12,Two Antennas,19春合宿2-1,190401,,,,Batch
-12,Two Dishes,19春合宿2-2,190402,,,,Batch
-11,Two Transportations,19春合宿2-3,190403,,,,Communication
-12,Designated Cities,19春合宿3-1,190501,,,,Batch
-9,Lamps,19春合宿3-2,190502,,,,Batch
-11,"Bitaro, who Leaps through Time",19春合宿3-3,190503,,,,Batch
-11,Cake 3,19春合宿4-1,190601,,,,Batch
-10,Mergers,19春合宿4-2,190602,,,,Batch
-12,Minerals,19春合宿4-3,190603,,,,Communication
+10,Examination,19春合宿1-1,190301,joisc2019,joisc2019_a,,Batch
+11,Meetings,19春合宿1-2,190302,joisc2019,joisc2019_b,,Communication
+11,Naan,19春合宿1-3,190303,joisc2019,joisc2019_c,,Batch
+12,Two Antennas,19春合宿2-1,190401,joisc2019,joisc2019_d,,Batch
+12,Two Dishes,19春合宿2-2,190402,joisc2019,joisc2019_e,,Batch
+11,Two Transportations,19春合宿2-3,190403,joisc2019,joisc2019_f,,Communication
+12,Designated Cities,19春合宿3-1,190501,joisc2019,joisc2019_g,,Batch
+9,Lamps,19春合宿3-2,190502,joisc2019,joisc2019_h,,Batch
+11,"Bitaro, who Leaps through Time",19春合宿3-3,190503,joisc2019,joisc2019_i,,Batch
+11,Cake 3,19春合宿4-1,190601,joisc2019,joisc2019_j,,Batch
+10,Mergers,19春合宿4-2,190602,joisc2019,joisc2019_k,,Batch
+12,Minerals,19春合宿4-3,190603,joisc2019,joisc2019_l,,Communication
