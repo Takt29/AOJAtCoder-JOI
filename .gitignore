@@ -1,1 +1,9 @@
+# data
 *.numbers
+
+# client
+node_modules
+bundle.js
+
+# editor
+.vscode
