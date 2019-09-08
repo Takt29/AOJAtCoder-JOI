@@ -27,16 +27,16 @@ module.exports = {
         }]
       },
       {
-        test: /\.s?css$/i,
+        test: /\.s[ac]ss$/i,
         use: [
           'style-loader',
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              localIdentName: '[name]_[local]_[hash:base64:5]',
+              modules: {
+                localIdentName: '[name]_[local]_[hash:base64:5]',
+              },
               url: false
-
             }
           },
           'sass-loader'
