@@ -2,6 +2,7 @@ import React from 'react'
 import { Table } from 'react-bootstrap'
 import c from 'classnames'
 import { getAtCoderUrl, getAOJUrl } from '../../utils/Url'
+import levelColorStyle from '../common/LevelColor.scss'
 import styles from './DifficultyList.scss'
 
 class DifficultyList extends React.Component {
@@ -15,7 +16,7 @@ class DifficultyList extends React.Component {
 
     return (
       <tr className={notExist ? styles.notexist : isSolved ? styles.solved : null}>
-        <td className={c(styles[`level${level}`], styles.level)}>
+        <td className={c(levelColorStyle[`level${level}`], styles.level)}>
           {level}
         </td>
         <td className={styles.taskname}>
@@ -35,7 +36,7 @@ class DifficultyList extends React.Component {
     const { tasks, solves } = this.props
 
     return (
-      <Table>
+      <Table size='sm'>
         <thead className={styles.header}>
           <tr>
             <th>難易度</th>
