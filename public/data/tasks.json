@@ -1,6 +1,6 @@
 [
   {
-    "level": "-1",
+    "level": "0",
     "name": "カードゲーム(AOJ名)",
     "source": "06予選1",
     "problem_id": "060101",
@@ -10,7 +10,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "データ変換(AOJ名)",
     "source": "06予選2",
     "problem_id": "060102",
@@ -20,7 +20,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "サイコロ(AOJ名)",
     "source": "06予選3",
     "problem_id": "060103",
@@ -30,7 +30,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "カップ(AOJ名)",
     "source": "06予選4",
     "problem_id": "060104",
@@ -40,7 +40,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "カードゲーム２(AOJ名)",
     "source": "06予選5",
     "problem_id": "060105",
@@ -50,7 +50,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "アンケート(AOJ名)",
     "source": "06本選1",
     "problem_id": "060201",
@@ -60,7 +60,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "文字列(AOJ名)",
     "source": "06本選2",
     "problem_id": "060202",
@@ -70,7 +70,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "正方形(AOJ名)",
     "source": "06本選3",
     "problem_id": "060203",
@@ -80,7 +80,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "リング(AOJ名)",
     "source": "06本選4",
     "problem_id": "060204",
@@ -90,7 +90,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "シート(AOJ名)",
     "source": "06本選5",
     "problem_id": "060205",
@@ -1450,7 +1450,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Code",
     "source": "12Open1",
     "problem_id": "120701",
@@ -1460,7 +1460,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Jumps",
     "source": "12Open2",
     "problem_id": "120702",
@@ -1470,7 +1470,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Mansion",
     "source": "12Open3",
     "problem_id": "120703",
@@ -1720,7 +1720,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Vote-Value Disparity",
     "source": "13Open1",
     "problem_id": "130701",
@@ -1730,7 +1730,7 @@
     "tasktype": "OutputOnly"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Synchronization",
     "source": "13Open2",
     "problem_id": "130702",
@@ -1740,7 +1740,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Watching",
     "source": "13Open3",
     "problem_id": "130703",
@@ -1990,7 +1990,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Factories",
     "source": "14Open1-1",
     "problem_id": "140701",
@@ -2000,7 +2000,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Fortune Telling 2",
     "source": "14Open1-2",
     "problem_id": "140702",
@@ -2010,7 +2010,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Space Pirate",
     "source": "14Open1-3",
     "problem_id": "140703",
@@ -2020,7 +2020,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Project of Migration",
     "source": "14Open2-1",
     "problem_id": "140801",
@@ -2030,7 +2030,7 @@
     "tasktype": "OutputOnly"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Pinball",
     "source": "14Open2-2",
     "problem_id": "140802",
@@ -2040,7 +2040,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Secret",
     "source": "14Open2-3",
     "problem_id": "140803",
@@ -2290,7 +2290,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Colored Tiles",
     "source": "15Open1",
     "problem_id": "150701",
@@ -2300,7 +2300,7 @@
     "tasktype": "OutputOnly"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Election Campaign",
     "source": "15Open2",
     "problem_id": "150702",
@@ -2310,7 +2310,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Sterilizing Spray",
     "source": "15Open3",
     "problem_id": "150703",
@@ -2550,7 +2550,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "JOIRIS",
     "source": "16Open1",
     "problem_id": "160701",
@@ -2560,7 +2560,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Selling RNA Strands",
     "source": "16Open2",
     "problem_id": "160702",
@@ -2570,7 +2570,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Skyscraper",
     "source": "16Open3",
     "problem_id": "160703",
@@ -2810,7 +2810,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Amusement Park",
     "source": "17Open1",
     "problem_id": "170701",
@@ -2820,7 +2820,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Bulldozer",
     "source": "17Open2",
     "problem_id": "170702",
@@ -2830,7 +2830,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Golf",
     "source": "17Open3",
     "problem_id": "170703",
@@ -2990,7 +2990,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Road Service",
     "source": "18春合宿2-2",
     "problem_id": "180402",
@@ -3070,7 +3070,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Bubble Sort 2",
     "source": "18Open1",
     "problem_id": "180701",
@@ -3080,7 +3080,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Cats or Dogs",
     "source": "18Open2",
     "problem_id": "180702",
@@ -3090,7 +3090,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Collapse",
     "source": "18Open3",
     "problem_id": "180703",
@@ -3100,7 +3100,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "-1",
+    "level": "0",
     "name": "Xylophone",
     "source": "18Open4",
     "problem_id": "180704",
