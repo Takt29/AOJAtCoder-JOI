@@ -13,8 +13,6 @@ class DifficultyList extends React.Component {
     const aojUrl = getAOJUrl('JOI', aoj.classification, aoj.id)
     const notExist = !atcoderUrl && !aojUrl
 
-    if (notExist) console.log(task, styles.notexist)
-
     return (
       <tr className={notExist ? styles.notexist : isSolved ? styles.solved : null}>
         <td className={c(styles[`level${level}`], styles.level)}>
