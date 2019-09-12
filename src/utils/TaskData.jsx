@@ -17,7 +17,7 @@ const getTaskList = async () => {
   if (!res) return null
 
   const tasks = res.data.map(task => ({
-    level: task.level,
+    level: parseInt(task.level),
     name: task.name,
     id: task.problem_id,
     atcoder: {
@@ -37,13 +37,12 @@ const getTaskList = async () => {
 }
 
 const applyFilter = (tasks, filter) => {
-  const { taskType, hideFilter, contestType, year } = filter
+  const { taskType, contestType, year } = filter
 
   const filteredTasks = tasks
     .filter(task => !taskType || taskType.batch || task.type !== TASKTYPES.BATCH)
     .filter(task => !taskType || taskType.communication || task.type !== TASKTYPES.COMMUNICATION)
     .filter(task => !taskType || taskType.outputOnly || task.type !== TASKTYPES.OUTPUTONLY)
-    .filter(task => !hideFilter || !hideFilter.hideNotExistTask || task.atcoder.id || task.aoj.id)
     .filter(task => !contestType || contestType.prelim || !task.source.match(/予選/))
     .filter(task => !contestType || contestType.final || !task.source.match(/本選/))
     .filter(task => !contestType || contestType.springCamp || !task.source.match(/春合宿/))
