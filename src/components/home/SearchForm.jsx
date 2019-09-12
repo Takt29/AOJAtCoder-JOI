@@ -14,7 +14,7 @@ class SearchForm extends React.Component {
       myAccount: { atcoder: '', aoj: '' },
       rivalAccount: { atcoder: '', aoj: '' },
       taskType: { batch: true, communication: true, outputOnly: false },
-      filter: { hideACTask: false, hideNotExistTask: false, hideLevel: false },
+      hideFilter: { hideACTask: false, hideNotExistTask: false, hideLevel: false },
       contestType: { prelim: true, final: true, springCamp: true, open: false },
       year: { begin: '2007', end: 'latest' },
     }
@@ -26,9 +26,9 @@ class SearchForm extends React.Component {
 
   onSubmit() {
     const { onSubmit } = this.props
-    const { myAccount, rivalAccount, taskType, filter, contestType, year } = this.state
+    const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
 
-    const input = { myAccount, rivalAccount, taskType, filter, contestType, year }
+    const input = { myAccount, rivalAccount, taskType, hideFilter, contestType, year }
 
     if (onSubmit) {
       for (const key in input) {
@@ -40,7 +40,7 @@ class SearchForm extends React.Component {
   }
 
   render() {
-    const { myAccount, rivalAccount, taskType, filter, contestType, year } = this.state
+    const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
 
     return (
       <Form>
@@ -59,8 +59,8 @@ class SearchForm extends React.Component {
           onUpdate={(v) => this.onUpdate('taskType', v)}
         />
         <FilterForm
-          value={filter}
-          onUpdate={(v) => this.onUpdate('filter', v)}
+          value={hideFilter}
+          onUpdate={(v) => this.onUpdate('hideFilter', v)}
         />
         <ContestTypeForm
           value={contestType}

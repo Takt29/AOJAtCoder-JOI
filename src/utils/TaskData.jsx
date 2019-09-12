@@ -1,5 +1,11 @@
 import axios from 'axios'
 
+const TASKTYPES = {
+  BATCH: 'Batch',
+  COMMUNICATION: 'Communication',
+  OUTPUTONLY: 'OutputOnly',
+}
+
 const getTaskList = async () => {
   const res = await axios({
     method: 'get',
@@ -30,6 +36,25 @@ const getTaskList = async () => {
   return tasks
 }
 
+const applyFilter = (tasks, filter) => {
+  const { taskType, hideFilter, contestType, year } = filter
+
+  const filteredTasks = tasks
+    .filter(task => !taskType || taskType.batch || task.type !== TASKTYPES.BATCH)
+    .filter(task => !taskType || taskType.communication || task.type !== TASKTYPES.COMMUNICATION)
+    .filter(task => !taskType || taskType.outputOnly || task.type !== TASKTYPES.OUTPUTONLY)
+    .filter(task => !hideFilter || !hideFilter.hideNotExistTask || task.atcoder.id || task.aoj.id)
+    .filter(task => !contestType || contestType.prelim || !task.source.match(/予選/))
+    .filter(task => !contestType || contestType.final || !task.source.match(/本選/))
+    .filter(task => !contestType || contestType.springCamp || !task.source.match(/春合宿/))
+    .filter(task => !contestType || contestType.open || !task.source.match(/Open/))
+    .filter(task => !year || !parseInt(year.begin) || parseInt("20" + task.source.substr(0, 2)) >= year.begin)
+    .filter(task => !year || !parseInt(year.end) || parseInt("20" + task.source.substr(0, 2)) <= year.end)
+
+  return filteredTasks
+}
+
 export {
   getTaskList,
+  applyFilter,
 }
