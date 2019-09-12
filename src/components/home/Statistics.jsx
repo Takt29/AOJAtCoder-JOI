@@ -5,20 +5,40 @@ import styles from './Statistics.scss'
 
 class Statistics extends React.Component {
   render() {
-    const { account = {}, tasks, solved } = this.props
+    const { account = {}, tasks = [], isSolved = {} } = this.props
 
     const levelList = [...[...Array(12).keys()].map(i => i + 1), 0, 'ALL']
 
+    const taskCounter = {}
+    const acCounter = {}
+
+    for (const level of levelList) {
+      taskCounter[level] = 0
+      acCounter[level] = 0
+    }
+
+    for (const task of tasks) {
+      taskCounter[task.level] += 1
+      taskCounter['ALL'] += 1
+
+      if (isSolved[task.id]) {
+        acCounter[task.level] += 1
+        acCounter['ALL'] += 1
+      }
+    }
+
     return (
       <div>
-        <Badge variant="success">
-          {account.atcoder}/{account.aoj}
-        </Badge>
+        <h5>
+          <Badge variant="success" size="lg">
+            {account.atcoder}/{account.aoj}
+          </Badge>
+        </h5>
         <Table responsive className={styles.self} size='sm'>
           <thead>
             <tr>
               {levelList.map(level => (
-                <th className={levelColorStyles[`level${level}`]}>
+                <th key={level} className={levelColorStyles[`level${level}`]}>
                   {level}
                 </th>
               ))}
@@ -27,12 +47,16 @@ class Statistics extends React.Component {
           <tbody>
             <tr>
               {levelList.map(level => (
-                <td>0 / 0</td>
+                <td key={level}>
+                  {acCounter[level]} / {taskCounter[level]}
+                </td>
               ))}
             </tr>
             <tr>
               {levelList.map(level => (
-                <td>0％</td>
+                <td key={level}>
+                  {Math.floor(acCounter[level] / taskCounter[level] * 100) || 0}％
+                </td>
               ))}
             </tr>
           </tbody>
