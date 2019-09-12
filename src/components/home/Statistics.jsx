@@ -43,7 +43,7 @@ class Statistics extends React.Component {
             <tr>
               {levelList.map(level => (
                 <th key={level} className={levelColorStyles[`level${level}`]}>
-                  {level}
+                  {level === 0 ? '?' : level}
                 </th>
               ))}
             </tr>
