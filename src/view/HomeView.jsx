@@ -51,7 +51,11 @@ class HomeView extends React.Component {
           isSolved={isSolved}
         />
         <h3>難易度表</h3>
-        <DifficultyList tasks={filteredTasks} isSolved={isSolved} />
+        <DifficultyList
+          tasks={filteredTasks}
+          isSolved={isSolved}
+          filter={input}
+        />
       </div>
     )
   }

@@ -7,17 +7,19 @@ import styles from './DifficultyList.scss'
 
 class DifficultyList extends React.Component {
   static Item(props) {
-    const { task, isSolved } = props
+    const { task, isSolved, hideLevel } = props
     const { level, name, atcoder, aoj, source } = task
 
     const atcoderUrl = getAtCoderUrl(atcoder.contest, atcoder.id)
     const aojUrl = getAOJUrl('JOI', aoj.classification, aoj.id)
     const notExist = !atcoderUrl && !aojUrl
 
+    const displayLevel = !hideLevel ? level : '0'
+
     return (
       <tr className={notExist ? styles.notexist : isSolved ? styles.solved : null}>
-        <td className={c(levelColorStyle[`level${level}`], styles.level)}>
-          {level}
+        <td className={c(levelColorStyle[`level${displayLevel}`], styles.level)}>
+          {displayLevel !== '0' ? level : '?'}
         </td>
         <td className={styles.taskname}>
           <a href={atcoderUrl} target='_blank'>{name}</a>
@@ -33,7 +35,11 @@ class DifficultyList extends React.Component {
   }
 
   render() {
-    const { tasks, isSolved } = this.props
+    const { tasks, isSolved, filter: { hideFilter } } = this.props
+
+    const filteredTasks = tasks && tasks
+      .filter(task => !hideFilter || !hideFilter.hideACTask || !isSolved[task.id])
+      .filter(task => !hideFilter || !hideFilter.hideNotExistTask || task.atcoder.id || task.aoj.id)
 
     return (
       <Table size='sm'>
@@ -46,11 +52,12 @@ class DifficultyList extends React.Component {
           </tr>
         </thead>
         <tbody>
-          {tasks && tasks.map(task => (
+          {filteredTasks && filteredTasks.map(task => (
             <DifficultyList.Item
               key={task.id}
               task={task}
               isSolved={isSolved[task.id]}
+              hideLevel={hideFilter && hideFilter.hideLevel}
             />
           ))}
         </tbody>
