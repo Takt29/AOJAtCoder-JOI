@@ -20,6 +20,10 @@ class SearchForm extends React.Component {
     }
   }
 
+  componentDidMount() {
+    this.onSubmit()
+  }
+
   onUpdate(key, value) {
     this.setState({ [key]: value })
   }
