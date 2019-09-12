@@ -18,6 +18,10 @@ class Statistics extends React.Component {
     }
 
     for (const task of tasks) {
+      if ((!task.atcoder || !task.atcoder.id) && (!task.aoj || !task.aoj.id)) {
+        continue
+      }
+
       taskCounter[task.level] += 1
       taskCounter['ALL'] += 1
 
@@ -55,13 +59,16 @@ class Statistics extends React.Component {
             <tr>
               {levelList.map(level => (
                 <td key={level}>
-                  {Math.floor(acCounter[level] / taskCounter[level] * 100) || 0}％
+                  {
+                    taskCounter[level] ?
+                      Math.floor(acCounter[level] / taskCounter[level] * 100) : '--'
+                  }％
                 </td>
               ))}
             </tr>
           </tbody>
         </Table>
-      </div>
+      </div >
     )
   }
 }
