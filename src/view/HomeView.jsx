@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './HomeView.scss'
 import { DifficultyList, SearchForm, Statistics } from '../components'
 import { getTaskList } from '../utils/TaskData'
+import { getSolvedTaskList } from '../utils/SolvedTaskData';
 
 class HomeView extends React.Component {
   constructor(props) {
@@ -14,21 +15,30 @@ class HomeView extends React.Component {
     this.setState({ tasks })
   }
 
-  onSubmit(value) {
+  async onSubmit(input) {
+    const { tasks } = this.state
 
+    this.setState({ input })
+
+    const solved = await getSolvedTaskList(
+      tasks,
+      { atcoder: input.myAccount.atcoder, aoj: input.myAccount.aoj }
+    )
+
+    this.setState({ solved: solved.res })
   }
 
   render() {
-    const { tasks } = this.state
+    const { tasks, solved } = this.state
 
     return (
       <div className={styles.self}>
         <h3>検索</h3>
         <SearchForm onSubmit={this.onSubmit.bind(this)} />
         <h3>統計</h3>
-        <Statistics />
+        <Statistics tasks={tasks} solved={solved} />
         <h3>難易度表</h3>
-        <DifficultyList tasks={tasks} />
+        <DifficultyList tasks={tasks} solved={solved} />
       </div>
     )
   }

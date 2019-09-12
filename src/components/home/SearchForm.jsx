@@ -1,10 +1,11 @@
 import React from 'react'
-import { Form } from 'react-bootstrap'
+import { Form, Button } from 'react-bootstrap'
 import AccountForm from './form/AccountForm'
 import TaskTypeForm from './form/TaskTypeForm'
 import FilterForm from './form/FilterForm'
 import ContestTypeForm from './form/ContestTypeForm'
 import YearForm from './form/YearForm'
+import styles from './SearchForm.scss'
 
 class SearchForm extends React.Component {
   constructor(props) {
@@ -23,8 +24,22 @@ class SearchForm extends React.Component {
     this.setState({ [key]: value })
   }
 
-  render() {
+  onSubmit() {
     const { onSubmit } = this.props
+    const { myAccount, rivalAccount, taskType, filter, contestType, year } = this.state
+
+    const input = { myAccount, rivalAccount, taskType, filter, contestType, year }
+
+    if (onSubmit) {
+      for (const key in input) {
+        input[key] = Object.assign({}, input[key])
+      }
+
+      onSubmit(input)
+    }
+  }
+
+  render() {
     const { myAccount, rivalAccount, taskType, filter, contestType, year } = this.state
 
     return (
@@ -55,6 +70,13 @@ class SearchForm extends React.Component {
           value={year}
           onUpdate={(v) => this.onUpdate('year', v)}
         />
+
+        <Button
+          variant='info'
+          onClick={this.onSubmit.bind(this)}
+        >
+          表示
+        </Button>
       </Form>
     )
   }

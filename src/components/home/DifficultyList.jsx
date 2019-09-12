@@ -33,7 +33,14 @@ class DifficultyList extends React.Component {
   }
 
   render() {
-    const { tasks, solves } = this.props
+    const { tasks, solved } = this.props
+
+    const isSolved = {}
+    if (solved) {
+      for (const item of solved) {
+        isSolved[item.id] = true
+      }
+    }
 
     return (
       <Table size='sm'>
@@ -50,7 +57,7 @@ class DifficultyList extends React.Component {
             <DifficultyList.Item
               key={task.id}
               task={task}
-              isSolved={false}
+              isSolved={isSolved[task.id]}
             />
           ))}
         </tbody>
