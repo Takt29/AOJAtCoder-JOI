@@ -37,7 +37,7 @@ const getTaskList = async () => {
 }
 
 const applyFilter = (tasks, filter) => {
-  const { taskType, contestType, year } = filter
+  const { taskType, contestType, year, hideFilter } = filter
 
   const filteredTasks = tasks
     .filter(task => !taskType || taskType.batch || task.type !== TASKTYPES.BATCH)
@@ -49,6 +49,7 @@ const applyFilter = (tasks, filter) => {
     .filter(task => !contestType || contestType.open || !task.source.match(/Open/))
     .filter(task => !year || !parseInt(year.begin) || parseInt("20" + task.source.substr(0, 2)) >= year.begin)
     .filter(task => !year || !parseInt(year.end) || parseInt("20" + task.source.substr(0, 2)) <= year.end)
+    .filter(task => !hideFilter || !hideFilter.hideNotExistTask || task.atcoder.id || task.aoj.id)
 
   return filteredTasks
 }

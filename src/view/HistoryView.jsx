@@ -1,8 +1,8 @@
 import React from 'react'
 import { HistoryForm, HistoryStatistics } from '../components'
-import { getTaskList } from '../utils/TaskData'
+import { getTaskList, applyFilter as applyFilterForTasks } from '../utils/TaskData'
 import { getSolvedTaskList } from '../utils/SolvedTaskData'
-import { getContestList, applyFilter } from '../utils/ContestData'
+import { getContestList, applyFilter as applyFilterForContests } from '../utils/ContestData'
 import styles from './HistoryView.scss'
 
 class HistoryView extends React.Component {
@@ -19,6 +19,7 @@ class HistoryView extends React.Component {
   async componentDidMount() {
     const contests = await getContestList()
     const tasks = await getTaskList()
+
     this.setState({ tasks, contests })
   }
 
@@ -33,9 +34,10 @@ class HistoryView extends React.Component {
   }
 
   render() {
-    const { contests, tasks, solvedList } = this.state
+    const { contests, tasks, solvedList, input } = this.state
 
-    const filteredContests = applyFilter(contests, solvedList)
+    const filteredTasks = applyFilterForTasks(tasks, input)
+    const filteredContests = applyFilterForContests(contests, solvedList)
 
     return (
       <div className={styles.self}>
@@ -46,7 +48,7 @@ class HistoryView extends React.Component {
             <HistoryStatistics
               key={contest.id}
               contest={contest}
-              tasks={tasks}
+              tasks={filteredTasks}
               solvedList={solvedList}
             />
           ))

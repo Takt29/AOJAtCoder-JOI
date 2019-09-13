@@ -29,6 +29,11 @@ class TopBar extends React.Component {
               title="History"
               path={path}
             />
+            <TopBarLink
+              to='/link'
+              title="Link"
+              path={path}
+            />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

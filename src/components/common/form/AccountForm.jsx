@@ -6,7 +6,7 @@ class AccountForm extends React.Component {
     const { value, onUpdate } = this.props
 
     const newValue = Object.assign({}, value)
-    newValue[e.target.name] = e.target.value
+    newValue[e.target.name] = e.target.value.replace(/\s/g, '')
 
     if (onUpdate) onUpdate(newValue)
   }
