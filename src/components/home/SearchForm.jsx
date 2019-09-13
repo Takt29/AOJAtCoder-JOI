@@ -1,11 +1,13 @@
 import React from 'react'
-import { Col, Row, Form, Button } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
+import { withRouter } from 'react-router-dom'
 import AccountForm from '../common/form/AccountForm'
 import TaskTypeForm from '../common/form/TaskTypeForm'
 import FilterForm from '../common/form/FilterForm'
 import ContestTypeForm from '../common/form/ContestTypeForm'
 import YearForm from '../common/form/YearForm'
 import FormButton from '../common/form/FormButton'
+import { parseParams, createParams } from '../../utils/Params'
 import styles from './SearchForm.scss'
 
 class SearchForm extends React.Component {
@@ -21,7 +23,11 @@ class SearchForm extends React.Component {
     }
   }
 
-  componentDidMount() {
+  async componentDidMount() {
+    const { location } = this.props
+    const queryAccount = parseParams(location.search)
+    await this.setState(queryAccount)
+
     this.onSubmit()
   }
 
@@ -30,10 +36,13 @@ class SearchForm extends React.Component {
   }
 
   onSubmit() {
-    const { onSubmit } = this.props
+    const { onSubmit, history } = this.props
     const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
 
     const input = { myAccount, rivalAccount, taskType, hideFilter, contestType, year }
+
+    const queryString = createParams({ myAccount, rivalAccount })
+    history.push({ search: queryString })
 
     if (onSubmit) {
       for (const key in input) {
@@ -89,4 +98,4 @@ class SearchForm extends React.Component {
   }
 }
 
-export default SearchForm
+export default withRouter(SearchForm)

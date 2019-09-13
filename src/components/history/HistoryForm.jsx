@@ -1,10 +1,12 @@
 import React from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
+import { withRouter } from 'react-router-dom'
 import AccountForm from '../common/form/AccountForm'
 import TaskTypeForm from '../common/form/TaskTypeForm'
 import ContestTypeForm from '../common/form/ContestTypeForm'
 import YearForm from '../common/form/YearForm'
 import FormButton from '../common/form/FormButton'
+import { parseParams, createParams } from '../../utils/Params'
 
 class HistoryForm extends React.Component {
   constructor(props) {
@@ -18,7 +20,11 @@ class HistoryForm extends React.Component {
     }
   }
 
-  componentDidMount() {
+  async componentDidMount() {
+    const { location } = this.props
+    const queryAccount = parseParams(location.search)
+    await this.setState({ account: queryAccount.myAccount })
+
     this.onSubmit()
   }
 
@@ -27,10 +33,13 @@ class HistoryForm extends React.Component {
   }
 
   onSubmit() {
-    const { onSubmit } = this.props
+    const { onSubmit, history } = this.props
     const { account, taskType, hideFilter, contestType, year } = this.state
 
     const input = { account, taskType, hideFilter, contestType, year }
+
+    const queryString = createParams({ myAccount: account })
+    history.push({ search: queryString })
 
     if (onSubmit) {
       for (const key in input) {
@@ -77,4 +86,4 @@ class HistoryForm extends React.Component {
   }
 }
 
-export default HistoryForm
+export default withRouter(HistoryForm)

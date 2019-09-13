@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 class TopBarLink extends React.Component {
   render() {
-    const { path, to, title } = this.props
+    const { path, to, search, title } = this.props
 
     return (
       <Nav.Item
@@ -12,7 +12,7 @@ class TopBarLink extends React.Component {
       >
         <Nav.Link
           as={Link}
-          to={to}
+          to={{ pathname: to, search: search }}
         >
           {title}
         </Nav.Link>

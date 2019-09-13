@@ -7,9 +7,10 @@ import TopBarLink from './TopBarLink'
 
 class TopBar extends React.Component {
   render() {
-    const { isHashRouter } = this.props
+    const { isHashRouter, location } = this.props
 
     const path = isHashRouter ? location.hash.slice(1) : location.pathname
+    const search = location.search
 
     return (
       <Navbar expand="md" bg="primary" variant="dark">
@@ -23,11 +24,13 @@ class TopBar extends React.Component {
               to='/'
               title="List"
               path={path}
+              search={search}
             />
             <TopBarLink
               to='/history'
               title="History"
               path={path}
+              search={search}
             />
             <TopBarLink
               to='/link'

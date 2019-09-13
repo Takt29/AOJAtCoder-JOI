@@ -18,22 +18,32 @@ class HomeView extends React.Component {
 
   async componentDidMount() {
     const tasks = await getTaskList()
-    this.setState({ busy: false, tasks })
+    await this.setState({ tasks })
+    await this.update()
+
+    await this.setState({ busy: false })
+  }
+
+  async update() {
+    const { tasks, input } = this.state
+
+    const solvedList = await getSolvedTaskList(tasks, input.myAccount)
+    const solvedListForRival = await getSolvedTaskList(tasks, input.rivalAccount)
+
+    await this.setState({
+      solvedList: solvedList.res,
+      solvedListForRival: solvedListForRival.res,
+    })
   }
 
   async onSubmit(input) {
     const { tasks } = this.state
 
-    this.setState({ busy: true, input })
+    await this.setState({ busy: true, input })
 
-    const solvedList = await getSolvedTaskList(tasks, input.myAccount)
-    const solvedListForRival = await getSolvedTaskList(tasks, input.rivalAccount)
+    if (tasks) await this.update()
 
-    this.setState({
-      busy: false,
-      solvedList: solvedList.res,
-      solvedListForRival: solvedListForRival.res,
-    })
+    await this.setState({ busy: false })
   }
 
   render() {

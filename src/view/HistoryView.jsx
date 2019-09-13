@@ -20,18 +20,29 @@ class HistoryView extends React.Component {
   async componentDidMount() {
     const contests = await getContestList()
     const tasks = await getTaskList()
+    await this.setState({ tasks, contests })
 
-    this.setState({ busy: false, tasks, contests })
+    if (contests && tasks) await this.update()
+
+    await this.setState({ busy: false })
+  }
+
+  async update() {
+    const { tasks, input } = this.state
+
+    const solvedList = await getSolvedTaskList(tasks, input.account)
+
+    await this.setState({ solvedList: solvedList.res })
   }
 
   async onSubmit(input) {
     const { tasks } = this.state
 
-    this.setState({ busy: true, input })
+    await this.setState({ busy: true, input })
 
-    const solvedList = await getSolvedTaskList(tasks, input.account)
+    if (tasks) await this.update()
 
-    this.setState({ busy: false, solvedList: solvedList.res })
+    await this.setState({ busy: false })
   }
 
   render() {
