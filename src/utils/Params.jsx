@@ -1,7 +1,6 @@
 import qs from 'query-string'
 
 const parseParams = (search = '') => {
-  console.log(search)
   const params = qs.parse(search)
 
   const { atcoder_id, aoj_id, rival_atcoder_id, rival_aoj_id } = params

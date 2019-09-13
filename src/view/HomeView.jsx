@@ -19,7 +19,8 @@ class HomeView extends React.Component {
   async componentDidMount() {
     const tasks = await getTaskList()
     await this.setState({ tasks })
-    await this.update()
+
+    if (tasks && tasks.length) await this.update()
 
     await this.setState({ busy: false })
   }
@@ -41,7 +42,7 @@ class HomeView extends React.Component {
 
     await this.setState({ busy: true, input })
 
-    if (tasks) await this.update()
+    if (tasks && tasks.length) await this.update()
 
     await this.setState({ busy: false })
   }

@@ -22,7 +22,9 @@ class HistoryView extends React.Component {
     const tasks = await getTaskList()
     await this.setState({ tasks, contests })
 
-    if (contests && tasks) await this.update()
+    if (contests && contests.length && tasks && tasks.length) {
+      await this.update()
+    }
 
     await this.setState({ busy: false })
   }
@@ -36,11 +38,11 @@ class HistoryView extends React.Component {
   }
 
   async onSubmit(input) {
-    const { tasks } = this.state
+    const { tasks = [] } = this.state
 
     await this.setState({ busy: true, input })
 
-    if (tasks) await this.update()
+    if (tasks.length) await this.update()
 
     await this.setState({ busy: false })
   }
