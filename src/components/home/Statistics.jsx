@@ -5,7 +5,7 @@ import styles from './Statistics.scss'
 
 class Statistics extends React.Component {
   render() {
-    const { account = {}, tasks = [], isSolved = {} } = this.props
+    const { account = {}, tasks = [], isSolved = {}, variant } = this.props
 
     const levelList = [...[...Array(12).keys()].map(i => i + 1), 0, 'ALL']
 
@@ -34,7 +34,7 @@ class Statistics extends React.Component {
     return (
       <div>
         <h5>
-          <Badge variant="success" size="lg">
+          <Badge variant={variant || "success"} size="lg">
             {account.atcoder}/{account.aoj}
           </Badge>
         </h5>

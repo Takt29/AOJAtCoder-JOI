@@ -7,7 +7,12 @@ import { getSolvedTaskList } from '../utils/SolvedTaskData';
 class HomeView extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { tasks: [], solvedList: [], input: {} }
+    this.state = {
+      tasks: [],
+      solvedList: [],
+      solvedListForRival: [],
+      input: {}
+    }
   }
 
   async componentDidMount() {
@@ -20,16 +25,17 @@ class HomeView extends React.Component {
 
     this.setState({ input })
 
-    const solvedList = await getSolvedTaskList(
-      tasks,
-      { atcoder: input.myAccount.atcoder, aoj: input.myAccount.aoj }
-    )
+    const solvedList = await getSolvedTaskList(tasks, input.myAccount)
+    const solvedListForRival = await getSolvedTaskList(tasks, input.rivalAccount)
 
-    this.setState({ solvedList: solvedList.res })
+    this.setState({
+      solvedList: solvedList.res,
+      solvedListForRival: solvedListForRival.res,
+    })
   }
 
   render() {
-    const { tasks, solvedList, input } = this.state
+    const { tasks, solvedList, solvedListForRival, input } = this.state
 
     const filteredTasks = applyFilter(tasks, input)
 
@@ -40,16 +46,35 @@ class HomeView extends React.Component {
       }
     }
 
+    const isSolvedByRival = {}
+    if (solvedListForRival) {
+      for (const item of solvedListForRival) {
+        isSolvedByRival[item.id] = true
+      }
+    }
+
     return (
       <div className={styles.self}>
         <h3>検索</h3>
         <SearchForm onSubmit={this.onSubmit.bind(this)} />
         <h3>統計</h3>
         <Statistics
+          variant='success'
           account={input.myAccount}
           tasks={filteredTasks}
           isSolved={isSolved}
         />
+        {
+          input.rivalAccount && (input.rivalAccount.aoj || input.rivalAccount.atcoder) &&
+          (
+            <Statistics
+              variant='warning'
+              account={input.rivalAccount}
+              tasks={filteredTasks}
+              isSolved={isSolvedByRival}
+            />
+          )
+        }
         <h3>難易度表</h3>
         <DifficultyList
           tasks={filteredTasks}
