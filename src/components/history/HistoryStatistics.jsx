@@ -7,6 +7,8 @@ class HistoryStatistics extends React.Component {
   render() {
     const { contest = {}, tasks = [], solvedList = [] } = this.props
 
+    const filteredTasks = tasks.filter(task => task.id < contest.id)
+
     const isSolved = {}
     if (solvedList) {
       for (const item of solvedList) {
@@ -25,7 +27,7 @@ class HistoryStatistics extends React.Component {
           </span>
         </h4>
         <Statistics
-          tasks={tasks}
+          tasks={filteredTasks}
           isSolved={isSolved}
         />
       </div>
