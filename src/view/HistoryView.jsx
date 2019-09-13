@@ -9,6 +9,7 @@ class HistoryView extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      busy: true,
       contests: [],
       tasks: [],
       solvedList: [],
@@ -20,21 +21,21 @@ class HistoryView extends React.Component {
     const contests = await getContestList()
     const tasks = await getTaskList()
 
-    this.setState({ tasks, contests })
+    this.setState({ busy: false, tasks, contests })
   }
 
   async onSubmit(input) {
     const { tasks } = this.state
 
-    this.setState({ input })
+    this.setState({ busy: true, input })
 
     const solvedList = await getSolvedTaskList(tasks, input.account)
 
-    this.setState({ solvedList: solvedList.res })
+    this.setState({ busy: false, solvedList: solvedList.res })
   }
 
   render() {
-    const { contests, tasks, solvedList, input } = this.state
+    const { contests, tasks, solvedList, input, busy } = this.state
 
     const filteredTasks = applyFilterForTasks(tasks, input)
     const filteredContests = applyFilterForContests(contests, solvedList)
@@ -42,7 +43,7 @@ class HistoryView extends React.Component {
     return (
       <div className={styles.self}>
         <h3>過去の記録</h3>
-        <HistoryForm onSubmit={this.onSubmit.bind(this)} />
+        <HistoryForm onSubmit={this.onSubmit.bind(this)} busy={busy} />
         {
           filteredContests.map(contest => (
             <HistoryStatistics

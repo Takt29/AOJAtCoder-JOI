@@ -1,9 +1,10 @@
 import React from 'react'
 import { Form, Button } from 'react-bootstrap'
 import AccountForm from '../common/form/AccountForm'
-import TaskTypeForm from '../common/form/TaskTypeForm';
-import ContestTypeForm from '../common/form/ContestTypeForm';
-import YearForm from '../common/form/YearForm';
+import TaskTypeForm from '../common/form/TaskTypeForm'
+import ContestTypeForm from '../common/form/ContestTypeForm'
+import YearForm from '../common/form/YearForm'
+import FormButton from '../common/form/FormButton'
 
 class HistoryForm extends React.Component {
   constructor(props) {
@@ -42,6 +43,7 @@ class HistoryForm extends React.Component {
 
   render() {
     const { account, taskType, contestType, year } = this.state
+    const { busy } = this.props
 
     return (
       <Form>
@@ -62,12 +64,14 @@ class HistoryForm extends React.Component {
           value={year}
           onUpdate={(v) => this.onUpdate('year', v)}
         />
-        <Button
+
+        <FormButton
           variant='info'
           onClick={this.onSubmit.bind(this)}
+          busy={busy}
         >
           表示
-        </Button>
+        </FormButton>
       </Form>
     )
   }

@@ -45,7 +45,7 @@ const getAtCoderSolvedTaskList = async (tasks, id) => {
     params: {
       user: id,
     },
-  })
+  }).catch(e => console.log(e))
 
   if (!res) return { success: false, list: [] }
 
@@ -74,7 +74,7 @@ const getAOJSolvedTaskList = async (tasks, id) => {
     params: {
       size: 9999
     },
-  })
+  }).catch(e => console.log(e))
 
   if (!res) return { success: false, list: [] }
 

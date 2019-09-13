@@ -6,7 +6,7 @@ const getContestList = async () => {
     url: './data/contests.json',
     responseType: 'json',
     timeout: 5000,
-  })
+  }).catch(e => console.log(e))
 
   if (!res) return null
 

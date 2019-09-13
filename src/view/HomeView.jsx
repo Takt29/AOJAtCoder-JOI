@@ -8,6 +8,7 @@ class HomeView extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      busy: true,
       tasks: [],
       solvedList: [],
       solvedListForRival: [],
@@ -17,25 +18,26 @@ class HomeView extends React.Component {
 
   async componentDidMount() {
     const tasks = await getTaskList()
-    this.setState({ tasks })
+    this.setState({ busy: false, tasks })
   }
 
   async onSubmit(input) {
     const { tasks } = this.state
 
-    this.setState({ input })
+    this.setState({ busy: true, input })
 
     const solvedList = await getSolvedTaskList(tasks, input.myAccount)
     const solvedListForRival = await getSolvedTaskList(tasks, input.rivalAccount)
 
     this.setState({
+      busy: false,
       solvedList: solvedList.res,
       solvedListForRival: solvedListForRival.res,
     })
   }
 
   render() {
-    const { tasks, solvedList, solvedListForRival, input } = this.state
+    const { tasks, solvedList, solvedListForRival, input, busy } = this.state
 
     const filteredTasks = applyFilter(tasks, input)
 
@@ -56,7 +58,7 @@ class HomeView extends React.Component {
     return (
       <div className={styles.self}>
         <h3>検索</h3>
-        <SearchForm onSubmit={this.onSubmit.bind(this)} />
+        <SearchForm onSubmit={this.onSubmit.bind(this)} busy={busy} />
         <h3>統計</h3>
         <HomeStatistics
           variant='success'

@@ -12,7 +12,7 @@ const getTaskList = async () => {
     url: './data/tasks.json',
     responseType: 'json',
     timeout: 5000,
-  })
+  }).catch(e => console.log(e))
 
   if (!res) return null
 

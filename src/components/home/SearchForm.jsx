@@ -1,10 +1,11 @@
 import React from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { Col, Row, Form, Button } from 'react-bootstrap'
 import AccountForm from '../common/form/AccountForm'
 import TaskTypeForm from '../common/form/TaskTypeForm'
 import FilterForm from '../common/form/FilterForm'
 import ContestTypeForm from '../common/form/ContestTypeForm'
 import YearForm from '../common/form/YearForm'
+import FormButton from '../common/form/FormButton'
 import styles from './SearchForm.scss'
 
 class SearchForm extends React.Component {
@@ -45,6 +46,7 @@ class SearchForm extends React.Component {
 
   render() {
     const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
+    const { busy } = this.props
 
     return (
       <Form>
@@ -75,12 +77,13 @@ class SearchForm extends React.Component {
           onUpdate={(v) => this.onUpdate('year', v)}
         />
 
-        <Button
+        <FormButton
           variant='info'
           onClick={this.onSubmit.bind(this)}
+          busy={busy}
         >
           表示
-        </Button>
+        </FormButton>
       </Form>
     )
   }
