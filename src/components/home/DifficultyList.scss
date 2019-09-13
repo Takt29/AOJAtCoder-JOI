@@ -1,3 +1,7 @@
+.account {
+  text-align: right;
+}
+
 .notexist {
   .taskname {
     background-color: #D6D6D6;
@@ -10,36 +14,8 @@
   }
 }
 
-.solved {
-  .taskname {
-    background-color: #D7FBD7;
-  }
-  .aojstar {
-    background-color: #D7FBD7;
-  }
-  .source {
-    background-color: #D7FBD7;
-  }
-}
-
 .header {
   text-align: center;
 }
 
-.level {
-  text-align: center;
-  font-weight: bold;
-}
 
-.taskname {
-  a {
-    text-decoration: none;
-  }
-}
-
-.aojstar {
-  text-align: center;
-  a {
-    text-decoration: none;
-  }
-}

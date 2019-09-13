@@ -1,0 +1,67 @@
+.solved {
+  .taskname {
+    background-color: #D7FBD7;
+  }
+  .aojstar {
+    background-color: #D7FBD7;
+  }
+  .source {
+    background-color: #D7FBD7;
+  }
+}
+
+.solvedByRival {
+  .taskname {
+    background-color: #F8CCC8;
+  }
+  .aojstar {
+    background-color: #F8CCC8;
+  }
+  .source {
+    background-color: #F8CCC8;
+  }
+}
+
+.solvedByBoth {
+  .taskname {
+    background-color: #FADDB1;
+  }
+  .aojstar {
+    background-color: #FADDB1;
+  }
+  .source {
+    background-color: #FADDB1;
+  }
+}
+
+.notexist {
+  .taskname {
+    background-color: #D6D6D6;
+  }
+  .aojstar {
+    background-color: #D6D6D6;
+  }
+  .source {
+    background-color: #D6D6D6;
+  }
+}
+
+.level {
+  text-align: center;
+  font-weight: bold;
+}
+
+.taskname {
+  a {
+    text-decoration: none;
+    color: var(--info);
+  }
+}
+
+.aojstar {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: var(--info);
+  }
+}
