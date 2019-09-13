@@ -64,7 +64,7 @@ class DifficultyList extends React.Component {
           myAccount={myAccount}
           rivalAccount={rivalAccount}
         />
-        <Table size='sm'>
+        <Table className={styles.self} size='sm' responsive>
           <thead className={styles.header}>
             <tr>
               <DifficultyList.SortableTh
