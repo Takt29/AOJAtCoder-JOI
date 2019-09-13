@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './HomeView.scss'
-import { DifficultyList, SearchForm, Statistics } from '../components'
+import { DifficultyList, SearchForm, HomeStatistics } from '../components'
 import { getTaskList, applyFilter } from '../utils/TaskData'
-import { getSolvedTaskList } from '../utils/SolvedTaskData';
+import { getSolvedTaskList } from '../utils/SolvedTaskData'
 
 class HomeView extends React.Component {
   constructor(props) {
@@ -58,7 +58,7 @@ class HomeView extends React.Component {
         <h3>検索</h3>
         <SearchForm onSubmit={this.onSubmit.bind(this)} />
         <h3>統計</h3>
-        <Statistics
+        <HomeStatistics
           variant='success'
           account={input.myAccount}
           tasks={filteredTasks}
@@ -67,7 +67,7 @@ class HomeView extends React.Component {
         {
           input.rivalAccount && (input.rivalAccount.aoj || input.rivalAccount.atcoder) &&
           (
-            <Statistics
+            <HomeStatistics
               variant='warning'
               account={input.rivalAccount}
               tasks={filteredTasks}

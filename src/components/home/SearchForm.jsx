@@ -1,10 +1,10 @@
 import React from 'react'
 import { Form, Button } from 'react-bootstrap'
-import AccountForm from './form/AccountForm'
-import TaskTypeForm from './form/TaskTypeForm'
-import FilterForm from './form/FilterForm'
-import ContestTypeForm from './form/ContestTypeForm'
-import YearForm from './form/YearForm'
+import AccountForm from '../common/form/AccountForm'
+import TaskTypeForm from '../common/form/TaskTypeForm'
+import FilterForm from '../common/form/FilterForm'
+import ContestTypeForm from '../common/form/ContestTypeForm'
+import YearForm from '../common/form/YearForm'
 import styles from './SearchForm.scss'
 
 class SearchForm extends React.Component {

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const getSolvedTaskList = async (tasks, { atcoder, aoj }) => {
+const getSolvedTaskList = async (tasks, { atcoder, aoj } = {}) => {
   const atcoderRes = await getAtCoderSolvedTaskList(tasks, atcoder)
   const aojRes = await getAOJSolvedTaskList(tasks, aoj)
 
