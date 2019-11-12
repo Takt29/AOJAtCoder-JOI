@@ -14,7 +14,6 @@ const getContestList = async () => {
     id: contest.id,
     name: contest.name,
     timestamp: (new Date(contest.timestamp)).getTime(),
-
   }))
 
   return contests
@@ -34,8 +33,10 @@ const applyFilter = (contests, solved) => {
     (new Date()).getTime()
   )
 
+  const currentTimestamp = (new Date()).getTime()
+
   for (const contest of contests) {
-    if (contest.timestamp && contest.timestamp > oldestTimestamp) {
+    if (contest.timestamp && contest.timestamp > oldestTimestamp && contest.timestamp <= currentTimestamp) {
       const copiedContest = Object.assign({}, contest)
       filteredContests.push(copiedContest)
     }
