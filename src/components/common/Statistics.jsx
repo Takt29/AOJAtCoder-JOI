@@ -32,36 +32,38 @@ class Statistics extends React.Component {
     }
 
     return (
-      <Table responsive className={styles.self} size='sm'>
-        <thead>
-          <tr>
-            {levelList.map(level => (
-              <th key={level} className={levelColorStyles[`level${level}`]}>
-                {level === 0 ? '?' : level}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            {levelList.map(level => (
-              <td key={level}>
-                {acCounter[level]} / {taskCounter[level]}
-              </td>
-            ))}
-          </tr>
-          <tr>
-            {levelList.map(level => (
-              <td key={level}>
-                {
-                  taskCounter[level] ?
-                    Math.floor(acCounter[level] / taskCounter[level] * 100) : '--'
-                }％
+      <div className={styles.self}>
+        <Table responsive className={styles.table} size='sm'>
+          <thead>
+            <tr>
+              {levelList.map(level => (
+                <th key={level} className={levelColorStyles[`level${level}`]}>
+                  {level === 0 ? '?' : level}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {levelList.map(level => (
+                <td key={level}>
+                  {acCounter[level]} / {taskCounter[level]}
                 </td>
-            ))}
-          </tr>
-        </tbody>
-      </Table>
+              ))}
+            </tr>
+            <tr>
+              {levelList.map(level => (
+                <td key={level}>
+                  {
+                    taskCounter[level] ?
+                      Math.floor(acCounter[level] / taskCounter[level] * 100) : '--'
+                  }％
+                </td>
+              ))}
+            </tr>
+          </tbody>
+        </Table>
+      </div>
     )
   }
 }
