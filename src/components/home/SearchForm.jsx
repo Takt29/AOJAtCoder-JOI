@@ -18,7 +18,7 @@ class SearchForm extends React.Component {
       rivalAccount: { atcoder: '', aoj: '' },
       taskType: { batch: true, communication: true, outputOnly: false },
       hideFilter: { hideACTask: false, hideNotExistTask: false, hideLevel: false },
-      contestType: { prelim: true, final: true, springCamp: true, open: false },
+      contestType: { prelim1: true, prelim2: true, final: true, springCamp: true, open: false },
       year: { begin: '2007', end: 'latest' },
     }
   }

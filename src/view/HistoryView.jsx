@@ -51,7 +51,7 @@ class HistoryView extends React.Component {
     const { contests, tasks, solvedList, input, busy } = this.state
 
     const filteredTasks = applyFilterForTasks(tasks, input)
-    const filteredContests = applyFilterForContests(contests, solvedList)
+    const filteredContests = applyFilterForContests(contests, solvedList, input)
 
     return (
       <div className={styles.self}>

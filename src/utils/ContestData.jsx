@@ -19,7 +19,8 @@ const getContestList = async () => {
   return contests
 }
 
-const applyFilter = (contests, solved) => {
+const applyFilter = (contests, solved, input) => {
+  const { tableContestType: contestType } = input
   const filteredContests = [{
     id: '9999',
     name: '現在',
@@ -44,8 +45,11 @@ const applyFilter = (contests, solved) => {
 
   filteredContests.sort((a, b) => b.timestamp - a.timestamp)
 
-
   return filteredContests
+    .filter(contest => !contestType || contestType.prelim1 || !contest.name.match(/一次予選/))
+    .filter(contest => !contestType || contestType.prelim2 || !contest.name.match(/二次予選|[^次]予選/))
+    .filter(contest => !contestType || contestType.final || !contest.name.match(/本選/))
+    .filter(contest => !contestType || contestType.springCamp || !contest.name.match(/春合宿/))
 }
 
 export {

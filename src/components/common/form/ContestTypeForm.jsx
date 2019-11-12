@@ -12,20 +12,31 @@ class ContestTypeForm extends React.Component {
   }
 
   render() {
-    const { value } = this.props
+    const { value, title, index = 1 } = this.props
 
     return (
       <Form.Group as={Row}>
         <Form.Label column sm={2}>
-          問題タイプ
+          {title || "大会タイプ"}
         </Form.Label>
         <Col sm={2}>
           <Form.Check
             type="checkbox"
-            label="予選"
-            name="prelim"
-            id="formContestTypePrelim"
-            checked={value.prelim}
+            label="一次予選"
+            name="prelim1"
+            id={`formContestTypePrelim1-${index}`}
+            checked={value.prelim1}
+            onChange={this.onUpdate.bind(this)}
+            custom
+          />
+        </Col>
+        <Col sm={2}>
+          <Form.Check
+            type="checkbox"
+            label="二次予選(旧予選)"
+            name="prelim2"
+            id={`formContestTypePrelim2-${index}`}
+            checked={value.prelim2}
             onChange={this.onUpdate.bind(this)}
             custom
           />
@@ -35,7 +46,7 @@ class ContestTypeForm extends React.Component {
             type="checkbox"
             label="本選"
             name="final"
-            id="formContestTypeFinal"
+            id={`formContestTypeFinal-${index}`}
             checked={value.final}
             onChange={this.onUpdate.bind(this)}
             custom
@@ -46,7 +57,7 @@ class ContestTypeForm extends React.Component {
             type="checkbox"
             label="春合宿"
             name="springCamp"
-            id="formContestTypeSpringCamp"
+            id={`formContestTypeSpringCamp-${index}`}
             checked={value.springCamp}
             onChange={this.onUpdate.bind(this)}
             custom
@@ -57,7 +68,7 @@ class ContestTypeForm extends React.Component {
             type="checkbox"
             label="Open"
             name="open"
-            id="formContestTypeOpen"
+            id={`formContestTypeOpen-${index}`}
             checked={value.open}
             onChange={this.onUpdate.bind(this)}
             disabled
