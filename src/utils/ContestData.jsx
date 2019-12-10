@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from './axios-cache'
 
 const getContestList = async () => {
   const res = await axios({

@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from './axios-cache'
 
 const getSolvedTaskList = async (tasks, { atcoder, aoj } = {}) => {
   const atcoderRes = await getAtCoderSolvedTaskList(tasks, atcoder)
@@ -75,6 +75,8 @@ const getAOJSolvedTaskList = async (tasks, id) => {
       size: 9999
     },
   }).catch(e => console.log(e))
+
+  console.log(await axios.cache)
 
   if (!res) return { success: false, list: [] }
 
