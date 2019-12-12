@@ -6,9 +6,9 @@ class YearForm extends React.Component {
     super(props)
 
     this.years = []
-    const currentYear = (new Date()).getFullYear()
+    const maximumYear = 2020
 
-    for (let year = 2006; year < currentYear; year++) {
+    for (let year = 2006; year <= maximumYear; year++) {
       this.years.push(year)
     }
   }

@@ -2,6 +2,27 @@ import React from 'react'
 import { Col, Row, Form, InputGroup } from 'react-bootstrap'
 
 class AccountForm extends React.Component {
+  constructor(props) {
+    super(props)
+    this.atcoderIdForm = React.createRef()
+    this.aojIdForm = React.createRef()
+  }
+
+  componentDidMount() {
+    const { onEnter } = this.props
+
+    const listener = (e) => {
+      const key = e.which || e.keyCode
+      const ENTER_KEY = 13
+      if (key === ENTER_KEY && onEnter) {
+        onEnter()
+      }
+    }
+
+    this.atcoderIdForm.current.addEventListener('keypress', listener)
+    this.aojIdForm.current.addEventListener('keypress', listener)
+  }
+
   onUpdate(e) {
     const { value, onUpdate } = this.props
 
@@ -25,6 +46,7 @@ class AccountForm extends React.Component {
               <InputGroup.Text>AtCoder</InputGroup.Text>
             </InputGroup.Prepend>
             <Form.Control
+              ref={this.atcoderIdForm}
               name='atcoder'
               value={value.atcoder}
               onChange={this.onUpdate.bind(this)}
@@ -39,6 +61,7 @@ class AccountForm extends React.Component {
               <InputGroup.Text>AOJ</InputGroup.Text>
             </InputGroup.Prepend>
             <Form.Control
+              ref={this.aojIdForm}
               name='aoj'
               value={value.aoj}
               onChange={this.onUpdate.bind(this)}

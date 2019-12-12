@@ -24,7 +24,7 @@ class HistoryForm extends React.Component {
   async componentDidMount() {
     const { location } = this.props
     const queryAccount = parseParams(location.search)
-    await this.setState({ account: queryAccount.myAccount })
+    this.setState({ account: queryAccount.myAccount })
 
     this.onSubmit()
   }
@@ -55,17 +55,13 @@ class HistoryForm extends React.Component {
     const { account, taskType, contestType, year, tableContestType } = this.state
     const { busy } = this.props
 
-    const handleSubmit = (e) => {
-      e.preventDefault()
-      this.onSubmit()
-    }
-
     return (
-      <Form onSubmit={handleSubmit}>
+      <div>
         <AccountForm
           title='アカウント'
           value={account}
           onUpdate={(v) => this.onUpdate('account', v)}
+          onEnter={this.onSubmit.bind(this)}
         />
         <TaskTypeForm
           value={taskType}
@@ -88,13 +84,13 @@ class HistoryForm extends React.Component {
           onUpdate={(v) => this.onUpdate('tableContestType', v)}
         />
         <FormButton
-          type='submit'
           variant='info'
           busy={busy}
+          onClick={this.onSubmit.bind(this)}
         >
           表示
         </FormButton>
-      </Form>
+      </div>
     )
   }
 }
