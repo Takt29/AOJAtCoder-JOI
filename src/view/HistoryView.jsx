@@ -30,9 +30,7 @@ class HistoryView extends React.Component {
     this.setState({ busy: false })
   }
 
-  async update() {
-    const { tasks, input } = this.state
-
+  async update(tasks, input) {
     const solvedList = await getSolvedTaskList(tasks, input.account)
 
     this.setState({
@@ -49,7 +47,7 @@ class HistoryView extends React.Component {
 
     this.setState({ busy: true, input })
 
-    if (tasks.length) await this.update()
+    if (tasks.length) await this.update(tasks, input)
 
     this.setState({ busy: false })
   }

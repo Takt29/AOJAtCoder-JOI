@@ -55,8 +55,13 @@ class HistoryForm extends React.Component {
     const { account, taskType, contestType, year, tableContestType } = this.state
     const { busy } = this.props
 
+    const handleSubmit = (e) => {
+      e.preventDefault()
+      this.onSubmit()
+    }
+
     return (
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <AccountForm
           title='アカウント'
           value={account}
@@ -83,8 +88,8 @@ class HistoryForm extends React.Component {
           onUpdate={(v) => this.onUpdate('tableContestType', v)}
         />
         <FormButton
+          type='submit'
           variant='info'
-          onClick={this.onSubmit.bind(this)}
           busy={busy}
         >
           表示

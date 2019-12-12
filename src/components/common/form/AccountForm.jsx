@@ -29,7 +29,7 @@ class AccountForm extends React.Component {
               value={value.atcoder}
               onChange={this.onUpdate.bind(this)}
               placeholder={`${title}のAtCoder ID`}
-              autocomplete='off'
+              autoComplete='off'
             />
           </InputGroup>
         </Col>
@@ -43,7 +43,7 @@ class AccountForm extends React.Component {
               value={value.aoj}
               onChange={this.onUpdate.bind(this)}
               placeholder={`${title}のAOJ ID`}
-              autocomplete='off'
+              autoComplete='off'
             />
           </InputGroup>
         </Col>

@@ -57,8 +57,13 @@ class SearchForm extends React.Component {
     const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
     const { busy } = this.props
 
+    const handleSubmit = (e) => {
+      e.preventDefault()
+      this.onSubmit()
+    }
+
     return (
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <AccountForm
           title='自分'
           value={myAccount}
@@ -87,8 +92,8 @@ class SearchForm extends React.Component {
         />
 
         <FormButton
+          type='submit'
           variant='info'
-          onClick={this.onSubmit.bind(this)}
           busy={busy}
         >
           表示

@@ -27,11 +27,10 @@ class HomeView extends React.Component {
     this.setState({ busy: false })
   }
 
-  async update() {
-    const { tasks, input } = this.state
-
-    const solvedList = await getSolvedTaskList(tasks, input.myAccount)
-    const solvedListForRival = await getSolvedTaskList(tasks, input.rivalAccount)
+  async update(tasks, input) {
+    const { myAccount, rivalAccount } = input || {}
+    const solvedList = await getSolvedTaskList(tasks, myAccount)
+    const solvedListForRival = await getSolvedTaskList(tasks, rivalAccount)
 
     this.setState({
       solvedList: solvedList.res,
@@ -48,7 +47,7 @@ class HomeView extends React.Component {
 
     this.setState({ busy: true, input })
 
-    if (tasks && tasks.length) await this.update()
+    if (tasks && tasks.length) await this.update(tasks, input)
 
     this.setState({ busy: false })
   }
