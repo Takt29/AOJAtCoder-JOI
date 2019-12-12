@@ -14,6 +14,7 @@ class DownloadImageButton extends React.Component {
 
     const canvas = await html2canvas(target, {
       ignoreElements: (elem) => elem.tagName === 'BUTTON',
+      windowWidth: 10000,
     })
 
     downloadImageLink.current.href = canvas.toDataURL()
