@@ -3338,5 +3338,145 @@
     "atcoder_id": "joisc2019_l",
     "aoj_id": "",
     "tasktype": "Communication"
+  },
+  {
+    "level": "1",
+    "name": "３つの整数",
+    "source": "20一次予選1-1",
+    "problem_id": "201101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "母音を数える",
+    "source": "20一次予選1-2",
+    "problem_id": "201102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "マージ",
+    "source": "20一次予選1-3",
+    "problem_id": "201103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "試験",
+    "source": "20一次予選2-1",
+    "problem_id": "201201",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "文字列の反転",
+    "source": "20一次予選2-2",
+    "problem_id": "201202",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "最頻値",
+    "source": "20一次予選2-3",
+    "problem_id": "201203",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "Xに最も近い値",
+    "source": "20一次予選3-1",
+    "problem_id": "201301",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "キャピタリゼーション",
+    "source": "20一次予選3-2",
+    "problem_id": "201302",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "最長昇順連続部分列",
+    "source": "20一次予選3-3",
+    "problem_id": "201303",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "ポスター",
+    "source": "20二次予選1",
+    "problem_id": "202101",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "いちご",
+    "source": "20二次予選2",
+    "problem_id": "202102",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "桁和",
+    "source": "20二次予選3",
+    "problem_id": "202103",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "テンキー",
+    "source": "20二次予選4",
+    "problem_id": "202104",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "じゃんけん式",
+    "source": "20二次予選5",
+    "problem_id": "202105",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
