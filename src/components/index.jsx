@@ -1,4 +1,5 @@
 import TopBar from './common/TopBar'
+import DownloadImageButton from './common/DownloadImageButton'
 import DifficultyList from './home/DifficultyList'
 import SearchForm from './home/SearchForm'
 import HomeStatistics from './home/HomeStatistics'
@@ -7,6 +8,7 @@ import HistoryStatistics from './history/HistoryStatistics'
 
 export {
   TopBar,
+  DownloadImageButton,
   DifficultyList,
   SearchForm,
   HomeStatistics,

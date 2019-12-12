@@ -64,6 +64,7 @@ class HistoryView extends React.Component {
               contest={contest}
               tasks={filteredTasks}
               solvedList={solvedList}
+              downloadButton
             />
           ))
         }

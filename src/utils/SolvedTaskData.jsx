@@ -76,8 +76,6 @@ const getAOJSolvedTaskList = async (tasks, id) => {
     },
   }).catch(e => console.log(e))
 
-  console.log(await axios.cache)
-
   if (!res) return { success: false, list: [] }
 
   const dict = getAOJProblemIdDict(tasks)

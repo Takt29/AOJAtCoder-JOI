@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './HomeView.scss'
-import { DifficultyList, SearchForm, HomeStatistics } from '../components'
+import { DifficultyList, SearchForm, HomeStatistics, DownloadImageButton } from '../components'
 import { getTaskList, applyFilter } from '../utils/TaskData'
 import { getSolvedTaskList } from '../utils/SolvedTaskData'
 
@@ -14,6 +14,7 @@ class HomeView extends React.Component {
       solvedListForRival: [],
       input: {}
     }
+    this.statistics = React.createRef()
   }
 
   async componentDidMount() {
@@ -70,24 +71,34 @@ class HomeView extends React.Component {
       <div className={styles.self}>
         <h3>検索</h3>
         <SearchForm onSubmit={this.onSubmit.bind(this)} busy={busy} />
-        <h3>統計</h3>
-        <HomeStatistics
-          variant='success'
-          account={input.myAccount}
-          tasks={filteredTasks}
-          isSolved={isSolved}
-        />
-        {
-          input.rivalAccount && (input.rivalAccount.aoj || input.rivalAccount.atcoder) &&
-          (
-            <HomeStatistics
-              variant='warning'
-              account={input.rivalAccount}
-              tasks={filteredTasks}
-              isSolved={isSolvedByRival}
-            />
-          )
-        }
+        <h3>
+          統計
+          <DownloadImageButton
+            target={this.statistics.current}
+            filename='statistics.png'
+            title='統計画像ダウンロード'
+          />
+        </h3>
+        <span ref={this.statistics}>
+          <HomeStatistics
+            variant='success'
+            account={input.myAccount}
+            tasks={filteredTasks}
+            isSolved={isSolved}
+          />
+          {
+            input.rivalAccount && (input.rivalAccount.aoj || input.rivalAccount.atcoder) &&
+            (
+              <HomeStatistics
+                variant='warning'
+                account={input.rivalAccount}
+                tasks={filteredTasks}
+                isSolved={isSolvedByRival}
+              />
+            )
+          }
+        </span>
+
         <h3>難易度表</h3>
         <DifficultyList
           myAccount={input.myAccount}
