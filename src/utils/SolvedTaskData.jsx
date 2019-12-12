@@ -35,7 +35,7 @@ const getAOJProblemIdDict = (tasks) => {
 }
 
 const getAtCoderSolvedTaskList = async (tasks, id) => {
-  if (!id) return { success: false, list: [] }
+  if (!id) return { success: true, list: [] }
 
   const res = await axios({
     method: 'get',
@@ -64,7 +64,7 @@ const getAtCoderSolvedTaskList = async (tasks, id) => {
 }
 
 const getAOJSolvedTaskList = async (tasks, id) => {
-  if (!id) return { success: false, list: [] }
+  if (!id) return { success: true, list: [] }
 
   const res = await axios({
     method: 'get',

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './HomeView.scss'
-import { DifficultyList, SearchForm, HomeStatistics, DownloadImageButton } from '../components'
+import { DifficultyList, SearchForm, HomeStatistics, DownloadImageButton, ApiErrorAlerts } from '../components'
 import { getTaskList, applyFilter } from '../utils/TaskData'
 import { getSolvedTaskList } from '../utils/SolvedTaskData'
 
@@ -12,18 +12,19 @@ class HomeView extends React.Component {
       tasks: [],
       solvedList: [],
       solvedListForRival: [],
-      input: {}
+      input: {},
+      errors: { atcoder: false, aoj: false },
     }
     this.statistics = React.createRef()
   }
 
   async componentDidMount() {
     const tasks = await getTaskList()
-    await this.setState({ tasks })
+    this.setState({ tasks })
 
     if (tasks && tasks.length) await this.update()
 
-    await this.setState({ busy: false })
+    this.setState({ busy: false })
   }
 
   async update() {
@@ -32,24 +33,28 @@ class HomeView extends React.Component {
     const solvedList = await getSolvedTaskList(tasks, input.myAccount)
     const solvedListForRival = await getSolvedTaskList(tasks, input.rivalAccount)
 
-    await this.setState({
+    this.setState({
       solvedList: solvedList.res,
       solvedListForRival: solvedListForRival.res,
+      errors: {
+        aoj: !solvedList.success.aoj || !solvedListForRival.success.aoj,
+        atcoder: !solvedList.success.atcoder || !solvedListForRival.success.atcoder,
+      }
     })
   }
 
   async onSubmit(input) {
     const { tasks } = this.state
 
-    await this.setState({ busy: true, input })
+    this.setState({ busy: true, input })
 
     if (tasks && tasks.length) await this.update()
 
-    await this.setState({ busy: false })
+    this.setState({ busy: false })
   }
 
   render() {
-    const { tasks, solvedList, solvedListForRival, input, busy } = this.state
+    const { tasks, solvedList, solvedListForRival, input, busy, errors } = this.state
 
     const filteredTasks = applyFilter(tasks, input)
 
@@ -69,6 +74,7 @@ class HomeView extends React.Component {
 
     return (
       <div className={styles.self}>
+        <ApiErrorAlerts {...errors} />
         <h3>検索</h3>
         <SearchForm onSubmit={this.onSubmit.bind(this)} busy={busy} />
         <h3>
@@ -108,7 +114,7 @@ class HomeView extends React.Component {
           isSolvedByRival={isSolvedByRival}
           filter={input}
         />
-      </div>
+      </div >
     )
   }
 }
