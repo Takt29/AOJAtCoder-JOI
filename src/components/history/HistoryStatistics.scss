@@ -1,0 +1,11 @@
+.name {
+  border-bottom: solid 3px var(--blue);
+  color: var(--success);
+  margin-top: 10px;
+
+  .timestamp {
+    color: var(--secondary);
+    font-size: 50%;
+    margin-left: 10px;
+  }
+}

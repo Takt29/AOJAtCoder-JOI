@@ -1,0 +1,3482 @@
+[
+  {
+    "level": "0",
+    "name": "カードゲーム(AOJ名)",
+    "source": "06予選1",
+    "problem_id": "062101",
+    "atcoder_contest": "joi2006yo",
+    "atcoder_id": "joi2006yo_a",
+    "aoj_id": "0500",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "データ変換(AOJ名)",
+    "source": "06予選2",
+    "problem_id": "062102",
+    "atcoder_contest": "joi2006yo",
+    "atcoder_id": "joi2006yo_b",
+    "aoj_id": "0501",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "サイコロ(AOJ名)",
+    "source": "06予選3",
+    "problem_id": "062103",
+    "atcoder_contest": "joi2006yo",
+    "atcoder_id": "joi2006yo_c",
+    "aoj_id": "0502",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "カップ(AOJ名)",
+    "source": "06予選4",
+    "problem_id": "062104",
+    "atcoder_contest": "joi2006yo",
+    "atcoder_id": "joi2006yo_d",
+    "aoj_id": "0503",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "カードゲーム２(AOJ名)",
+    "source": "06予選5",
+    "problem_id": "062105",
+    "atcoder_contest": "joi2006yo",
+    "atcoder_id": "joi2006yo_e",
+    "aoj_id": "0504",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "アンケート(AOJ名)",
+    "source": "06本選1",
+    "problem_id": "063101",
+    "atcoder_contest": "joi2006ho",
+    "atcoder_id": "joi2006ho_a",
+    "aoj_id": "0505",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "文字列(AOJ名)",
+    "source": "06本選2",
+    "problem_id": "063102",
+    "atcoder_contest": "joi2006ho",
+    "atcoder_id": "joi2006ho_b",
+    "aoj_id": "0506",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "正方形(AOJ名)",
+    "source": "06本選3",
+    "problem_id": "063103",
+    "atcoder_contest": "joi2006ho",
+    "atcoder_id": "joi2006ho_c",
+    "aoj_id": "0507",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "リング(AOJ名)",
+    "source": "06本選4",
+    "problem_id": "063104",
+    "atcoder_contest": "joi2006ho",
+    "atcoder_id": "joi2006ho_d",
+    "aoj_id": "0508",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "シート(AOJ名)",
+    "source": "06本選5",
+    "problem_id": "063105",
+    "atcoder_contest": "joi2006ho",
+    "atcoder_id": "joi2006ho_e",
+    "aoj_id": "0509",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "得点",
+    "source": "07予選1",
+    "problem_id": "072101",
+    "atcoder_contest": "joi2007yo",
+    "atcoder_id": "joi2007yo_a",
+    "aoj_id": "0510",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "未提出者は誰だ",
+    "source": "07予選2",
+    "problem_id": "072102",
+    "atcoder_contest": "joi2007yo",
+    "atcoder_id": "joi2007yo_b",
+    "aoj_id": "0511",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "シーザー暗号",
+    "source": "07予選3",
+    "problem_id": "072103",
+    "atcoder_contest": "joi2007yo",
+    "atcoder_id": "joi2007yo_c",
+    "aoj_id": "0512",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "カードの並び替え",
+    "source": "07予選4",
+    "problem_id": "072104",
+    "atcoder_contest": "joi2007yo",
+    "atcoder_id": "joi2007yo_d",
+    "aoj_id": "0513",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "品質検査",
+    "source": "07予選5",
+    "problem_id": "072105",
+    "atcoder_contest": "joi2007yo",
+    "atcoder_id": "joi2007yo_e",
+    "aoj_id": "0514",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "通学経路",
+    "source": "07予選6",
+    "problem_id": "072106",
+    "atcoder_contest": "joi2007yo",
+    "atcoder_id": "joi2007yo_f",
+    "aoj_id": "0515",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "最大の和",
+    "source": "07本選1",
+    "problem_id": "073101",
+    "atcoder_contest": "joi2007ho",
+    "atcoder_id": "joi2007ho_a",
+    "aoj_id": "0516",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "最長の階段",
+    "source": "07本選2",
+    "problem_id": "073102",
+    "atcoder_contest": "joi2007ho",
+    "atcoder_id": "joi2007ho_b",
+    "aoj_id": "0517",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "最古の遺跡",
+    "source": "07本選3",
+    "problem_id": "073103",
+    "atcoder_contest": "joi2007ho",
+    "atcoder_id": "joi2007ho_c",
+    "aoj_id": "0518",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "最悪の記者",
+    "source": "07本選4",
+    "problem_id": "073104",
+    "atcoder_contest": "joi2007ho",
+    "atcoder_id": "joi2007ho_d",
+    "aoj_id": "0519",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "最軽量のモビール",
+    "source": "07本選5",
+    "problem_id": "073105",
+    "atcoder_contest": "joi2007ho",
+    "atcoder_id": "joi2007ho_e",
+    "aoj_id": "0520",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "Score",
+    "source": "07春合宿1-1",
+    "problem_id": "074101",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_score",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "Factorial",
+    "source": "07春合宿1-2",
+    "problem_id": "074102",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_factor",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Mall",
+    "source": "07春合宿1-3",
+    "problem_id": "074103",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_mall",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "Building",
+    "source": "07春合宿2-1",
+    "problem_id": "074201",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_buildi",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Fermat",
+    "source": "07春合宿2-2",
+    "problem_id": "074202",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_fermat",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "SALT TREE XV",
+    "source": "07春合宿2-3",
+    "problem_id": "074203",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_salt",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Anagram",
+    "source": "07春合宿3-1",
+    "problem_id": "074301",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_anagra",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Route",
+    "source": "07春合宿3-2",
+    "problem_id": "074302",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_route",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Circuit",
+    "source": "07春合宿3-3",
+    "problem_id": "074303",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_circui",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "Fiber",
+    "source": "07春合宿4-1",
+    "problem_id": "074401",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_fiber",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Lines",
+    "source": "07春合宿4-2",
+    "problem_id": "074402",
+    "atcoder_contest": "joisc2007",
+    "atcoder_id": "joisc2007_lines",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "おつり",
+    "source": "08予選1",
+    "problem_id": "082101",
+    "atcoder_contest": "joi2008yo",
+    "atcoder_id": "joi2008yo_a",
+    "aoj_id": "0521",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "JOIとIOI",
+    "source": "08予選2",
+    "problem_id": "082102",
+    "atcoder_contest": "joi2008yo",
+    "atcoder_id": "joi2008yo_b",
+    "aoj_id": "0522",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "カードゲーム",
+    "source": "08予選3",
+    "problem_id": "082103",
+    "atcoder_contest": "joi2008yo",
+    "atcoder_id": "joi2008yo_c",
+    "aoj_id": "0523",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "星座探し",
+    "source": "08予選4",
+    "problem_id": "082104",
+    "atcoder_contest": "joi2008yo",
+    "atcoder_id": "joi2008yo_d",
+    "aoj_id": "0524",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "おせんべい",
+    "source": "08予選5",
+    "problem_id": "082105",
+    "atcoder_contest": "joi2008yo",
+    "atcoder_id": "joi2008yo_e",
+    "aoj_id": "0525",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "船旅",
+    "source": "08予選6",
+    "problem_id": "082106",
+    "atcoder_contest": "joi2008yo",
+    "atcoder_id": "joi2008yo_f",
+    "aoj_id": "0526",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "碁石ならべ",
+    "source": "08本選1",
+    "problem_id": "083101",
+    "atcoder_contest": "joi2008ho",
+    "atcoder_id": "joi2008ho_a",
+    "aoj_id": "0527",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "共通部分文字列",
+    "source": "08本選2",
+    "problem_id": "083102",
+    "atcoder_contest": "joi2008ho",
+    "atcoder_id": "joi2008ho_b",
+    "aoj_id": "0528",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "ダーツ",
+    "source": "08本選3",
+    "problem_id": "083103",
+    "atcoder_contest": "joi2008ho",
+    "atcoder_id": "joi2008ho_c",
+    "aoj_id": "0529",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ぴょんぴょん川渡り",
+    "source": "08本選4",
+    "problem_id": "083104",
+    "atcoder_contest": "joi2008ho",
+    "atcoder_id": "joi2008ho_d",
+    "aoj_id": "0530",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ペンキの色",
+    "source": "08本選5",
+    "problem_id": "083105",
+    "atcoder_contest": "joi2008ho",
+    "atcoder_id": "joi2008ho_e",
+    "aoj_id": "0531",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Committee",
+    "source": "08春合宿1-1",
+    "problem_id": "084101",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_committee",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Sheet",
+    "source": "08春合宿1-2",
+    "problem_id": "084102",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_sheet",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Flu",
+    "source": "08春合宿1-3",
+    "problem_id": "084103",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_flu",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Nile.Com",
+    "source": "08春合宿2-1",
+    "problem_id": "084201",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_nile",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Cheating",
+    "source": "08春合宿2-2",
+    "problem_id": "084202",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_cheating",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Belt",
+    "source": "08春合宿2-3",
+    "problem_id": "084203",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_belt",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Origami",
+    "source": "08春合宿3-1",
+    "problem_id": "084301",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_origami",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Fraction",
+    "source": "08春合宿3-2",
+    "problem_id": "084302",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_fraction",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Nightman",
+    "source": "08春合宿3-3",
+    "problem_id": "084303",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_nightman",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Ruins2",
+    "source": "08春合宿4-1",
+    "problem_id": "084401",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_ruins",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Typhoon",
+    "source": "08春合宿4-2",
+    "problem_id": "084402",
+    "atcoder_contest": "joisc2008",
+    "atcoder_id": "joisc2008_typhoon",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "タイムカード",
+    "source": "09予選1",
+    "problem_id": "092101",
+    "atcoder_contest": "joi2009yo",
+    "atcoder_id": "joi2009yo_a",
+    "aoj_id": "0532",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "コンテスト",
+    "source": "09予選2",
+    "problem_id": "092102",
+    "atcoder_contest": "joi2009yo",
+    "atcoder_id": "joi2009yo_b",
+    "aoj_id": "0533",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "連鎖",
+    "source": "09予選3",
+    "problem_id": "092103",
+    "atcoder_contest": "joi2009yo",
+    "atcoder_id": "joi2009yo_c",
+    "aoj_id": "0534",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "薄氷渡り",
+    "source": "09予選4",
+    "problem_id": "092104",
+    "atcoder_contest": "joi2009yo",
+    "atcoder_id": "joi2009yo_d",
+    "aoj_id": "0535",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "シャッフル",
+    "source": "09予選5",
+    "problem_id": "092105",
+    "atcoder_contest": "joi2009yo",
+    "atcoder_id": "joi2009yo_e",
+    "aoj_id": "0536",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ビンゴ",
+    "source": "09予選6",
+    "problem_id": "092106",
+    "atcoder_contest": "joi2009yo",
+    "atcoder_id": "joi2009yo_f",
+    "aoj_id": "0537",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "IOIOI",
+    "source": "09本選1",
+    "problem_id": "093101",
+    "atcoder_contest": "joi2009ho",
+    "atcoder_id": "joi2009ho_a",
+    "aoj_id": "0538",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "ピザ",
+    "source": "09本選2",
+    "problem_id": "093102",
+    "atcoder_contest": "joi2009ho",
+    "atcoder_id": "joi2009ho_b",
+    "aoj_id": "0539",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "あみだくじ",
+    "source": "09本選3",
+    "problem_id": "093103",
+    "atcoder_contest": "joi2009ho",
+    "atcoder_id": "joi2009ho_c",
+    "aoj_id": "0540",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "散歩",
+    "source": "09本選4",
+    "problem_id": "093104",
+    "atcoder_contest": "joi2009ho",
+    "atcoder_id": "joi2009ho_d",
+    "aoj_id": "0541",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "認証レベル",
+    "source": "09本選5",
+    "problem_id": "093105",
+    "atcoder_contest": "joi2009ho",
+    "atcoder_id": "joi2009ho_e",
+    "aoj_id": "0542",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Sequence",
+    "source": "09春合宿1-1",
+    "problem_id": "094101",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_sequence",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Stamps",
+    "source": "09春合宿1-2",
+    "problem_id": "094102",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_stamps",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Pyramid",
+    "source": "09春合宿1-3",
+    "problem_id": "094103",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_pyramid",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Abduction",
+    "source": "09春合宿2-1",
+    "problem_id": "094201",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_abduction",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Advertisement",
+    "source": "09春合宿2-2",
+    "problem_id": "094202",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_advertisement",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Contest",
+    "source": "09春合宿2-3",
+    "problem_id": "094203",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_contest",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Territory",
+    "source": "09春合宿3-1",
+    "problem_id": "094301",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_territory",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Ski",
+    "source": "09春合宿3-2",
+    "problem_id": "094302",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_ski",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Logo",
+    "source": "09春合宿3-3",
+    "problem_id": "094303",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_logo",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Distribution",
+    "source": "09春合宿4-1",
+    "problem_id": "094401",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_distribution",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Chopsticks",
+    "source": "09春合宿4-2",
+    "problem_id": "094402",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_chopsticks",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Starry Sky",
+    "source": "09春合宿4-3",
+    "problem_id": "094403",
+    "atcoder_contest": "joisc2009",
+    "atcoder_id": "joisc2009_starry_sky",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "レシート",
+    "source": "10予選1",
+    "problem_id": "102101",
+    "atcoder_contest": "joi2010yo",
+    "atcoder_id": "joi2010yo_a",
+    "aoj_id": "0543",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "すごろく",
+    "source": "10予選2",
+    "problem_id": "102102",
+    "atcoder_contest": "joi2010yo",
+    "atcoder_id": "joi2010yo_b",
+    "aoj_id": "0544",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "パーティ",
+    "source": "10予選3",
+    "problem_id": "102103",
+    "atcoder_contest": "joi2010yo",
+    "atcoder_id": "joi2010yo_c",
+    "aoj_id": "0545",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "カード並べ",
+    "source": "10予選4",
+    "problem_id": "102104",
+    "atcoder_contest": "joi2010yo",
+    "atcoder_id": "joi2010yo_d",
+    "aoj_id": "0546",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "通勤経路",
+    "source": "10予選5",
+    "problem_id": "102105",
+    "atcoder_contest": "joi2010yo",
+    "atcoder_id": "joi2010yo_e",
+    "aoj_id": "0547",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "方向音痴のトナカイ",
+    "source": "10予選6",
+    "problem_id": "102106",
+    "atcoder_contest": "joi2010yo",
+    "atcoder_id": "joi2010yo_f",
+    "aoj_id": "0548",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "旅人",
+    "source": "10本選1",
+    "problem_id": "103101",
+    "atcoder_contest": "joi2010ho",
+    "atcoder_id": "joi2010ho_a",
+    "aoj_id": "0549",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "お菓子の分割",
+    "source": "10本選2",
+    "problem_id": "103102",
+    "atcoder_contest": "joi2010ho",
+    "atcoder_id": "joi2010ho_b",
+    "aoj_id": "0550",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "つらら",
+    "source": "10本選3",
+    "problem_id": "103103",
+    "atcoder_contest": "joi2010ho",
+    "atcoder_id": "joi2010ho_c",
+    "aoj_id": "0551",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "博覧会",
+    "source": "10本選4",
+    "problem_id": "103104",
+    "atcoder_contest": "joi2010ho",
+    "atcoder_id": "joi2010ho_d",
+    "aoj_id": "0552",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "ダンジョン",
+    "source": "10本選5",
+    "problem_id": "103105",
+    "atcoder_contest": "joi2010ho",
+    "atcoder_id": "joi2010ho_e",
+    "aoj_id": "0553",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "JOI Poster",
+    "source": "10春合宿1-1",
+    "problem_id": "104101",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_poster",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Sengoku",
+    "source": "10春合宿1-2",
+    "problem_id": "104102",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_sengoku",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Stairs",
+    "source": "10春合宿1-3",
+    "problem_id": "104103",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_stairs",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "a+b problem",
+    "source": "10春合宿2-1",
+    "problem_id": "104201",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_aplusb",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "DNA synthesizer",
+    "source": "10春合宿2-2",
+    "problem_id": "104202",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_dna",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Regions",
+    "source": "10春合宿2-3",
+    "problem_id": "104203",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_regions",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Finals",
+    "source": "10春合宿3-1",
+    "problem_id": "104301",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_finals",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Hide-and-seek",
+    "source": "10春合宿3-2",
+    "problem_id": "104302",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_hideseek",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "Contest",
+    "source": "10春合宿4-1",
+    "problem_id": "104401",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_contest",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Highway",
+    "source": "10春合宿4-2",
+    "problem_id": "104402",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_highway",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Lake",
+    "source": "10春合宿4-3",
+    "problem_id": "104403",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_lake",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Plugs",
+    "source": "10春合宿4-4",
+    "problem_id": "104404",
+    "atcoder_contest": "joisc2010",
+    "atcoder_id": "joisc2010_plugs",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "合計時間",
+    "source": "11予選1",
+    "problem_id": "112101",
+    "atcoder_contest": "joi2011yo",
+    "atcoder_id": "joi2011yo_a",
+    "aoj_id": "0554",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "指輪",
+    "source": "11予選2",
+    "problem_id": "112102",
+    "atcoder_contest": "joi2011yo",
+    "atcoder_id": "joi2011yo_b",
+    "aoj_id": "0555",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "タイル",
+    "source": "11予選3",
+    "problem_id": "112103",
+    "atcoder_contest": "joi2011yo",
+    "atcoder_id": "joi2011yo_c",
+    "aoj_id": "0556",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "1年生",
+    "source": "11予選4",
+    "problem_id": "112104",
+    "atcoder_contest": "joi2011yo",
+    "atcoder_id": "joi2011yo_d",
+    "aoj_id": "0557",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "チーズ",
+    "source": "11予選5",
+    "problem_id": "112105",
+    "atcoder_contest": "joi2011yo",
+    "atcoder_id": "joi2011yo_e",
+    "aoj_id": "0558",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "JOI旗",
+    "source": "11予選6",
+    "problem_id": "112106",
+    "atcoder_contest": "joi2011yo",
+    "atcoder_id": "joi2011yo_f",
+    "aoj_id": "0559",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "惑星探査",
+    "source": "11本選1",
+    "problem_id": "113101",
+    "atcoder_contest": "joi2011ho",
+    "atcoder_id": "joi2011ho1",
+    "aoj_id": "0560",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "古本屋",
+    "source": "11本選2",
+    "problem_id": "113102",
+    "atcoder_contest": "joi2011ho",
+    "atcoder_id": "joi2011ho2",
+    "aoj_id": "0561",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "JOI国の買い物事情",
+    "source": "11本選3",
+    "problem_id": "113103",
+    "atcoder_contest": "joi2011ho",
+    "atcoder_id": "joi2011ho3",
+    "aoj_id": "0562",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "歩くサンタクロース",
+    "source": "11本選4",
+    "problem_id": "113104",
+    "atcoder_contest": "joi2011ho",
+    "atcoder_id": "joi2011ho4",
+    "aoj_id": "0563",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "微生物実験",
+    "source": "11本選5",
+    "problem_id": "113105",
+    "atcoder_contest": "joi2011ho",
+    "atcoder_id": "joi2011ho5",
+    "aoj_id": "0564",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Banner",
+    "source": "11春合宿1-1",
+    "problem_id": "114101",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_banner",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Dragon",
+    "source": "11春合宿1-2",
+    "problem_id": "114102",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_dragon",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Joitter",
+    "source": "11春合宿1-3",
+    "problem_id": "114103",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_joitter",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Guess Them All",
+    "source": "11春合宿2-1",
+    "problem_id": "114201",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_guess",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "9",
+    "name": "Keycards",
+    "source": "11春合宿2-2",
+    "problem_id": "114202",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_keycards",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Shiritori",
+    "source": "11春合宿2-3",
+    "problem_id": "114203",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_shiritori",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Deciphering",
+    "source": "11春合宿3-1",
+    "problem_id": "114301",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_deciphering",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Report",
+    "source": "11春合宿3-2",
+    "problem_id": "114302",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_report",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Apples",
+    "source": "11春合宿4-1",
+    "problem_id": "114401",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_apples",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "9",
+    "name": "Bookshelf",
+    "source": "11春合宿4-2",
+    "problem_id": "114402",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_bookshelf",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "IOI",
+    "source": "11春合宿4-3",
+    "problem_id": "114403",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_ioi",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Orienteering",
+    "source": "11春合宿4-4",
+    "problem_id": "114404",
+    "atcoder_contest": "joisc2011",
+    "atcoder_id": "joisc2011_orienteering",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "ランチ",
+    "source": "12予選1",
+    "problem_id": "122101",
+    "atcoder_contest": "joi2012yo",
+    "atcoder_id": "joi2012yo_a",
+    "aoj_id": "0565",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "サッカー",
+    "source": "12予選2",
+    "problem_id": "122102",
+    "atcoder_contest": "joi2012yo",
+    "atcoder_id": "joi2012yo_b",
+    "aoj_id": "0566",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "最高のピザ",
+    "source": "12予選3",
+    "problem_id": "122103",
+    "atcoder_contest": "joi2012yo",
+    "atcoder_id": "joi2012yo_c",
+    "aoj_id": "0567",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "パスタ",
+    "source": "12予選4",
+    "problem_id": "122104",
+    "atcoder_contest": "joi2012yo",
+    "atcoder_id": "joi2012yo_d",
+    "aoj_id": "0568",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "イルミネーション",
+    "source": "12予選5",
+    "problem_id": "122105",
+    "atcoder_contest": "joi2012yo",
+    "atcoder_id": "joi2012yo_e",
+    "aoj_id": "0569",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "ジグザグ数",
+    "source": "12予選6",
+    "problem_id": "122106",
+    "atcoder_contest": "joi2012yo",
+    "atcoder_id": "joi2012yo_f",
+    "aoj_id": "0570",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "JJOOII",
+    "source": "12本選1",
+    "problem_id": "123101",
+    "atcoder_contest": "joi2012ho",
+    "atcoder_id": "joi2012ho1",
+    "aoj_id": "0571",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "たのしいカードゲーム",
+    "source": "12本選2",
+    "problem_id": "123102",
+    "atcoder_contest": "joi2012ho",
+    "atcoder_id": "joi2012ho2",
+    "aoj_id": "0572",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "夜店",
+    "source": "12本選3",
+    "problem_id": "123103",
+    "atcoder_contest": "joi2012ho",
+    "atcoder_id": "joi2012ho3",
+    "aoj_id": "0573",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "釘",
+    "source": "12本選4",
+    "problem_id": "123104",
+    "atcoder_contest": "joi2012ho",
+    "atcoder_id": "joi2012ho4",
+    "aoj_id": "0574",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "JOI国のお祭り事情",
+    "source": "12本選5",
+    "problem_id": "123105",
+    "atcoder_contest": "joi2012ho",
+    "atcoder_id": "joi2012ho5",
+    "aoj_id": "0575",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Building 2",
+    "source": "12春合宿1-1",
+    "problem_id": "124101",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_building2",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Fish",
+    "source": "12春合宿1-2",
+    "problem_id": "124102",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_fish",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "JOI Flag",
+    "source": "12春合宿1-3",
+    "problem_id": "124103",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_joi_flag",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Constellation",
+    "source": "12春合宿2-2",
+    "problem_id": "124202",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_constellation",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Rotate",
+    "source": "12春合宿2-3",
+    "problem_id": "124203",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_rotate",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Fortune Telling",
+    "source": "12春合宿3-1",
+    "problem_id": "124301",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_fortune_telling",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Kangaroo",
+    "source": "12春合宿3-2",
+    "problem_id": "124302",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_kangaroo",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Sokoban",
+    "source": "12春合宿3-3",
+    "problem_id": "124303",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_sokoban",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Chinese",
+    "source": "12春合宿4-1",
+    "problem_id": "124401",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_chinese",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Copy and Paste",
+    "source": "12春合宿4-2",
+    "problem_id": "124402",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_copypaste",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Invitation",
+    "source": "12春合宿4-3",
+    "problem_id": "124403",
+    "atcoder_contest": "joisc2012",
+    "atcoder_id": "joisc2012_invitation",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Code",
+    "source": "12Open1",
+    "problem_id": "125101",
+    "atcoder_contest": "joiopen2012",
+    "atcoder_id": "apio_code",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Jumps",
+    "source": "12Open2",
+    "problem_id": "125102",
+    "atcoder_contest": "joiopen2012",
+    "atcoder_id": "apio_jumps",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Mansion",
+    "source": "12Open3",
+    "problem_id": "125103",
+    "atcoder_contest": "joiopen2012",
+    "atcoder_id": "apio_mansion",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "宿題",
+    "source": "13予選1",
+    "problem_id": "132101",
+    "atcoder_contest": "joi2013yo",
+    "atcoder_id": "joi2013yo_a",
+    "aoj_id": "0576",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "数当てゲーム",
+    "source": "13予選2",
+    "problem_id": "132102",
+    "atcoder_contest": "joi2013yo",
+    "atcoder_id": "joi2013yo_b",
+    "aoj_id": "0577",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "看板",
+    "source": "13予選3",
+    "problem_id": "132103",
+    "atcoder_contest": "joi2013yo",
+    "atcoder_id": "joi2013yo_c",
+    "aoj_id": "0578",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "暑い日々",
+    "source": "13予選4",
+    "problem_id": "132104",
+    "atcoder_contest": "joi2013yo",
+    "atcoder_id": "joi2013yo_d",
+    "aoj_id": "0579",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "魚の生息範囲",
+    "source": "13予選5",
+    "problem_id": "132105",
+    "atcoder_contest": "joi2013yo",
+    "atcoder_id": "joi2013yo_e",
+    "aoj_id": "0580",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "お土産購入計画",
+    "source": "13予選6",
+    "problem_id": "132106",
+    "atcoder_contest": "joi2013yo",
+    "atcoder_id": "joi2013yo_f",
+    "aoj_id": "0581",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "電飾",
+    "source": "13本選1",
+    "problem_id": "133101",
+    "atcoder_contest": "joi2013ho",
+    "atcoder_id": "joi2013ho1",
+    "aoj_id": "0603",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "IOI列車で行こう",
+    "source": "13本選2",
+    "problem_id": "133102",
+    "atcoder_contest": "joi2013ho",
+    "atcoder_id": "joi2013ho2",
+    "aoj_id": "0604",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "現代的な屋敷",
+    "source": "13本選3",
+    "problem_id": "133103",
+    "atcoder_contest": "joi2013ho",
+    "atcoder_id": "joi2013ho3",
+    "aoj_id": "0605",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "JOIOIの塔",
+    "source": "13本選4",
+    "problem_id": "133104",
+    "atcoder_contest": "joi2013ho",
+    "atcoder_id": "joi2013ho4",
+    "aoj_id": "0606",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "バブルソート",
+    "source": "13本選5",
+    "problem_id": "133105",
+    "atcoder_contest": "joi2013ho",
+    "atcoder_id": "joi2013ho5",
+    "aoj_id": "0607",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Bus Tour",
+    "source": "13春合宿1-1",
+    "problem_id": "134101",
+    "atcoder_contest": "joisc2013-day1",
+    "atcoder_id": "joisc2013_bustour",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Collecting Images is Fun",
+    "source": "13春合宿1-2",
+    "problem_id": "134102",
+    "atcoder_contest": "joisc2013-day1",
+    "atcoder_id": "joisc2013_collecting",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Communication Jamming",
+    "source": "13春合宿1-3",
+    "problem_id": "134103",
+    "atcoder_contest": "joisc2013-day1",
+    "atcoder_id": "joisc2013_communication",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "JOI Poster",
+    "source": "13春合宿1-4",
+    "problem_id": "134104",
+    "atcoder_contest": "joisc2013-day1",
+    "atcoder_id": "joisc2013_joi_poster",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Construction Project",
+    "source": "13春合宿2-1",
+    "problem_id": "134201",
+    "atcoder_contest": "joisc2013-day2",
+    "atcoder_id": "joisc2013_construction",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Mascots",
+    "source": "13春合宿2-2",
+    "problem_id": "134202",
+    "atcoder_contest": "joisc2013-day2",
+    "atcoder_id": "joisc2013_mascots",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Spy",
+    "source": "13春合宿2-3",
+    "problem_id": "134203",
+    "atcoder_contest": "joisc2013-day2",
+    "atcoder_id": "joisc2013_spy",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Cake",
+    "source": "13春合宿3-1",
+    "problem_id": "134301",
+    "atcoder_contest": "joisc2013-day3",
+    "atcoder_id": "joisc2013_cake",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Koala",
+    "source": "13春合宿3-2",
+    "problem_id": "134302",
+    "atcoder_contest": "joisc2013-day3",
+    "atcoder_id": "joisc2013_koala",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Mountain Rescue Team",
+    "source": "13春合宿3-3",
+    "problem_id": "134303",
+    "atcoder_contest": "joisc2013-day3",
+    "atcoder_id": "joisc2013_mountain",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Messenger",
+    "source": "13春合宿4-1",
+    "problem_id": "134401",
+    "atcoder_contest": "joisc2013-day4",
+    "atcoder_id": "joisc2013_messenger",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "8",
+    "name": "Presents",
+    "source": "13春合宿4-2",
+    "problem_id": "134402",
+    "atcoder_contest": "joisc2013-day4",
+    "atcoder_id": "joisc2013_presents",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Spaceships",
+    "source": "13春合宿4-3",
+    "problem_id": "134403",
+    "atcoder_contest": "joisc2013-day4",
+    "atcoder_id": "joisc2013_spaceships",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Vote-Value Disparity",
+    "source": "13Open1",
+    "problem_id": "135101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "0",
+    "name": "Synchronization",
+    "source": "13Open2",
+    "problem_id": "135102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Watching",
+    "source": "13Open3",
+    "problem_id": "135103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "平均点",
+    "source": "14予選1",
+    "problem_id": "142101",
+    "atcoder_contest": "joi2014yo",
+    "atcoder_id": "joi2014yo_a",
+    "aoj_id": "0592",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "投票",
+    "source": "14予選2",
+    "problem_id": "142102",
+    "atcoder_contest": "joi2014yo",
+    "atcoder_id": "joi2014yo_b",
+    "aoj_id": "0593",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "超都観光",
+    "source": "14予選3",
+    "problem_id": "142103",
+    "atcoder_contest": "joi2014yo",
+    "atcoder_id": "joi2014yo_c",
+    "aoj_id": "0594",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "部活のスケジュール表",
+    "source": "14予選4",
+    "problem_id": "142104",
+    "atcoder_contest": "joi2014yo",
+    "atcoder_id": "joi2014yo_d",
+    "aoj_id": "0595",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "タクシー",
+    "source": "14予選5",
+    "problem_id": "142105",
+    "atcoder_contest": "joi2014yo",
+    "atcoder_id": "joi2014yo_e",
+    "aoj_id": "0596",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "小籠包",
+    "source": "14予選6",
+    "problem_id": "142106",
+    "atcoder_contest": "joi2014yo",
+    "atcoder_id": "joi2014yo_f",
+    "aoj_id": "0597",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "JOI 紋章",
+    "source": "14本選1",
+    "problem_id": "143101",
+    "atcoder_contest": "joi2014ho",
+    "atcoder_id": "joi2014ho1",
+    "aoj_id": "0598",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "IOI 饅頭",
+    "source": "14本選2",
+    "problem_id": "143102",
+    "atcoder_contest": "joi2014ho",
+    "atcoder_id": "joi2014ho2",
+    "aoj_id": "0599",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "バウムクーヘン",
+    "source": "14本選3",
+    "problem_id": "143103",
+    "atcoder_contest": "joi2014ho",
+    "atcoder_id": "joi2014ho3",
+    "aoj_id": "0600",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "フクロモモンガ",
+    "source": "14本選4",
+    "problem_id": "143104",
+    "atcoder_contest": "joi2014ho",
+    "atcoder_id": "joi2014ho4",
+    "aoj_id": "0601",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "切り取り線",
+    "source": "14本選5",
+    "problem_id": "143105",
+    "atcoder_contest": "joi2014ho",
+    "atcoder_id": "joi2014ho5",
+    "aoj_id": "0602",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Bus",
+    "source": "14春合宿1-1",
+    "problem_id": "144101",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Growing Vegetables is Fun",
+    "source": "14春合宿1-2",
+    "problem_id": "144102",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Historical Research",
+    "source": "14春合宿1-3",
+    "problem_id": "144103",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Ramen",
+    "source": "14春合宿1-4",
+    "problem_id": "144104",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_d",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Water Bottle",
+    "source": "14春合宿2-1",
+    "problem_id": "144201",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Making Friends is Fun",
+    "source": "14春合宿2-2",
+    "problem_id": "144202",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Collecting Stamps",
+    "source": "14春合宿2-3",
+    "problem_id": "144203",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "JOIOJI",
+    "source": "14春合宿3-1",
+    "problem_id": "144301",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Scarecrows",
+    "source": "14春合宿3-2",
+    "problem_id": "144302",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Voltage",
+    "source": "14春合宿3-3",
+    "problem_id": "144303",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Constellation 2",
+    "source": "14春合宿4-1",
+    "problem_id": "144401",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Kanji Shiritori",
+    "source": "14春合宿4-2",
+    "problem_id": "144402",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_l",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "7",
+    "name": "Straps",
+    "source": "14春合宿4-3",
+    "problem_id": "144403",
+    "atcoder_contest": "joisc2014",
+    "atcoder_id": "joisc2014_m",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Factories",
+    "source": "14Open1-1",
+    "problem_id": "145101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "0",
+    "name": "Fortune Telling 2",
+    "source": "14Open1-2",
+    "problem_id": "145102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Space Pirate",
+    "source": "14Open1-3",
+    "problem_id": "145103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Project of Migration",
+    "source": "14Open2-1",
+    "problem_id": "145201",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "0",
+    "name": "Pinball",
+    "source": "14Open2-2",
+    "problem_id": "145202",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Secret",
+    "source": "14Open2-3",
+    "problem_id": "145203",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "1",
+    "name": "水道料金",
+    "source": "15予選1",
+    "problem_id": "152101",
+    "atcoder_contest": "joi2015yo",
+    "atcoder_id": "joi2015yo_a",
+    "aoj_id": "0608",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "クリスマスパーティー",
+    "source": "15予選2",
+    "problem_id": "152102",
+    "atcoder_contest": "joi2015yo",
+    "atcoder_id": "joi2015yo_b",
+    "aoj_id": "0609",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "気象予報士",
+    "source": "15予選3",
+    "problem_id": "152103",
+    "atcoder_contest": "joi2015yo",
+    "atcoder_id": "joi2015yo_c",
+    "aoj_id": "0610",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "シルクロード",
+    "source": "15予選4",
+    "problem_id": "152104",
+    "atcoder_contest": "joi2015yo",
+    "atcoder_id": "joi2015yo_d",
+    "aoj_id": "0611",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "砂の城",
+    "source": "15予選5",
+    "problem_id": "152105",
+    "atcoder_contest": "joi2015yo",
+    "atcoder_id": "joi2015yo_e",
+    "aoj_id": "0612",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "財宝",
+    "source": "15予選6",
+    "problem_id": "152106",
+    "atcoder_contest": "joi2015yo",
+    "atcoder_id": "joi2015yo_f",
+    "aoj_id": "0613",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "鉄道旅行",
+    "source": "15本選1",
+    "problem_id": "153101",
+    "atcoder_contest": "joi2015ho",
+    "atcoder_id": "joi2015ho_a",
+    "aoj_id": "0614",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "ケーキの切り分け２",
+    "source": "15本選2",
+    "problem_id": "153102",
+    "atcoder_contest": "joi2015ho",
+    "atcoder_id": "joi2015ho_b",
+    "aoj_id": "0615",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "JOI 公園",
+    "source": "15本選3",
+    "problem_id": "153103",
+    "atcoder_contest": "joi2015ho",
+    "atcoder_id": "joi2015ho_c",
+    "aoj_id": "0616",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "舞踏会",
+    "source": "15本選4",
+    "problem_id": "153104",
+    "atcoder_contest": "joi2015ho",
+    "atcoder_id": "joi2015ho_d",
+    "aoj_id": "0617",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "城壁",
+    "source": "15本選5",
+    "problem_id": "153105",
+    "atcoder_contest": "joi2015ho",
+    "atcoder_id": "joi2015ho_e",
+    "aoj_id": "0618",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Copy and Paste 2",
+    "source": "15春合宿1-1",
+    "problem_id": "154101",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "En-JOI-able Logo Design",
+    "source": "15春合宿1-2",
+    "problem_id": "154102",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Growing Vegetables is Fun 2",
+    "source": "15春合宿1-3",
+    "problem_id": "154103",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "IOIOI Cards",
+    "source": "15春合宿1-4",
+    "problem_id": "154104",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Building 3",
+    "source": "15春合宿2-1",
+    "problem_id": "154201",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Keys",
+    "source": "15春合宿2-2",
+    "problem_id": "154202",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Road Development",
+    "source": "15春合宿2-3",
+    "problem_id": "154203",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "AAQQZ",
+    "source": "15春合宿3-1",
+    "problem_id": "154301",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Card Game Is Great Fun",
+    "source": "15春合宿3-2",
+    "problem_id": "154302",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Navigation",
+    "source": "15春合宿3-3",
+    "problem_id": "154303",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_j",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "8",
+    "name": "Inheritance",
+    "source": "15春合宿4-1",
+    "problem_id": "154401",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Limited Memory",
+    "source": "15春合宿4-2",
+    "problem_id": "154402",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_l",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "Walls",
+    "source": "15春合宿4-3",
+    "problem_id": "154403",
+    "atcoder_contest": "joisc2015",
+    "atcoder_id": "joisc2015_m",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Colored Tiles",
+    "source": "15Open1",
+    "problem_id": "155101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "0",
+    "name": "Election Campaign",
+    "source": "15Open2",
+    "problem_id": "155102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Sterilizing Spray",
+    "source": "15Open3",
+    "problem_id": "155103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "科目選択",
+    "source": "16予選1",
+    "problem_id": "162101",
+    "atcoder_contest": "joi2016yo",
+    "atcoder_id": "joi2016yo_a",
+    "aoj_id": "0619",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "ゼッケンの交換",
+    "source": "16予選2",
+    "problem_id": "162102",
+    "atcoder_contest": "joi2016yo",
+    "atcoder_id": "joi2016yo_b",
+    "aoj_id": "0620",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "ロシアの旗",
+    "source": "16予選3",
+    "problem_id": "162103",
+    "atcoder_contest": "joi2016yo",
+    "atcoder_id": "joi2016yo_c",
+    "aoj_id": "0621",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "JOI国のお散歩事情",
+    "source": "16予選4",
+    "problem_id": "162104",
+    "atcoder_contest": "joi2016yo",
+    "atcoder_id": "joi2016yo_d",
+    "aoj_id": "0622",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ゾンビ島",
+    "source": "16予選5",
+    "problem_id": "162105",
+    "atcoder_contest": "joi2016yo",
+    "atcoder_id": "joi2016yo_e",
+    "aoj_id": "0623",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "屋台",
+    "source": "16予選6",
+    "problem_id": "162106",
+    "atcoder_contest": "joi2016yo",
+    "atcoder_id": "joi2016yo_f",
+    "aoj_id": "0624",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "オレンジの出荷",
+    "source": "16本選1",
+    "problem_id": "163101",
+    "atcoder_contest": "joi2016ho",
+    "atcoder_id": "joi2016ho_a",
+    "aoj_id": "0625",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "スタンプラリー２",
+    "source": "16本選2",
+    "problem_id": "163102",
+    "atcoder_contest": "joi2016ho",
+    "atcoder_id": "joi2016ho_b",
+    "aoj_id": "0626",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "鉄道運賃",
+    "source": "16本選3",
+    "problem_id": "163103",
+    "atcoder_contest": "joi2016ho",
+    "atcoder_id": "joi2016ho_c",
+    "aoj_id": "0627",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "縄張り",
+    "source": "16本選4",
+    "problem_id": "163104",
+    "atcoder_contest": "joi2016ho",
+    "atcoder_id": "joi2016ho_d",
+    "aoj_id": "0628",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "断層",
+    "source": "16本選5",
+    "problem_id": "163105",
+    "atcoder_contest": "joi2016ho",
+    "atcoder_id": "joi2016ho_e",
+    "aoj_id": "0629",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Matryoshka",
+    "source": "16春合宿1-1",
+    "problem_id": "164101",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Memory 2",
+    "source": "16春合宿1-2",
+    "problem_id": "164102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Solitaire",
+    "source": "16春合宿1-3",
+    "problem_id": "164103",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Employment",
+    "source": "16春合宿2-1",
+    "problem_id": "164201",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Sandwich",
+    "source": "16春合宿2-2",
+    "problem_id": "164202",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Toilets",
+    "source": "16春合宿2-3",
+    "problem_id": "164203",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Dungeon 2",
+    "source": "16春合宿3-1",
+    "problem_id": "164301",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Sushi",
+    "source": "16春合宿3-2",
+    "problem_id": "164302",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Telegraph",
+    "source": "16春合宿3-3",
+    "problem_id": "164303",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Dangerous Skating",
+    "source": "16春合宿4-1",
+    "problem_id": "164401",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Snowy Roads",
+    "source": "16春合宿4-2",
+    "problem_id": "164402",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Worst Reporter 2",
+    "source": "16春合宿4-3",
+    "problem_id": "164403",
+    "atcoder_contest": "joisc2016",
+    "atcoder_id": "joisc2016_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "JOIRIS",
+    "source": "16Open1",
+    "problem_id": "165101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Selling RNA Strands",
+    "source": "16Open2",
+    "problem_id": "165102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Skyscraper",
+    "source": "16Open3",
+    "problem_id": "165103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "電子レンジ",
+    "source": "17予選1",
+    "problem_id": "172101",
+    "atcoder_contest": "joi2017yo",
+    "atcoder_id": "joi2017yo_a",
+    "aoj_id": "0630",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "ポイントカード",
+    "source": "17予選2",
+    "problem_id": "172102",
+    "atcoder_contest": "joi2017yo",
+    "atcoder_id": "joi2017yo_b",
+    "aoj_id": "0631",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "休憩スペース",
+    "source": "17予選3",
+    "problem_id": "172103",
+    "atcoder_contest": "joi2017yo",
+    "atcoder_id": "joi2017yo_c",
+    "aoj_id": "0632",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ぬいぐるみの整理",
+    "source": "17予選4",
+    "problem_id": "172104",
+    "atcoder_contest": "joi2017yo",
+    "atcoder_id": "joi2017yo_d",
+    "aoj_id": "0633",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "尾根",
+    "source": "17予選5",
+    "problem_id": "172105",
+    "atcoder_contest": "joi2017yo",
+    "atcoder_id": "joi2017yo_e",
+    "aoj_id": "0634",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ヘビのJOI君",
+    "source": "17予選6",
+    "problem_id": "172106",
+    "atcoder_contest": "joi2017yo",
+    "atcoder_id": "joi2017yo_f",
+    "aoj_id": "0635",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "フェーン現象",
+    "source": "17本選1",
+    "problem_id": "173101",
+    "atcoder_contest": "joi2017ho",
+    "atcoder_id": "joi2017ho_a",
+    "aoj_id": "0636",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "準急電車",
+    "source": "17本選2",
+    "problem_id": "173102",
+    "atcoder_contest": "joi2017ho",
+    "atcoder_id": "joi2017ho_b",
+    "aoj_id": "0637",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "JOIOI王国",
+    "source": "17本選3",
+    "problem_id": "173103",
+    "atcoder_contest": "joi2017ho",
+    "atcoder_id": "joi2017ho_c",
+    "aoj_id": "0638",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "サッカー",
+    "source": "17本選4",
+    "problem_id": "173104",
+    "atcoder_contest": "joi2017ho",
+    "atcoder_id": "joi2017ho_d",
+    "aoj_id": "0639",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "縄",
+    "source": "17本選5",
+    "problem_id": "173105",
+    "atcoder_contest": "joi2017ho",
+    "atcoder_id": "joi2017ho_e",
+    "aoj_id": "0640",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Cultivation",
+    "source": "17春合宿1-1",
+    "problem_id": "174101",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Port Facility",
+    "source": "17春合宿1-2",
+    "problem_id": "174102",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Sparklers",
+    "source": "17春合宿1-3",
+    "problem_id": "174103",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Arranging Tickets",
+    "source": "17春合宿2-1",
+    "problem_id": "174201",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Broken Device",
+    "source": "17春合宿2-2",
+    "problem_id": "174202",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_e",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "Railway Trip",
+    "source": "17春合宿2-3",
+    "problem_id": "174203",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Long Distance Coach",
+    "source": "17春合宿3-1",
+    "problem_id": "174301",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Long Mansion",
+    "source": "17春合宿3-2",
+    "problem_id": "174302",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Natural Park",
+    "source": "17春合宿3-3",
+    "problem_id": "174303",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_i",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Abduction 2",
+    "source": "17春合宿4-1",
+    "problem_id": "174401",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "City",
+    "source": "17春合宿4-2",
+    "problem_id": "174402",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_k",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Dragon 2",
+    "source": "17春合宿4-3",
+    "problem_id": "174403",
+    "atcoder_contest": "joisc2017",
+    "atcoder_id": "joisc2017_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Amusement Park",
+    "source": "17Open1",
+    "problem_id": "175101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "0",
+    "name": "Bulldozer",
+    "source": "17Open2",
+    "problem_id": "175102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Golf",
+    "source": "17Open3",
+    "problem_id": "175103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "鉛筆",
+    "source": "18予選1",
+    "problem_id": "182101",
+    "atcoder_contest": "joi2018yo",
+    "atcoder_id": "joi2018_yo_a",
+    "aoj_id": "0641",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "双六",
+    "source": "18予選2",
+    "problem_id": "182102",
+    "atcoder_contest": "joi2018yo",
+    "atcoder_id": "joi2018_yo_b",
+    "aoj_id": "0642",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "幹線道路",
+    "source": "18予選3",
+    "problem_id": "182103",
+    "atcoder_contest": "joi2018yo",
+    "atcoder_id": "joi2018_yo_c",
+    "aoj_id": "0643",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "水ようかん",
+    "source": "18予選4",
+    "problem_id": "182104",
+    "atcoder_contest": "joi2018yo",
+    "atcoder_id": "joi2018_yo_d",
+    "aoj_id": "0644",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "森林伐採",
+    "source": "18予選5",
+    "problem_id": "182105",
+    "atcoder_contest": "joi2018yo",
+    "atcoder_id": "joi2018_yo_e",
+    "aoj_id": "0645",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "L番目のK番目の数",
+    "source": "18予選6",
+    "problem_id": "182106",
+    "atcoder_contest": "joi2018yo",
+    "atcoder_id": "joi2018_yo_f",
+    "aoj_id": "0646",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "ストーブ",
+    "source": "18本選1",
+    "problem_id": "183101",
+    "atcoder_contest": "joi2018ho",
+    "atcoder_id": "joi2018ho_a",
+    "aoj_id": "0647",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "美術展",
+    "source": "18本選2",
+    "problem_id": "183102",
+    "atcoder_contest": "joi2018ho",
+    "atcoder_id": "joi2018ho_b",
+    "aoj_id": "0648",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "団子職人",
+    "source": "18本選3",
+    "problem_id": "183103",
+    "atcoder_contest": "joi2018ho",
+    "atcoder_id": "joi2018ho_c",
+    "aoj_id": "0649",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "定期券",
+    "source": "18本選4",
+    "problem_id": "183104",
+    "atcoder_contest": "joi2018ho",
+    "atcoder_id": "joi2018ho_d",
+    "aoj_id": "0650",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "毒蛇の脱走",
+    "source": "18本選5",
+    "problem_id": "183105",
+    "atcoder_contest": "joi2018ho",
+    "atcoder_id": "joi2018ho_e",
+    "aoj_id": "0651",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Construction of Highway",
+    "source": "18春合宿1-1",
+    "problem_id": "184101",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Fences",
+    "source": "18春合宿1-2",
+    "problem_id": "184102",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Tents",
+    "source": "18春合宿1-3",
+    "problem_id": "184103",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Asceticism",
+    "source": "18春合宿2-1",
+    "problem_id": "184201",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Road Service",
+    "source": "18春合宿2-2",
+    "problem_id": "184202",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_e",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "9",
+    "name": "Worst Reporter 3",
+    "source": "18春合宿2-3",
+    "problem_id": "184203",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Airline Route Map",
+    "source": "18春合宿3-1",
+    "problem_id": "184301",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_g",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Bitaro’s Party",
+    "source": "18春合宿3-2",
+    "problem_id": "184302",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Security Gate",
+    "source": "18春合宿3-3",
+    "problem_id": "184303",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Candies",
+    "source": "18春合宿4-1",
+    "problem_id": "184401",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Library",
+    "source": "18春合宿4-2",
+    "problem_id": "184402",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_k",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "Wild Boar",
+    "source": "18春合宿4-3",
+    "problem_id": "184403",
+    "atcoder_contest": "joisc2018",
+    "atcoder_id": "joisc2018_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Bubble Sort 2",
+    "source": "18Open1",
+    "problem_id": "185101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Cats or Dogs",
+    "source": "18Open2",
+    "problem_id": "185102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Collapse",
+    "source": "18Open3",
+    "problem_id": "185103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Xylophone",
+    "source": "18Open4",
+    "problem_id": "185104",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "2",
+    "name": "ソーシャルゲーム",
+    "source": "19予選1",
+    "problem_id": "192101",
+    "atcoder_contest": "joi2019yo",
+    "atcoder_id": "joi2019_yo_a",
+    "aoj_id": "0652",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "すごろくと駒",
+    "source": "19予選2",
+    "problem_id": "192102",
+    "atcoder_contest": "joi2019yo",
+    "atcoder_id": "joi2019_yo_b",
+    "aoj_id": "0653",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "マルバツスタンプ",
+    "source": "19予選3",
+    "problem_id": "192103",
+    "atcoder_contest": "joi2019yo",
+    "atcoder_id": "joi2019_yo_c",
+    "aoj_id": "0654",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "日本沈没",
+    "source": "19予選4",
+    "problem_id": "192104",
+    "atcoder_contest": "joi2019yo",
+    "atcoder_id": "joi2019_yo_d",
+    "aoj_id": "0655",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "イルミネーション",
+    "source": "19予選5",
+    "problem_id": "192105",
+    "atcoder_contest": "joi2019yo",
+    "atcoder_id": "joi2019_yo_e",
+    "aoj_id": "0656",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "座席",
+    "source": "19予選6",
+    "problem_id": "192106",
+    "atcoder_contest": "joi2019yo",
+    "atcoder_id": "joi2019_yo_f",
+    "aoj_id": "0657",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "勇者ビ太郎",
+    "source": "19本選1",
+    "problem_id": "193101",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_a",
+    "aoj_id": "0658",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "展覧会",
+    "source": "19本選2",
+    "problem_id": "193102",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_b",
+    "aoj_id": "0659",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "たのしいたのしいたのしい家庭菜園",
+    "source": "19本選3",
+    "problem_id": "193103",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_c",
+    "aoj_id": "0660",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "コイン集め",
+    "source": "19本選4",
+    "problem_id": "193104",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_d",
+    "aoj_id": "0661",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "珍しい都市",
+    "source": "19本選5",
+    "problem_id": "193105",
+    "atcoder_contest": "joi2019ho",
+    "atcoder_id": "joi2019ho_e",
+    "aoj_id": "0662",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Examination",
+    "source": "19春合宿1-1",
+    "problem_id": "194101",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Meetings",
+    "source": "19春合宿1-2",
+    "problem_id": "194102",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_b",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Naan",
+    "source": "19春合宿1-3",
+    "problem_id": "194103",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Two Antennas",
+    "source": "19春合宿2-1",
+    "problem_id": "194201",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Two Dishes",
+    "source": "19春合宿2-2",
+    "problem_id": "194202",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Two Transportations",
+    "source": "19春合宿2-3",
+    "problem_id": "194203",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_f",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "Designated Cities",
+    "source": "19春合宿3-1",
+    "problem_id": "194301",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Lamps",
+    "source": "19春合宿3-2",
+    "problem_id": "194302",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Bitaro, who Leaps through Time",
+    "source": "19春合宿3-3",
+    "problem_id": "194303",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Cake 3",
+    "source": "19春合宿4-1",
+    "problem_id": "194401",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Mergers",
+    "source": "19春合宿4-2",
+    "problem_id": "194402",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Minerals",
+    "source": "19春合宿4-3",
+    "problem_id": "194403",
+    "atcoder_contest": "joisc2019",
+    "atcoder_id": "joisc2019_l",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "1",
+    "name": "３つの整数",
+    "source": "20一次予選1-1",
+    "problem_id": "201101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "母音を数える",
+    "source": "20一次予選1-2",
+    "problem_id": "201102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "マージ",
+    "source": "20一次予選1-3",
+    "problem_id": "201103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "試験",
+    "source": "20一次予選2-1",
+    "problem_id": "201201",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "文字列の反転",
+    "source": "20一次予選2-2",
+    "problem_id": "201202",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "最頻値",
+    "source": "20一次予選2-3",
+    "problem_id": "201203",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "Xに最も近い値",
+    "source": "20一次予選3-1",
+    "problem_id": "201301",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "キャピタリゼーション",
+    "source": "20一次予選3-2",
+    "problem_id": "201302",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "最長昇順連続部分列",
+    "source": "20一次予選3-3",
+    "problem_id": "201303",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "ポスター",
+    "source": "20二次予選1",
+    "problem_id": "202101",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "いちご",
+    "source": "20二次予選2",
+    "problem_id": "202102",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "桁和",
+    "source": "20二次予選3",
+    "problem_id": "202103",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "テンキー",
+    "source": "20二次予選4",
+    "problem_id": "202104",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "じゃんけん式",
+    "source": "20二次予選5",
+    "problem_id": "202105",
+    "atcoder_contest": "joi2020yo2",
+    "atcoder_id": "joi2020_yo2_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  }
+]
