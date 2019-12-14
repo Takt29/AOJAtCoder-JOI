@@ -23,6 +23,7 @@ const getTaskList = async () => {
     atcoder: {
       contest: task.atcoder_contest,
       id: task.atcoder_id,
+      perfect_score: Number(task.atcoder_perfect_score || '100'),
     },
     aoj: {
       source: 'JOI',

@@ -53,8 +53,8 @@ const getAtCoderSolvedTaskList = async (tasks, id) => {
 
   const list = res.data
     .filter(item => item.result === 'AC')
-    .filter(item => Math.round(item.point) === 100)
     .filter(item => dict[item.problem_id])
+    .filter(item => Math.round(item.point) === dict[item.problem_id].atcoder.perfect_score)
     .map(item => ({
       id: dict[item.problem_id].id,
       timestamp: item.epoch_second * 1000, //msec
