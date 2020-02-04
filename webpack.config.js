@@ -20,7 +20,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: [
-              ['@babel/preset-env', { targets: { node: "current" } }],
+              ['@babel/preset-env', { targets: { edge: '13' } }],
               '@babel/preset-react'
             ]
           }
