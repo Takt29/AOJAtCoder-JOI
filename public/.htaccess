@@ -14,6 +14,6 @@ RewriteRule . /index.html [L]
 </Files>
 <IfModule mod_headers.c>
   <filesMatch "\.(css|js)$">
-    Header set Cache-Control "max-age=0, private, must-revalidate"
+    Header set Cache-Control "max-age=86400, must-revalidate"
   </filesMatch>
 </IfModule>
