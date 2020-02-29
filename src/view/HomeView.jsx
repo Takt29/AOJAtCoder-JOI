@@ -22,7 +22,10 @@ class HomeView extends React.Component {
     const tasks = await getTaskList()
     this.setState({ tasks })
 
-    if (tasks && tasks.length) await this.update()
+    if (tasks && tasks.length) {
+      const input = this.state.input
+      await this.update(tasks, input)
+    }
 
     this.setState({ busy: false })
   }

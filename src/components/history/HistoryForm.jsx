@@ -24,9 +24,7 @@ class HistoryForm extends React.Component {
   async componentDidMount() {
     const { location } = this.props
     const queryAccount = parseParams(location.search)
-    this.setState({ account: queryAccount.myAccount })
-
-    this.onSubmit()
+    this.setState({ account: queryAccount.myAccount }, () => this.onSubmit())
   }
 
   onUpdate(key, value) {

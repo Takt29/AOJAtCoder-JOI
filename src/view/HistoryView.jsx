@@ -24,7 +24,8 @@ class HistoryView extends React.Component {
     this.setState({ tasks, contests })
 
     if (contests && contests.length && tasks && tasks.length) {
-      await this.update()
+      const input = this.state.input
+      await this.update(tasks, input)
     }
 
     this.setState({ busy: false })
