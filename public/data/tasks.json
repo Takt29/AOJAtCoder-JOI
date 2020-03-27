@@ -3553,5 +3553,125 @@
     "atcoder_id": "joi2020ho_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Building 4",
+    "source": "20春合宿1-1",
+    "problem_id": "204101",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Hamburg Steak",
+    "source": "20春合宿1-2",
+    "problem_id": "204102",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Sweeping",
+    "source": "20春合宿1-3",
+    "problem_id": "204103",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Chameleon's Love",
+    "source": "20春合宿2-1",
+    "problem_id": "204201",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_d",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Making Friends on Joitter is Fun",
+    "source": "20春合宿2-2",
+    "problem_id": "204202",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Ruins 3",
+    "source": "20春合宿2-3",
+    "problem_id": "204203",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Constellation 3",
+    "source": "20春合宿3-1",
+    "problem_id": "204301",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Harvest",
+    "source": "20春合宿3-2",
+    "problem_id": "204302",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Stray Cat",
+    "source": "20春合宿3-3",
+    "problem_id": "204303",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_i",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Capital City",
+    "source": "20春合宿4-1",
+    "problem_id": "204401",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Legendary Dango Maker",
+    "source": "20春合宿4-2",
+    "problem_id": "204402",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "11",
+    "name": "Treatment Project",
+    "source": "20春合宿4-3",
+    "problem_id": "204403",
+    "atcoder_contest": "joisc2020",
+    "atcoder_id": "joisc2020_q",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
