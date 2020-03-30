@@ -49,7 +49,6 @@ class TaskTypeForm extends React.Component {
             id="formTaskTypeOutputOnly"
             checked={value.outputOnly}
             onChange={this.onUpdate.bind(this)}
-            disabled
             custom
           />
         </Col>

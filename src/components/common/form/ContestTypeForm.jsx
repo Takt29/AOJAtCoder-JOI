@@ -71,7 +71,6 @@ class ContestTypeForm extends React.Component {
             id={`formContestTypeOpen-${index}`}
             checked={value.open}
             onChange={this.onUpdate.bind(this)}
-            disabled
             custom
           />
         </Col>
