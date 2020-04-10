@@ -73,7 +73,7 @@ class DifficultyList extends React.Component {
                 onChange={onChangeSort}
               >
                 難易度
-            </DifficultyList.SortableTh>
+              </DifficultyList.SortableTh>
               <th>問題名(AtCoder)</th>
               <th>AOJ</th>
               <DifficultyList.SortableTh
@@ -82,7 +82,8 @@ class DifficultyList extends React.Component {
                 onChange={onChangeSort}
               >
                 出典
-            </DifficultyList.SortableTh>
+              </DifficultyList.SortableTh>
+              <th>問題タイプ</th>
             </tr>
           </thead>
           <tbody>

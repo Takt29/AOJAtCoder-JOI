@@ -1,47 +1,23 @@
 .solved {
-  .taskname {
-    background-color: #D7FBD7;
-  }
-  .aojstar {
-    background-color: #D7FBD7;
-  }
-  .source {
+  .taskname, .aojstar, .source, .tasktype {
     background-color: #D7FBD7;
   }
 }
 
 .solvedByRival {
-  .taskname {
-    background-color: #F8CCC8;
-  }
-  .aojstar {
-    background-color: #F8CCC8;
-  }
-  .source {
+  .taskname, .aojstar, .source, .tasktype {
     background-color: #F8CCC8;
   }
 }
 
 .solvedByBoth {
-  .taskname {
-    background-color: #FADDB1;
-  }
-  .aojstar {
-    background-color: #FADDB1;
-  }
-  .source {
+  .taskname, .aojstar, .source, .tasktype {
     background-color: #FADDB1;
   }
 }
 
 .notExist {
-  .taskname {
-    background-color: #D6D6D6;
-  }
-  .aojstar {
-    background-color: #D6D6D6;
-  }
-  .source {
+  .taskname, .aojstar, .source, .tasktype {
     background-color: #D6D6D6;
   }
 }

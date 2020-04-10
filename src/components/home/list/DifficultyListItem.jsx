@@ -7,7 +7,7 @@ import styles from './DifficultyListItem.scss'
 class DifficultyListItem extends React.Component {
   render() {
     const { task, isSolved, isSolvedByRival, hideLevel } = this.props
-    const { level, name, atcoder, aoj, source } = task
+    const { level, name, atcoder, aoj, source, type } = task
 
     const atcoderUrl = getAtCoderUrl(atcoder.contest, atcoder.id)
     const aojUrl = getAOJUrl('JOI', aoj.classification, aoj.id)
@@ -34,6 +34,9 @@ class DifficultyListItem extends React.Component {
         </td>
         <td className={styles.source}>
           {source}
+        </td>
+        <td className={styles.tasktype}>
+          {type}
         </td>
       </tr >
     )
