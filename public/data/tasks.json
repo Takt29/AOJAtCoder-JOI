@@ -3405,6 +3405,36 @@
     "tasktype": "Communication"
   },
   {
+    "level": "0",
+    "name": "Triple Jump",
+    "source": "19Open1",
+    "problem_id": "195101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Remittance",
+    "source": "19Open2",
+    "problem_id": "195102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Virus Experiment",
+    "source": "19Open3",
+    "problem_id": "195103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
     "level": "1",
     "name": "３つの整数",
     "source": "20一次予選1-1",
