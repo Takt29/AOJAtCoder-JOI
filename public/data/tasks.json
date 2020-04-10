@@ -330,6 +330,16 @@
     "tasktype": "Batch"
   },
   {
+    "level": "0",
+    "name": "Packing",
+    "source": "07春合宿4-3",
+    "problem_id": "074403",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
     "level": "1",
     "name": "おつり",
     "source": "08予選1",
@@ -553,6 +563,16 @@
     "atcoder_id": "joisc2008_typhoon",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Election",
+    "source": "08春合宿4-3",
+    "problem_id": "084403",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
   },
   {
     "level": "1",
@@ -985,6 +1005,16 @@
     "tasktype": "Batch"
   },
   {
+    "level": "0",
+    "name": "Hide-and-seek",
+    "source": "10春合宿3-3",
+    "problem_id": "104403",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
     "level": "5",
     "name": "Contest",
     "source": "10春合宿4-1",
@@ -1393,6 +1423,16 @@
     "atcoder_id": "joisc2012_joi_flag",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Broadcasting",
+    "source": "12春合宿2-1",
+    "problem_id": "124201",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
   },
   {
     "level": "11",
