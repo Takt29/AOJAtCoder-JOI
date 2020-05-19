@@ -3,7 +3,8 @@
 
 # client
 node_modules
-bundle.js
+public/bundle.js
+public/index.html
 
 # editor
 .vscode
