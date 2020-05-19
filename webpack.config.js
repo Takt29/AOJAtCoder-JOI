@@ -1,6 +1,7 @@
 // webpack.config.js
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -8,7 +9,7 @@ module.exports = {
   entry: './index.jsx',
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js?[hash]'
   },
   module: {
     rules: [
@@ -62,6 +63,9 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
+    }),
+    new HtmlWebpackPlugin({
+      template: './index.html',
     })
   ]
 }
