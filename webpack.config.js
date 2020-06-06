@@ -9,6 +9,7 @@ module.exports = {
   entry: './index.jsx',
   output: {
     path: path.join(__dirname, 'public'),
+    publicPath: '/',
     filename: 'bundle.js?[hash]'
   },
   module: {
@@ -46,9 +47,7 @@ module.exports = {
     ]
   },
   devServer: {
-    historyApiFallback: {
-      index: './index.html'
-    },
+    historyApiFallback: true,
     contentBase: path.resolve(__dirname, 'public'),
     port: 3000,
     host: '0.0.0.0',
