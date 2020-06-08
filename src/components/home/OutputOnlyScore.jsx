@@ -3,7 +3,9 @@ import styles from './OutputOnlyScore.scss'
 
 class OutputOnlyScoreSum extends React.Component {
   render() {
-    const { tasks = [], score = {} } = this.props
+    const { tasks = [], score } = this.props
+
+    if (!score) return null
 
     let sumScore = 0
     let maxScore = 0
