@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './OutputOnlyScoreSum.scss'
+import styles from './OutputOnlyScore.scss'
 
 class OutputOnlyScoreSum extends React.Component {
   render() {
@@ -20,7 +20,7 @@ class OutputOnlyScoreSum extends React.Component {
 
     return (
       <div className={styles.self}>
-        <span className={styles.title}>{'OutputOnlyScoreSum:'}</span>
+        <span className={styles.title}>{'OutputOnlyScore:'}</span>
         <div className={styles.score}>
           <span className={styles.sum}>{sumScore.toFixed(2)}</span>
           {'/'}

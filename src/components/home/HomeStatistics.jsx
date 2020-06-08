@@ -1,7 +1,7 @@
 import React from 'react'
 import { Badge } from 'react-bootstrap'
 import Statistics from '../common/Statistics'
-import OutputOnlyScoreSum from './OutputOnlyScoreSum'
+import OutputOnlyScore from './OutputOnlyScore'
 
 class HomeStatistics extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class HomeStatistics extends React.Component {
           </Badge>
         </h5>
         <Statistics tasks={tasks} isSolved={isSolved} />
-        <OutputOnlyScoreSum tasks={tasks} score={score} />
+        <OutputOnlyScore tasks={tasks} score={score} />
       </div>
     )
   }
