@@ -8,7 +8,7 @@ import {
   ApiErrorAlerts,
 } from '../components'
 import { getTaskList, applyFilter } from '../utils/TaskData'
-import { getSolvedTaskList } from '../utils/SolvedTaskData'
+import { getSubmissions } from '../utils/SolvedTaskData'
 
 class HomeView extends React.Component {
   constructor(props) {
@@ -16,8 +16,8 @@ class HomeView extends React.Component {
     this.state = {
       busy: true,
       tasks: [],
-      solvedList: [],
-      solvedListForRival: [],
+      submissions: [],
+      rivalSubmissions: [],
       input: {},
       errors: { atcoder: false, aoj: false },
     }
@@ -38,16 +38,16 @@ class HomeView extends React.Component {
 
   async update(tasks, input) {
     const { myAccount, rivalAccount } = input || {}
-    const solvedList = await getSolvedTaskList(tasks, myAccount)
-    const solvedListForRival = await getSolvedTaskList(tasks, rivalAccount)
+    const submissions = await getSubmissions(tasks, myAccount)
+    const rivalSubmissions = await getSubmissions(tasks, rivalAccount)
 
     this.setState({
-      solvedList: solvedList.res,
-      solvedListForRival: solvedListForRival.res,
+      submissions: submissions.res,
+      rivalSubmissions: rivalSubmissions.res,
       errors: {
-        aoj: !solvedList.success.aoj || !solvedListForRival.success.aoj,
+        aoj: !submissions.success.aoj || !rivalSubmissions.success.aoj,
         atcoder:
-          !solvedList.success.atcoder || !solvedListForRival.success.atcoder,
+          !submissions.success.atcoder || !rivalSubmissions.success.atcoder,
       },
     })
   }
@@ -65,8 +65,8 @@ class HomeView extends React.Component {
   render() {
     const {
       tasks,
-      solvedList,
-      solvedListForRival,
+      submissions,
+      rivalSubmissions,
       input,
       busy,
       errors,
@@ -75,16 +75,16 @@ class HomeView extends React.Component {
     const filteredTasks = applyFilter(tasks, input)
 
     const isSolved = {}
-    if (solvedList) {
-      for (const item of solvedList) {
-        isSolved[item.id] = true
+    if (submissions) {
+      for (const item of submissions) {
+        if (item.isPerfectScore) isSolved[item.id] = true
       }
     }
 
     const isSolvedByRival = {}
-    if (solvedListForRival) {
-      for (const item of solvedListForRival) {
-        isSolvedByRival[item.id] = true
+    if (rivalSubmissions) {
+      for (const item of rivalSubmissions) {
+        if (item.isPerfectScore) isSolvedByRival[item.id] = true
       }
     }
 

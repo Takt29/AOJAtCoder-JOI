@@ -14,16 +14,16 @@ class HistoryStatistics extends React.Component {
     const {
       contest = {},
       tasks = [],
-      solvedList = [],
+      submissions = [],
       downloadButton,
     } = this.props
 
     const filteredTasks = tasks.filter((task) => task.id < contest.id)
 
     const isSolved = {}
-    if (solvedList) {
-      for (const item of solvedList) {
-        if (item.timestamp < contest.timestamp) {
+    if (submissions) {
+      for (const item of submissions) {
+        if (item.isPerfectScore && item.timestamp < contest.timestamp) {
           isSolved[item.id] = true
         }
       }
