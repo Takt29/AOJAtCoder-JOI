@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row, Form, InputGroup } from 'react-bootstrap'
+import { Col, Row, Form } from 'react-bootstrap'
 
 class TaskTypeForm extends React.Component {
   onUpdate(e) {
@@ -21,10 +21,10 @@ class TaskTypeForm extends React.Component {
         </Form.Label>
         <Col sm={3}>
           <Form.Check
-            type="checkbox"
-            label="Batch"
-            name="batch"
-            id="formTaskTypeBatch"
+            type='checkbox'
+            label='Batch'
+            name='batch'
+            id='formTaskTypeBatch'
             checked={value.batch}
             onChange={this.onUpdate.bind(this)}
             custom
@@ -32,10 +32,10 @@ class TaskTypeForm extends React.Component {
         </Col>
         <Col sm={3}>
           <Form.Check
-            type="checkbox"
-            label="Communication"
-            name="communication"
-            id="formTaskTypeCommunication"
+            type='checkbox'
+            label='Communication'
+            name='communication'
+            id='formTaskTypeCommunication'
             checked={value.communication}
             onChange={this.onUpdate.bind(this)}
             custom
@@ -43,10 +43,10 @@ class TaskTypeForm extends React.Component {
         </Col>
         <Col sm={3}>
           <Form.Check
-            type="checkbox"
-            label="OutputOnly"
-            name="outputOnly"
-            id="formTaskTypeOutputOnly"
+            type='checkbox'
+            label='OutputOnly'
+            name='outputOnly'
+            id='formTaskTypeOutputOnly'
             checked={value.outputOnly}
             onChange={this.onUpdate.bind(this)}
             custom

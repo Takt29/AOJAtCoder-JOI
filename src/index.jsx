@@ -11,12 +11,12 @@ render(
       <div>
         <TopBar isHashRouter={false} />
         <Container>
-          <Route exact={true} path="/" component={HomeView} />
-          <Route exact={true} path="/history" component={HistoryView} />
-          <Route exact={true} path="/link" component={LinkView} />
+          <Route exact={true} path='/' component={HomeView} />
+          <Route exact={true} path='/history' component={HistoryView} />
+          <Route exact={true} path='/link' component={LinkView} />
         </Container>
       </div>
     </BrowserRouter>
   </div>,
-  document.getElementById('app')
-);
+  document.getElementById('app'),
+)

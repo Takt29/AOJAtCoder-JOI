@@ -7,13 +7,8 @@ class TopBarLink extends React.Component {
     const { path, to, search, title } = this.props
 
     return (
-      <Nav.Item
-        className={to === path && 'active'}
-      >
-        <Nav.Link
-          as={Link}
-          to={{ pathname: to, search: search }}
-        >
+      <Nav.Item className={to === path && 'active'}>
+        <Nav.Link as={Link} to={{ pathname: to, search: search }}>
           {title}
         </Nav.Link>
       </Nav.Item>

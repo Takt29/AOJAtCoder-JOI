@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row, Form, InputGroup } from 'react-bootstrap'
+import { Col, Row, Form } from 'react-bootstrap'
 
 class FilterForm extends React.Component {
   onUpdate(e) {
@@ -21,10 +21,10 @@ class FilterForm extends React.Component {
         </Form.Label>
         <Col sm={3}>
           <Form.Check
-            type="checkbox"
-            label="ACした問題を非表示"
-            name="hideACTask"
-            id="formFilterHideACTask"
+            type='checkbox'
+            label='ACした問題を非表示'
+            name='hideACTask'
+            id='formFilterHideACTask'
             checked={value.hideACTask}
             onChange={this.onUpdate.bind(this)}
             custom
@@ -32,10 +32,10 @@ class FilterForm extends React.Component {
         </Col>
         <Col sm={3}>
           <Form.Check
-            type="checkbox"
-            label="Judge未存在問題を非表示"
-            name="hideNotExistTask"
-            id="formFilterHideNotExist"
+            type='checkbox'
+            label='Judge未存在問題を非表示'
+            name='hideNotExistTask'
+            id='formFilterHideNotExist'
             checked={value.hideNotExistTask}
             onChange={this.onUpdate.bind(this)}
             custom
@@ -43,10 +43,10 @@ class FilterForm extends React.Component {
         </Col>
         <Col sm={3}>
           <Form.Check
-            type="checkbox"
-            label="難易度を非表示"
-            name="hideLevel"
-            id="formFilterHideLevel"
+            type='checkbox'
+            label='難易度を非表示'
+            name='hideLevel'
+            id='formFilterHideLevel'
             checked={value.hideLevel}
             onChange={this.onUpdate.bind(this)}
             custom

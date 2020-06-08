@@ -1,5 +1,4 @@
 import React from 'react'
-import { Form } from 'react-bootstrap'
 import { withRouter } from 'react-router-dom'
 import AccountForm from '../common/form/AccountForm'
 import TaskTypeForm from '../common/form/TaskTypeForm'
@@ -14,10 +13,26 @@ class HistoryForm extends React.Component {
     this.state = {
       account: { atcoder: '', aoj: '' },
       taskType: { batch: true, communication: true, outputOnly: false },
-      hideFilter: { hideACTask: false, hideNotExistTask: true, hideLevel: false },
-      contestType: { prelim1: true, prelim2: true, final: true, springCamp: true, open: false },
+      hideFilter: {
+        hideACTask: false,
+        hideNotExistTask: true,
+        hideLevel: false,
+      },
+      contestType: {
+        prelim1: true,
+        prelim2: true,
+        final: true,
+        springCamp: true,
+        open: false,
+      },
       year: { begin: '2007', end: 'latest' },
-      tableContestType: { prelim1: true, prelim2: true, final: true, springCamp: true, open: false },
+      tableContestType: {
+        prelim1: true,
+        prelim2: true,
+        final: true,
+        springCamp: true,
+        open: false,
+      },
     }
   }
 
@@ -33,9 +48,23 @@ class HistoryForm extends React.Component {
 
   onSubmit() {
     const { onSubmit, history } = this.props
-    const { account, taskType, hideFilter, contestType, year, tableContestType } = this.state
+    const {
+      account,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+      tableContestType,
+    } = this.state
 
-    const input = { account, taskType, hideFilter, contestType, year, tableContestType }
+    const input = {
+      account,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+      tableContestType,
+    }
 
     const queryString = createParams({ myAccount: account })
     history.push({ search: queryString })
@@ -50,7 +79,13 @@ class HistoryForm extends React.Component {
   }
 
   render() {
-    const { account, taskType, contestType, year, tableContestType } = this.state
+    const {
+      account,
+      taskType,
+      contestType,
+      year,
+      tableContestType,
+    } = this.state
     const { busy } = this.props
 
     return (
@@ -71,10 +106,7 @@ class HistoryForm extends React.Component {
           index={1}
           onUpdate={(v) => this.onUpdate('contestType', v)}
         />
-        <YearForm
-          value={year}
-          onUpdate={(v) => this.onUpdate('year', v)}
-        />
+        <YearForm value={year} onUpdate={(v) => this.onUpdate('year', v)} />
         <ContestTypeForm
           title='表示対象大会'
           value={tableContestType}

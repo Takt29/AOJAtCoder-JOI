@@ -1,5 +1,4 @@
 import React from 'react'
-import { Form } from 'react-bootstrap'
 import { withRouter } from 'react-router-dom'
 import AccountForm from '../common/form/AccountForm'
 import TaskTypeForm from '../common/form/TaskTypeForm'
@@ -8,7 +7,6 @@ import ContestTypeForm from '../common/form/ContestTypeForm'
 import YearForm from '../common/form/YearForm'
 import FormButton from '../common/form/FormButton'
 import { parseParams, createParams } from '../../utils/Params'
-import styles from './SearchForm.scss'
 
 class SearchForm extends React.Component {
   constructor(props) {
@@ -17,8 +15,18 @@ class SearchForm extends React.Component {
       myAccount: { atcoder: '', aoj: '' },
       rivalAccount: { atcoder: '', aoj: '' },
       taskType: { batch: true, communication: true, outputOnly: false },
-      hideFilter: { hideACTask: false, hideNotExistTask: false, hideLevel: false },
-      contestType: { prelim1: true, prelim2: true, final: true, springCamp: true, open: false },
+      hideFilter: {
+        hideACTask: false,
+        hideNotExistTask: false,
+        hideLevel: false,
+      },
+      contestType: {
+        prelim1: true,
+        prelim2: true,
+        final: true,
+        springCamp: true,
+        open: false,
+      },
       year: { begin: '2007', end: 'latest' },
     }
   }
@@ -35,9 +43,23 @@ class SearchForm extends React.Component {
 
   onSubmit() {
     const { onSubmit, history } = this.props
-    const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
+    const {
+      myAccount,
+      rivalAccount,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+    } = this.state
 
-    const input = { myAccount, rivalAccount, taskType, hideFilter, contestType, year }
+    const input = {
+      myAccount,
+      rivalAccount,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+    }
 
     const queryString = createParams({ myAccount, rivalAccount })
     history.push({ search: queryString })
@@ -52,7 +74,14 @@ class SearchForm extends React.Component {
   }
 
   render() {
-    const { myAccount, rivalAccount, taskType, hideFilter, contestType, year } = this.state
+    const {
+      myAccount,
+      rivalAccount,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+    } = this.state
     const { busy } = this.props
 
     return (
@@ -81,10 +110,7 @@ class SearchForm extends React.Component {
           value={contestType}
           onUpdate={(v) => this.onUpdate('contestType', v)}
         />
-        <YearForm
-          value={year}
-          onUpdate={(v) => this.onUpdate('year', v)}
-        />
+        <YearForm value={year} onUpdate={(v) => this.onUpdate('year', v)} />
 
         <FormButton
           variant='info'

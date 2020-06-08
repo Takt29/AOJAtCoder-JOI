@@ -27,11 +27,7 @@ class DownloadImageButton extends React.Component {
 
     return (
       <span className='float-right'>
-        <Button
-          size='sm'
-          variant='link'
-          onClick={this.saveToImage.bind(this)}
-        >
+        <Button size='sm' variant='link' onClick={this.saveToImage.bind(this)}>
           {title || '画像ダウンロード'}
         </Button>
         <a ref={this.downloadImageLink}></a>

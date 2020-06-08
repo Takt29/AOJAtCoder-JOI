@@ -12,25 +12,21 @@ class DifficultyListAccount extends React.Component {
 
     return (
       <h5 className={className}>
-        {
-          this.isValidAccount(myAccount) &&
+        {this.isValidAccount(myAccount) && (
           <Badge variant='success' className={styles.badge}>
             {myAccount.atcoder} / {myAccount.aoj}
           </Badge>
-        }
-        {
-          this.isValidAccount(rivalAccount) &&
+        )}
+        {this.isValidAccount(rivalAccount) && (
           <Badge variant='danger' className={styles.badge}>
             {rivalAccount.atcoder} / {rivalAccount.aoj}
           </Badge>
-        }
-        {
-          this.isValidAccount(myAccount) &&
-          this.isValidAccount(rivalAccount) &&
+        )}
+        {this.isValidAccount(myAccount) && this.isValidAccount(rivalAccount) && (
           <Badge variant='warning' className={styles.badge}>
             両方
           </Badge>
-        }
+        )}
       </h5>
     )
   }

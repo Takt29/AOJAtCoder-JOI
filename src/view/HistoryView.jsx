@@ -1,8 +1,14 @@
 import React from 'react'
 import { HistoryForm, HistoryStatistics, ApiErrorAlerts } from '../components'
-import { getTaskList, applyFilter as applyFilterForTasks } from '../utils/TaskData'
+import {
+  getTaskList,
+  applyFilter as applyFilterForTasks,
+} from '../utils/TaskData'
 import { getSolvedTaskList } from '../utils/SolvedTaskData'
-import { getContestList, applyFilter as applyFilterForContests } from '../utils/ContestData'
+import {
+  getContestList,
+  applyFilter as applyFilterForContests,
+} from '../utils/ContestData'
 import styles from './HistoryView.scss'
 
 class HistoryView extends React.Component {
@@ -40,7 +46,7 @@ class HistoryView extends React.Component {
       errors: {
         atcoder: !solvedList.success.atcoder,
         aoj: !solvedList.success.aoj,
-      }
+      },
     })
   }
 
@@ -65,17 +71,15 @@ class HistoryView extends React.Component {
         <ApiErrorAlerts {...errors} />
         <h3>過去の記録</h3>
         <HistoryForm onSubmit={this.onSubmit.bind(this)} busy={busy} />
-        {
-          filteredContests.map(contest => (
-            <HistoryStatistics
-              key={contest.id}
-              contest={contest}
-              tasks={filteredTasks}
-              solvedList={solvedList}
-              downloadButton
-            />
-          ))
-        }
+        {filteredContests.map((contest) => (
+          <HistoryStatistics
+            key={contest.id}
+            contest={contest}
+            tasks={filteredTasks}
+            solvedList={solvedList}
+            downloadButton
+          />
+        ))}
       </div>
     )
   }

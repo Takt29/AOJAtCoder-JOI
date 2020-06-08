@@ -38,16 +38,15 @@ class YearForm extends React.Component {
             value={value.begin}
             onChange={this.onUpdate.bind(this)}
           >
-            {
-              this.years && this.years.map(year => (
-                <option key={year} value={year}>{year}</option>
-              ))
-            }
+            {this.years &&
+              this.years.map((year) => (
+                <option key={year} value={year}>
+                  {year}
+                </option>
+              ))}
           </Form.Control>
         </Col>
-        <Col sm={1}>
-          〜
-        </Col>
+        <Col sm={1}>〜</Col>
         <Col sm={4}>
           <Form.Control
             as='select'
@@ -56,11 +55,12 @@ class YearForm extends React.Component {
             value={value.end}
             onChange={this.onUpdate.bind(this)}
           >
-            {
-              this.years && this.years.map(year => (
-                <option key={year} value={year}>{year}</option>
-              ))
-            }
+            {this.years &&
+              this.years.map((year) => (
+                <option key={year} value={year}>
+                  {year}
+                </option>
+              ))}
             <option value={'latest'}></option>
           </Form.Control>
         </Col>

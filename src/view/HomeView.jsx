@@ -1,6 +1,12 @@
 import React from 'react'
 import styles from './HomeView.scss'
-import { DifficultyList, SearchForm, HomeStatistics, DownloadImageButton, ApiErrorAlerts } from '../components'
+import {
+  DifficultyList,
+  SearchForm,
+  HomeStatistics,
+  DownloadImageButton,
+  ApiErrorAlerts,
+} from '../components'
 import { getTaskList, applyFilter } from '../utils/TaskData'
 import { getSolvedTaskList } from '../utils/SolvedTaskData'
 
@@ -40,8 +46,9 @@ class HomeView extends React.Component {
       solvedListForRival: solvedListForRival.res,
       errors: {
         aoj: !solvedList.success.aoj || !solvedListForRival.success.aoj,
-        atcoder: !solvedList.success.atcoder || !solvedListForRival.success.atcoder,
-      }
+        atcoder:
+          !solvedList.success.atcoder || !solvedListForRival.success.atcoder,
+      },
     })
   }
 
@@ -56,7 +63,14 @@ class HomeView extends React.Component {
   }
 
   render() {
-    const { tasks, solvedList, solvedListForRival, input, busy, errors } = this.state
+    const {
+      tasks,
+      solvedList,
+      solvedListForRival,
+      input,
+      busy,
+      errors,
+    } = this.state
 
     const filteredTasks = applyFilter(tasks, input)
 
@@ -94,17 +108,15 @@ class HomeView extends React.Component {
             tasks={filteredTasks}
             isSolved={isSolved}
           />
-          {
-            input.rivalAccount && (input.rivalAccount.aoj || input.rivalAccount.atcoder) &&
-            (
+          {input.rivalAccount &&
+            (input.rivalAccount.aoj || input.rivalAccount.atcoder) && (
               <HomeStatistics
                 variant='warning'
                 account={input.rivalAccount}
                 tasks={filteredTasks}
                 isSolved={isSolvedByRival}
               />
-            )
-          }
+            )}
         </span>
 
         <h3>難易度表</h3>
@@ -116,7 +128,7 @@ class HomeView extends React.Component {
           isSolvedByRival={isSolvedByRival}
           filter={input}
         />
-      </div >
+      </div>
     )
   }
 }

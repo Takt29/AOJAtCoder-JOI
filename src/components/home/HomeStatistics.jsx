@@ -9,14 +9,11 @@ class HomeStatistics extends React.Component {
     return (
       <div>
         <h5>
-          <Badge variant={variant || "success"}>
+          <Badge variant={variant || 'success'}>
             {account.atcoder}/{account.aoj}
           </Badge>
         </h5>
-        <Statistics
-          tasks={tasks}
-          isSolved={isSolved}
-        />
+        <Statistics tasks={tasks} isSolved={isSolved} />
       </div>
     )
   }

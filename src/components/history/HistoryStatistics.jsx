@@ -11,9 +11,14 @@ class HistoryStatistics extends React.Component {
   }
 
   render() {
-    const { contest = {}, tasks = [], solvedList = [], downloadButton } = this.props
+    const {
+      contest = {},
+      tasks = [],
+      solvedList = [],
+      downloadButton,
+    } = this.props
 
-    const filteredTasks = tasks.filter(task => task.id < contest.id)
+    const filteredTasks = tasks.filter((task) => task.id < contest.id)
 
     const isSolved = {}
     if (solvedList) {
@@ -32,20 +37,15 @@ class HistoryStatistics extends React.Component {
             {formatDate(contest.timestamp)}
           </span>
 
-          {
-            downloadButton && (
-              <DownloadImageButton
-                target={this.statistics.current}
-                filename={`statistice_${contest.name}.png`}
-                title={`統計画像ダウンロード(${contest.name})`}
-              />
-            )
-          }
+          {downloadButton && (
+            <DownloadImageButton
+              target={this.statistics.current}
+              filename={`statistice_${contest.name}.png`}
+              title={`統計画像ダウンロード(${contest.name})`}
+            />
+          )}
         </h4>
-        <Statistics
-          tasks={filteredTasks}
-          isSolved={isSolved}
-        />
+        <Statistics tasks={filteredTasks} isSolved={isSolved} />
       </div>
     )
   }

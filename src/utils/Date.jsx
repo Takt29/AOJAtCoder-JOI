@@ -22,7 +22,4 @@ const formatDateTime = (timestamp) => {
   return `${YYYY}/${MM}/${DD} ${hh}:${mm}`
 }
 
-export {
-  formatDate,
-  formatDateTime,
-}
+export { formatDate, formatDateTime }

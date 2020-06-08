@@ -7,7 +7,7 @@ class Statistics extends React.Component {
   render() {
     const { tasks = [], isSolved = {} } = this.props
 
-    const levelList = [...[...Array(12).keys()].map(i => i + 1), 0, 'ALL']
+    const levelList = [...[...Array(12).keys()].map((i) => i + 1), 0, 'ALL']
 
     const taskCounter = {}
     const acCounter = {}
@@ -36,7 +36,7 @@ class Statistics extends React.Component {
         <Table responsive className={styles.table} size='sm'>
           <thead>
             <tr>
-              {levelList.map(level => (
+              {levelList.map((level) => (
                 <th key={level} className={levelColorStyles[`level${level}`]}>
                   {level === 0 ? '?' : level}
                 </th>
@@ -45,19 +45,19 @@ class Statistics extends React.Component {
           </thead>
           <tbody>
             <tr>
-              {levelList.map(level => (
+              {levelList.map((level) => (
                 <td key={level}>
                   {acCounter[level]} / {taskCounter[level]}
                 </td>
               ))}
             </tr>
             <tr>
-              {levelList.map(level => (
+              {levelList.map((level) => (
                 <td key={level}>
-                  {
-                    taskCounter[level] ?
-                      Math.floor(acCounter[level] / taskCounter[level] * 100) : '--'
-                  }％
+                  {taskCounter[level]
+                    ? Math.floor((acCounter[level] / taskCounter[level]) * 100)
+                    : '--'}
+                  ％
                 </td>
               ))}
             </tr>

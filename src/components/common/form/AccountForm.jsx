@@ -41,7 +41,7 @@ class AccountForm extends React.Component {
           {title}
         </Form.Label>
         <Col sm={5}>
-          <InputGroup size="sm" className="sm-3">
+          <InputGroup size='sm' className='sm-3'>
             <InputGroup.Prepend>
               <InputGroup.Text>AtCoder</InputGroup.Text>
             </InputGroup.Prepend>
@@ -56,7 +56,7 @@ class AccountForm extends React.Component {
           </InputGroup>
         </Col>
         <Col sm={5}>
-          <InputGroup size="sm" className="sm-3">
+          <InputGroup size='sm' className='sm-3'>
             <InputGroup.Prepend>
               <InputGroup.Text>AOJ</InputGroup.Text>
             </InputGroup.Prepend>

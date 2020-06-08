@@ -34,7 +34,4 @@ const createParams = ({ myAccount, rivalAccount } = {}) => {
   return qs.stringify(params)
 }
 
-export {
-  parseParams,
-  createParams,
-}
+export { parseParams, createParams }

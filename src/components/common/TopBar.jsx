@@ -4,7 +4,6 @@ import { withRouter } from 'react-router'
 import { Link } from 'react-router-dom'
 import TopBarLink from './TopBarLink'
 
-
 class TopBar extends React.Component {
   render() {
     const { location } = this.props
@@ -13,30 +12,21 @@ class TopBar extends React.Component {
     const search = location.search
 
     return (
-      <Navbar expand="md" bg="primary" variant="dark">
+      <Navbar expand='md' bg='primary' variant='dark'>
         <Navbar.Brand as={Link} to='/'>
           AOJ/AtCoder-JOI
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav className="mr-auto" activeKey={`#${path}`}>
-            <TopBarLink
-              to='/'
-              title="List"
-              path={path}
-              search={search}
-            />
+          <Nav className='mr-auto' activeKey={`#${path}`}>
+            <TopBarLink to='/' title='List' path={path} search={search} />
             <TopBarLink
               to='/history'
-              title="History"
+              title='History'
               path={path}
               search={search}
             />
-            <TopBarLink
-              to='/link'
-              title="Link"
-              path={path}
-            />
+            <TopBarLink to='/link' title='Link' path={path} />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

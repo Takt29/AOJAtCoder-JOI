@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Button, Spinner } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 
@@ -26,17 +26,14 @@ class FormButton extends React.Component {
     return (
       <Container>
         <Row>
-          <Col
-            sm={12}
-            md={{ offset: 9, span: 3 }}
-          >
-            <Button
-              {...others}
-              block
-              disabled={disabled || busy}
-            >
+          <Col sm={12} md={{ offset: 9, span: 3 }}>
+            <Button {...others} block disabled={disabled || busy}>
               {busy && (
-                <FontAwesomeIcon icon={faSpinner} size='sm' rotation={rotate || null} />
+                <FontAwesomeIcon
+                  icon={faSpinner}
+                  size='sm'
+                  rotation={rotate || null}
+                />
               )}
               {children}
             </Button>

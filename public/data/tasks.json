@@ -569,8 +569,14 @@
     "name": "Election",
     "source": "08春合宿4-3",
     "problem_id": "084403",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joisc2008",
+    "atcoder_ids": [
+      "joisc2008_election1",
+      "joisc2008_election2",
+      "joisc2008_election3",
+      "joisc2008_election4",
+      "joisc2008_election5"
+    ],
     "aoj_id": "",
     "tasktype": "OutputOnly"
   },
@@ -1009,8 +1015,14 @@
     "name": "SimRoad",
     "source": "10春合宿3-3",
     "problem_id": "104303",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joisc2010",
+    "atcoder_ids": [
+      "joisc2010_simroad1",
+      "joisc2010_simroad2",
+      "joisc2010_simroad3",
+      "joisc2010_simroad4",
+      "joisc2010_simroad5"
+    ],
     "aoj_id": "",
     "tasktype": "OutputOnly"
   },
@@ -1430,7 +1442,13 @@
     "source": "12春合宿2-1",
     "problem_id": "124201",
     "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_ids": [
+      "joisc2012_broadcasting1",
+      "joisc2012_broadcasting2",
+      "joisc2012_broadcasting3",
+      "joisc2012_broadcasting4",
+      "joisc2012_broadcasting5"
+    ],
     "aoj_id": "",
     "tasktype": "OutputOnly"
   },
@@ -3730,7 +3748,14 @@
     "source": "20春合宿4-2",
     "problem_id": "204402",
     "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_ids": [
+      "joisc2020_k",
+      "joisc2020_l",
+      "joisc2020_m",
+      "joisc2020_n",
+      "joisc2020_o",
+      "joisc2020_p"
+    ],
     "aoj_id": "",
     "tasktype": "OutputOnly"
   },

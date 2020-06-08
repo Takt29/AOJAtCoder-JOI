@@ -15,30 +15,38 @@ class DifficultyListItem extends React.Component {
 
     const displayLevel = !hideLevel ? level : 0
 
-    const className =
-      notExist ? styles.notExist :
-        isSolved && isSolvedByRival ? styles.solvedByBoth :
-          isSolved ? styles.solved :
-            isSolvedByRival ? styles.solvedByRival : null
+    const className = notExist
+      ? styles.notExist
+      : isSolved && isSolvedByRival
+      ? styles.solvedByBoth
+      : isSolved
+      ? styles.solved
+      : isSolvedByRival
+      ? styles.solvedByRival
+      : null
 
     return (
       <tr className={className}>
-        <td className={c(levelColorStyle[`level${displayLevel}`], styles.level)}>
+        <td
+          className={c(levelColorStyle[`level${displayLevel}`], styles.level)}
+        >
           {displayLevel !== 0 ? level : '?'}
         </td>
         <td className={styles.taskname}>
-          <a href={atcoderUrl} target='_blank'>{name}</a>
+          <a href={atcoderUrl} target='_blank' rel='noreferrer'>
+            {name}
+          </a>
         </td>
         <td className={styles.aojstar}>
-          {aojUrl && (<a href={aojUrl} target='_blank'>★</a>)}
+          {aojUrl && (
+            <a href={aojUrl} target='_blank' rel='noreferrer'>
+              ★
+            </a>
+          )}
         </td>
-        <td className={styles.source}>
-          {source}
-        </td>
-        <td className={styles.tasktype}>
-          {type}
-        </td>
-      </tr >
+        <td className={styles.source}>{source}</td>
+        <td className={styles.tasktype}>{type}</td>
+      </tr>
     )
   }
 }

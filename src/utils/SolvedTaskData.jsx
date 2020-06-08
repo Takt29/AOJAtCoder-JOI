@@ -6,7 +6,7 @@ const getSolvedTaskList = async (tasks, { atcoder, aoj } = {}) => {
 
   return {
     success: { aoj: aojRes.success, atcoder: atcoderRes.success },
-    res: atcoderRes.list.concat(aojRes.list)
+    res: atcoderRes.list.concat(aojRes.list),
   }
 }
 
@@ -45,17 +45,20 @@ const getAtCoderSolvedTaskList = async (tasks, id) => {
     params: {
       user: id,
     },
-  }).catch(e => console.log(e))
+  }).catch((e) => console.log(e))
 
   if (!res) return { success: false, list: [] }
 
   const dict = getAtCoderProblemIdDict(tasks)
 
   const list = res.data
-    .filter(item => item.result === 'AC')
-    .filter(item => dict[item.problem_id])
-    .filter(item => Math.round(item.point) === dict[item.problem_id].atcoder.perfect_score)
-    .map(item => ({
+    .filter((item) => item.result === 'AC')
+    .filter((item) => dict[item.problem_id])
+    .filter(
+      (item) =>
+        Math.round(item.point) === dict[item.problem_id].atcoder.perfect_score,
+    )
+    .map((item) => ({
       id: dict[item.problem_id].id,
       timestamp: item.epoch_second * 1000, //msec
     }))
@@ -72,17 +75,17 @@ const getAOJSolvedTaskList = async (tasks, id) => {
     responseType: 'json',
     timeout: 3000,
     params: {
-      size: 9999
+      size: 9999,
     },
-  }).catch(e => console.log(e))
+  }).catch((e) => console.log(e))
 
   if (!res) return { success: false, list: [] }
 
   const dict = getAOJProblemIdDict(tasks)
 
   const list = res.data
-    .filter(item => dict[item.problemId])
-    .map(item => ({
+    .filter((item) => dict[item.problemId])
+    .map((item) => ({
       id: dict[item.problemId].id,
       timestamp: item.submissionDate, //msec
     }))
@@ -90,6 +93,4 @@ const getAOJSolvedTaskList = async (tasks, id) => {
   return { success: true, list }
 }
 
-export {
-  getSolvedTaskList,
-}
+export { getSolvedTaskList }

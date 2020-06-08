@@ -8,14 +8,10 @@ class ApiErrorAlerts extends React.Component {
     return (
       <div>
         {atcoder && (
-          <Alert variant='danger'>
-            AtCoderの提出結果取得に失敗しました。
-          </Alert>
+          <Alert variant='danger'>AtCoderの提出結果取得に失敗しました。</Alert>
         )}
         {aoj && (
-          <Alert variant='danger'>
-            AOJの提出結果取得に失敗しました。
-          </Alert>
+          <Alert variant='danger'>AOJの提出結果取得に失敗しました。</Alert>
         )}
       </div>
     )

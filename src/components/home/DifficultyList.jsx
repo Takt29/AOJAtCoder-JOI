@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSort, faSortUp, faSortDown } from '@fortawesome/free-solid-svg-icons'
 import DifficultyListItem from './list/DifficultyListItem'
 import styles from './DifficultyList.scss'
-import DifficultyListAccount from './list/DifficultyListAccount';
+import DifficultyListAccount from './list/DifficultyListAccount'
 
 class DifficultyList extends React.Component {
   constructor(props) {
@@ -28,34 +28,46 @@ class DifficultyList extends React.Component {
       <th {...other} onClick={onClick}>
         {children}
         &nbsp;
-        <FontAwesomeIcon
-          icon={up ? faSortUp : down ? faSortDown : faSort}
-        />
+        <FontAwesomeIcon icon={up ? faSortUp : down ? faSortDown : faSort} />
       </th>
     )
   }
 
   render() {
     const {
-      myAccount, rivalAccount, tasks,
-      isSolved, isSolvedByRival, filter: { hideFilter }
+      myAccount,
+      rivalAccount,
+      tasks,
+      isSolved,
+      isSolvedByRival,
+      filter: { hideFilter },
     } = this.props
     const { sort } = this.state
 
-    const onChangeSort = sort => this.setState({ sort })
+    const onChangeSort = (sort) => this.setState({ sort })
 
-    const filteredTasks = tasks && tasks
-      .filter(task => !hideFilter || !hideFilter.hideACTask || !isSolved[task.id])
-      .filter(task => !hideFilter || !hideFilter.hideNotExistTask || task.atcoder.id || task.aoj.id)
-      .sort((a, b) => {
-        let key = sort
-        if (!sort) return 0
-        if (sort[0] == '-') {
-          [a, b] = [b, a]
-          key = sort.slice(1)
-        }
-        return a[key] < b[key] ? -1 : 1
-      })
+    const filteredTasks =
+      tasks &&
+      tasks
+        .filter(
+          (task) => !hideFilter || !hideFilter.hideACTask || !isSolved[task.id],
+        )
+        .filter(
+          (task) =>
+            !hideFilter ||
+            !hideFilter.hideNotExistTask ||
+            task.atcoder.id ||
+            task.aoj.id,
+        )
+        .sort((a, b) => {
+          let key = sort
+          if (!sort) return 0
+          if (sort[0] == '-') {
+            ;[a, b] = [b, a]
+            key = sort.slice(1)
+          }
+          return a[key] < b[key] ? -1 : 1
+        })
 
     return (
       <div>
@@ -87,15 +99,16 @@ class DifficultyList extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {filteredTasks && filteredTasks.map(task => (
-              <DifficultyListItem
-                key={task.id}
-                task={task}
-                isSolved={isSolved[task.id]}
-                isSolvedByRival={isSolvedByRival[task.id]}
-                hideLevel={hideFilter && hideFilter.hideLevel}
-              />
-            ))}
+            {filteredTasks &&
+              filteredTasks.map((task) => (
+                <DifficultyListItem
+                  key={task.id}
+                  task={task}
+                  isSolved={isSolved[task.id]}
+                  isSolvedByRival={isSolvedByRival[task.id]}
+                  hideLevel={hideFilter && hideFilter.hideLevel}
+                />
+              ))}
           </tbody>
         </Table>
       </div>

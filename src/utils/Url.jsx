@@ -1,12 +1,9 @@
 const getAtCoderUrl = (contest, id) => {
-  if (!contest || !id)
-    return null
-  else
-    return `https://atcoder.jp/contests/${contest}/tasks/${id}`
+  if (!contest || !id) return null
+  else return `https://atcoder.jp/contests/${contest}/tasks/${id}`
 }
 
 const getAOJUrl = (contest, classification, id) => {
-
   if (!id) {
     return null
   } else {
@@ -16,7 +13,4 @@ const getAOJUrl = (contest, classification, id) => {
   }
 }
 
-export {
-  getAtCoderUrl,
-  getAOJUrl,
-}
+export { getAtCoderUrl, getAOJUrl }
