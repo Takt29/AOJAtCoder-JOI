@@ -334,8 +334,14 @@
     "name": "Packing",
     "source": "07春合宿4-3",
     "problem_id": "074403",
-    "atcoder_contest": "",
-    "atcoder_id": "",
+    "atcoder_contest": "joisc2007",
+    "atcoder_ids": [
+      "joisc2007_packin",
+      "joisc2007_packing2",
+      "joisc2007_packing3",
+      "joisc2007_packing4",
+      "joisc2007_packing5"
+    ],
     "aoj_id": "",
     "tasktype": "OutputOnly"
   },
@@ -1441,7 +1447,7 @@
     "name": "Broadcasting",
     "source": "12春合宿2-1",
     "problem_id": "124201",
-    "atcoder_contest": "",
+    "atcoder_contest": "joisc2012",
     "atcoder_ids": [
       "joisc2012_broadcasting1",
       "joisc2012_broadcasting2",
@@ -3747,7 +3753,7 @@
     "name": "Legendary Dango Maker",
     "source": "20春合宿4-2",
     "problem_id": "204402",
-    "atcoder_contest": "",
+    "atcoder_contest": "joisc2020",
     "atcoder_ids": [
       "joisc2020_k",
       "joisc2020_l",

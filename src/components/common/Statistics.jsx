@@ -18,7 +18,7 @@ class Statistics extends React.Component {
     }
 
     for (const task of tasks) {
-      if ((!task.atcoder || !task.atcoder.id) && (!task.aoj || !task.aoj.id)) {
+      if (!task.judge || task.type === 'OutputOnly') {
         continue
       }
 

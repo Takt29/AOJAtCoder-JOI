@@ -74,10 +74,31 @@ class HomeView extends React.Component {
 
     const filteredTasks = applyFilter(tasks, input)
 
+    const scoreDict = {}
+    if (submissions) {
+      for (const item of submissions) {
+        if (!scoreDict[item.id]) scoreDict[item.id] = {}
+        scoreDict[item.id][item.atcoder_problem_id] = Math.max(
+          scoreDict[item.id][item.atcoder_problem_id] ?? 0,
+          item.score,
+        )
+      }
+    }
+
+    const score = {}
+
+    for (const id of Object.keys(scoreDict)) {
+      score[id] = Object.values(scoreDict[id]).reduce(
+        (sum, score) => sum + score,
+        0,
+      )
+    }
+
     const isSolved = {}
     if (submissions) {
       for (const item of submissions) {
-        if (item.isPerfectScore) isSolved[item.id] = true
+        if (item.isPerfectScore || score[item.id] === 100)
+          isSolved[item.id] = true
       }
     }
 
@@ -106,6 +127,7 @@ class HomeView extends React.Component {
             variant='success'
             account={input.myAccount}
             tasks={filteredTasks}
+            score={score}
             isSolved={isSolved}
           />
           {input.rivalAccount &&
@@ -124,6 +146,7 @@ class HomeView extends React.Component {
           myAccount={input.myAccount}
           rivalAccount={input.rivalAccount}
           tasks={filteredTasks}
+          score={score}
           isSolved={isSolved}
           isSolvedByRival={isSolvedByRival}
           filter={input}

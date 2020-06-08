@@ -38,6 +38,7 @@ class DifficultyList extends React.Component {
       myAccount,
       rivalAccount,
       tasks,
+      score,
       isSolved,
       isSolvedByRival,
       filter: { hideFilter },
@@ -106,6 +107,7 @@ class DifficultyList extends React.Component {
                   task={task}
                   isSolved={isSolved[task.id]}
                   isSolvedByRival={isSolvedByRival[task.id]}
+                  score={score[task.id] ?? 0}
                   hideLevel={hideFilter && hideFilter.hideLevel}
                 />
               ))}

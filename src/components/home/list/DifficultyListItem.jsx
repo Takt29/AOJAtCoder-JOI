@@ -6,16 +6,15 @@ import styles from './DifficultyListItem.scss'
 
 class DifficultyListItem extends React.Component {
   render() {
-    const { task, isSolved, isSolvedByRival, hideLevel } = this.props
-    const { level, name, atcoder, aoj, source, type } = task
+    const { task, isSolved, isSolvedByRival, hideLevel, score } = this.props
+    const { level, name, atcoder, aoj, source, type, judge } = task
 
     const atcoderUrl = getAtCoderUrl(atcoder.contest, atcoder.id)
     const aojUrl = getAOJUrl('JOI', aoj.classification, aoj.id)
-    const notExist = !atcoderUrl && !aojUrl
 
     const displayLevel = !hideLevel ? level : 0
 
-    const className = notExist
+    const className = !judge
       ? styles.notExist
       : isSolved && isSolvedByRival
       ? styles.solvedByBoth
@@ -25,8 +24,18 @@ class DifficultyListItem extends React.Component {
       ? styles.solvedByRival
       : null
 
+    const getOutputOnlyStyle = (score) => {
+      const border = Math.round(score)
+      return {
+        background: `linear-gradient(0deg,#E0EFF9 0%, #E0EFF9 ${border}%, white ${border}%, white 100%)`,
+      }
+    }
+
+    const OutputOnlyStyle =
+      type === 'OutputOnly' && !isSolved ? getOutputOnlyStyle(score) : null
+
     return (
-      <tr className={className}>
+      <tr className={className} style={OutputOnlyStyle}>
         <td
           className={c(levelColorStyle[`level${displayLevel}`], styles.level)}
         >

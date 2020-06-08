@@ -14,8 +14,15 @@ const getAtCoderProblemIdDict = (tasks) => {
   const dict = {}
 
   for (const task of tasks) {
-    if (task.atcoder && task.atcoder.id) {
-      dict[task.atcoder.id] = task
+    if (task.atcoder) {
+      if (task.atcoder.id) {
+        dict[task.atcoder.id] = task
+      }
+      if (task.atcoder.ids) {
+        for (const id of task.atcoder.ids) {
+          dict[id] = task
+        }
+      }
     }
   }
 
@@ -55,6 +62,7 @@ const getAtCoderSubmissions = async (tasks, id) => {
     .filter((item) => dict[item.problem_id])
     .map((item) => ({
       id: dict[item.problem_id].id,
+      atcoder_problem_id: item.problem_id,
       isPerfectScore:
         Math.round(item.point * 10) ===
         dict[item.problem_id].atcoder.perfect_score * 10,
