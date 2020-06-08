@@ -4,7 +4,7 @@ import {
   getTaskList,
   applyFilter as applyFilterForTasks,
 } from '../utils/TaskData'
-import { getSolvedTaskList } from '../utils/SolvedTaskData'
+import { getSubmissions } from '../utils/SolvedTaskData'
 import {
   getContestList,
   applyFilter as applyFilterForContests,
@@ -18,7 +18,7 @@ class HistoryView extends React.Component {
       busy: true,
       contests: [],
       tasks: [],
-      solvedList: [],
+      submissions: [],
       input: {},
       errors: { atcoder: false, aoj: false },
     }
@@ -39,13 +39,13 @@ class HistoryView extends React.Component {
 
   async update(tasks, input) {
     const { account } = input || {}
-    const solvedList = await getSolvedTaskList(tasks, account)
+    const submissions = await getSubmissions(tasks, account)
 
     this.setState({
-      solvedList: solvedList.res,
+      submissions: submissions.res,
       errors: {
-        atcoder: !solvedList.success.atcoder,
-        aoj: !solvedList.success.aoj,
+        atcoder: !submissions.success.atcoder,
+        aoj: !submissions.success.aoj,
       },
     })
   }
@@ -61,10 +61,14 @@ class HistoryView extends React.Component {
   }
 
   render() {
-    const { contests, tasks, solvedList, input, busy, errors } = this.state
+    const { contests, tasks, submissions, input, busy, errors } = this.state
 
     const filteredTasks = applyFilterForTasks(tasks, input)
-    const filteredContests = applyFilterForContests(contests, solvedList, input)
+    const filteredContests = applyFilterForContests(
+      contests,
+      submissions,
+      input,
+    )
 
     return (
       <div className={styles.self}>
@@ -76,7 +80,7 @@ class HistoryView extends React.Component {
             key={contest.id}
             contest={contest}
             tasks={filteredTasks}
-            solvedList={solvedList}
+            submissions={submissions}
             downloadButton
           />
         ))}

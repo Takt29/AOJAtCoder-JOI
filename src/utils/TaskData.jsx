@@ -22,7 +22,8 @@ const getTaskList = async () => {
     id: task.problem_id,
     atcoder: {
       contest: task.atcoder_contest,
-      id: task.atcoder_id,
+      id: task.atcoder_id || task.atcoder_ids?.[0],
+      ids: task.atcoder_ids,
       perfect_score: Number(task.atcoder_perfect_score || '100'),
     },
     aoj: {
@@ -33,6 +34,9 @@ const getTaskList = async () => {
     },
     source: task.source,
     type: task.tasktype,
+    judge:
+      (task.atcoder_contest && (task.atcoder_id || task.atcoder_ids?.length)) ||
+      task.aoj_id,
   }))
 
   return tasks
