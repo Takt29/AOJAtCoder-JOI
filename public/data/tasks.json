@@ -3774,5 +3774,35 @@
     "atcoder_id": "joisc2020_q",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "2番目に大きい整数",
+    "source": "21一次予選1-1",
+    "problem_id": "211101",
+    "atcoder_contest": "joi2021yo1a",
+    "atcoder_id": "joi2021_yo1a_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "JOIソート",
+    "source": "21一次予選1-2",
+    "problem_id": "211102",
+    "atcoder_contest": "joi2021yo1a",
+    "atcoder_id": "joi2021_yo1a_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "共通要素",
+    "source": "21一次予選1-3",
+    "problem_id": "211103",
+    "atcoder_contest": "joi2021yo1a",
+    "atcoder_id": "joi2021_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
