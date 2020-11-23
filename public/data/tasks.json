@@ -3776,7 +3776,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "2番目に大きい整数",
     "source": "21一次予選1-1",
     "problem_id": "211101",
@@ -3786,7 +3786,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "JOIソート",
     "source": "21一次予選1-2",
     "problem_id": "211102",
@@ -3796,12 +3796,42 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "共通要素",
     "source": "21一次予選1-3",
     "problem_id": "211103",
     "atcoder_contest": "joi2021yo1a",
     "atcoder_id": "joi2021_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "帰省",
+    "source": "21一次予選2-1",
+    "problem_id": "211201",
+    "atcoder_contest": "joi2021yo1b",
+    "atcoder_id": "joi2021_yo1b_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "ビ太郎とIOI",
+    "source": "21一次予選2-2",
+    "problem_id": "211202",
+    "atcoder_contest": "joi2021yo1b",
+    "atcoder_id": "joi2021_yo1b_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "分割",
+    "source": "21一次予選2-3",
+    "problem_id": "211203",
+    "atcoder_contest": "joi2021yo1b",
+    "atcoder_id": "joi2021_yo1b_c",
     "aoj_id": "",
     "tasktype": "Batch"
   }
