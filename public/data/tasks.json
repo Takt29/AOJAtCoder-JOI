@@ -541,7 +541,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Nightman",
     "source": "08春合宿3-3",
     "problem_id": "084303",
@@ -752,7 +752,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Contest",
     "source": "09春合宿2-3",
     "problem_id": "094203",
@@ -782,7 +782,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Logo",
     "source": "09春合宿3-3",
     "problem_id": "094303",
@@ -872,7 +872,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "方向音痴のトナカイ",
     "source": "10予選6",
     "problem_id": "102106",
@@ -987,7 +987,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "Regions",
     "source": "10春合宿2-3",
     "problem_id": "104203",
@@ -1163,7 +1163,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "歩くサンタクロース",
     "source": "11本選4",
     "problem_id": "113104",
@@ -1413,7 +1413,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Building 2",
     "source": "12春合宿1-1",
     "problem_id": "124101",
@@ -2189,7 +2189,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "財宝",
     "source": "15予選6",
     "problem_id": "152106",
@@ -2209,7 +2209,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "ケーキの切り分け２",
     "source": "15本選2",
     "problem_id": "153102",
@@ -2269,7 +2269,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "Growing Vegetables is Fun 2",
     "source": "15春合宿1-3",
     "problem_id": "154103",
@@ -2279,7 +2279,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "IOIOI Cards",
     "source": "15春合宿1-4",
     "problem_id": "154104",
@@ -2849,7 +2849,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "11",
     "name": "Long Mansion",
     "source": "17春合宿3-2",
     "problem_id": "174302",
@@ -2979,7 +2979,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "L番目のK番目の数",
     "source": "18予選6",
     "problem_id": "182106",
@@ -3609,7 +3609,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "7",
+    "level": "6",
     "name": "JJOOII 2",
     "source": "20本選2",
     "problem_id": "203102",
@@ -3629,7 +3629,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "オリンピックバス",
     "source": "20本選4",
     "problem_id": "203104",
