@@ -3816,7 +3816,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "3",
+    "level": "2",
     "name": "ビ太郎とIOI",
     "source": "21一次予選2-2",
     "problem_id": "211202",
@@ -3832,6 +3832,36 @@
     "problem_id": "211203",
     "atcoder_contest": "joi2021yo1b",
     "atcoder_id": "joi2021_yo1b_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "計算",
+    "source": "21一次予選3-1",
+    "problem_id": "211301",
+    "atcoder_contest": "joi2021yo1c",
+    "atcoder_id": "joi2021_yo1c_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "IOI 文字列",
+    "source": "21一次予選3-2",
+    "problem_id": "211302",
+    "atcoder_contest": "joi2021yo1c",
+    "atcoder_id": "joi2021_yo1c_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "比較",
+    "source": "21一次予選3-3",
+    "problem_id": "211303",
+    "atcoder_contest": "joi2021yo1c",
+    "atcoder_id": "joi2021_yo1c_c",
     "aoj_id": "",
     "tasktype": "Batch"
   }
