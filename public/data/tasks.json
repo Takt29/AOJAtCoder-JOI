@@ -3876,7 +3876,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "パンケーキ",
     "source": "21二次予選2",
     "problem_id": "212102",
@@ -3906,7 +3906,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "スパイ 2",
     "source": "21二次予選5",
     "problem_id": "212105",
