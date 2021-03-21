@@ -38,8 +38,11 @@ class HistoryForm extends React.Component {
 
   async componentDidMount() {
     const { location } = this.props
-    const queryAccount = parseParams(location.search)
-    this.setState({ account: queryAccount.myAccount }, () => this.onSubmit())
+    const { myAccount, ...others } = parseParams(location.search)
+    this.setState({
+      account: myAccount,
+      ...others,
+    }, () => this.onSubmit())
   }
 
   onUpdate(key, value) {
@@ -66,7 +69,13 @@ class HistoryForm extends React.Component {
       tableContestType,
     }
 
-    const queryString = createParams({ myAccount: account })
+    const queryString = createParams({
+      myAccount: account,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+    })
     history.push({ search: queryString })
 
     if (onSubmit) {

@@ -1,6 +1,6 @@
 {
   "name": "aojatcoder-joi",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "AOJ/AtCoder-JOI",
   "main": "index.js",
   "scripts": {

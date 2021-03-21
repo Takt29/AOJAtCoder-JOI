@@ -61,7 +61,14 @@ class SearchForm extends React.Component {
       year,
     }
 
-    const queryString = createParams({ myAccount, rivalAccount })
+    const queryString = createParams({
+      myAccount,
+      rivalAccount,
+      taskType,
+      hideFilter,
+      contestType,
+      year,
+    })
     history.push({ search: queryString })
 
     if (onSubmit) {
