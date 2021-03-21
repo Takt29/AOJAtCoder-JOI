@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: '14.x'
     - name: Install modules
-      run: npm install　--no-save
+      run: npm install --no-save
     - name: Install git-ftp
       run: sudo apt update && sudo apt install -y git-ftp
     - name: Build
