@@ -48,7 +48,7 @@ class AccountForm extends React.Component {
             <Form.Control
               ref={this.atcoderIdForm}
               name='atcoder'
-              value={value.atcoder}
+              value={value?.atcoder}
               onChange={this.onUpdate.bind(this)}
               placeholder={`${title}のAtCoder ID`}
               autoComplete='off'
@@ -63,7 +63,7 @@ class AccountForm extends React.Component {
             <Form.Control
               ref={this.aojIdForm}
               name='aoj'
-              value={value.aoj}
+              value={value?.aoj}
               onChange={this.onUpdate.bind(this)}
               placeholder={`${title}のAOJ ID`}
               autoComplete='off'

@@ -45,6 +45,10 @@ const cleanup = (obj) => {
 const parseParams = (search = '') => {
   const params = qs.parse(search, {parseBooleans: true})
 
+  if (Object.keys(params).length === 0) {
+    return {}
+  }
+
   const { atcoder_id, aoj_id, rival_atcoder_id, rival_aoj_id } = params
 
   const { batch, communication, outputOnly } = params

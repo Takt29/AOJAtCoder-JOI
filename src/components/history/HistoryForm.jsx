@@ -38,11 +38,16 @@ class HistoryForm extends React.Component {
 
   async componentDidMount() {
     const { location } = this.props
-    const { myAccount, ...others } = parseParams(location.search)
+    const params = parseParams(location.search)
+    const { myAccount, ...others } = params
     this.setState({
       account: myAccount,
       ...others,
-    }, () => this.onSubmit())
+    }, () => {
+      if (params && Object.keys(params).length) {
+        this.onSubmit()
+      }
+    })
   }
 
   onUpdate(key, value) {

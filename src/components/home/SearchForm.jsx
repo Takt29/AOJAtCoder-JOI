@@ -34,7 +34,11 @@ class SearchForm extends React.Component {
   async componentDidMount() {
     const { location } = this.props
     const queryAccount = parseParams(location.search)
-    this.setState(queryAccount, () => this.onSubmit())
+    this.setState(queryAccount, () => {
+      if (queryAccount && Object.keys(queryAccount).length) {
+        this.onSubmit()
+      }
+    })
   }
 
   onUpdate(key, value) {
