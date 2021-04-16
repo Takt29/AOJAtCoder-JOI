@@ -3964,5 +3964,132 @@
     "atcoder_id": "joi2021ho_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Aerobatics",
+    "source": "21春合宿1-1",
+    "problem_id": "214101",
+    "atcoder_contest": "joisc2021",
+    "atcoder_ids": [
+      "joisc2021_a1",
+      "joisc2021_a2",
+      "joisc2021_a3",
+      "joisc2021_a4",
+      "joisc2021_a5",
+      "joisc2021_a6"
+    ],
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "11",
+    "name": "IOI Fever",
+    "source": "21春合宿1-2",
+    "problem_id": "214102",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Food Court",
+    "source": "21春合宿1-3",
+    "problem_id": "214103",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Escape Route",
+    "source": "21春合宿2-1",
+    "problem_id": "214201",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Road Construction",
+    "source": "21春合宿2-2",
+    "problem_id": "214202",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Shopping",
+    "source": "21春合宿2-3",
+    "problem_id": "214203",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_g",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Ancient Machine",
+    "source": "21春合宿3-1",
+    "problem_id": "214301",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_h",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Bodyguard",
+    "source": "21春合宿3-2",
+    "problem_id": "214302",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Meetings 2",
+    "source": "21春合宿3-3",
+    "problem_id": "214303",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Event Hopping 2",
+    "source": "21春合宿4-1",
+    "problem_id": "214401",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Navigation 2",
+    "source": "21春合宿4-2",
+    "problem_id": "214402",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_l",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Worst Reporter 4",
+    "source": "21春合宿4-3",
+    "problem_id": "214403",
+    "atcoder_contest": "joisc2021",
+    "atcoder_id": "joisc2021_m",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
