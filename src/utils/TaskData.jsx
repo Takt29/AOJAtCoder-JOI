@@ -80,6 +80,9 @@ const applyFilter = (tasks, filter) => {
       (task) => !contestType || contestType.open || !task.source.match(/Open/),
     )
     .filter(
+      (task) => !contestType || contestType.joig || !task.source.match(/JOIG/),
+    )
+    .filter(
       (task) =>
         !year ||
         !parseInt(year.begin) ||

@@ -23,6 +23,7 @@ class HistoryForm extends React.Component {
         prelim2: true,
         final: true,
         springCamp: true,
+        joig: true,
         open: false,
       },
       year: { begin: '2007', end: 'latest' },
@@ -31,6 +32,7 @@ class HistoryForm extends React.Component {
         prelim2: true,
         final: true,
         springCamp: true,
+        joig: true,
         open: false,
       },
     }

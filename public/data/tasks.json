@@ -4091,5 +4091,65 @@
     "atcoder_id": "joisc2021_m",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "金平糖",
+    "source": "21JOIG1",
+    "problem_id": "215101",
+    "atcoder_contest": "joig2021-open",
+    "atcoder_id": "joig2021_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "巻物",
+    "source": "21JOIG2",
+    "problem_id": "215102",
+    "atcoder_contest": "joig2021-open",
+    "atcoder_id": "joig2021_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "イルミネーション 2",
+    "source": "21JOIG3",
+    "problem_id": "215103",
+    "atcoder_contest": "joig2021-open",
+    "atcoder_id": "joig2021_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "展覧会 2",
+    "source": "21JOIG4",
+    "problem_id": "215104",
+    "atcoder_contest": "joig2021-open",
+    "atcoder_id": "joig2021_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "パレード",
+    "source": "21JOIG5",
+    "problem_id": "215105",
+    "atcoder_contest": "joig2021-open",
+    "atcoder_id": "joig2021_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "デジタルアート",
+    "source": "21JOIG6",
+    "problem_id": "215106",
+    "atcoder_contest": "joig2021-open",
+    "atcoder_id": "joig2021_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]

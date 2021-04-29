@@ -70,6 +70,10 @@ const applyFilter = (contests, solved, input) => {
       (contest) =>
         !contestType || contestType.springCamp || !contest.name.match(/春合宿/),
     )
+    .filter(
+      (contest) =>
+        !contestType || contestType.joig || !contest.name.match(/JOIG/),
+    )
 }
 
 export { getContestList, applyFilter }
