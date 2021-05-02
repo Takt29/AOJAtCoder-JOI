@@ -36,9 +36,7 @@ class SearchForm extends React.Component {
     const { location } = this.props
     const queryAccount = parseParams(location.search)
     this.setState(queryAccount, () => {
-      if (queryAccount && Object.keys(queryAccount).length) {
-        this.onSubmit()
-      }
+      this.onSubmit({ unsave: !(queryAccount && Object.keys(queryAccount).length) })
     })
   }
 
@@ -46,7 +44,7 @@ class SearchForm extends React.Component {
     this.setState({ [key]: value })
   }
 
-  onSubmit() {
+  onSubmit({ unsave = false } = {}) {
     const { onSubmit, history } = this.props
     const {
       myAccount,
@@ -66,15 +64,17 @@ class SearchForm extends React.Component {
       year,
     }
 
-    const queryString = createParams({
-      myAccount,
-      rivalAccount,
-      taskType,
-      hideFilter,
-      contestType,
-      year,
-    })
-    history.push({ search: queryString })
+    if (!unsave) {
+      const queryString = createParams({
+        myAccount,
+        rivalAccount,
+        taskType,
+        hideFilter,
+        contestType,
+        year,
+      })
+      history.push({ search: queryString })
+    }
 
     if (onSubmit) {
       for (const key in input) {

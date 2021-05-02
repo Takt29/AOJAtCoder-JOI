@@ -46,9 +46,7 @@ class HistoryForm extends React.Component {
       account: myAccount,
       ...others,
     }, () => {
-      if (params && Object.keys(params).length) {
-        this.onSubmit()
-      }
+      this.onSubmit({ unsave: !(params && Object.keys(params).length) })
     })
   }
 
@@ -56,7 +54,7 @@ class HistoryForm extends React.Component {
     this.setState({ [key]: value })
   }
 
-  onSubmit() {
+  onSubmit({ unsave = false } = {}) {
     const { onSubmit, history } = this.props
     const {
       account,
@@ -76,14 +74,16 @@ class HistoryForm extends React.Component {
       tableContestType,
     }
 
-    const queryString = createParams({
-      myAccount: account,
-      taskType,
-      hideFilter,
-      contestType,
-      year,
-    })
-    history.push({ search: queryString })
+    if (!unsave) {
+      const queryString = createParams({
+        myAccount: account,
+        taskType,
+        hideFilter,
+        contestType,
+        year,
+      })
+      history.push({ search: queryString })
+    }
 
     if (onSubmit) {
       for (const key in input) {
