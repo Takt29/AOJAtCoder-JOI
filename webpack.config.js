@@ -1,7 +1,8 @@
 // webpack.config.js
-var path = require('path')
-var webpack = require('webpack')
-var HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
+const webpack = require('webpack')
+const Fiber = require('fibers')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const Mode = process.env.NODE_ENV || 'development'
 const isProduction = Mode === 'production'
@@ -13,7 +14,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'output'),
     publicPath: '/',
-    filename: 'bundle.js?[hash]',
+    filename: 'bundle.js?[contenthash]',
   },
   module: {
     rules: [
@@ -31,18 +32,27 @@ module.exports = {
               modules: {
                 localIdentName: isProduction
                   ? '[contenthash]'
-                  : '[name]_[local]_[hash:base64:5]',
+                  : '[name]_[local]_[contenthash]',
               },
               url: false,
             },
           },
-          'sass-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              implementation: require('sass'),
+              sassOptions: {
+                fiber: Fiber,
+              },
+              sourceMap: !isProduction,
+            },
+          },
         ],
       },
-      {
-        test: /\.s[ac]ss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
+      // {
+      //   test: /\.s[ac]ss$/i,
+      //   use: ['style-loader', 'css-loader', 'sass-loader'],
+      // },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
