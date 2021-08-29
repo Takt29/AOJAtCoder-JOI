@@ -1,4 +1,5 @@
 import { ElementType, VFC } from 'react'
+import { ColoredLevel } from '../../components/common/ColoredLevel'
 import { useTask } from '../../hooks/contexts/TaskContext'
 
 type Props = {
@@ -7,8 +8,8 @@ type Props = {
 }
 
 export const TaskLevel: VFC<Props> = (props) => {
-  const { as: Tag = 'span', className } = props
+  const { as, className } = props
   const { level } = useTask()
 
-  return <Tag className={className}>{level !== 0 ? level : '?'}</Tag>
+  return <ColoredLevel as={as} className={className} level={level} />
 }

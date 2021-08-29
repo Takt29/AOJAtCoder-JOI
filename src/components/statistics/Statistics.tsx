@@ -1,5 +1,6 @@
 import { useMemo, VFC } from 'react'
 import { Table } from 'react-bootstrap'
+import { ColoredLevel } from '../common/ColoredLevel'
 import styles from './Statistics.module.scss'
 
 export const Statistics: VFC = () => {
@@ -14,9 +15,7 @@ export const Statistics: VFC = () => {
         <thead>
           <tr>
             {levels.map((level) => (
-              <th key={level} className={`level-${level}`}>
-                {level !== 0 ? level : '?'}
-              </th>
+              <ColoredLevel key={level} as='th' level={level} />
             ))}
           </tr>
         </thead>
