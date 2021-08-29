@@ -22,4 +22,8 @@ export type TaskWithResult = Task & {
     score: number
     isPerfectScore: boolean
   }
+  rivalResult?: {
+    score: number
+    isPerfectScore: boolean
+  }
 }

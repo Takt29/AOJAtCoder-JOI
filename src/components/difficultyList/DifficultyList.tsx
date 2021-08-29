@@ -9,13 +9,14 @@ import { mergeTaskAndSubmissions } from '../../helpers/submission'
 export const DifficultyList: VFC = () => {
   const { data: tasks } = useTasks()
   const { data: submissions } = useSubmissions('goodbaton', 'TKT29')
+  const { data: rivalSubmissions } = useSubmissions('goodbaton', 'TKT29')
 
-  const tasksWithResult = useMemo(
-    () => tasks && submissions && mergeTaskAndSubmissions(tasks, submissions),
-    [submissions, tasks],
-  )
-
-  console.log(tasksWithResult)
+  const tasksWithResult = useMemo(() => {
+    if (!tasks) return []
+    const A = mergeTaskAndSubmissions(tasks, submissions || [])
+    const B = mergeTaskAndSubmissions(A, rivalSubmissions || [], true)
+    return B
+  }, [rivalSubmissions, submissions, tasks])
 
   return (
     <Table className={styles.root} size='sm' responsive>

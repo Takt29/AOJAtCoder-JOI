@@ -77,8 +77,9 @@ export const toSubmissions = (
 }
 
 export const mergeTaskAndSubmissions = (
-  tasks: Task[],
+  tasks: Task[] | TaskWithResult[],
   submissions: Submission[],
+  rival: boolean = false,
 ): TaskWithResult[] => {
   type ResultsType = {
     [key: string]: { score: number | number[]; isPerfectScore: boolean }
@@ -130,7 +131,7 @@ export const mergeTaskAndSubmissions = (
       : resultScore
     return {
       ...task,
-      result: {
+      [!rival ? 'result' : 'rivalResult']: {
         score,
         isPerfectScore: isPerfectScore,
       },

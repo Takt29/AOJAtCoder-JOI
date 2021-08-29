@@ -15,11 +15,19 @@ type Props = {
 
 export const DifficultyListItem: VFC<Props> = (props) => {
   const { task } = props
-  const { result: { isPerfectScore } = {} } = task
+  const {
+    result: { isPerfectScore: solved } = {},
+    rivalResult: { isPerfectScore: solvedByRival } = {},
+  } = task
 
   return (
     <TaskProvider value={task}>
-      <tr className={clsx({ [styles.solved]: isPerfectScore })}>
+      <tr
+        className={clsx({
+          [styles.solved]: solved,
+          [styles.solvedByRival]: solvedByRival,
+        })}
+      >
         <TaskLevel as='th' className={styles.level} />
         <TaskName as='td' />
         <TaskAizuOnlineJudgeLink as='td' className={styles.aoj} />
