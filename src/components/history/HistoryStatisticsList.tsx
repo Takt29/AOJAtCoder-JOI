@@ -1,13 +1,9 @@
 import { VFC } from 'react'
-import { fetchContests } from '../../repositories/contests'
-import useSWRImmutable from 'swr/immutable'
 import { HistoryStatistics } from './HistoryStatistics'
+import { useContests } from '../../hooks/http/contest'
 
 export const HistoryStatisticsList: VFC = () => {
-  const { data: { data: contests } = {} } = useSWRImmutable(
-    'fetchContests',
-    () => fetchContests(),
-  )
+  const { data: contests } = useContests()
 
   return (
     <div>

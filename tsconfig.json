@@ -2,13 +2,13 @@
   "compilerOptions": {
     "sourceMap": true,
     "baseUrl": "./",
-    "target": "es5",
+    "target": "es2019",
     "strict": true,
     "module": "commonJs",
     "jsx": "react-jsx",
-    "lib": ["ES5", "ES6", "DOM"],
+    "lib": ["es2019", "DOM"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "isolatedModules": true,
+    "isolatedModules": true
   }
 }

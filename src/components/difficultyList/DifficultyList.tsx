@@ -1,13 +1,12 @@
 import { VFC } from 'react'
 import { Table } from 'react-bootstrap'
-import { fetchTasks } from '../../repositories/task'
-import useSWRImmutable from 'swr/immutable'
 import { DifficultyListItem } from './DifficultyListItem'
+import { useTasks } from '../../hooks/http/task'
+import { useSubmissions } from '../../hooks/http/submissions'
 
 export const DifficultyList: VFC = () => {
-  const { data: { data: tasks } = {} } = useSWRImmutable('fetchTasks', () =>
-    fetchTasks(),
-  )
+  const { data: tasks } = useTasks()
+  const { data: submissions } = useSubmissions('goodbaton', 'TKT29')
 
   return (
     <Table size='sm' responsive>
