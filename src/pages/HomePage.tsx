@@ -1,4 +1,5 @@
 import { VFC } from 'react'
+import { DifficultyList } from '../components/difficultyList/DifficultyList'
 
 export const HomePage: VFC = () => {
   return (
@@ -6,6 +7,7 @@ export const HomePage: VFC = () => {
       <h3>検索</h3>
       <h3>統計</h3>
       <h3>難易度表</h3>
+      <DifficultyList />
     </div>
   )
 }

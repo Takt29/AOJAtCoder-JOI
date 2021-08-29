@@ -15,7 +15,7 @@ export const LinksPage: VFC = () => {
         href={'https://kenkoooo.com/atcoder'}
         title={'AtCoder Problems'}
       >
-        AtCoderの正答状況の取得にはここのAPIを使用しています。{' '}
+        AtCoderの正答状況の取得にはここのAPIを使用しています。
       </LinksPageComponent>
       <LinksPageComponent
         href={
