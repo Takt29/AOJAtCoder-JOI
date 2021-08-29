@@ -2,39 +2,32 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    es6: true
+    es6: true,
   },
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2020,
+    ecmaFeatures: {
+      jsx: true,
+    },
+    sourceType: 'module',
+  },
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
-    'prettier/react',
   ],
-  plugins: [
-    'react',
-    'prettier',
-  ],
+  plugins: ['react-hooks', 'react', '@typescript-eslint'],
   rules: {
-    'prettier/prettier': 'error'
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
   settings: {
-    'react': {
-      'version': 'detect'
-    }
+    react: {
+      version: 'detect',
+    },
   },
-  parserOptions: {
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true
-    }
-  },
-  overrides: [
-    {
-      'files': ['**/*.jsx'],
-      'rules': {
-        'react/prop-types': 'off'
-      }
-    }
-  ]
 }
