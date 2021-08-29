@@ -2,19 +2,23 @@ import { VFC } from 'react'
 import { Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import { TopBar } from './components/navbar/TopBar'
+import { HomePage } from './pages/HomePage'
+import styles from './App.scss'
+import { HistoryPage } from './pages/HistoryPage'
+import { LinksPage } from './pages/LinksPage'
 
 export const App: VFC = () => (
-  <div>
+  <div className={styles.root}>
     <TopBar />
     <Container>
       <Route exact={true} path='/'>
-        Home
+        <HomePage />
       </Route>
       <Route exact={true} path='/history'>
-        History
+        <HistoryPage />
       </Route>
       <Route exact={true} path='/links'>
-        Links
+        <LinksPage />
       </Route>
     </Container>
   </div>
