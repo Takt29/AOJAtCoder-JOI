@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { VFC } from 'react'
-import { Task } from 'src/types/task'
+import { Task, TaskWithResult } from 'src/types/task'
 import { TaskAizuOnlineJudgeLink } from '../../consumers/task/TaskAizuOnlineJudgeLink'
 import { TaskLevel } from '../../consumers/task/TaskLevel'
 import { TaskName } from '../../consumers/task/TaskName'
@@ -10,17 +10,17 @@ import { TaskProvider } from '../../hooks/contexts/TaskContext'
 import styles from './DifficultyListItem.module.scss'
 
 type Props = {
-  task: Task
+  task: TaskWithResult
 }
 
 export const DifficultyListItem: VFC<Props> = (props) => {
   const { task } = props
-  const { level } = task
+  const { result: { isPerfectScore } = {} } = task
 
   return (
     <TaskProvider value={task}>
-      <tr>
-        <TaskLevel as='th' className={clsx(`level-${level}`, styles.level)} />
+      <tr className={clsx({ [styles.solved]: isPerfectScore })}>
+        <TaskLevel as='th' className={styles.level} />
         <TaskName as='td' />
         <TaskAizuOnlineJudgeLink as='td' className={styles.aoj} />
         <TaskSource as='td' />

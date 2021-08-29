@@ -1,5 +1,5 @@
 import { SiteSubmission, Submission } from '../types/submission'
-import { Task } from '../types/task'
+import { Task, TaskWithResult } from '../types/task'
 
 const toSubmission = (
   siteSubmissions: SiteSubmission,
@@ -74,4 +74,66 @@ export const toSubmissions = (
       return toSubmission(submission, task)
     })
     .filter((arg: Submission | null): arg is Submission => Boolean(arg))
+}
+
+export const mergeTaskAndSubmissions = (
+  tasks: Task[],
+  submissions: Submission[],
+): TaskWithResult[] => {
+  type ResultsType = {
+    [key: string]: { score: number | number[]; isPerfectScore: boolean }
+  }
+
+  const results: ResultsType = Object.fromEntries(
+    tasks.map((task): [string, ResultsType[string]] => {
+      const { atcoder, id } = task
+      if (atcoder?.taskIds) {
+        return [
+          id,
+          {
+            score: new Array(atcoder.taskIds.length).fill(0),
+            isPerfectScore: false,
+          },
+        ]
+      }
+      return [id, { score: 0, isPerfectScore: false }]
+    }),
+  )
+
+  for (const submission of submissions) {
+    const { taskId, subTaskIndex, score, isPerfectScore } = submission
+    if (!Object.prototype.hasOwnProperty.call(results, taskId)) continue
+
+    const targetScore = results[taskId].score
+
+    if (subTaskIndex !== undefined) {
+      if (Array.isArray(targetScore)) {
+        targetScore[subTaskIndex] = Math.max(targetScore[subTaskIndex], score)
+      } else {
+        throw new Error('invalid data')
+      }
+    } else {
+      if (typeof targetScore === 'number') {
+        results[taskId].score = Math.max(targetScore, score)
+        results[taskId].isPerfectScore ||= isPerfectScore
+      } else {
+        throw new Error('invalid data')
+      }
+    }
+  }
+
+  return tasks.map((task) => {
+    const { id } = task
+    const { score: resultScore, isPerfectScore } = results[id]
+    const score: number = Array.isArray(resultScore)
+      ? resultScore.reduce((sum, cur) => sum + cur, 0)
+      : resultScore
+    return {
+      ...task,
+      result: {
+        score,
+        isPerfectScore: isPerfectScore,
+      },
+    }
+  })
 }

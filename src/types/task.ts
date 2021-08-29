@@ -16,3 +16,10 @@ export type Task = {
     taskId: string
   }
 }
+
+export type TaskWithResult = Task & {
+  result?: {
+    score: number
+    isPerfectScore: boolean
+  }
+}
