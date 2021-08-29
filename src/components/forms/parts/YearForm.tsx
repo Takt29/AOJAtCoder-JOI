@@ -1,6 +1,7 @@
 import { useMemo, VFC } from 'react'
 import { Form, Row, Col } from 'react-bootstrap'
 import { useFormContext } from 'react-hook-form'
+import styles from './YearForm.module.scss'
 
 type Props = {
   title?: string
@@ -38,7 +39,9 @@ export const YearForm: VFC<Props> = (props) => {
           ))}
         </Form.Control>
       </Col>
-      <Col sm={1}>〜</Col>
+      <Col sm={1} className={styles.tilde}>
+        〜
+      </Col>
       <Col sm={4}>
         <Form.Control as='select' size='sm' custom {...register(`${name}.end`)}>
           {years.map((year) => (
