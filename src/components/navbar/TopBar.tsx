@@ -16,6 +16,7 @@ export const TopBar: VFC = () => {
         <Nav className='mr-auto' activeKey={`#${pathname}`}>
           <TopBarLink to='/' title='List' />
           <TopBarLink to='/history' title='History' />
+          <TopBarLink to='/changelog' title='ChangeLog' />
           <TopBarLink to='/links' title='Links' />
         </Nav>
       </Navbar.Collapse>

@@ -3,9 +3,10 @@ import { Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import { TopBar } from './components/navbar/TopBar'
 import { HomePage } from './pages/HomePage'
-import styles from './App.module.scss'
 import { HistoryPage } from './pages/HistoryPage'
 import { LinksPage } from './pages/LinksPage'
+import { ChangeLogPage } from './pages/ChangeLogPage'
+import styles from './App.module.scss'
 
 export const App: VFC = () => (
   <div className={styles.root}>
@@ -19,6 +20,9 @@ export const App: VFC = () => (
       </Route>
       <Route exact={true} path='/links'>
         <LinksPage />
+      </Route>
+      <Route exact={true} path='/changelog'>
+        <ChangeLogPage />
       </Route>
     </Container>
   </div>
