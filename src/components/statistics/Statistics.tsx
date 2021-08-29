@@ -1,6 +1,6 @@
 import { useMemo, VFC } from 'react'
 import { Table } from 'react-bootstrap'
-import styles from './Statistics.scss'
+import styles from './Statistics.module.scss'
 
 export const Statistics: VFC = () => {
   const levels: (number | 'ALL')[] = useMemo(
@@ -14,7 +14,9 @@ export const Statistics: VFC = () => {
         <thead>
           <tr>
             {levels.map((level) => (
-              <th key={level}>{level !== 0 ? level : '?'}</th>
+              <th key={level} className={`level-${level}`}>
+                {level !== 0 ? level : '?'}
+              </th>
             ))}
           </tr>
         </thead>

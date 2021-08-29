@@ -3,16 +3,17 @@ import { Table } from 'react-bootstrap'
 import { DifficultyListItem } from './DifficultyListItem'
 import { useTasks } from '../../hooks/http/task'
 import { useSubmissions } from '../../hooks/http/submissions'
+import styles from './DifficultyList.module.scss'
 
 export const DifficultyList: VFC = () => {
   const { data: tasks } = useTasks()
   const { data: submissions } = useSubmissions('goodbaton', 'TKT29')
 
   return (
-    <Table size='sm' responsive>
+    <Table className={styles.root} size='sm' responsive>
       <thead>
         <tr>
-          <th>Level</th>
+          <th>難易度</th>
           <th>問題名(AtCoder)</th>
           <th>AOJ</th>
           <th>出典</th>

@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import { TopBar } from './components/navbar/TopBar'
 import { HomePage } from './pages/HomePage'
-import styles from './App.scss'
+import styles from './App.module.scss'
 import { HistoryPage } from './pages/HistoryPage'
 import { LinksPage } from './pages/LinksPage'
 
