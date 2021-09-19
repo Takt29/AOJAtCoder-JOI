@@ -6,7 +6,7 @@ class YearForm extends React.Component {
     super(props)
 
     this.years = []
-    const maximumYear = 2020
+    const maximumYear = 2021
 
     for (let year = 2006; year <= maximumYear; year++) {
       this.years.push(year)

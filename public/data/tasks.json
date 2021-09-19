@@ -4151,5 +4151,45 @@
     "atcoder_id": "joig2021_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "余り",
+    "source": "22一次予選1-1",
+    "problem_id": "221101",
+    "atcoder_contest": "joi2022yo1a",
+    "atcoder_id": "joi2022_yo1a_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "移動",
+    "source": "22一次予選1-2",
+    "problem_id": "221102",
+    "atcoder_contest": "joi2022yo1a",
+    "atcoder_id": "joi2022_yo1a_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "複雑な文字列",
+    "source": "22一次予選1-3",
+    "problem_id": "221103",
+    "atcoder_contest": "joi2022yo1a",
+    "atcoder_id": "joi2022_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "箱と鍵",
+    "source": "22一次予選1-4",
+    "problem_id": "221104",
+    "atcoder_contest": "joi2022yo1a",
+    "atcoder_id": "joi2022_yo1a_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
