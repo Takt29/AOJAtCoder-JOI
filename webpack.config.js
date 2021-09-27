@@ -48,10 +48,12 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, 'public'),
     port: 3000,
     host: '0.0.0.0',
-    disableHostCheck: true
+    allowedHosts: 'all',
+    static: {
+      directory: path.resolve(__dirname, 'public'),
+    }
   },
   resolve: {
     extensions: ['.js', '.jsx']
