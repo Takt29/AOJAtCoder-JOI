@@ -4986,5 +4986,49 @@
       "contestId": "joig2021-open",
       "taskId": "joig2021_f"
     }
+  },
+  {
+    "id": "221101",
+    "level": "0",
+    "name": "余り",
+    "source": "22一次予選1-1",
+    "type": "Batch",
+    "atcoder": {
+      "contestId": "joi2022yo1a",
+      "taskId": "joi2022_yo1a_a"
+    }
+  },
+  {
+    "id": "221102",
+    "level": "0",
+    "name": "移動",
+    "source": "22一次予選1-2",
+    "type": "Batch",
+    "atcoder": {
+      "contestId": "joi2022yo1a",
+      "taskId": "joi2022_yo1a_b"
+    }
+  },
+  {
+    "id": "221103",
+    "level": "0",
+    "name": "複雑な文字列",
+    "source": "22一次予選1-3",
+    "type": "Batch",
+    "atcoder": {
+      "contestId": "joi2022yo1a",
+      "taskId": "joi2022_yo1a_c"
+    }
+  },
+  {
+    "id": "221104",
+    "level": "0",
+    "name": "箱と鍵",
+    "source": "22一次予選1-4",
+    "type": "Batch",
+    "atcoder": {
+      "contestId": "joi2022yo1a",
+      "taskId": "joi2022_yo1a_d"
+    }
   }
 ]

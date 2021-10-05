@@ -63,6 +63,10 @@ module.exports = {
     historyApiFallback: true,
     port: 3000,
     host: '0.0.0.0',
+    allowedHosts: 'all',
+    static: {
+      directory: path.resolve(__dirname, 'public'),
+    }
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
