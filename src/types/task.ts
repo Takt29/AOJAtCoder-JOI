@@ -1,3 +1,5 @@
+import { TaskTypeData, HideFilterData, ContestTypeData, YearData } from './form'
+
 export type TaskType = 'Batch' | 'Communication' | 'OutputOnly'
 
 export type Task = {
@@ -26,4 +28,11 @@ export type TaskWithResult = Task & {
     score: number
     isPerfectScore: boolean
   }
+}
+
+export type TaskFilter = {
+  taskType: TaskTypeData
+  hideFilter: HideFilterData
+  contestType: ContestTypeData
+  year: YearData
 }

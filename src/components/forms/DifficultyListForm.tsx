@@ -15,7 +15,7 @@ import { SubmitButton } from './parts/SubmitButton'
 import { TaskTypeForm } from './parts/TaskTypeForm'
 import { YearForm } from './parts/YearForm'
 
-type DifficultyListFormData = {
+export type DifficultyListFormData = {
   myAccount: AccountData
   rivalAccount: AccountData
   taskType: TaskTypeData
@@ -43,18 +43,27 @@ const defaultValues: DifficultyListFormData = {
   },
 }
 
-export const DifficultyListForm: VFC = () => {
+type Props = {
+  onSubmit?: (data: DifficultyListFormData) => void
+}
+
+export const DifficultyListForm: VFC<Props> = (props) => {
+  const { onSubmit } = props
+
   const methods = useForm<DifficultyListFormData>({
     defaultValues,
   })
 
-  const onSubmit = useCallback((data: DifficultyListFormData) => {
-    console.log(data)
-  }, [])
+  const onSubmitForm = useCallback(
+    (data: DifficultyListFormData) => {
+      onSubmit?.(data)
+    },
+    [onSubmit],
+  )
 
   return (
     <FormProvider {...methods}>
-      <Form onSubmit={methods.handleSubmit(onSubmit)}>
+      <Form onSubmit={methods.handleSubmit(onSubmitForm)}>
         <AccountForm name='myAccount' title='自分' />
         <AccountForm name='rivalAccount' title='ライバル' />
         <TaskTypeForm name='taskType' />
