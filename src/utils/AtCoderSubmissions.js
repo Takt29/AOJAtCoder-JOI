@@ -1,6 +1,12 @@
 import axios from "axios"
 import { openDB } from 'idb/with-async-ittr.js';
 
+const sleep = async (ms) => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(), ms)
+  })
+}
+
 export const fetchAtCoderSubmissions = async (
   id,
   fromSecond
@@ -34,15 +40,19 @@ export const fetchAllAtCoderSubmissions = async (
     submissions.push(...res)
     submissions.sort((a, b) => a.epoch_second - b.epoch_second)
     fromSecond = submissions[submissions.length - 1].epoch_second + 1
+
+    await sleep(200)
   }
 
   return submissions
 }
 
+const STORE_NAME = 'submissions'
+
 const openSubmissionsDB = async (id) => {
   const db = await openDB(`atcoder:submissions:${id}`, 1, {
     upgrade: (db) => {
-      const store = db.createObjectStore('submissions', {
+      const store = db.createObjectStore(STORE_NAME, {
         keyPath: 'id',
       })
       store.createIndex('epoch_second', 'epoch_second')
@@ -50,8 +60,6 @@ const openSubmissionsDB = async (id) => {
   })
   return db
 }
-
-const STORE_NAME = 'submissions'
 
 export const getAtCoderSubmissionsFromCache = async (
   id
@@ -79,12 +87,10 @@ export const saveAtCoderSubmissionsToCache = async (
 export const fetchAllAtCoderSubmissionsUsingCache = async (
   id,
 ) => {
-  console.log('ok1')
-
   const cachedSubmissions = await getAtCoderSubmissionsFromCache(id)
   cachedSubmissions.sort((a, b) => a.epoch_second - b.epoch_second)
 
-  console.log('ok2')
+  console.log(cachedSubmissions)
 
   const lastSubmissionsSecond = cachedSubmissions.length ? cachedSubmissions[cachedSubmissions.length-1].epoch_second : 0
 
@@ -94,8 +100,6 @@ export const fetchAllAtCoderSubmissionsUsingCache = async (
   )
   
   saveAtCoderSubmissionsToCache(id, fetchedSubmissions)
-
-  console.log('ok3')
 
   const submissionsMap = new Map()
 
@@ -109,8 +113,6 @@ export const fetchAllAtCoderSubmissionsUsingCache = async (
   }
   
   const res = Array.from(submissionsMap.values())
-
-  console.log(res)
 
   return res
 }
