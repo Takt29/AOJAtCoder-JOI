@@ -1,3 +1,4 @@
+import { fetchAllAtCoderSubmissionsUsingCache } from './AtCoderSubmissions'
 import axios from './axios-cache'
 
 const getSubmissions = async (tasks, { atcoder, aoj } = {}) => {
@@ -44,21 +45,16 @@ const getAOJProblemIdDict = (tasks) => {
 const getAtCoderSubmissions = async (tasks, id) => {
   if (!id) return { success: true, list: [] }
 
-  const res = await axios({
-    method: 'get',
-    url: 'https://kenkoooo.com/atcoder/atcoder-api/results',
-    responseType: 'json',
-    timeout: 15000,
-    params: {
-      user: id,
-    },
-  }).catch((e) => console.log(e))
+  const submissions = await 
+    fetchAllAtCoderSubmissionsUsingCache(id).catch((e) => {
+      console.log(e)
+    })
 
-  if (!res) return { success: false, list: [] }
+  if (!submissions) return { success: false, list: [] }
 
   const dict = getAtCoderProblemIdDict(tasks)
 
-  const list = res.data
+  const list = submissions
     .filter((item) => dict[item.problem_id])
     .map((item) => ({
       id: dict[item.problem_id].id,
