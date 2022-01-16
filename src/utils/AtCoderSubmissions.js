@@ -41,7 +41,7 @@ export const fetchAllAtCoderSubmissions = async (
     submissions.sort((a, b) => a.epoch_second - b.epoch_second)
     fromSecond = submissions[submissions.length - 1].epoch_second + 1
 
-    await sleep(200)
+    await sleep(1000)
   }
 
   return submissions
