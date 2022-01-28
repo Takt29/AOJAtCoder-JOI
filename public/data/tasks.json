@@ -3896,7 +3896,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "7",
+    "level": "8",
     "name": "安全点検",
     "source": "21二次予選4",
     "problem_id": "212104",
@@ -4093,7 +4093,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "金平糖",
     "source": "21JOIG1",
     "problem_id": "215101",
@@ -4103,7 +4103,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "巻物",
     "source": "21JOIG2",
     "problem_id": "215102",
@@ -4113,7 +4113,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "4",
     "name": "イルミネーション 2",
     "source": "21JOIG3",
     "problem_id": "215103",
@@ -4123,7 +4123,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "6",
     "name": "展覧会 2",
     "source": "21JOIG4",
     "problem_id": "215104",
@@ -4133,7 +4133,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "7",
     "name": "パレード",
     "source": "21JOIG5",
     "problem_id": "215105",
@@ -4143,7 +4143,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "9",
     "name": "デジタルアート",
     "source": "21JOIG6",
     "problem_id": "215106",
@@ -4153,7 +4153,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "余り",
     "source": "22一次予選1-1",
     "problem_id": "221101",
@@ -4163,7 +4163,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "移動",
     "source": "22一次予選1-2",
     "problem_id": "221102",
@@ -4173,7 +4173,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "複雑な文字列",
     "source": "22一次予選1-3",
     "problem_id": "221103",
@@ -4183,12 +4183,202 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "3",
     "name": "箱と鍵",
     "source": "22一次予選1-4",
     "problem_id": "221104",
     "atcoder_contest": "joi2022yo1a",
     "atcoder_id": "joi2022_yo1a_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "立方体",
+    "source": "22一次予選2-1",
+    "problem_id": "221201",
+    "atcoder_contest": "joi2022yo1b",
+    "atcoder_id": "joi2022_yo1b_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "短針",
+    "source": "22一次予選2-2",
+    "problem_id": "221202",
+    "atcoder_contest": "joi2022yo1b",
+    "atcoder_id": "joi2022_yo1b_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "次の文字",
+    "source": "22一次予選2-3",
+    "problem_id": "221203",
+    "atcoder_contest": "joi2022yo1b",
+    "atcoder_id": "joi2022_yo1b_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "希少な数",
+    "source": "22一次予選2-4",
+    "problem_id": "221204",
+    "atcoder_contest": "joi2022yo1b",
+    "atcoder_id": "joi2022_yo1b_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "身長",
+    "source": "22一次予選3-1",
+    "problem_id": "221301",
+    "atcoder_contest": "joi2022yo1c",
+    "atcoder_id": "joi2022_yo1c_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "アイスクリーム",
+    "source": "22一次予選3-2",
+    "problem_id": "221302",
+    "atcoder_contest": "joi2022yo1c",
+    "atcoder_id": "joi2022_yo1c_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "運動会",
+    "source": "22一次予選3-3",
+    "problem_id": "221303",
+    "atcoder_contest": "joi2022yo1c",
+    "atcoder_id": "joi2022_yo1c_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "ボールの移動",
+    "source": "22一次予選3-4",
+    "problem_id": "221304",
+    "atcoder_contest": "joi2022yo1c",
+    "atcoder_id": "joi2022_yo1c_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "図書館 2",
+    "source": "22二次予選1",
+    "problem_id": "222101",
+    "atcoder_contest": "joi2022yo2",
+    "atcoder_id": "joi2022_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "カーペット",
+    "source": "22二次予選2",
+    "problem_id": "222102",
+    "atcoder_contest": "joi2022yo2",
+    "atcoder_id": "joi2022_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "国土分割",
+    "source": "22二次予選3",
+    "problem_id": "222103",
+    "atcoder_contest": "joi2022yo2",
+    "atcoder_id": "joi2022_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "飴 2",
+    "source": "22二次予選4",
+    "problem_id": "222104",
+    "atcoder_contest": "joi2022yo2",
+    "atcoder_id": "joi2022_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "交易計画",
+    "source": "22二次予選5",
+    "problem_id": "222105",
+    "atcoder_contest": "joi2022yo2",
+    "atcoder_id": "joi2022_yo2_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "ピアノコンクール",
+    "source": "22JOIG1",
+    "problem_id": "225101",
+    "atcoder_contest": "joig2022-open",
+    "atcoder_id": "joig2022_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "掛け算",
+    "source": "22JOIG2",
+    "problem_id": "225102",
+    "atcoder_contest": "joig2022-open",
+    "atcoder_id": "joig2022_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "投票",
+    "source": "22JOIG3",
+    "problem_id": "225103",
+    "atcoder_contest": "joig2022-open",
+    "atcoder_id": "joig2022_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "いちご 2",
+    "source": "22JOIG4",
+    "problem_id": "225104",
+    "atcoder_contest": "joig2022-open",
+    "atcoder_id": "joig2022_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "エゴイ展",
+    "source": "22JOIG5",
+    "problem_id": "225105",
+    "atcoder_contest": "joig2022-open",
+    "atcoder_id": "joig2022_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "タクシー 2",
+    "source": "22JOIG6",
+    "problem_id": "225106",
+    "atcoder_contest": "joig2022-open",
+    "atcoder_id": "joig2022_f",
     "aoj_id": "",
     "tasktype": "Batch"
   }
