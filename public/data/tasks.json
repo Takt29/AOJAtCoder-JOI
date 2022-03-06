@@ -4381,5 +4381,55 @@
     "atcoder_id": "joig2022_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "インターカステラー",
+    "source": "22本選1",
+    "problem_id": "223101",
+    "atcoder_contest": "joi2022ho",
+    "atcoder_id": "joi2022ho_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "自習",
+    "source": "22本選2",
+    "problem_id": "223102",
+    "atcoder_contest": "joi2022ho",
+    "atcoder_id": "joi2022ho_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "選挙で勝とう",
+    "source": "22本選3",
+    "problem_id": "223103",
+    "atcoder_contest": "joi2022ho",
+    "atcoder_id": "joi2022ho_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "鉄道旅行 2",
+    "source": "22本選4",
+    "problem_id": "223104",
+    "atcoder_contest": "joi2022ho",
+    "atcoder_id": "joi2022ho_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "砂の城 2",
+    "source": "22本選5",
+    "problem_id": "223105",
+    "atcoder_contest": "joi2022ho",
+    "atcoder_id": "joi2022ho_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
