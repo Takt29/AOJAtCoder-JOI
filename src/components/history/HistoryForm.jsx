@@ -33,7 +33,7 @@ class HistoryForm extends React.Component {
         prelim2: true,
         final: true,
         springCamp: true,
-        joig: true,
+        joig: false,
         joigSpring: false,
         open: false,
       },

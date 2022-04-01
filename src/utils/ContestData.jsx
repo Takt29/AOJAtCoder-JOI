@@ -72,7 +72,11 @@ const applyFilter = (contests, solved, input) => {
     )
     .filter(
       (contest) =>
-        !contestType || contestType.joig || !contest.name.match(/JOIG/),
+        !contestType || contestType.joig || !contest.name.match(/JOIG$/),
+    )
+    .filter(
+      (contest) =>
+        !contestType || contestType.joigSpring || !contest.name.match(/JOIG春/),
     )
 }
 
