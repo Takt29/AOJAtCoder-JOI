@@ -26,6 +26,7 @@ class SearchForm extends React.Component {
         final: true,
         springCamp: true,
         joig: true,
+        joigSpring: true,
         open: false,
       },
       year: { begin: '2007', end: 'latest' },

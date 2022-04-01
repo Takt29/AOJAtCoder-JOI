@@ -67,7 +67,7 @@ class ContestTypeForm extends React.Component {
                 custom
               />
             </Col>
-            <Col sm={4}>
+            <Col sm={8}>
               <Form.Check
                 type='checkbox'
                 label='Open'
@@ -85,6 +85,17 @@ class ContestTypeForm extends React.Component {
                 name='joig'
                 id={`formContestTypeJOIG-${index}`}
                 checked={value.joig}
+                onChange={this.onUpdate.bind(this)}
+                custom
+              />
+            </Col>
+            <Col sm={8}>
+              <Form.Check
+                type='checkbox'
+                label='JOIG春合宿'
+                name='joigSpring'
+                id={`formContestTypeJOIGSpring-${index}`}
+                checked={value.joigSpring}
                 onChange={this.onUpdate.bind(this)}
                 custom
               />

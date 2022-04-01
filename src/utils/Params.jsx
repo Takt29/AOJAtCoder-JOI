@@ -25,6 +25,7 @@ const DefaultParams = {
     final: true,
     springCamp: true,
     joig: true,
+    joigSpring: true,
     open: false,
   },
   year: {
@@ -54,7 +55,7 @@ const parseParams = (search = '') => {
 
   const { batch, communication, outputOnly } = params
   const { hideACTask, hideNotExsitTask, hideLevel } = params
-  const { prelim1, prelim2, final, springCamp, open, joig } = params
+  const { prelim1, prelim2, final, springCamp, open, joig, joigSpring } = params
   const { begin, end } = params
 
   const res = {
@@ -83,6 +84,7 @@ const parseParams = (search = '') => {
       springCamp: springCamp ?? DefaultParams.contestType.springCamp,
       open: open ?? DefaultParams.contestType.open,
       joig: joig ?? DefaultParams.contestType.joig,
+      joigSpring: joigSpring ?? DefaultParams.contestType.joigSpring,
     },
     year: {
       begin: begin ?? DefaultParams.year.begin,

@@ -74,13 +74,16 @@ const applyFilter = (tasks, filter) => {
     )
     .filter(
       (task) =>
-        !contestType || contestType.springCamp || !task.source.match(/春合宿/),
+        !contestType || contestType.springCamp || !task.source.match(/[^G]春合宿/),
     )
     .filter(
       (task) => !contestType || contestType.open || !task.source.match(/Open/),
     )
     .filter(
-      (task) => !contestType || contestType.joig || !task.source.match(/JOIG/),
+      (task) => !contestType || contestType.joig || !task.source.match(/JOIG[^春]/),
+    )
+    .filter(
+      (task) => !contestType || contestType.joigSpring || !task.source.match(/JOIG春/),
     )
     .filter(
       (task) =>

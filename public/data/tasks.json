@@ -4432,7 +4432,6 @@
     "aoj_id": "",
     "tasktype": "Batch"
   },
-
   {
     "level": "11",
     "name": "Jail",
@@ -4550,6 +4549,46 @@
     "problem_id": "224403",
     "atcoder_contest": "joisc2022",
     "atcoder_id": "joisc2022_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Relay",
+    "source": "22JOIG春合宿1-1",
+    "problem_id": "226101",
+    "atcoder_contest": "joigsc2022",
+    "atcoder_id": "joigsc2022_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "JOIG Tour",
+    "source": "22JOIG春合宿1-2",
+    "problem_id": "226102",
+    "atcoder_contest": "joigsc2022",
+    "atcoder_id": "joigsc2022_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Melons",
+    "source": "22JOIG春合宿2-1",
+    "problem_id": "226201",
+    "atcoder_contest": "joigsc2022",
+    "atcoder_id": "joigsc2022_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Airport",
+    "source": "22JOIG春合宿2-2",
+    "problem_id": "226202",
+    "atcoder_contest": "joigsc2022",
+    "atcoder_id": "joigsc2022_f",
     "aoj_id": "",
     "tasktype": "Batch"
   }
