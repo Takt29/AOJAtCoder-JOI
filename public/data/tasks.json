@@ -4431,5 +4431,126 @@
     "atcoder_id": "joi2022ho_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+
+  {
+    "level": "11",
+    "name": "Jail",
+    "source": "22春合宿1-1",
+    "problem_id": "224101",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Sightseeing in Kyoto",
+    "source": "22春合宿1-2",
+    "problem_id": "224102",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Misspelling",
+    "source": "22春合宿1-3",
+    "problem_id": "224103",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Copy and Paste 3",
+    "source": "22春合宿2-1",
+    "problem_id": "224201",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Flights",
+    "source": "22春合宿2-2",
+    "problem_id": "224202",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_e",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "TeamContest",
+    "source": "22春合宿2-3",
+    "problem_id": "224203",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Broken Device 2",
+    "source": "22春合宿3-1",
+    "problem_id": "224301",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_g",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Sprinkler",
+    "source": "22春合宿3-2",
+    "problem_id": "224302",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Ants and Sugar",
+    "source": "22春合宿3-3",
+    "problem_id": "224303",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Super Dango Maker",
+    "source": "22春合宿4-1",
+    "problem_id": "224401",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_j",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "Fish 2",
+    "source": "22春合宿4-2",
+    "problem_id": "224402",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Reconstruction Project",
+    "source": "22春合宿4-3",
+    "problem_id": "224403",
+    "atcoder_contest": "joisc2022",
+    "atcoder_id": "joisc2022_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
