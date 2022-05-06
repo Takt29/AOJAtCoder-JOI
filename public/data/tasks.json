@@ -3782,7 +3782,7 @@
     "problem_id": "211101",
     "atcoder_contest": "joi2021yo1a",
     "atcoder_id": "joi2021_yo1a_a",
-    "aoj_id": "",
+    "aoj_id": "0682",
     "tasktype": "Batch"
   },
   {
@@ -3792,7 +3792,7 @@
     "problem_id": "211102",
     "atcoder_contest": "joi2021yo1a",
     "atcoder_id": "joi2021_yo1a_b",
-    "aoj_id": "",
+    "aoj_id": "0683",
     "tasktype": "Batch"
   },
   {
@@ -3802,7 +3802,7 @@
     "problem_id": "211103",
     "atcoder_contest": "joi2021yo1a",
     "atcoder_id": "joi2021_yo1a_c",
-    "aoj_id": "",
+    "aoj_id": "0684",
     "tasktype": "Batch"
   },
   {
@@ -3812,7 +3812,7 @@
     "problem_id": "211201",
     "atcoder_contest": "joi2021yo1b",
     "atcoder_id": "joi2021_yo1b_a",
-    "aoj_id": "",
+    "aoj_id": "0685",
     "tasktype": "Batch"
   },
   {
@@ -3822,7 +3822,7 @@
     "problem_id": "211202",
     "atcoder_contest": "joi2021yo1b",
     "atcoder_id": "joi2021_yo1b_b",
-    "aoj_id": "",
+    "aoj_id": "0686",
     "tasktype": "Batch"
   },
   {
@@ -3832,7 +3832,7 @@
     "problem_id": "211203",
     "atcoder_contest": "joi2021yo1b",
     "atcoder_id": "joi2021_yo1b_c",
-    "aoj_id": "",
+    "aoj_id": "0687",
     "tasktype": "Batch"
   },
   {
@@ -3842,7 +3842,7 @@
     "problem_id": "211301",
     "atcoder_contest": "joi2021yo1c",
     "atcoder_id": "joi2021_yo1c_a",
-    "aoj_id": "",
+    "aoj_id": "0688",
     "tasktype": "Batch"
   },
   {
@@ -3852,7 +3852,7 @@
     "problem_id": "211302",
     "atcoder_contest": "joi2021yo1c",
     "atcoder_id": "joi2021_yo1c_b",
-    "aoj_id": "",
+    "aoj_id": "0689",
     "tasktype": "Batch"
   },
   {
@@ -3862,7 +3862,7 @@
     "problem_id": "211303",
     "atcoder_contest": "joi2021yo1c",
     "atcoder_id": "joi2021_yo1c_c",
-    "aoj_id": "",
+    "aoj_id": "0690",
     "tasktype": "Batch"
   },
   {
@@ -3872,7 +3872,7 @@
     "problem_id": "212101",
     "atcoder_contest": "joi2021yo2",
     "atcoder_id": "joi2021_yo2_a",
-    "aoj_id": "",
+    "aoj_id": "0691",
     "tasktype": "Batch"
   },
   {
@@ -3882,7 +3882,7 @@
     "problem_id": "212102",
     "atcoder_contest": "joi2021yo2",
     "atcoder_id": "joi2021_yo2_b",
-    "aoj_id": "",
+    "aoj_id": "0692",
     "tasktype": "Batch"
   },
   {
@@ -3892,7 +3892,7 @@
     "problem_id": "212103",
     "atcoder_contest": "joi2021yo2",
     "atcoder_id": "joi2021_yo2_c",
-    "aoj_id": "",
+    "aoj_id": "0693",
     "tasktype": "Batch"
   },
   {
@@ -3902,7 +3902,7 @@
     "problem_id": "212104",
     "atcoder_contest": "joi2021yo2",
     "atcoder_id": "joi2021_yo2_d",
-    "aoj_id": "",
+    "aoj_id": "0694",
     "tasktype": "Batch"
   },
   {
@@ -3912,7 +3912,7 @@
     "problem_id": "212105",
     "atcoder_contest": "joi2021yo2",
     "atcoder_id": "joi2021_yo2_e",
-    "aoj_id": "",
+    "aoj_id": "0695",
     "tasktype": "Batch"
   },
   {
@@ -4099,7 +4099,7 @@
     "problem_id": "215101",
     "atcoder_contest": "joig2021-open",
     "atcoder_id": "joig2021_a",
-    "aoj_id": "",
+    "aoj_id": "0701",
     "tasktype": "Batch"
   },
   {
@@ -4109,7 +4109,7 @@
     "problem_id": "215102",
     "atcoder_contest": "joig2021-open",
     "atcoder_id": "joig2021_b",
-    "aoj_id": "",
+    "aoj_id": "0702",
     "tasktype": "Batch"
   },
   {
@@ -4119,7 +4119,7 @@
     "problem_id": "215103",
     "atcoder_contest": "joig2021-open",
     "atcoder_id": "joig2021_c",
-    "aoj_id": "",
+    "aoj_id": "0703",
     "tasktype": "Batch"
   },
   {
@@ -4129,7 +4129,7 @@
     "problem_id": "215104",
     "atcoder_contest": "joig2021-open",
     "atcoder_id": "joig2021_d",
-    "aoj_id": "",
+    "aoj_id": "0704",
     "tasktype": "Batch"
   },
   {
@@ -4139,7 +4139,7 @@
     "problem_id": "215105",
     "atcoder_contest": "joig2021-open",
     "atcoder_id": "joig2021_e",
-    "aoj_id": "",
+    "aoj_id": "0705",
     "tasktype": "Batch"
   },
   {
@@ -4149,7 +4149,7 @@
     "problem_id": "215106",
     "atcoder_contest": "joig2021-open",
     "atcoder_id": "joig2021_f",
-    "aoj_id": "",
+    "aoj_id": "0706",
     "tasktype": "Batch"
   },
   {
@@ -4159,7 +4159,7 @@
     "problem_id": "221101",
     "atcoder_contest": "joi2022yo1a",
     "atcoder_id": "joi2022_yo1a_a",
-    "aoj_id": "",
+    "aoj_id": "0707",
     "tasktype": "Batch"
   },
   {
@@ -4169,7 +4169,7 @@
     "problem_id": "221102",
     "atcoder_contest": "joi2022yo1a",
     "atcoder_id": "joi2022_yo1a_b",
-    "aoj_id": "",
+    "aoj_id": "0708",
     "tasktype": "Batch"
   },
   {
@@ -4179,7 +4179,7 @@
     "problem_id": "221103",
     "atcoder_contest": "joi2022yo1a",
     "atcoder_id": "joi2022_yo1a_c",
-    "aoj_id": "",
+    "aoj_id": "0709",
     "tasktype": "Batch"
   },
   {
@@ -4189,7 +4189,7 @@
     "problem_id": "221104",
     "atcoder_contest": "joi2022yo1a",
     "atcoder_id": "joi2022_yo1a_d",
-    "aoj_id": "",
+    "aoj_id": "0710",
     "tasktype": "Batch"
   },
   {
@@ -4199,7 +4199,7 @@
     "problem_id": "221201",
     "atcoder_contest": "joi2022yo1b",
     "atcoder_id": "joi2022_yo1b_a",
-    "aoj_id": "",
+    "aoj_id": "0711",
     "tasktype": "Batch"
   },
   {
@@ -4209,7 +4209,7 @@
     "problem_id": "221202",
     "atcoder_contest": "joi2022yo1b",
     "atcoder_id": "joi2022_yo1b_b",
-    "aoj_id": "",
+    "aoj_id": "0712",
     "tasktype": "Batch"
   },
   {
@@ -4219,7 +4219,7 @@
     "problem_id": "221203",
     "atcoder_contest": "joi2022yo1b",
     "atcoder_id": "joi2022_yo1b_c",
-    "aoj_id": "",
+    "aoj_id": "0713",
     "tasktype": "Batch"
   },
   {
@@ -4229,7 +4229,7 @@
     "problem_id": "221204",
     "atcoder_contest": "joi2022yo1b",
     "atcoder_id": "joi2022_yo1b_d",
-    "aoj_id": "",
+    "aoj_id": "0714",
     "tasktype": "Batch"
   },
   {
@@ -4239,7 +4239,7 @@
     "problem_id": "221301",
     "atcoder_contest": "joi2022yo1c",
     "atcoder_id": "joi2022_yo1c_a",
-    "aoj_id": "",
+    "aoj_id": "0715",
     "tasktype": "Batch"
   },
   {
@@ -4249,7 +4249,7 @@
     "problem_id": "221302",
     "atcoder_contest": "joi2022yo1c",
     "atcoder_id": "joi2022_yo1c_b",
-    "aoj_id": "",
+    "aoj_id": "0716",
     "tasktype": "Batch"
   },
   {
@@ -4259,7 +4259,7 @@
     "problem_id": "221303",
     "atcoder_contest": "joi2022yo1c",
     "atcoder_id": "joi2022_yo1c_c",
-    "aoj_id": "",
+    "aoj_id": "0717",
     "tasktype": "Batch"
   },
   {
@@ -4269,7 +4269,7 @@
     "problem_id": "221304",
     "atcoder_contest": "joi2022yo1c",
     "atcoder_id": "joi2022_yo1c_d",
-    "aoj_id": "",
+    "aoj_id": "0718",
     "tasktype": "Batch"
   },
   {
