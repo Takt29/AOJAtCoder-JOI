@@ -4353,7 +4353,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "5",
     "name": "いちご 2",
     "source": "22JOIG4",
     "problem_id": "225104",
@@ -4553,7 +4553,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "6",
     "name": "Relay",
     "source": "22JOIG春合宿1-1",
     "problem_id": "226101",
@@ -4563,7 +4563,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "7",
     "name": "JOIG Tour",
     "source": "22JOIG春合宿1-2",
     "problem_id": "226102",
@@ -4573,7 +4573,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "7",
     "name": "Melons",
     "source": "22JOIG春合宿2-1",
     "problem_id": "226201",
@@ -4583,7 +4583,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "8",
     "name": "Airport",
     "source": "22JOIG春合宿2-2",
     "problem_id": "226202",
