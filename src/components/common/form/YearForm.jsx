@@ -6,7 +6,10 @@ class YearForm extends React.Component {
     super(props)
 
     this.years = []
-    const maximumYear = 2021
+
+    // 次の年度が開始する頃(9月)からは翌年も表示する
+    const currentYear = (new Date()).getFullYear()
+    const maximumYear = new Date().getMonth() + 1 >= 9 ? currentYear + 1 : currentYear
 
     for (let year = 2006; year <= maximumYear; year++) {
       this.years.push(year)
