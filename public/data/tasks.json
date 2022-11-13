@@ -4591,5 +4591,85 @@
     "atcoder_id": "joigsc2022_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "長方形",
+    "source": "23一次予選1-1",
+    "problem_id": "231101",
+    "atcoder_contest": "joi2023yo1a",
+    "atcoder_id": "joi2023_yo1a_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "ゾロ目",
+    "source": "23一次予選1-2",
+    "problem_id": "231102",
+    "atcoder_contest": "joi2023yo1a",
+    "atcoder_id": "joi2023_yo1a_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "３つの箱",
+    "source": "23一次予選1-3",
+    "problem_id": "231103",
+    "atcoder_contest": "joi2023yo1a",
+    "atcoder_id": "joi2023_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "二人三脚",
+    "source": "23一次予選1-4",
+    "problem_id": "231104",
+    "atcoder_contest": "joi2023yo1a",
+    "atcoder_id": "joi2023_yo1a_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "時間",
+    "source": "23一次予選2-1",
+    "problem_id": "231201",
+    "atcoder_contest": "joi2023yo1b",
+    "atcoder_id": "joi2023_yo1b_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "三方比較",
+    "source": "23一次予選2-2",
+    "problem_id": "231202",
+    "atcoder_contest": "joi2023yo1b",
+    "atcoder_id": "joi2023_yo1b_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "繰り返し文字列",
+    "source": "23一次予選2-3",
+    "problem_id": "231203",
+    "atcoder_contest": "joi2023yo1b",
+    "atcoder_id": "joi2023_yo1b_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "点数",
+    "source": "23一次予選2-4",
+    "problem_id": "231204",
+    "atcoder_contest": "joi2023yo1b",
+    "atcoder_id": "joi2023_yo1b_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
