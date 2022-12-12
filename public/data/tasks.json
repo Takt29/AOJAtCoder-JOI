@@ -987,7 +987,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Regions",
     "source": "10春合宿2-3",
     "problem_id": "104203",
@@ -2269,7 +2269,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Growing Vegetables is Fun 2",
     "source": "15春合宿1-3",
     "problem_id": "154103",
@@ -2559,7 +2559,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Sandwich",
     "source": "16春合宿2-2",
     "problem_id": "164202",
@@ -3139,7 +3139,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Library",
     "source": "18春合宿4-2",
     "problem_id": "184402",
@@ -4273,7 +4273,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "3",
+    "level": "2",
     "name": "図書館 2",
     "source": "22二次予選1",
     "problem_id": "222101",
