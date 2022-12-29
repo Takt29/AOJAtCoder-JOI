@@ -4671,5 +4671,95 @@
     "atcoder_id": "joi2023_yo1b_d",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "2桁の整数",
+    "source": "23一次予選3-1",
+    "problem_id": "231301",
+    "atcoder_contest": "joi2023yo1c",
+    "atcoder_id": "joi2023_yo1c_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "11月",
+    "source": "23一次予選3-2",
+    "problem_id": "231302",
+    "atcoder_contest": "joi2023yo1c",
+    "atcoder_id": "joi2023_yo1c_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "JOIエディタ",
+    "source": "23一次予選3-3",
+    "problem_id": "231303",
+    "atcoder_contest": "joi2023yo1c",
+    "atcoder_id": "joi2023_yo1c_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "マラソン大会",
+    "source": "23一次予選3-4",
+    "problem_id": "231304",
+    "atcoder_contest": "joi2023yo1c",
+    "atcoder_id": "joi2023_yo1c_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "年齢の差",
+    "source": "23二次予選1",
+    "problem_id": "232101",
+    "atcoder_contest": "joi2023yo2",
+    "atcoder_id": "joi2023_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "ジョイ四人組",
+    "source": "23二次予選2",
+    "problem_id": "232102",
+    "atcoder_contest": "joi2023yo2",
+    "atcoder_id": "joi2023_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "塗りつぶし",
+    "source": "23二次予選3",
+    "problem_id": "232103",
+    "atcoder_contest": "joi2023yo2",
+    "atcoder_id": "joi2023_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "貨物列車",
+    "source": "23二次予選4",
+    "problem_id": "232104",
+    "atcoder_contest": "joi2023yo2",
+    "atcoder_id": "joi2023_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "日本沈没 2",
+    "source": "23二次予選5",
+    "problem_id": "232105",
+    "atcoder_contest": "joi2023yo2",
+    "atcoder_id": "joi2023_yo2_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
