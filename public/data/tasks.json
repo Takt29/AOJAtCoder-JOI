@@ -4821,5 +4821,55 @@
     "atcoder_id": "joig2023_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "碁石ならべ 2",
+    "source": "23本選1",
+    "problem_id": "233101",
+    "atcoder_contest": "joi2023ho",
+    "atcoder_id": "joi2023ho_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "宣伝 2",
+    "source": "23本選2",
+    "problem_id": "233102",
+    "atcoder_contest": "joi2023ho",
+    "atcoder_id": "joi2023ho_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "迷路",
+    "source": "23本選3",
+    "problem_id": "233103",
+    "atcoder_contest": "joi2023ho",
+    "atcoder_id": "joi2023ho_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "キャットエクササイズ",
+    "source": "23本選4",
+    "problem_id": "233104",
+    "atcoder_contest": "joi2023ho",
+    "atcoder_id": "joi2023ho_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "現代的な機械",
+    "source": "23本選5",
+    "problem_id": "233105",
+    "atcoder_contest": "joi2023ho",
+    "atcoder_id": "joi2023ho_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
