@@ -4523,7 +4523,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Super Dango Maker",
     "source": "22春合宿4-1",
     "problem_id": "224401",
@@ -4573,7 +4573,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "Melons",
     "source": "22JOIG春合宿2-1",
     "problem_id": "226201",
@@ -4593,7 +4593,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "長方形",
     "source": "23一次予選1-1",
     "problem_id": "231101",
@@ -4603,7 +4603,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "ゾロ目",
     "source": "23一次予選1-2",
     "problem_id": "231102",
@@ -4613,7 +4613,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "３つの箱",
     "source": "23一次予選1-3",
     "problem_id": "231103",
@@ -4623,7 +4623,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "二人三脚",
     "source": "23一次予選1-4",
     "problem_id": "231104",
@@ -4633,7 +4633,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "時間",
     "source": "23一次予選2-1",
     "problem_id": "231201",
@@ -4643,7 +4643,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "三方比較",
     "source": "23一次予選2-2",
     "problem_id": "231202",
@@ -4653,7 +4653,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "繰り返し文字列",
     "source": "23一次予選2-3",
     "problem_id": "231203",
@@ -4663,7 +4663,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "点数",
     "source": "23一次予選2-4",
     "problem_id": "231204",
@@ -4673,7 +4673,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "2桁の整数",
     "source": "23一次予選3-1",
     "problem_id": "231301",
@@ -4683,7 +4683,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "11月",
     "source": "23一次予選3-2",
     "problem_id": "231302",
@@ -4693,7 +4693,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "JOIエディタ",
     "source": "23一次予選3-3",
     "problem_id": "231303",
@@ -4703,7 +4703,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "3",
     "name": "マラソン大会",
     "source": "23一次予選3-4",
     "problem_id": "231304",
