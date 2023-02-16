@@ -4761,5 +4761,65 @@
     "atcoder_id": "joi2023_yo2_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "末尾の文字",
+    "source": "23JOIG1",
+    "problem_id": "235101",
+    "atcoder_contest": "joig2023-open",
+    "atcoder_id": "joig2023_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "絶対階差数列",
+    "source": "23JOIG2",
+    "problem_id": "235102",
+    "atcoder_contest": "joig2023-open",
+    "atcoder_id": "joig2023_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "鐘",
+    "source": "23JOIG3",
+    "problem_id": "235103",
+    "atcoder_contest": "joig2023-open",
+    "atcoder_id": "joig2023_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "コイン集め 2",
+    "source": "23JOIG4",
+    "problem_id": "235104",
+    "atcoder_contest": "joig2023-open",
+    "atcoder_id": "joig2023_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "運河",
+    "source": "23JOIG5",
+    "problem_id": "235105",
+    "atcoder_contest": "joig2023-open",
+    "atcoder_id": "joig2023_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "タイピング大会",
+    "source": "23JOIG6",
+    "problem_id": "235106",
+    "atcoder_contest": "joig2023-open",
+    "atcoder_id": "joig2023_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
