@@ -1,18 +1,19 @@
-import { FC } from 'react'
+import { ReactNode } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 
 type Props = {
+  children: ReactNode
   loading?: boolean
   disabled?: boolean
 }
 
-export const SubmitButton: FC<Props> = (props) => {
+export const SubmitButton = (props: Props) => {
   const { loading, children, disabled } = props
   return (
     <Container>
       <Row>
         <Col sm={12} md={{ offset: 9, span: 3 }}>
-          <Button type='submit' block disabled={disabled || loading}>
+          <Button type='submit' disabled={disabled || loading}>
             {children}
           </Button>
         </Col>

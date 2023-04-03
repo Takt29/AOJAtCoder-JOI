@@ -1,7 +1,6 @@
 // webpack.config.js
 const path = require('path')
 const webpack = require('webpack')
-const Fiber = require('fibers')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const Mode = process.env.NODE_ENV || 'development'
@@ -41,9 +40,6 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               implementation: require('sass'),
-              sassOptions: {
-                fiber: Fiber,
-              },
               sourceMap: !isProduction,
             },
           },
@@ -66,7 +62,7 @@ module.exports = {
     allowedHosts: 'all',
     static: {
       directory: path.resolve(__dirname, 'public'),
-    }
+    },
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],

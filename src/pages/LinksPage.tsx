@@ -1,7 +1,6 @@
-import { VFC } from 'react'
 import { LinksPageComponent } from '../components/links/LinksPageComponents'
 
-export const LinksPage: VFC = () => {
+export const LinksPage = () => {
   return (
     <div>
       <h3>リンク集</h3>

@@ -1,7 +1,6 @@
 import { AxiosError } from 'axios'
 import { useCallback, useMemo } from 'react'
-import useSWR, { SWRResponse } from 'swr'
-import { KeyedMutator } from 'swr/dist/types'
+import useSWR, { KeyedMutator, SWRResponse } from 'swr'
 import { toSubmissions } from '../../helpers/submission'
 import { fetchSiteSubmissions } from '../../repositories/submission'
 import { SiteSubmission, Submission } from '../../types/submission'
@@ -23,12 +22,14 @@ export const useSubmissions = (
     mutate: tasksMutate,
     error: tasksError,
     isValidating: tasksIsValidating,
+    isLoading: tasksIsLoading,
     data: tasks,
   } = useTasks()
   const {
     mutate: submissionsMutate,
     error: submissionsError,
     isValidating: submissionsIsValidating,
+    isLoading: submissionsIsLoading,
     data: siteSubmissions,
   } = useSiteSubmissions(atcoderUserId, aojUserId)
 
@@ -36,6 +37,14 @@ export const useSubmissions = (
     async (data, shouldRevalidate) => {
       if (data) {
         throw new Error('unsupported data argument in mutate of useSubmissions')
+      }
+      if (
+        shouldRevalidate !== undefined &&
+        typeof shouldRevalidate !== 'boolean'
+      ) {
+        throw new Error(
+          'unsupported shouldRevalidate argument in mutate of useSubmissions',
+        )
       }
 
       await tasksMutate(data, shouldRevalidate)
@@ -55,8 +64,13 @@ export const useSubmissions = (
     [submissionsIsValidating, tasksIsValidating],
   )
 
+  const isLoading = useMemo(
+    () => tasksIsLoading || submissionsIsLoading,
+    [tasksIsLoading, submissionsIsLoading],
+  )
+
   const submissions: Submission[] | undefined =
     siteSubmissions && tasks && toSubmissions(siteSubmissions, tasks)
 
-  return { mutate, error, isValidating, data: submissions }
+  return { mutate, error, isValidating, isLoading, data: submissions }
 }

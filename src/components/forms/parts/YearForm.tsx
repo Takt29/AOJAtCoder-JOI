@@ -1,4 +1,4 @@
-import { useMemo, VFC } from 'react'
+import { useMemo } from 'react'
 import { Form, Row, Col } from 'react-bootstrap'
 import { useFormContext } from 'react-hook-form'
 import styles from './YearForm.module.scss'
@@ -8,7 +8,7 @@ type Props = {
   name: string
 }
 
-export const YearForm: VFC<Props> = (props) => {
+export const YearForm = (props: Props) => {
   const { title, name } = props
   const { register } = useFormContext()
 
@@ -26,12 +26,7 @@ export const YearForm: VFC<Props> = (props) => {
         {title ?? '年度'}
       </Form.Label>
       <Col sm={4}>
-        <Form.Control
-          as='select'
-          size='sm'
-          custom
-          {...register(`${name}.begin`)}
-        >
+        <Form.Control as='select' size='sm' {...register(`${name}.begin`)}>
           {years.map((year) => (
             <option key={year} value={year}>
               {year}
@@ -43,7 +38,7 @@ export const YearForm: VFC<Props> = (props) => {
         〜
       </Col>
       <Col sm={4}>
-        <Form.Control as='select' size='sm' custom {...register(`${name}.end`)}>
+        <Form.Control as='select' size='sm' {...register(`${name}.end`)}>
           {years.map((year) => (
             <option key={year} value={year}>
               {year}

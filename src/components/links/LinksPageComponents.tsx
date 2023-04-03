@@ -1,11 +1,12 @@
-import { FC } from 'react'
+import { ReactNode } from 'react'
 
 type Props = {
+  children: ReactNode
   title: string
   href: string
 }
 
-export const LinksPageComponent: FC<Props> = (props) => {
+export const LinksPageComponent = (props: Props) => {
   const { title, href, children } = props
 
   return (

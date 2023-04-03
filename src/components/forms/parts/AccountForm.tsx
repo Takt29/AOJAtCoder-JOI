@@ -18,9 +18,7 @@ export const AccountForm: VFC<Props> = (props) => {
       </Form.Label>
       <Col sm={5}>
         <InputGroup size='sm' className={'sm-3'}>
-          <InputGroup.Prepend>
-            <InputGroup.Text>AtCoder</InputGroup.Text>
-          </InputGroup.Prepend>
+          <InputGroup.Text>AtCoder</InputGroup.Text>
           <Form.Control
             {...register(`${name}.atcoder`)}
             placeholder='AtCoder ID'
@@ -29,9 +27,7 @@ export const AccountForm: VFC<Props> = (props) => {
       </Col>
       <Col sm={5}>
         <InputGroup size='sm' className={'sm-3'}>
-          <InputGroup.Prepend>
-            <InputGroup.Text>AOJ</InputGroup.Text>
-          </InputGroup.Prepend>
+          <InputGroup.Text>AOJ</InputGroup.Text>
           <Form.Control {...register(`${name}.aoj`)} placeholder='AOJ ID' />
         </InputGroup>
       </Col>

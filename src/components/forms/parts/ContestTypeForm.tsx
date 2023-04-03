@@ -1,4 +1,3 @@
-import { VFC } from 'react'
 import { Form, Row, Col } from 'react-bootstrap'
 import { useFormContext } from 'react-hook-form'
 
@@ -7,7 +6,7 @@ type Props = {
   name: string
 }
 
-export const ContestTypeForm: VFC<Props> = (props) => {
+export const ContestTypeForm = (props: Props) => {
   const { title, name } = props
   const { register } = useFormContext()
 
@@ -23,7 +22,6 @@ export const ContestTypeForm: VFC<Props> = (props) => {
               id={`${name}.prelim1`}
               type='checkbox'
               label='一次予選'
-              custom
               {...register(`${name}.prelim1`)}
             />
           </Col>
@@ -32,7 +30,6 @@ export const ContestTypeForm: VFC<Props> = (props) => {
               id={`${name}.prelim2`}
               type='checkbox'
               label='二次予選(旧予選)'
-              custom
               {...register(`${name}.prelim2`)}
             />
           </Col>
@@ -41,7 +38,6 @@ export const ContestTypeForm: VFC<Props> = (props) => {
               id={`${name}.final`}
               type='checkbox'
               label='本選'
-              custom
               {...register(`${name}.final`)}
             />
           </Col>
@@ -52,7 +48,6 @@ export const ContestTypeForm: VFC<Props> = (props) => {
               id={`${name}.springCamp`}
               type='checkbox'
               label='春合宿'
-              custom
               {...register(`${name}.springCamp`)}
             />
           </Col>
@@ -61,7 +56,6 @@ export const ContestTypeForm: VFC<Props> = (props) => {
               id={`${name}.joig`}
               type='checkbox'
               label='JOIG'
-              custom
               {...register(`${name}.joig`)}
             />
           </Col>
@@ -70,7 +64,6 @@ export const ContestTypeForm: VFC<Props> = (props) => {
               id={`${name}.open`}
               type='checkbox'
               label='Open'
-              custom
               {...register(`${name}.open`)}
             />
           </Col>

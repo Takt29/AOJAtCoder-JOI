@@ -1,4 +1,3 @@
-import { VFC } from 'react'
 import { Form, Row, Col } from 'react-bootstrap'
 import { useFormContext } from 'react-hook-form'
 
@@ -7,7 +6,7 @@ type Props = {
   name: string
 }
 
-export const TaskTypeForm: VFC<Props> = (props) => {
+export const TaskTypeForm = (props: Props) => {
   const { title, name } = props
   const { register } = useFormContext()
 
@@ -21,7 +20,6 @@ export const TaskTypeForm: VFC<Props> = (props) => {
           id={`${name}.batch`}
           type='checkbox'
           label='Batch'
-          custom
           {...register(`${name}.batch`)}
         />
       </Col>
@@ -30,7 +28,6 @@ export const TaskTypeForm: VFC<Props> = (props) => {
           type='checkbox'
           id={`${name}.communication`}
           label='Communication'
-          custom
           {...register(`${name}.communication`)}
         />
       </Col>
@@ -39,7 +36,6 @@ export const TaskTypeForm: VFC<Props> = (props) => {
           id={`${name}.outputOnly`}
           type='checkbox'
           label='OutputOnly'
-          custom
           {...register(`${name}.outputOnly`)}
         />
       </Col>

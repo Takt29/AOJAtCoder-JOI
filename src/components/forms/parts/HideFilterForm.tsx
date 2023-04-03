@@ -21,7 +21,6 @@ export const HideFilterForm: VFC<Props> = (props) => {
           id={`${name}.solvedTask`}
           type='checkbox'
           label='ACした問題を非表示'
-          custom
           {...register(`${name}.solvedTask`)}
         />
       </Col>
@@ -30,7 +29,6 @@ export const HideFilterForm: VFC<Props> = (props) => {
           id={`${name}.notExistTask`}
           type='checkbox'
           label='Judge未存在問題を非表示'
-          custom
           {...register(`${name}.notExistTask`)}
         />
       </Col>
@@ -39,7 +37,6 @@ export const HideFilterForm: VFC<Props> = (props) => {
           id={`${name}.level`}
           type='checkbox'
           label='難易度を非表示'
-          custom
           {...register(`${name}.level`)}
         />
       </Col>
