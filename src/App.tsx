@@ -1,9 +1,4 @@
-import {
-  createBrowserRouter,
-  Outlet,
-  RouterProvider,
-  useMatch,
-} from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import { TopBar } from './components/navbar/TopBar'
 import styles from './App.module.scss'
