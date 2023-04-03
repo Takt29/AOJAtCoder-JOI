@@ -1,0 +1,17 @@
+{
+  "name": "aojatcoder-joi",
+  "version": "3.0.0-alpha1",
+  "description": "A website that shows the solving status of past questions of the Japanese Olympiad in Informatics.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takt29/AOJAtCoder-JOI.git"
+  },
+  "author": "Takt29",
+  "bugs": {
+    "url": "https://github.com/Takt29/AOJAtCoder-JOI/issues"
+  },
+  "homepage": "https://github.com/Takt29/AOJAtCoder-JOI#readme"
+}

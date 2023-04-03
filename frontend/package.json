@@ -1,8 +1,7 @@
 {
-  "name": "aojatcoder-joi",
+  "name": "aojatcoder-joi-frontend",
   "version": "3.0.0-alpha1",
-  "description": "AOJ/AtCoder-JOI",
-  "main": "index.js",
+  "description": "Frontend of AOJ/AtCoder-JOI",
   "scripts": {
     "start": "NODE_ENV=development webpack serve",
     "build": "NODE_ENV=production webpack --mode production",
