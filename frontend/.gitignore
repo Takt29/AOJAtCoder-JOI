@@ -3,7 +3,8 @@
 
 # client
 node_modules
-/output
+/public
+!/public/output
 
 # editor
 .vscode
