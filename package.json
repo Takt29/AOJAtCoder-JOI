@@ -3,6 +3,7 @@
   "version": "3.0.0-alpha1",
   "description": "A website that shows the solving status of past questions of the Japanese Olympiad in Informatics.",
   "scripts": {
+    "dev": "firebase emulators:start --import=./.firebase-data --export-on-exit --project aojatcoder-joi",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/Takt29/AOJAtCoder-JOI/issues"
   },
-  "homepage": "https://github.com/Takt29/AOJAtCoder-JOI#readme"
+  "homepage": "https://github.com/Takt29/AOJAtCoder-JOI#readme",
+  "devDependencies": {
+    "firebase-tools": "^11.25.2"
+  }
 }
