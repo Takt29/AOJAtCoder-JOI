@@ -1,7 +1,6 @@
+import { HStack, Select, Text } from '@chakra-ui/react'
 import { useMemo } from 'react'
-import { Form, Row, Col } from 'react-bootstrap'
 import { useFormContext } from 'react-hook-form'
-import styles from './YearForm.module.scss'
 
 type Props = {
   title?: string
@@ -21,32 +20,24 @@ export const YearForm = (props: Props) => {
   }, [])
 
   return (
-    <Form.Group as={Row}>
-      <Form.Label column sm={2}>
-        {title ?? '年度'}
-      </Form.Label>
-      <Col sm={4}>
-        <Form.Control as='select' size='sm' {...register(`${name}.begin`)}>
-          {years.map((year) => (
-            <option key={year} value={year}>
-              {year}
-            </option>
-          ))}
-        </Form.Control>
-      </Col>
-      <Col sm={1} className={styles.tilde}>
-        〜
-      </Col>
-      <Col sm={4}>
-        <Form.Control as='select' size='sm' {...register(`${name}.end`)}>
-          {years.map((year) => (
-            <option key={year} value={year}>
-              {year}
-            </option>
-          ))}
-          <option value={9999}></option>
-        </Form.Control>
-      </Col>
-    </Form.Group>
+    <HStack>
+      <Text>{title ?? '年度'}</Text>
+      <Select size='sm' {...register(`${name}.begin`)}>
+        {years.map((year) => (
+          <option key={year} value={year}>
+            {year}
+          </option>
+        ))}
+      </Select>
+      <Text>〜</Text>
+      <Select size='sm' {...register(`${name}.end`)}>
+        {years.map((year) => (
+          <option key={year} value={year}>
+            {year}
+          </option>
+        ))}
+        <option value={9999}></option>
+      </Select>
+    </HStack>
   )
 }

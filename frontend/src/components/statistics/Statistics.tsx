@@ -1,9 +1,9 @@
-import { useMemo, VFC } from 'react'
-import { Table } from 'react-bootstrap'
+import { Table, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react'
+import { useMemo } from 'react'
 import { ColoredLevel } from '../common/ColoredLevel'
 import styles from './Statistics.module.scss'
 
-export const Statistics: VFC = () => {
+export const Statistics = () => {
   const levels: (number | 'ALL')[] = useMemo(
     () => [...new Array(12).fill(null).map((_, i) => i + 1), 0, 'ALL'],
     [],
@@ -11,26 +11,26 @@ export const Statistics: VFC = () => {
 
   return (
     <div className={styles.root}>
-      <Table className={styles.table} responsive size='sm'>
-        <thead>
-          <tr>
+      <Table className={styles.table} size='sm'>
+        <Thead>
+          <Tr>
             {levels.map((level) => (
-              <ColoredLevel key={level} as='th' level={level} />
+              <ColoredLevel key={level} as={Th} level={level} />
             ))}
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr>
             {levels.map((level) => (
-              <td key={level}>{'0 / 0'}</td>
+              <Td key={level}>{'0 / 0'}</Td>
             ))}
-          </tr>
-          <tr>
+          </Tr>
+          <Tr>
             {levels.map((level) => (
-              <td key={level}>{'0 %'}</td>
+              <Td key={level}>{'0 %'}</Td>
             ))}
-          </tr>
-        </tbody>
+          </Tr>
+        </Tbody>
       </Table>
     </div>
   )

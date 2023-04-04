@@ -1,4 +1,4 @@
-import { ElementType, useMemo, VFC } from 'react'
+import { ElementType, useMemo } from 'react'
 import { getAtcoderUrl } from '../../helpers/url'
 import { useTask } from '../../hooks/contexts/TaskContext'
 
@@ -7,7 +7,7 @@ type Props = {
   className?: string
 }
 
-export const TaskName: VFC<Props> = (props) => {
+export const TaskName = (props: Props) => {
   const { as: Tag = 'span', className } = props
 
   const task = useTask()

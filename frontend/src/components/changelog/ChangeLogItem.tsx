@@ -1,4 +1,5 @@
-import { useMemo, VFC } from 'react'
+import { Td, Tr } from '@chakra-ui/react'
+import { useMemo } from 'react'
 import { TaskName } from '../../consumers/task/TaskName'
 import { TaskProvider } from '../../hooks/contexts/TaskContext'
 import { useTasks } from '../../hooks/http/task'
@@ -10,7 +11,7 @@ type Props = {
   record: ChangeLogRecord
 }
 
-export const ChangeLogItem: VFC<Props> = (props) => {
+export const ChangeLogItem = (props: Props) => {
   const { record } = props
   const { data: tasks } = useTasks()
 
@@ -23,20 +24,20 @@ export const ChangeLogItem: VFC<Props> = (props) => {
 
   return (
     <TaskProvider value={task}>
-      <tr>
+      <Tr>
         <ColoredLevel
           className={styles.level}
           level={record.oldLevel}
-          as='td'
+          as={Td}
         />
         <ColoredLevel
           className={styles.level}
           level={record.newLevel}
-          as='td'
+          as={Td}
         />
-        <TaskName as='td' />
-        <td>{record.updatedAt}</td>
-      </tr>
+        <TaskName as={Td} />
+        <Td>{record.updatedAt}</Td>
+      </Tr>
     </TaskProvider>
   )
 }

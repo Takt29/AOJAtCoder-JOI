@@ -1,4 +1,4 @@
-import { ElementType, VFC } from 'react'
+import { ElementType } from 'react'
 import { useTask } from '../../hooks/contexts/TaskContext'
 
 type Props = {
@@ -6,7 +6,7 @@ type Props = {
   className?: string
 }
 
-export const TaskType: VFC<Props> = (props) => {
+export const TaskType = (props: Props) => {
   const { as: Tag = 'span', className } = props
   const { type } = useTask()
 

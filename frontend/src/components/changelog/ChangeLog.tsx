@@ -1,26 +1,26 @@
-import { VFC } from 'react'
-import { Table } from 'react-bootstrap'
+import { TableContainer, Table, Thead, Th, Tbody } from '@chakra-ui/react'
 import { useChangeLog } from '../../hooks/http/changeLog'
-import { useTasks } from '../../hooks/http/task'
 import styles from './ChangeLog.module.scss'
 import { ChangeLogItem } from './ChangeLogItem'
 
-export const ChangeLog: VFC = () => {
+export const ChangeLog = () => {
   const { data: changelog } = useChangeLog()
 
   return (
-    <Table className={styles.root} size='sm' responsive>
-      <thead>
-        <th>変更前</th>
-        <th>変更後</th>
-        <th>問題</th>
-        <th>更新日</th>
-      </thead>
-      <tbody>
-        {(changelog || []).map((item, i) => (
-          <ChangeLogItem key={i} record={item} />
-        ))}
-      </tbody>
-    </Table>
+    <TableContainer>
+      <Table className={styles.root} size='sm'>
+        <Thead>
+          <Th>変更前</Th>
+          <Th>変更後</Th>
+          <Th>問題</Th>
+          <Th>更新日</Th>
+        </Thead>
+        <Tbody>
+          {(changelog || []).map((item, i) => (
+            <ChangeLogItem key={i} record={item} />
+          ))}
+        </Tbody>
+      </Table>
+    </TableContainer>
   )
 }

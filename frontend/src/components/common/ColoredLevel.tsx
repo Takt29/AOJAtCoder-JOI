@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { ElementType, VFC } from 'react'
+import { ElementType } from 'react'
 
 type Props = {
   as?: ElementType
@@ -7,7 +7,7 @@ type Props = {
   className?: string
 }
 
-export const ColoredLevel: VFC<Props> = (props) => {
+export const ColoredLevel = (props: Props) => {
   const { as: Tag = 'span', className, level } = props
   return (
     <Tag className={clsx(`level-${level}`, className)}>

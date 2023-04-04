@@ -1,5 +1,10 @@
-import { VFC } from 'react'
-import { Col, Form, InputGroup, Row } from 'react-bootstrap'
+import {
+  HStack,
+  Text,
+  InputGroup,
+  InputLeftAddon,
+  Input,
+} from '@chakra-ui/react'
 import { useFormContext } from 'react-hook-form'
 
 type Props = {
@@ -7,30 +12,21 @@ type Props = {
   name: string
 }
 
-export const AccountForm: VFC<Props> = (props) => {
+export const AccountForm = (props: Props) => {
   const { title, name } = props
   const { register } = useFormContext()
 
   return (
-    <Form.Group as={Row}>
-      <Form.Label column sm={2}>
-        {title ?? 'アカウント'}
-      </Form.Label>
-      <Col sm={5}>
-        <InputGroup size='sm' className={'sm-3'}>
-          <InputGroup.Text>AtCoder</InputGroup.Text>
-          <Form.Control
-            {...register(`${name}.atcoder`)}
-            placeholder='AtCoder ID'
-          />
-        </InputGroup>
-      </Col>
-      <Col sm={5}>
-        <InputGroup size='sm' className={'sm-3'}>
-          <InputGroup.Text>AOJ</InputGroup.Text>
-          <Form.Control {...register(`${name}.aoj`)} placeholder='AOJ ID' />
-        </InputGroup>
-      </Col>
-    </Form.Group>
+    <HStack spacing={4}>
+      <Text>{title ?? 'アカウント'}</Text>
+      <InputGroup>
+        <InputLeftAddon>AtCoder</InputLeftAddon>
+        <Input {...register(`${name}.atcoder`)} placeholder='AtCoder ID' />
+      </InputGroup>
+      <InputGroup>
+        <InputLeftAddon>AOJ</InputLeftAddon>
+        <Input {...register(`${name}.aoj`)} placeholder='AOJ ID' />
+      </InputGroup>
+    </HStack>
   )
 }
