@@ -7,6 +7,7 @@ import {
   DifficultyListFormData,
 } from '../components/forms/DifficultyListForm'
 import { Statistics } from '../components/statistics/Statistics'
+import { Heading, Stack } from '@chakra-ui/react'
 
 export const HomePage = () => {
   const [myAccount, setMyAccount] = useState<AccountData>()
@@ -21,17 +22,23 @@ export const HomePage = () => {
   }, [])
 
   return (
-    <div>
-      <h3>検索</h3>
+    <Stack spacing={4}>
+      <Heading as='h3' size='lg'>
+        検索
+      </Heading>
       <DifficultyListForm onSubmit={onSubmit} />
-      <h3>統計</h3>
+      <Heading as='h3' size='lg'>
+        統計
+      </Heading>
       <Statistics />
-      <h3>難易度表</h3>
+      <Heading as='h3' size='lg'>
+        難易度表
+      </Heading>
       <DifficultyList
         myAccount={myAccount}
         rivalAccount={rivalAccount}
         taskFilter={taskFilter}
       />
-    </div>
+    </Stack>
   )
 }
