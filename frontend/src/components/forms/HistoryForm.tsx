@@ -30,6 +30,7 @@ const defaultValues: HistoryFormData = {
     final: true,
     springCamp: true,
     joig: true,
+    joigSpring: true,
     open: false,
   },
   year: {
@@ -42,6 +43,7 @@ const defaultValues: HistoryFormData = {
     final: true,
     springCamp: true,
     joig: true,
+    joigSpring: false,
     open: false,
   },
 }

@@ -21,6 +21,7 @@ export type ContestTypeData = {
   final: boolean
   springCamp: boolean
   joig: boolean
+  joigSpring: boolean
   open: boolean
 }
 

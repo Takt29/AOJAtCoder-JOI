@@ -7,6 +7,7 @@ import {
   SiteSubmission,
 } from '../types/submission'
 
+//FIXME: 新APIへの対応
 export const fetchAtCoderSubmissions = async (
   atcoderUserId: string | undefined,
 ): Promise<AtcoderOriginalSubmission[]> => {

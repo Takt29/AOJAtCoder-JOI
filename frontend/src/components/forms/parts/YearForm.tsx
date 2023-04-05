@@ -13,7 +13,11 @@ export const YearForm = (props: Props) => {
 
   const years = useMemo(() => {
     const minimumYear = 2006
-    const maximumYear = new Date().getFullYear()
+    // 次の年度が開始する頃(9月)からは翌年も表示する
+    const currentYear = new Date().getFullYear()
+    const maximumYear =
+      new Date().getMonth() + 1 >= 9 ? currentYear + 1 : currentYear
+
     return new Array(maximumYear - minimumYear + 1)
       .fill(null)
       .map((_, i) => i + minimumYear)
