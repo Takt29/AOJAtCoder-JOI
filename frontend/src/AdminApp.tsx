@@ -5,10 +5,10 @@ export const AdminApp = () => {
   return (
     <ChakraProvider>
       <div>
-        <Container>
+        <Container maxWidth={'container.xl'}>
           <Outlet />
         </Container>
-      </div>{' '}
+      </div>
     </ChakraProvider>
   )
 }
