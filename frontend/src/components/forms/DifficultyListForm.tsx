@@ -1,3 +1,4 @@
+import { Stack } from '@chakra-ui/react'
 import { useCallback } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
@@ -63,13 +64,15 @@ export const DifficultyListForm = (props: Props) => {
   return (
     <FormProvider {...methods}>
       <form onSubmit={methods.handleSubmit(onSubmitForm)}>
-        <AccountForm name='myAccount' title='自分' />
-        <AccountForm name='rivalAccount' title='ライバル' />
-        <TaskTypeForm name='taskType' />
-        <HideFilterForm name='hideFilter' />
-        <ContestTypeForm name='contestType' />
-        <YearForm name='year' />
-        <SubmitButton>送信</SubmitButton>
+        <Stack spacing={4}>
+          <AccountForm name='myAccount' title='自分' />
+          <AccountForm name='rivalAccount' title='ライバル' />
+          <TaskTypeForm name='taskType' />
+          <HideFilterForm name='hideFilter' />
+          <ContestTypeForm name='contestType' />
+          <YearForm name='year' />
+          <SubmitButton>表示</SubmitButton>
+        </Stack>
       </form>
     </FormProvider>
   )

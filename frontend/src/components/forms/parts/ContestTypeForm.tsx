@@ -1,4 +1,4 @@
-import { Checkbox, CheckboxGroup, HStack, Text } from '@chakra-ui/react'
+import { Checkbox, CheckboxGroup, Grid, GridItem, Text } from '@chakra-ui/react'
 import { useFormContext } from 'react-hook-form'
 
 type Props = {
@@ -11,30 +11,35 @@ export const ContestTypeForm = (props: Props) => {
   const { register } = useFormContext()
 
   return (
-    <HStack>
-      <Text>{title || '大会タイプ'}</Text>
-      <CheckboxGroup>
-        <HStack>
-          {[
-            ['prelim1', '一次予選'],
-            ['prelim2', '二次予選(旧予選)'],
-            ['final', '本選'],
-            ['springCamp', '春合宿'],
-            ['open', 'Open'],
-            ['joig', 'JOIG'],
-            ['joigSpring', 'JOIG春合宿'],
-          ].map(([subId, label]) => (
-            <Checkbox
-              key={subId}
-              id={`${name}.${subId}`}
-              type='checkbox'
-              {...register(`${name}.${subId}`)}
-            >
-              {label}
-            </Checkbox>
-          ))}
-        </HStack>
-      </CheckboxGroup>
-    </HStack>
+    <Grid templateColumns={{ md: 'repeat(14, 1fr)' }} columnGap={4}>
+      <GridItem colSpan={{ md: 2, base: 1 }}>
+        <Text>{title || '大会タイプ'}</Text>
+      </GridItem>
+      <GridItem colSpan={{ md: 12, base: 1 }}>
+        <CheckboxGroup>
+          <Grid templateColumns={{ md: 'repeat(12, 1fr)' }} columnGap={4}>
+            {[
+              ['prelim1', '一次予選'],
+              ['prelim2', '二次予選(旧予選)'],
+              ['final', '本選'],
+              ['springCamp', '春合宿'],
+              ['open', 'Open'],
+              ['joig', 'JOIG'],
+              ['joigSpring', 'JOIG春合宿'],
+            ].map(([subId, label]) => (
+              <GridItem key={subId} colSpan={{ lg: 3, md: 4, sm: 6, base: 1 }}>
+                <Checkbox
+                  id={`${name}.${subId}`}
+                  type='checkbox'
+                  {...register(`${name}.${subId}`)}
+                >
+                  {label}
+                </Checkbox>
+              </GridItem>
+            ))}
+          </Grid>
+        </CheckboxGroup>
+      </GridItem>
+    </Grid>
   )
 }
