@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "baseUrl": "./",
+    "target": "es2019",
+    "strict": true,
+    "module": "commonJs",
+    "jsx": "react-jsx",
+    "lib": ["es2019", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
+  }
+}

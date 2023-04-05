@@ -1,10 +1,15 @@
-# data
-*.numbers
+# Created by https://www.toptal.com/developers/gitignore/api/firebase
+# Edit at https://www.toptal.com/developers/gitignore?templates=firebase
 
-# client
-node_modules
-public/bundle.js
-public/index.html
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
 
-# editor
-.vscode
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+.firebase-data/
+/*-debug.log
+
+# End of https://www.toptal.com/developers/gitignore/api/firebase

@@ -1,57 +1,21 @@
 {
   "name": "aojatcoder-joi",
-  "version": "2.1.0",
-  "description": "AOJ/AtCoder-JOI",
-  "main": "index.js",
+  "version": "3.0.0-alpha1",
+  "description": "A website that shows the solving status of past questions of the Japanese Olympiad in Informatics.",
   "scripts": {
-    "start": "NODE_ENV=development webpack serve",
-    "build": "NODE_ENV=production webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write src/**/*.jsx && eslint --fix 'src/**/*.jsx'"
+    "dev": "firebase emulators:start --import=./.firebase-data --export-on-exit --project aojatcoder-joi",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Takt29/formerAOJAtCoder-JOI.git"
+    "url": "git+https://github.com/Takt29/AOJAtCoder-JOI.git"
   },
-  "author": "goodbaton",
-  "license": "ISC",
+  "author": "Takt29",
   "bugs": {
-    "url": "https://github.com/Takt29/formerAOJAtCoder-JOI/issues"
+    "url": "https://github.com/Takt29/AOJAtCoder-JOI/issues"
   },
-  "homepage": "https://github.com/Takt29/formerAOJAtCoder-JOI#readme",
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.3.0",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "axios": "^0.27.2",
-    "axios-cache-adapter": "^2.7.3",
-    "classnames": "^2.3.2",
-    "html2canvas": "1.4.1",
-    "idb": "^6.1.5",
-    "query-string": "^7.1.3",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.6.6",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.3.4"
-  },
+  "homepage": "https://github.com/Takt29/AOJAtCoder-JOI#readme",
   "devDependencies": {
-    "@babel/core": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
-    "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.3.0",
-    "css-loader": "^6.7.3",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
-    "html-webpack-plugin": "^5.5.0",
-    "node-sass": "^7.0.3",
-    "prettier": "^2.8.1",
-    "sass-loader": "^12.6.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.76.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.11.1"
+    "firebase-tools": "^11.25.2"
   }
 }
