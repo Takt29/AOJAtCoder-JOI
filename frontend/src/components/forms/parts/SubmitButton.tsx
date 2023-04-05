@@ -1,4 +1,4 @@
-import { Button } from '@chakra-ui/react'
+import { Box, Button } from '@chakra-ui/react'
 import { ReactNode } from 'react'
 
 type Props = {
@@ -10,8 +10,14 @@ type Props = {
 export const SubmitButton = (props: Props) => {
   const { loading, children, disabled } = props
   return (
-    <Button type='submit' disabled={disabled || loading}>
-      {children}
-    </Button>
+    <Box textAlign={'right'}>
+      <Button
+        type='submit'
+        disabled={disabled || loading}
+        width={{ md: 64, base: '100%' }}
+      >
+        {children}
+      </Button>
+    </Box>
   )
 }
