@@ -1,4 +1,4 @@
-import { useCallback, useState, VFC } from 'react'
+import { useCallback, useState } from 'react'
 import { AccountData } from '../types/form'
 import { TaskFilter } from '../types/task'
 import { DifficultyList } from '../components/difficultyList/DifficultyList'
@@ -8,7 +8,7 @@ import {
 } from '../components/forms/DifficultyListForm'
 import { Statistics } from '../components/statistics/Statistics'
 
-export const HomePage: VFC = () => {
+export const HomePage = () => {
   const [myAccount, setMyAccount] = useState<AccountData>()
   const [rivalAccount, setRivalAccount] = useState<AccountData>()
   const [taskFilter, setTaskFilter] = useState<TaskFilter>()

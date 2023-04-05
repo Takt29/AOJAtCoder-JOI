@@ -1,25 +1,38 @@
-import { VFC } from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
-import { Link, useLocation } from 'react-router-dom'
+import { Link as ReactRouterLink } from 'react-router-dom'
+import { Box, Flex, HStack, useColorModeValue } from '@chakra-ui/react'
 import { TopBarLink } from './TopBaLink'
 
-export const TopBar: VFC = () => {
-  const { pathname } = useLocation()
-
+export const TopBar = () => {
   return (
-    <Navbar expand='md' bg='primary' variant='dark'>
-      <Navbar.Brand as={Link} to='/'>
-        AOJ/AtCoder-JOI
-      </Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse>
-        <Nav className='mr-auto' activeKey={`#${pathname}`}>
-          <TopBarLink to='/' title='List' />
-          <TopBarLink to='/history' title='History' />
-          <TopBarLink to='/changelog' title='ChangeLog' />
-          <TopBarLink to='/links' title='Links' />
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <>
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} paddingX={8}>
+        <Flex h={16} justifyContent={'space-between'}>
+          <Flex alignItems={'center'}>
+            <HStack>
+              <Box
+                as={ReactRouterLink}
+                to='/'
+                _hover={{ textDecoration: 'none' }}
+              >
+                AOJ/AtCoder-JOI
+              </Box>
+              <HStack
+                as={'nav'}
+                spacing={4}
+                display={{ base: 'none', md: 'flex' }}
+              >
+                <TopBarLink to={'/'} title='List' />
+                <TopBarLink to={'/history'} title='History' />
+                <TopBarLink to={'/changelog'} title='ChangeLog' />
+                <TopBarLink to={'/links'} title='Links' />
+              </HStack>
+            </HStack>
+          </Flex>
+          <Flex alignItems={'center'}>
+            <Box>🇯🇵 / 🇺🇸</Box>
+          </Flex>
+        </Flex>
+      </Box>
+    </>
   )
 }

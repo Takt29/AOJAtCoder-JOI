@@ -1,21 +1,32 @@
-import { VFC } from 'react'
-import { Nav } from 'react-bootstrap'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from '@chakra-ui/react'
+import {
+  Link as ReactRouterLink,
+  useLocation,
+  useMatch,
+} from 'react-router-dom'
 
 type Props = {
   to: string
   title: string
 }
 
-export const TopBarLink: VFC<Props> = (props) => {
+export const TopBarLink = (props: Props) => {
   const { to, title } = props
-  const { search, pathname } = useLocation()
+  const { search } = useLocation()
+  const isActive = !!useMatch(to)
 
   return (
-    <Nav.Item className={to === pathname ? 'active' : ''}>
-      <Nav.Link as={Link} to={{ pathname: to, search: search }}>
-        {title}
-      </Nav.Link>
-    </Nav.Item>
+    <Link
+      paddingX={2}
+      paddingY={1}
+      as={ReactRouterLink}
+      to={{ pathname: to, search: search }}
+      _hover={{
+        textDecoration: 'none',
+      }}
+      color={isActive ? 'green.500' : undefined}
+    >
+      {title}
+    </Link>
   )
 }

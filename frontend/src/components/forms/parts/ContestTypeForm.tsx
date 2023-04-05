@@ -1,4 +1,4 @@
-import { Form, Row, Col } from 'react-bootstrap'
+import { Checkbox, CheckboxGroup, HStack, Text } from '@chakra-ui/react'
 import { useFormContext } from 'react-hook-form'
 
 type Props = {
@@ -11,64 +11,30 @@ export const ContestTypeForm = (props: Props) => {
   const { register } = useFormContext()
 
   return (
-    <Form.Group as={Row}>
-      <Form.Label column sm={2}>
-        {title || '大会タイプ'}
-      </Form.Label>
-      <Col sm={10}>
-        <Row>
-          <Col sm={4}>
-            <Form.Check
-              id={`${name}.prelim1`}
+    <HStack>
+      <Text>{title || '大会タイプ'}</Text>
+      <CheckboxGroup>
+        <HStack>
+          {[
+            ['prelim1', '一次予選'],
+            ['prelim2', '二次予選(旧予選)'],
+            ['final', '本選'],
+            ['springCamp', '春合宿'],
+            ['open', 'Open'],
+            ['joig', 'JOIG'],
+            ['joigSpring', 'JOIG春合宿'],
+          ].map(([subId, label]) => (
+            <Checkbox
+              key={subId}
+              id={`${name}.${subId}`}
               type='checkbox'
-              label='一次予選'
-              {...register(`${name}.prelim1`)}
-            />
-          </Col>
-          <Col sm={4}>
-            <Form.Check
-              id={`${name}.prelim2`}
-              type='checkbox'
-              label='二次予選(旧予選)'
-              {...register(`${name}.prelim2`)}
-            />
-          </Col>
-          <Col sm={4}>
-            <Form.Check
-              id={`${name}.final`}
-              type='checkbox'
-              label='本選'
-              {...register(`${name}.final`)}
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col sm={4}>
-            <Form.Check
-              id={`${name}.springCamp`}
-              type='checkbox'
-              label='春合宿'
-              {...register(`${name}.springCamp`)}
-            />
-          </Col>
-          <Col sm={4}>
-            <Form.Check
-              id={`${name}.joig`}
-              type='checkbox'
-              label='JOIG'
-              {...register(`${name}.joig`)}
-            />
-          </Col>
-          <Col sm={4}>
-            <Form.Check
-              id={`${name}.open`}
-              type='checkbox'
-              label='Open'
-              {...register(`${name}.open`)}
-            />
-          </Col>
-        </Row>
-      </Col>
-    </Form.Group>
+              {...register(`${name}.${subId}`)}
+            >
+              {label}
+            </Checkbox>
+          ))}
+        </HStack>
+      </CheckboxGroup>
+    </HStack>
   )
 }

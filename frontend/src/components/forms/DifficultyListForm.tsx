@@ -1,5 +1,4 @@
-import { useCallback, VFC } from 'react'
-import { Form } from 'react-bootstrap'
+import { useCallback } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
   AccountData,
@@ -47,7 +46,7 @@ type Props = {
   onSubmit?: (data: DifficultyListFormData) => void
 }
 
-export const DifficultyListForm: VFC<Props> = (props) => {
+export const DifficultyListForm = (props: Props) => {
   const { onSubmit } = props
 
   const methods = useForm<DifficultyListFormData>({
@@ -63,7 +62,7 @@ export const DifficultyListForm: VFC<Props> = (props) => {
 
   return (
     <FormProvider {...methods}>
-      <Form onSubmit={methods.handleSubmit(onSubmitForm)}>
+      <form onSubmit={methods.handleSubmit(onSubmitForm)}>
         <AccountForm name='myAccount' title='自分' />
         <AccountForm name='rivalAccount' title='ライバル' />
         <TaskTypeForm name='taskType' />
@@ -71,7 +70,7 @@ export const DifficultyListForm: VFC<Props> = (props) => {
         <ContestTypeForm name='contestType' />
         <YearForm name='year' />
         <SubmitButton>送信</SubmitButton>
-      </Form>
+      </form>
     </FormProvider>
   )
 }

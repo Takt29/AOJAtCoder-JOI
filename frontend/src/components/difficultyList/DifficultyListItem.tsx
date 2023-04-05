@@ -1,6 +1,6 @@
+import { Td, Th, Tr } from '@chakra-ui/react'
 import clsx from 'clsx'
-import { VFC } from 'react'
-import { Task, TaskWithResult } from 'src/types/task'
+import { TaskWithResult } from 'src/types/task'
 import { TaskAizuOnlineJudgeLink } from '../../consumers/task/TaskAizuOnlineJudgeLink'
 import { TaskLevel } from '../../consumers/task/TaskLevel'
 import { TaskName } from '../../consumers/task/TaskName'
@@ -13,7 +13,7 @@ type Props = {
   task: TaskWithResult
 }
 
-export const DifficultyListItem: VFC<Props> = (props) => {
+export const DifficultyListItem = (props: Props) => {
   const { task } = props
   const {
     result: { isPerfectScore: solved } = {},
@@ -22,18 +22,18 @@ export const DifficultyListItem: VFC<Props> = (props) => {
 
   return (
     <TaskProvider value={task}>
-      <tr
+      <Tr
         className={clsx({
           [styles.solved]: solved,
           [styles.solvedByRival]: solvedByRival,
         })}
       >
-        <TaskLevel as='th' className={styles.level} />
-        <TaskName as='td' />
-        <TaskAizuOnlineJudgeLink as='td' className={styles.aoj} />
-        <TaskSource as='td' />
-        <TaskType as='td' />
-      </tr>
+        <TaskLevel as={Th} className={styles.level} />
+        <TaskName as={Td} />
+        <TaskAizuOnlineJudgeLink as={Td} className={styles.aoj} />
+        <TaskSource as={Td} />
+        <TaskType as={Td} />
+      </Tr>
     </TaskProvider>
   )
 }

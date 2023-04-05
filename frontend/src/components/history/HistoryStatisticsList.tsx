@@ -1,8 +1,7 @@
-import { VFC } from 'react'
 import { HistoryStatistics } from './HistoryStatistics'
 import { useContests } from '../../hooks/http/contest'
 
-export const HistoryStatisticsList: VFC = () => {
+export const HistoryStatisticsList = () => {
   const { data: contests } = useContests()
 
   return (

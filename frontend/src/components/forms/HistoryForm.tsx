@@ -1,5 +1,4 @@
-import { useCallback, VFC } from 'react'
-import { Form } from 'react-bootstrap'
+import { useCallback } from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
   AccountData,
@@ -46,7 +45,7 @@ const defaultValues: HistoryFormData = {
   },
 }
 
-export const HistoryForm: VFC = () => {
+export const HistoryForm = () => {
   const methods = useForm<HistoryFormData>({
     defaultValues,
   })
@@ -57,14 +56,14 @@ export const HistoryForm: VFC = () => {
 
   return (
     <FormProvider {...methods}>
-      <Form onSubmit={methods.handleSubmit(onSubmit)}>
+      <form onSubmit={methods.handleSubmit(onSubmit)}>
         <AccountForm name='myAccount' />
         <TaskTypeForm name='taskType' />
         <ContestTypeForm name='contestType' title='カウント対象大会' />
         <YearForm name='year' />
         <ContestTypeForm name='historyContestType' title='表示対象大会' />
         <SubmitButton>送信</SubmitButton>
-      </Form>
+      </form>
     </FormProvider>
   )
 }

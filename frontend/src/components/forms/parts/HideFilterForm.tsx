@@ -1,5 +1,4 @@
-import { VFC } from 'react'
-import { Form, Row, Col } from 'react-bootstrap'
+import { Checkbox, CheckboxGroup, HStack, Text } from '@chakra-ui/react'
 import { useFormContext } from 'react-hook-form'
 
 type Props = {
@@ -7,39 +6,31 @@ type Props = {
   name: string
 }
 
-export const HideFilterForm: VFC<Props> = (props) => {
+export const HideFilterForm = (props: Props) => {
   const { title, name } = props
   const { register } = useFormContext()
 
   return (
-    <Form.Group as={Row}>
-      <Form.Label column sm={2}>
-        {title ?? 'フィルタ'}
-      </Form.Label>
-      <Col sm={3}>
-        <Form.Check
-          id={`${name}.solvedTask`}
-          type='checkbox'
-          label='ACした問題を非表示'
-          {...register(`${name}.solvedTask`)}
-        />
-      </Col>
-      <Col sm={3}>
-        <Form.Check
-          id={`${name}.notExistTask`}
-          type='checkbox'
-          label='Judge未存在問題を非表示'
-          {...register(`${name}.notExistTask`)}
-        />
-      </Col>
-      <Col sm={3}>
-        <Form.Check
-          id={`${name}.level`}
-          type='checkbox'
-          label='難易度を非表示'
-          {...register(`${name}.level`)}
-        />
-      </Col>
-    </Form.Group>
+    <HStack>
+      <Text>{title ?? 'フィルタ'}</Text>
+      <CheckboxGroup>
+        <HStack>
+          {[
+            ['solvedTask', 'ACした問題を非表示'],
+            ['notExistTask', 'Judge未存在問題を非表示'],
+            ['level', '難易度を非表示'],
+          ].map(([subId, label]) => (
+            <Checkbox
+              key={subId}
+              id={`${name}.${subId}`}
+              type='checkbox'
+              {...register(`${name}.${subId}`)}
+            >
+              {label}
+            </Checkbox>
+          ))}
+        </HStack>
+      </CheckboxGroup>
+    </HStack>
   )
 }

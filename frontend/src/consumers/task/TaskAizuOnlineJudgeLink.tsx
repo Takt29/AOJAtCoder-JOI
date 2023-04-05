@@ -1,4 +1,4 @@
-import { ElementType, useMemo, VFC } from 'react'
+import { ElementType, useMemo } from 'react'
 import { getAizuOnlineJudgeUrl } from '../../helpers/url'
 import { useTask } from '../../hooks/contexts/TaskContext'
 
@@ -7,7 +7,7 @@ type Props = {
   className?: string
 }
 
-export const TaskAizuOnlineJudgeLink: VFC<Props> = (props) => {
+export const TaskAizuOnlineJudgeLink = (props: Props) => {
   const { as: Tag = 'span', className } = props
 
   const task = useTask()
