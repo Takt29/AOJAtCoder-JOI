@@ -1,3 +1,4 @@
+import { Heading } from '@chakra-ui/react'
 import { ReactNode } from 'react'
 
 type Props = {
@@ -11,11 +12,11 @@ export const LinksPageComponent = (props: Props) => {
 
   return (
     <div>
-      <h4>
+      <Heading as='h4' size='md'>
         <a href={href} target='_blank' rel='noopener noreferrer'>
           {title}
         </a>
-      </h4>
+      </Heading>
       <p>{children}</p>
     </div>
   )

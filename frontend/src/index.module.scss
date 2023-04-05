@@ -1,18 +1,6 @@
 @import './styles/variables/color';
 
 .app {
-  h3 {
-    border-bottom: solid 3px var(--blue);
-    color: #cf0c0c;
-    margin-top: 20px;
-  }
-
-  h4 {
-    border-bottom: solid 3px var(--blue);
-    color: var(--success);
-    margin-top: 20px;
-  }
-
   :global {
     .level {
       @each $level, $color in $levelColors {
