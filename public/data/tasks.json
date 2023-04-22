@@ -4871,5 +4871,165 @@
     "atcoder_id": "joi2023ho_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Two Currencies",
+    "source": "23春合宿1-1",
+    "problem_id": "234101",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Festivals in JOI Kingdom 2",
+    "source": "23春合宿1-2",
+    "problem_id": "234102",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Passport",
+    "source": "23春合宿1-3",
+    "problem_id": "234103",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Belt Conveyor",
+    "source": "23春合宿2-1",
+    "problem_id": "234201",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_d",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Council",
+    "source": "23春合宿2-2",
+    "problem_id": "234202",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Mizuyokan 2",
+    "source": "23春合宿2-3",
+    "problem_id": "234203",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Chorus",
+    "source": "23春合宿3-1",
+    "problem_id": "234301",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Cookies",
+    "source": "23春合宿3-2",
+    "problem_id": "234302",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Tourism",
+    "source": "23春合宿3-3",
+    "problem_id": "234303",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "The Last Battle",
+    "source": "23春合宿4-1",
+    "problem_id": "234401",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_j",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "Security Guard",
+    "source": "23春合宿4-2",
+    "problem_id": "234402",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Bitaro's travel",
+    "source": "23春合宿4-3",
+    "problem_id": "234403",
+    "atcoder_contest": "joisp2023",
+    "atcoder_id": "joisp2023_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Rocket Launching",
+    "source": "23JOIG春合宿1-1",
+    "problem_id": "236101",
+    "atcoder_contest": "joigsp2023",
+    "atcoder_id": "joigsp2023_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Teleporter",
+    "source": "23JOIG春合宿1-2",
+    "problem_id": "236102",
+    "atcoder_contest": "joigsp2023",
+    "atcoder_id": "joigsp2023_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Smartphone",
+    "source": "23JOIG春合宿2-1",
+    "problem_id": "236201",
+    "atcoder_contest": "joigsp2023",
+    "atcoder_id": "joigsp2023_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "White Light",
+    "source": "23JOIG春合宿2-2",
+    "problem_id": "236202",
+    "atcoder_contest": "joigsp2023",
+    "atcoder_id": "joigsp2023_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
