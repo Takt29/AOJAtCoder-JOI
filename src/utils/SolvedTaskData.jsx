@@ -1,5 +1,5 @@
 import { fetchAllAtCoderSubmissionsUsingCache } from './AtCoderSubmissions'
-import axios from './axios-cache'
+import axios from 'axios'
 
 const getSubmissions = async (tasks, { atcoder, aoj } = {}) => {
   const atcoderRes = await getAtCoderSubmissions(tasks, atcoder)

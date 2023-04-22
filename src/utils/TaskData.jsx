@@ -1,4 +1,4 @@
-import axios from './axios-cache'
+import axios from 'axios'
 
 const TASKTYPES = {
   BATCH: 'Batch',
