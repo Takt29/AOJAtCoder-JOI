@@ -3,7 +3,6 @@ import { Table, TableContainer, Tbody, Thead, Tr, Th } from '@chakra-ui/react'
 import { DifficultyListItem } from './DifficultyListItem'
 import { useTasks } from '../../hooks/http/task'
 import { useSubmissions } from '../../hooks/http/submissions'
-import styles from './DifficultyList.module.scss'
 import { mergeTaskAndSubmissions } from '../../helpers/submission'
 import { TaskFilter } from '../../types/task'
 import { AccountData } from '../../types/form'
@@ -42,7 +41,7 @@ export const DifficultyList = (props: Props) => {
 
   return (
     <TableContainer>
-      <Table className={styles.root} size='sm'>
+      <Table size='sm'>
         <Thead>
           <Tr>
             <Th>難易度</Th>

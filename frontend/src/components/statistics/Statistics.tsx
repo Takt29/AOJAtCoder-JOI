@@ -1,17 +1,16 @@
-import { Table, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react'
+import { Box, Table, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react'
 import { useMemo } from 'react'
 import { ColoredLevel } from '../common/ColoredLevel'
-import styles from './Statistics.module.scss'
 
 export const Statistics = () => {
-  const levels: (number | 'ALL')[] = useMemo(
-    () => [...new Array(12).fill(null).map((_, i) => i + 1), 0, 'ALL'],
+  const levels: (number | 'all')[] = useMemo(
+    () => [...new Array(12).fill(null).map((_, i) => i + 1), 0, 'all'],
     [],
   )
 
   return (
-    <div className={styles.root}>
-      <Table className={styles.table} size='sm'>
+    <Box overflowY={'scroll'}>
+      <Table size='sm'>
         <Thead>
           <Tr>
             {levels.map((level) => (
@@ -22,16 +21,20 @@ export const Statistics = () => {
         <Tbody>
           <Tr>
             {levels.map((level) => (
-              <Td key={level}>{'0 / 0'}</Td>
+              <Td key={level} textAlign={'center'} minWidth={16}>
+                {'0 / 0'}
+              </Td>
             ))}
           </Tr>
           <Tr>
             {levels.map((level) => (
-              <Td key={level}>{'0 %'}</Td>
+              <Td key={level} textAlign={'center'} minWidth={16}>
+                {'0 %'}
+              </Td>
             ))}
           </Tr>
         </Tbody>
       </Table>
-    </div>
+    </Box>
   )
 }
