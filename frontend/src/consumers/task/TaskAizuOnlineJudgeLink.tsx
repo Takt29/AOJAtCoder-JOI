@@ -1,6 +1,7 @@
 import { ElementType, useMemo } from 'react'
 import { getAizuOnlineJudgeUrl } from '../../helpers/url'
 import { useTask } from '../../hooks/contexts/TaskContext'
+import { Link } from '@chakra-ui/react'
 
 type Props = {
   as?: ElementType
@@ -19,9 +20,15 @@ export const TaskAizuOnlineJudgeLink = (props: Props) => {
 
   return (
     <Tag className={className}>
-      <a href={url} target='_blank' rel='noopener noreferrer'>
+      <Link
+        color='teal.500'
+        _hover={{ textDecoration: 'none' }}
+        href={url}
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         {'★'}
-      </a>
+      </Link>
     </Tag>
   )
 }
