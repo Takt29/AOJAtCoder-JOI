@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios'
-import { sleep, unique } from 'src/helpers/utils'
-import { AizuOnlineJudgeOriginalSubmission } from 'src/types/submission'
+import { sleep, unique } from '../helpers/utils'
+import { AizuOnlineJudgeOriginalSubmission } from '../types/submission'
 
 /** AOJUserIdからその人の提出を全て取得する */
 export const fetchAizuOnlineJudgeSubmissions = async (

@@ -1,5 +1,5 @@
 import { fetchAizuOnlineJudgeSubmissions } from './aojSubmission'
-import { AizuOnlineJudgeOriginalSubmission } from 'src/types/submission'
+import { AizuOnlineJudgeOriginalSubmission } from '../types/submission'
 
 test.runIf(import.meta.env.VITE_TEST_ALL)(
   '取得したデータの型が正しいか',

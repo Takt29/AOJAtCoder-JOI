@@ -1,4 +1,4 @@
-import { AtcoderOriginalSubmission } from 'src/types/submission'
+import { AtcoderOriginalSubmission } from '../types/submission'
 import { fetchPartialAtCoderSubmissions } from './atcoderSubmission'
 
 test.runIf(import.meta.env.VITE_TEST_ALL)(

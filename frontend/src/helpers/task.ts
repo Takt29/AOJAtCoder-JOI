@@ -1,4 +1,3 @@
-import { ContestTypeData, TaskTypeData, YearData } from 'src/types/form'
 import { Task, TaskFilter } from '../types/task'
 
 export const filterTask = (tasks: Task[], filter: TaskFilter): Task[] => {

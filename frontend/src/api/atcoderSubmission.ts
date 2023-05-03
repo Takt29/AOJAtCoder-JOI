@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios'
 import { AtcoderOriginalSubmission } from '../types/submission'
-import { sleep, unique } from 'src/helpers/utils'
+import { sleep, unique } from '../helpers/utils'
 import {
   loadAtcoderSubmissionsFromCache,
   saveAtcoderSubmissionsToCache,
