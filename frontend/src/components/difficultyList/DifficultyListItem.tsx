@@ -1,6 +1,6 @@
 import { Td, Th, Tr } from '@chakra-ui/react'
 import clsx from 'clsx'
-import { TaskWithResult } from 'src/types/task'
+import { TaskWithResult } from '../../types/task'
 import { TaskAizuOnlineJudgeLink } from '../../consumers/task/TaskAizuOnlineJudgeLink'
 import { TaskLevel } from '../../consumers/task/TaskLevel'
 import { TaskName } from '../../consumers/task/TaskName'

@@ -5,7 +5,8 @@
   "scripts": {
     "start": "vite --mode development",
     "build": "vite build --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
+    "test:all": "VITE_TEST_ALL=1 vitest run",
     "format": "prettier --write '**/*.{tsx,ts,jsx,js}' && eslint --fix '**/*.{tsx,ts,jsx,js}'"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "clsx": "^1.2.1",
     "framer-motion": "^10.10.0",
     "html2canvas": "1.4.1",
+    "idb": "^7.1.1",
     "query-string": "^8.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -44,8 +46,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "fake-indexeddb": "^4.0.1",
     "prettier": "^2.8.7",
     "typescript": "^5.0.3",
-    "vite": "^4.3.4"
+    "vite": "^4.3.4",
+    "vitest": "^0.30.1"
   }
 }
