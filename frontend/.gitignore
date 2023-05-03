@@ -1,10 +1,6 @@
-# data
-*.numbers
-
 # client
 node_modules
-/public
-!/public/output
+/dist
 
 # editor
 .vscode
