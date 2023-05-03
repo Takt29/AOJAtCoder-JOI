@@ -2,7 +2,7 @@ import { AxiosError } from 'axios'
 import { useCallback, useMemo } from 'react'
 import useSWR, { KeyedMutator, SWRResponse } from 'swr'
 import { toSubmissions } from '../../helpers/submission'
-import { fetchSiteSubmissions } from '../../repositories/submission'
+import { fetchSiteSubmissions } from '../../api/submission'
 import { SiteSubmission, Submission } from '../../types/submission'
 import { useTasks } from './task'
 
