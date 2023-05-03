@@ -47,7 +47,7 @@ export const fetchAtCoderSubmissions = async (
 }
 
 /** UnixTimeがfromSecond以降の提出を取得する最大500件取得する */
-const fetchPartialAtCoderSubmissions = async (
+export const fetchPartialAtCoderSubmissions = async (
   atcoderUserId: string,
   fromSecond: number,
 ) => {

@@ -4,11 +4,13 @@
     "baseUrl": "./",
     "target": "es2019",
     "strict": true,
-    "module": "commonJs",
+    "module": "ES2020",
     "jsx": "react-jsx",
     "lib": ["es2019", "DOM"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "types": ["vitest/globals"]
   }
 }
