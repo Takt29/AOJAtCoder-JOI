@@ -3,7 +3,7 @@
 
 # client
 node_modules
-/public
+/dist
 !/public/output
 
 # editor
