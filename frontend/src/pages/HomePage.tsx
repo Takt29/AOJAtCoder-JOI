@@ -8,6 +8,7 @@ import {
 } from '../components/forms/DifficultyListForm'
 import { Statistics } from '../components/statistics/Statistics'
 import { Heading, Stack } from '@chakra-ui/react'
+import { useSubmissions } from '../hooks/http/submissions'
 
 export const HomePage = () => {
   const [myAccount, setMyAccount] = useState<AccountData>()
@@ -21,12 +22,22 @@ export const HomePage = () => {
     setTaskFilter(taskFilter)
   }, [])
 
+  const { data: submissions, isLoading: loadingMySubmissions } = useSubmissions(
+    myAccount?.atcoder,
+    myAccount?.aoj,
+  )
+  const { data: rivalSubmissions, isLoading: loadingRivalSubmissions } =
+    useSubmissions(rivalAccount?.atcoder, rivalAccount?.aoj)
+
   return (
     <Stack spacing={4}>
       <Heading as='h3' size='lg'>
         検索
       </Heading>
-      <DifficultyListForm onSubmit={onSubmit} />
+      <DifficultyListForm
+        onSubmit={onSubmit}
+        loading={loadingMySubmissions || loadingRivalSubmissions}
+      />
       <Heading as='h3' size='lg'>
         統計
       </Heading>
@@ -35,8 +46,8 @@ export const HomePage = () => {
         難易度表
       </Heading>
       <DifficultyList
-        myAccount={myAccount}
-        rivalAccount={rivalAccount}
+        submissions={submissions}
+        rivalSubmissions={rivalSubmissions}
         taskFilter={taskFilter}
       />
     </Stack>

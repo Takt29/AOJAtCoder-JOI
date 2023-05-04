@@ -2,31 +2,21 @@ import { useMemo } from 'react'
 import { Table, TableContainer, Tbody, Thead, Tr, Th } from '@chakra-ui/react'
 import { DifficultyListItem } from './DifficultyListItem'
 import { useTasks } from '../../hooks/http/task'
-import { useSubmissions } from '../../hooks/http/submissions'
 import { mergeTaskAndSubmissions } from '../../helpers/submission'
 import { TaskFilter } from '../../types/task'
-import { AccountData } from '../../types/form'
 import { filterTask } from '../../helpers/task'
+import { Submission } from '../../types/submission'
 
 type Props = {
-  myAccount?: AccountData
-  rivalAccount?: AccountData
+  submissions?: Submission[]
+  rivalSubmissions?: Submission[]
   taskFilter?: TaskFilter
 }
 
 export const DifficultyList = (props: Props) => {
-  const { myAccount, rivalAccount, taskFilter } = props
+  const { submissions, rivalSubmissions, taskFilter } = props
 
   const { data: tasks } = useTasks()
-
-  const { data: submissions } = useSubmissions(
-    myAccount?.atcoder,
-    myAccount?.aoj,
-  )
-  const { data: rivalSubmissions } = useSubmissions(
-    rivalAccount?.atcoder,
-    rivalAccount?.aoj,
-  )
 
   const filteredTasks = useMemo(
     () => (taskFilter ? filterTask(tasks || [], taskFilter) : tasks || []),

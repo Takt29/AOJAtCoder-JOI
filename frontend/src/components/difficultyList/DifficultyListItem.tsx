@@ -1,5 +1,5 @@
 import { Td, Th, Tr } from '@chakra-ui/react'
-import clsx from 'clsx'
+import { match } from 'ts-pattern'
 import { TaskWithResult } from '../../types/task'
 import { TaskAizuOnlineJudgeLink } from '../../consumers/task/TaskAizuOnlineJudgeLink'
 import { TaskLevel } from '../../consumers/task/TaskLevel'
@@ -7,7 +7,6 @@ import { TaskName } from '../../consumers/task/TaskName'
 import { TaskSource } from '../../consumers/task/TaskSource'
 import { TaskType } from '../../consumers/task/TaskType'
 import { TaskProvider } from '../../hooks/contexts/TaskContext'
-import styles from './DifficultyListItem.module.scss'
 
 type Props = {
   task: TaskWithResult
@@ -15,22 +14,25 @@ type Props = {
 
 export const DifficultyListItem = (props: Props) => {
   const { task } = props
-  const {
-    result: { isPerfectScore: solved } = {},
-    rivalResult: { isPerfectScore: solvedByRival } = {},
-  } = task
+
+  const backgroundColor = match(task)
+    .with(
+      {
+        result: { isPerfectScore: true },
+        rivalResult: { isPerfectScore: true },
+      },
+      () => '#faddb1',
+    )
+    .with({ result: { isPerfectScore: true } }, () => '#d7fbd7')
+    .with({ rivalResult: { isPerfectScore: true } }, () => '#f8ccc8')
+    .otherwise(() => '')
 
   return (
     <TaskProvider value={task}>
-      <Tr
-        className={clsx({
-          [styles.solved]: solved,
-          [styles.solvedByRival]: solvedByRival,
-        })}
-      >
-        <TaskLevel as={Th} className={styles.level} />
+      <Tr backgroundColor={backgroundColor}>
+        <TaskLevel as={Th} />
         <TaskName as={Td} />
-        <TaskAizuOnlineJudgeLink as={Td} className={styles.aoj} />
+        <TaskAizuOnlineJudgeLink as={Td} />
         <TaskSource as={Td} />
         <TaskType as={Td} />
       </Tr>
