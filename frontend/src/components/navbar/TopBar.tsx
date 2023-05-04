@@ -1,6 +1,6 @@
 import { Link as ReactRouterLink } from 'react-router-dom'
 import { Box, Flex, HStack, useColorModeValue } from '@chakra-ui/react'
-import { TopBarLink } from './TopBaLink'
+import { TopBarLink } from './TopBarLink'
 
 export const TopBar = () => {
   return (
