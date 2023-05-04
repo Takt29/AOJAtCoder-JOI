@@ -1,6 +1,5 @@
 import { TableContainer, Table, Thead, Th, Tbody } from '@chakra-ui/react'
 import { useChangeLog } from '../../hooks/http/changeLog'
-import styles from './ChangeLog.module.scss'
 import { ChangeLogItem } from './ChangeLogItem'
 
 export const ChangeLog = () => {
@@ -8,7 +7,7 @@ export const ChangeLog = () => {
 
   return (
     <TableContainer>
-      <Table className={styles.root} size='sm'>
+      <Table size='sm'>
         <Thead>
           <Th>変更前</Th>
           <Th>変更後</Th>
