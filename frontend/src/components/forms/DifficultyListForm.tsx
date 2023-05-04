@@ -46,10 +46,11 @@ const defaultValues: DifficultyListFormData = {
 
 type Props = {
   onSubmit?: (data: DifficultyListFormData) => void
+  loading?: boolean
 }
 
 export const DifficultyListForm = (props: Props) => {
-  const { onSubmit } = props
+  const { onSubmit, loading = false } = props
 
   const methods = useForm<DifficultyListFormData>({
     defaultValues,
@@ -72,7 +73,7 @@ export const DifficultyListForm = (props: Props) => {
           <HideFilterForm name='hideFilter' />
           <ContestTypeForm name='contestType' />
           <YearForm name='year' />
-          <SubmitButton>表示</SubmitButton>
+          <SubmitButton loading={loading}>表示</SubmitButton>
         </Stack>
       </form>
     </FormProvider>

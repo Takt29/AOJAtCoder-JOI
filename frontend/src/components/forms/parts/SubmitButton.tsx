@@ -8,12 +8,13 @@ type Props = {
 }
 
 export const SubmitButton = (props: Props) => {
-  const { loading, children, disabled } = props
+  const { loading = false, children, disabled } = props
   return (
     <Box textAlign={'right'}>
       <Button
         type='submit'
         disabled={disabled || loading}
+        isLoading={loading}
         width={{ md: 64, base: '100%' }}
       >
         {children}
