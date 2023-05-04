@@ -1,18 +1,17 @@
-import { ElementType } from 'react'
+import { ComponentProps, ElementType } from 'react'
 
-type Props = {
-  as?: ElementType
+type Props<T extends ElementType> = {
+  as?: T
   level: number | 'all'
-  className?: string
-}
+} & Omit<ComponentProps<T>, 'color' | 'backgroundColor'>
 
-export const ColoredLevel = (props: Props) => {
-  const { as: Tag = 'span', className, level } = props
+export const ColoredLevel = <T extends ElementType>(props: Props<T>) => {
+  const { as: Tag = 'span', level, ...others } = props
   return (
     <Tag
-      className={className}
       color={`level-text.${level}`}
       backgroundColor={`level-background.${level}`}
+      {...others}
     >
       {level !== 0 ? level : '?'}
     </Tag>

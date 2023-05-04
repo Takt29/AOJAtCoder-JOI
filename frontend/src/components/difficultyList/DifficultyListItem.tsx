@@ -32,7 +32,7 @@ export const DifficultyListItem = (props: Props) => {
       <Tr backgroundColor={backgroundColor}>
         <TaskLevel as={Th} />
         <TaskName as={Td} />
-        <TaskAizuOnlineJudgeLink as={Td} />
+        <TaskAizuOnlineJudgeLink as={Td} textAlign={'center'} />
         <TaskSource as={Td} />
         <TaskType as={Td} />
       </Tr>

@@ -16,7 +16,6 @@
   },
   "homepage": "https://github.com/Takt29/AOJAtCoder-JOI#readme",
   "devDependencies": {
-    "firebase-tools": "^11.25.2",
-    "sass": "^1.62.1"
+    "firebase-tools": "^11.25.2"
   }
 }
