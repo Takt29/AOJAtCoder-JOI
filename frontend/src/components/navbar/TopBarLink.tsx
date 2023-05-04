@@ -1,9 +1,5 @@
-import { Link } from '@chakra-ui/react'
-import {
-  Link as ReactRouterLink,
-  useLocation,
-  useMatch,
-} from 'react-router-dom'
+import { useLocation, useMatch } from 'react-router-dom'
+import { InternalLink } from '../common/InternalLink'
 
 type Props = {
   to: string
@@ -16,10 +12,9 @@ export const TopBarLink = (props: Props) => {
   const isActive = !!useMatch(to)
 
   return (
-    <Link
+    <InternalLink
       paddingX={2}
       paddingY={1}
-      as={ReactRouterLink}
       to={{ pathname: to, search: search }}
       _hover={{
         textDecoration: 'none',
@@ -27,6 +22,6 @@ export const TopBarLink = (props: Props) => {
       color={isActive ? 'green.500' : undefined}
     >
       {title}
-    </Link>
+    </InternalLink>
   )
 }

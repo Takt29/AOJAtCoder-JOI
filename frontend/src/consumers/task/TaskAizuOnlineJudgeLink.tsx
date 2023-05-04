@@ -1,7 +1,7 @@
 import { ElementType, useMemo } from 'react'
 import { getAizuOnlineJudgeUrl } from '../../helpers/url'
 import { useTask } from '../../hooks/contexts/TaskContext'
-import { Link } from '@chakra-ui/react'
+import { ExternalLink } from '../../components/common/ExternalLink'
 
 type Props = {
   as?: ElementType
@@ -20,15 +20,13 @@ export const TaskAizuOnlineJudgeLink = (props: Props) => {
 
   return (
     <Tag className={className}>
-      <Link
+      <ExternalLink
         color='teal.500'
         _hover={{ textDecoration: 'none' }}
         href={url}
-        target='_blank'
-        rel='noopener noreferrer'
       >
         {'★'}
-      </Link>
+      </ExternalLink>
     </Tag>
   )
 }

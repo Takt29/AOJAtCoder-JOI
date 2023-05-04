@@ -1,5 +1,6 @@
 import { Heading } from '@chakra-ui/react'
 import { ReactNode } from 'react'
+import { ExternalLink } from '../common/ExternalLink'
 
 type Props = {
   children: ReactNode
@@ -13,9 +14,7 @@ export const LinksPageComponent = (props: Props) => {
   return (
     <div>
       <Heading as='h4' size='md'>
-        <a href={href} target='_blank' rel='noopener noreferrer'>
-          {title}
-        </a>
+        <ExternalLink href={href}>{title}</ExternalLink>
       </Heading>
       <p>{children}</p>
     </div>
