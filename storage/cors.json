@@ -6,5 +6,5 @@
   ],
   "responseHeader": ["*"],
   "method": ["GET"],
-  "maxAgeSeconds": 86400
+  "maxAgeSeconds": 300
 }]
