@@ -1,16 +1,13 @@
-// import 'fake-indexeddb/auto/index.mjs'
 import jestDomMatchers from '@testing-library/jest-dom/matchers'
 import { cleanup } from '@testing-library/react'
 import { matchers as emotionMatchers } from '@emotion/jest'
 import { afterEach, expect } from 'vitest'
 
-// extends Vitest's expect method with methods from react-testing-library
 expect.extend(jestDomMatchers)
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 expect.extend(emotionMatchers)
 
-// runs a cleanup after each test case (e.g. clearing jsdom)
 afterEach(() => {
   cleanup()
 })
