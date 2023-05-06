@@ -9,7 +9,10 @@ expect.extend(jestDomMatchers)
 // @ts-ignore
 expect.extend(emotionMatchers)
 
-console.log(matchMedia)
+window.scrollTo = () => {
+  // do nothing
+}
+
 vi.stubGlobal('matchMedia', matchMedia)
 Object.defineProperty(window, 'matchMedia', { value: matchMedia })
 

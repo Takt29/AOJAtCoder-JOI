@@ -1,8 +1,10 @@
 import {
   Box,
+  Collapse,
   Flex,
   HStack,
   IconButton,
+  Stack,
   useBreakpointValue,
   useDisclosure,
 } from '@chakra-ui/react'
@@ -71,6 +73,15 @@ export const TopBar = () => {
             🇯🇵 / 🇺🇸
           </Box>
         </Flex>
+
+        <Collapse in={isOpen} animateOpacity>
+          <Stack as={'nav'} spacing={2} padding={2}>
+            <TopBarLink to={'/'} title='List' />
+            <TopBarLink to={'/history'} title='History' />
+            <TopBarLink to={'/changelog'} title='ChangeLog' />
+            <TopBarLink to={'/links'} title='Links' />
+          </Stack>
+        </Collapse>
       </Box>
     </>
   )

@@ -28,6 +28,8 @@ export const TopBarLink = (props: Props) => {
         borderBottom: 'solid',
         borderBottomWidth: 1,
       }}
+      boxSizing='border-box'
+      height={8}
     >
       {title}
     </InternalLink>
