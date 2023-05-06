@@ -1,10 +1,37 @@
 import { TopBarLink } from './TopBarLink'
 import { render } from '../../test/testUtils'
-import { MemoryRouter } from 'react-router-dom'
+import { MemoryRouter, Router } from 'react-router-dom'
+import { createBrowserHistory } from 'history'
+
+test('titleで指定した文字列が表示されている', () => {
+  const { getByRole } = render(
+    <MemoryRouter>
+      <TopBarLink title={'タイトル'} to={'/'} />
+    </MemoryRouter>,
+  )
+
+  const link = getByRole('link', { name: 'タイトル' })
+  expect(link).toBeInTheDocument()
+  expect(link).toHaveTextContent('タイトル')
+})
+
+test('クリックするとtoで指定した先に移動する', async () => {
+  const history = createBrowserHistory()
+  const { getByRole, user } = render(
+    <Router location={history.location} navigator={history}>
+      <TopBarLink to={'/bar'} title={'Page'} />
+    </Router>,
+  )
+
+  const link = getByRole('link')
+  await user.click(link)
+
+  expect(history.location.pathname).toBe('/bar')
+})
 
 test('現在のページと一致している場合には色が変化し下線が付く', () => {
   const { getByRole } = render(
-    <MemoryRouter initialEntries={['/foo']}>
+    <MemoryRouter>
       <TopBarLink to={'/foo'} title={'Page'} />
     </MemoryRouter>,
   )
@@ -21,7 +48,7 @@ test('現在のページと一致している場合には色が変化し下線�
 
 test('現在のページと異なる場合は変化しない', () => {
   const { getByRole } = render(
-    <MemoryRouter initialEntries={['/bar']}>
+    <MemoryRouter>
       <TopBarLink to={'/foo'} title={'Page'} />
     </MemoryRouter>,
   )
@@ -34,7 +61,7 @@ test('現在のページと異なる場合は変化しない', () => {
 
 test('現在のページではないリンクをhover時に色が変化し下線が付く', async () => {
   const { getByRole } = render(
-    <MemoryRouter initialEntries={['/bar']}>
+    <MemoryRouter>
       <TopBarLink to={'/foo'} title={'Page'} />
     </MemoryRouter>,
   )
@@ -49,9 +76,9 @@ test('現在のページではないリンクをhover時に色が変化し下線
   expect(link).toHaveStyleRule('border-bottom', 'solid', styleRule)
 })
 
-test('現在のページのリンクをhover時には現在のページの表示のまま変換しない', async () => {
+test('現在のページのリンクをhover時には現在のページの表示のまま変換しない', () => {
   const { getByRole } = render(
-    <MemoryRouter initialEntries={['/foo']}>
+    <MemoryRouter>
       <TopBarLink to={'/foo'} title={'Page'} />
     </MemoryRouter>,
   )
