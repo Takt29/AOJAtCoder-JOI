@@ -17,9 +17,19 @@ export const TopBarLink = (props: Props) => {
       paddingY={1}
       to={{ pathname: to, search: search }}
       _hover={{
+        color: 'green.700',
+        borderBottom: 'solid',
+        borderBottomWidth: 1,
         textDecoration: 'none',
       }}
-      color={isActive ? 'green.500' : undefined}
+      aria-current={isActive ? 'page' : undefined}
+      _activeLink={{
+        color: 'green.500',
+        borderBottom: 'solid',
+        borderBottomWidth: 1,
+      }}
+      boxSizing='border-box'
+      height={8}
     >
       {title}
     </InternalLink>

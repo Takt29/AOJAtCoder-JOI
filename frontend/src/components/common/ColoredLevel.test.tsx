@@ -1,14 +1,11 @@
-import { render, within } from '@testing-library/react'
+import { within } from '@testing-library/react'
 import { ColoredLevel } from './ColoredLevel'
-import { Box, ChakraProvider } from '@chakra-ui/react'
-import { theme } from '../../theme'
+import { Box } from '@chakra-ui/react'
+import { render } from '../../test/testUtils'
 
 test('levelが3の時、3が難易度3の色で表示される', () => {
   const { getByTestId } = render(
-    <ColoredLevel level={3} data-testid={'level'} as={Box} margin={3} />,
-    {
-      wrapper: (props) => <ChakraProvider {...props} theme={theme} />,
-    },
+    <ColoredLevel level={3} data-testid={'level'} as={Box} />,
   )
 
   const target = getByTestId('level')
@@ -24,10 +21,7 @@ test('levelが3の時、3が難易度3の色で表示される', () => {
 
 test('levelが0の時、?が難易度0の色で表示される', () => {
   const { getByTestId } = render(
-    <ColoredLevel level={0} data-testid={'level'} as={Box} margin={3} />,
-    {
-      wrapper: (props) => <ChakraProvider {...props} theme={theme} />,
-    },
+    <ColoredLevel level={0} data-testid={'level'} as={Box} />,
   )
 
   const target = getByTestId('level')
@@ -43,10 +37,7 @@ test('levelが0の時、?が難易度0の色で表示される', () => {
 
 test('levelがallの時、allが難易度allの色で表示される', () => {
   const { getByTestId } = render(
-    <ColoredLevel level={'all'} data-testid={'level'} as={Box} margin={3} />,
-    {
-      wrapper: (props) => <ChakraProvider {...props} theme={theme} />,
-    },
+    <ColoredLevel level={'all'} data-testid={'level'} as={Box} />,
   )
 
   const target = getByTestId('level')

@@ -10,7 +10,7 @@ export default defineConfig({
   },
   test: {
     globals: true,
-    setupFiles: ['fake-indexeddb/auto', './vitest.setup.ts'],
+    setupFiles: ['fake-indexeddb/auto', './src/test/vitest.setup.ts'],
     environment: 'jsdom',
   },
 })
