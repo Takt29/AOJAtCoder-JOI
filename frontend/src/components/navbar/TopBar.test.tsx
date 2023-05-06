@@ -2,11 +2,7 @@ import { MemoryRouter } from 'react-router-dom'
 import { TopBar } from './TopBar'
 import { render } from '../../test/testUtils'
 import { within } from '@testing-library/react'
-import 'mock-match-media/polyfill'
 import { setMedia } from 'mock-match-media'
-import { createSerializer } from '@emotion/jest'
-
-expect.addSnapshotSerializer(createSerializer())
 
 test('サイト名が表示されている', () => {
   const { getByRole } = render(
@@ -40,6 +36,17 @@ test.each([
   expect(link).toBeInTheDocument()
   expect(link).toHaveTextContent(name)
   expect(link).toHaveAttribute('href', to)
+})
+
+test('モバイルでは初期状態で各ページへのリンクは表示されていない', () => {
+  setMedia({ width: '400px' })
+  const { queryByRole } = render(
+    <MemoryRouter>
+      <TopBar />
+    </MemoryRouter>,
+  )
+
+  expect(queryByRole('navigation')).not.toBeInTheDocument()
 })
 
 test.each([
