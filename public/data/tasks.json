@@ -3776,6 +3776,36 @@
     "tasktype": "Batch"
   },
   {
+    "level": "0",
+    "name": "Furniture",
+    "source": "20Open1",
+    "problem_id": "207101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Monochrome Points",
+    "source": "20Open2",
+    "problem_id": "207102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Power Plant",
+    "source": "20Open3",
+    "problem_id": "207103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
     "level": "1",
     "name": "2番目に大きい整数",
     "source": "21一次予選1-1",
@@ -4151,6 +4181,36 @@
     "atcoder_id": "joig2021_f",
     "aoj_id": "0706",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Crossing",
+    "source": "21Open1",
+    "problem_id": "217101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Financial Report",
+    "source": "21Open2",
+    "problem_id": "217102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Monster Game",
+    "source": "21Open3",
+    "problem_id": "217103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Communication"
   },
   {
     "level": "1",
@@ -4593,6 +4653,36 @@
     "tasktype": "Batch"
   },
   {
+    "level": "0",
+    "name": "Seesaw",
+    "source": "22Open1",
+    "problem_id": "227101",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Giraffes",
+    "source": "22Open2",
+    "problem_id": "227102",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "School Road",
+    "source": "22Open3",
+    "problem_id": "227103",
+    "atcoder_contest": "",
+    "atcoder_id": "",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
     "level": "1",
     "name": "長方形",
     "source": "23一次予選1-1",
@@ -5029,6 +5119,36 @@
     "problem_id": "236202",
     "atcoder_contest": "joigsp2023",
     "atcoder_id": "joigsp2023_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Ancient Machine 2",
+    "source": "23Open1",
+    "problem_id": "237101",
+    "atcoder_contest": "joiopen2023",
+    "atcoder_id": "joiopen2023_a",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "0",
+    "name": "Cell Automaton",
+    "source": "23Open2",
+    "problem_id": "237102",
+    "atcoder_contest": "joiopen2023",
+    "atcoder_id": "joiopen2023_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Garden",
+    "source": "23Open3",
+    "problem_id": "237103",
+    "atcoder_contest": "joiopen2023",
+    "atcoder_id": "joiopen2023_c",
     "aoj_id": "",
     "tasktype": "Batch"
   }
