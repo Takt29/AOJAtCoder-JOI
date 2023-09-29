@@ -4793,7 +4793,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "3",
+    "level": "2",
     "name": "マラソン大会",
     "source": "23一次予選3-4",
     "problem_id": "231304",
@@ -4893,7 +4893,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "運河",
     "source": "23JOIG5",
     "problem_id": "235105",
@@ -5103,7 +5103,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "Smartphone",
     "source": "23JOIG春合宿2-1",
     "problem_id": "236201",
