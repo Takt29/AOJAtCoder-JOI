@@ -5151,5 +5151,45 @@
     "atcoder_id": "joiopen2023_c",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0" ,
+    "name": "果物",
+    "source": "24一次予選1-1",
+    "problem_id": "241101",
+    "atcoder_contest": "joi2024yo1a",
+    "atcoder_id": "joi2024_yo1a_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "和の判定",
+    "source": "24一次予選1-2",
+    "problem_id": "241102",
+    "atcoder_contest": "joi2024yo1a",
+    "atcoder_id": "joi2024_yo1a_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "ハミング距離",
+    "source": "24一次予選1-3",
+    "problem_id": "241103",
+    "atcoder_contest": "joi2024yo1a",
+    "atcoder_id": "joi2024_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "表れている数字",
+    "source": "24一次予選1-4",
+    "problem_id": "241104",
+    "atcoder_contest": "joi2024yo1a",
+    "atcoder_id": "joi2024_yo1a_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
