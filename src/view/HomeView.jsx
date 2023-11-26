@@ -125,7 +125,7 @@ class HomeView extends React.Component {
             />
             <CopyImageButton
               target={this.statistics.current}
-              title='統計画像コピー'
+              title='統計画像コピー(β)'
             />
           </span>
         </h3>
