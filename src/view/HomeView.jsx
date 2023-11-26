@@ -5,6 +5,7 @@ import {
   SearchForm,
   HomeStatistics,
   DownloadImageButton,
+  CopyImageButton,
   ApiErrorAlerts,
 } from '../components'
 import { getTaskList, applyFilter } from '../utils/TaskData'
@@ -116,11 +117,17 @@ class HomeView extends React.Component {
         <SearchForm onSubmit={this.onSubmit.bind(this)} busy={busy} />
         <h3>
           統計
-          <DownloadImageButton
-            target={this.statistics.current}
-            filename='statistics.png'
-            title='統計画像ダウンロード'
-          />
+          <span className='float-right'>
+            <DownloadImageButton
+              target={this.statistics.current}
+              filename='statistics.png'
+              title='統計画像ダウンロード'
+            />
+            <CopyImageButton
+              target={this.statistics.current}
+              title='統計画像コピー'
+            />
+          </span>
         </h3>
         <span ref={this.statistics}>
           <HomeStatistics

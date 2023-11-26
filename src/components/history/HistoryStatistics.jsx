@@ -3,6 +3,7 @@ import Statistics from '../common/Statistics'
 import DownloadImageButton from '../common/DownloadImageButton'
 import { formatDate } from '../../utils/Date'
 import styles from './HistoryStatistics.scss'
+import CopyImageButton from '../common/CopyImageButton'
 
 class HistoryStatistics extends React.Component {
   constructor(props) {
@@ -38,11 +39,17 @@ class HistoryStatistics extends React.Component {
           </span>
 
           {downloadButton && (
-            <DownloadImageButton
-              target={this.statistics.current}
-              filename={`statistice_${contest.name}.png`}
-              title={`統計画像ダウンロード(${contest.name})`}
-            />
+            <span className='float-right'>
+              <DownloadImageButton
+                target={this.statistics.current}
+                filename={`statistics_${contest.name}.png`}
+                title={`統計画像ダウンロード`}
+              />
+              <CopyImageButton
+                target={this.statistics.current}
+                title={`統計画像コピー`}
+              />
+            </span>
           )}
         </h4>
         <Statistics tasks={filteredTasks} isSolved={isSolved} />
