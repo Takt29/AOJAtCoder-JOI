@@ -7,25 +7,29 @@ class CopyImageButton extends React.Component {
     super(props)
   }
 
+  async getImageBlob(target) {
+    const canvas = await html2canvas(target, {
+      ignoreElements: (elem) => elem.tagName === 'BUTTON',
+      windowWidth: 10000,
+    })
+
+    const blob = await new Promise((resolve, reject) => {
+      try {
+        canvas.toBlob((blob) => resolve(blob), 'image/png')
+      } catch (e) {
+        reject(e)
+      }
+    })
+
+    return blob
+  }
+
   async copyToClipboard() {
     const { target } = this.props
 
     try {
-      const canvas = await html2canvas(target, {
-        ignoreElements: (elem) => elem.tagName === 'BUTTON',
-        windowWidth: 10000,
-      })
-
-      const blob = await new Promise((resolve, reject) => {
-        try {
-          canvas.toBlob((blob) => resolve(blob), 'image/png')
-        } catch (e) {
-          reject(e)
-        }
-      })
-
       await navigator.clipboard.write([
-        new ClipboardItem({ 'image/png': blob })
+        new ClipboardItem({ 'image/png': this.getImageBlob(target) })
       ])
       window.alert('統計画像をクリップボードにコピーしました')
     } catch(e) {
