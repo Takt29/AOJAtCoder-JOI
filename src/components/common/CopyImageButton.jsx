@@ -1,10 +1,14 @@
 import React from 'react'
 import html2canvas from 'html2canvas'
-import { Button } from 'react-bootstrap'
+import { Button, Overlay, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 class CopyImageButton extends React.Component {
   constructor(props) {
     super(props)
+    this.button = React.createRef()
+    this.state = {
+      copied: false
+    }
   }
 
   async getImageBlob(target) {
@@ -31,7 +35,8 @@ class CopyImageButton extends React.Component {
       await navigator.clipboard.write([
         new ClipboardItem({ 'image/png': this.getImageBlob(target) })
       ])
-      window.alert('統計画像をクリップボードにコピーしました')
+      this.setState({ copied: true})
+      setTimeout(() => { this.setState({ copied: false }) }, 3000)
     } catch(e) {
       window.alert(`統計画像のクリップボードへのコピーに失敗しました(${e})`)
       console.error(e)
@@ -42,9 +47,25 @@ class CopyImageButton extends React.Component {
     const { title } = this.props
 
     return (
-      <Button size='sm' variant='link' onClick={this.copyToClipboard.bind(this)}>
-        {title || '画像コピー'}
-      </Button>
+      <>
+        <Button 
+          ref={this.button}
+          size='sm'
+          variant='link'
+          onClick={this.copyToClipboard.bind(this)}
+        >
+          {title || '画像コピー'}
+        </Button>
+        <Overlay target={this.button.current} show={this.state.copied} placement='top'>
+          {
+            (props) => (
+              <Tooltip id='copied' {...props}>
+                クリップボードに保存しました
+              </Tooltip>
+            )
+          }
+        </Overlay>
+      </>
     )
   }
 }
