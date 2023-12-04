@@ -5191,5 +5191,85 @@
     "atcoder_id": "joi2024_yo1a_d",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0" ,
+    "name": "飴の袋詰め",
+    "source": "24一次予選2-1",
+    "problem_id": "241201",
+    "atcoder_contest": "joi2024yo1b",
+    "atcoder_id": "joi2024_yo1b_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "火曜日",
+    "source": "24一次予選2-2",
+    "problem_id": "241202",
+    "atcoder_contest": "joi2024yo1b",
+    "atcoder_id": "joi2024_yo1b_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "画数数え",
+    "source": "24一次予選2-3",
+    "problem_id": "241203",
+    "atcoder_contest": "joi2024yo1b",
+    "atcoder_id": "joi2024_yo1b_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "繰り返し",
+    "source": "24一次予選2-4",
+    "problem_id": "241204",
+    "atcoder_contest": "joi2024yo1b",
+    "atcoder_id": "joi2024_yo1b_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0" ,
+    "name": "分",
+    "source": "24一次予選3-1",
+    "problem_id": "241301",
+    "atcoder_contest": "joi2024yo1c",
+    "atcoder_id": "joi2024_yo1c_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "桁",
+    "source": "24一次予選3-2",
+    "problem_id": "241302",
+    "atcoder_contest": "joi2024yo1c",
+    "atcoder_id": "joi2024_yo1c_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "揃った文字",
+    "source": "24一次予選3-3",
+    "problem_id": "241303",
+    "atcoder_contest": "joi2024yo1c",
+    "atcoder_id": "joi2024_yo1c_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "差",
+    "source": "24一次予選3-4",
+    "problem_id": "241304",
+    "atcoder_contest": "joi2024yo1c",
+    "atcoder_id": "joi2024_yo1c_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
