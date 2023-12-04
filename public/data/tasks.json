@@ -4339,7 +4339,7 @@
     "problem_id": "222101",
     "atcoder_contest": "joi2022yo2",
     "atcoder_id": "joi2022_yo2_a",
-    "aoj_id": "",
+    "aoj_id": "0719",
     "tasktype": "Batch"
   },
   {
@@ -4349,7 +4349,7 @@
     "problem_id": "222102",
     "atcoder_contest": "joi2022yo2",
     "atcoder_id": "joi2022_yo2_b",
-    "aoj_id": "",
+    "aoj_id": "0720",
     "tasktype": "Batch"
   },
   {
@@ -4359,7 +4359,7 @@
     "problem_id": "222103",
     "atcoder_contest": "joi2022yo2",
     "atcoder_id": "joi2022_yo2_c",
-    "aoj_id": "",
+    "aoj_id": "0721",
     "tasktype": "Batch"
   },
   {
@@ -4369,7 +4369,7 @@
     "problem_id": "222104",
     "atcoder_contest": "joi2022yo2",
     "atcoder_id": "joi2022_yo2_d",
-    "aoj_id": "",
+    "aoj_id": "0722",
     "tasktype": "Batch"
   },
   {
@@ -4379,7 +4379,7 @@
     "problem_id": "222105",
     "atcoder_contest": "joi2022yo2",
     "atcoder_id": "joi2022_yo2_e",
-    "aoj_id": "",
+    "aoj_id": "0723",
     "tasktype": "Batch"
   },
   {
@@ -4389,7 +4389,7 @@
     "problem_id": "225101",
     "atcoder_contest": "joig2022-open",
     "atcoder_id": "joig2022_a",
-    "aoj_id": "",
+    "aoj_id": "0729",
     "tasktype": "Batch"
   },
   {
@@ -4399,7 +4399,7 @@
     "problem_id": "225102",
     "atcoder_contest": "joig2022-open",
     "atcoder_id": "joig2022_b",
-    "aoj_id": "",
+    "aoj_id": "0730",
     "tasktype": "Batch"
   },
   {
@@ -4409,7 +4409,7 @@
     "problem_id": "225103",
     "atcoder_contest": "joig2022-open",
     "atcoder_id": "joig2022_c",
-    "aoj_id": "",
+    "aoj_id": "0731",
     "tasktype": "Batch"
   },
   {
@@ -4419,7 +4419,7 @@
     "problem_id": "225104",
     "atcoder_contest": "joig2022-open",
     "atcoder_id": "joig2022_d",
-    "aoj_id": "",
+    "aoj_id": "0732",
     "tasktype": "Batch"
   },
   {
@@ -4429,7 +4429,7 @@
     "problem_id": "225105",
     "atcoder_contest": "joig2022-open",
     "atcoder_id": "joig2022_e",
-    "aoj_id": "",
+    "aoj_id": "0733",
     "tasktype": "Batch"
   },
   {
@@ -4439,7 +4439,7 @@
     "problem_id": "225106",
     "atcoder_contest": "joig2022-open",
     "atcoder_id": "joig2022_f",
-    "aoj_id": "",
+    "aoj_id": "0734",
     "tasktype": "Batch"
   },
   {
@@ -4689,7 +4689,7 @@
     "problem_id": "231101",
     "atcoder_contest": "joi2023yo1a",
     "atcoder_id": "joi2023_yo1a_a",
-    "aoj_id": "",
+    "aoj_id": "0735",
     "tasktype": "Batch"
   },
   {
@@ -4699,7 +4699,7 @@
     "problem_id": "231102",
     "atcoder_contest": "joi2023yo1a",
     "atcoder_id": "joi2023_yo1a_b",
-    "aoj_id": "",
+    "aoj_id": "0736",
     "tasktype": "Batch"
   },
   {
@@ -4709,7 +4709,7 @@
     "problem_id": "231103",
     "atcoder_contest": "joi2023yo1a",
     "atcoder_id": "joi2023_yo1a_c",
-    "aoj_id": "",
+    "aoj_id": "0737",
     "tasktype": "Batch"
   },
   {
@@ -4719,7 +4719,7 @@
     "problem_id": "231104",
     "atcoder_contest": "joi2023yo1a",
     "atcoder_id": "joi2023_yo1a_d",
-    "aoj_id": "",
+    "aoj_id": "0738",
     "tasktype": "Batch"
   },
   {
@@ -4729,7 +4729,7 @@
     "problem_id": "231201",
     "atcoder_contest": "joi2023yo1b",
     "atcoder_id": "joi2023_yo1b_a",
-    "aoj_id": "",
+    "aoj_id": "0739",
     "tasktype": "Batch"
   },
   {
@@ -4739,7 +4739,7 @@
     "problem_id": "231202",
     "atcoder_contest": "joi2023yo1b",
     "atcoder_id": "joi2023_yo1b_b",
-    "aoj_id": "",
+    "aoj_id": "0740",
     "tasktype": "Batch"
   },
   {
@@ -4749,7 +4749,7 @@
     "problem_id": "231203",
     "atcoder_contest": "joi2023yo1b",
     "atcoder_id": "joi2023_yo1b_c",
-    "aoj_id": "",
+    "aoj_id": "0741",
     "tasktype": "Batch"
   },
   {
@@ -4759,7 +4759,7 @@
     "problem_id": "231204",
     "atcoder_contest": "joi2023yo1b",
     "atcoder_id": "joi2023_yo1b_d",
-    "aoj_id": "",
+    "aoj_id": "0742",
     "tasktype": "Batch"
   },
   {
@@ -4769,7 +4769,7 @@
     "problem_id": "231301",
     "atcoder_contest": "joi2023yo1c",
     "atcoder_id": "joi2023_yo1c_a",
-    "aoj_id": "",
+    "aoj_id": "0743",
     "tasktype": "Batch"
   },
   {
@@ -4779,7 +4779,7 @@
     "problem_id": "231302",
     "atcoder_contest": "joi2023yo1c",
     "atcoder_id": "joi2023_yo1c_b",
-    "aoj_id": "",
+    "aoj_id": "0744",
     "tasktype": "Batch"
   },
   {
@@ -4789,7 +4789,7 @@
     "problem_id": "231303",
     "atcoder_contest": "joi2023yo1c",
     "atcoder_id": "joi2023_yo1c_c",
-    "aoj_id": "",
+    "aoj_id": "0745",
     "tasktype": "Batch"
   },
   {
@@ -4799,7 +4799,7 @@
     "problem_id": "231304",
     "atcoder_contest": "joi2023yo1c",
     "atcoder_id": "joi2023_yo1c_d",
-    "aoj_id": "",
+    "aoj_id": "0746",
     "tasktype": "Batch"
   },
   {
@@ -4809,7 +4809,7 @@
     "problem_id": "232101",
     "atcoder_contest": "joi2023yo2",
     "atcoder_id": "joi2023_yo2_a",
-    "aoj_id": "",
+    "aoj_id": "0747",
     "tasktype": "Batch"
   },
   {
@@ -4819,7 +4819,7 @@
     "problem_id": "232102",
     "atcoder_contest": "joi2023yo2",
     "atcoder_id": "joi2023_yo2_b",
-    "aoj_id": "",
+    "aoj_id": "0748",
     "tasktype": "Batch"
   },
   {
@@ -4829,7 +4829,7 @@
     "problem_id": "232103",
     "atcoder_contest": "joi2023yo2",
     "atcoder_id": "joi2023_yo2_c",
-    "aoj_id": "",
+    "aoj_id": "0749",
     "tasktype": "Batch"
   },
   {
@@ -4839,7 +4839,7 @@
     "problem_id": "232104",
     "atcoder_contest": "joi2023yo2",
     "atcoder_id": "joi2023_yo2_d",
-    "aoj_id": "",
+    "aoj_id": "0750",
     "tasktype": "Batch"
   },
   {
@@ -4849,7 +4849,7 @@
     "problem_id": "232105",
     "atcoder_contest": "joi2023yo2",
     "atcoder_id": "joi2023_yo2_e",
-    "aoj_id": "",
+    "aoj_id": "0751",
     "tasktype": "Batch"
   },
   {
@@ -4859,7 +4859,7 @@
     "problem_id": "235101",
     "atcoder_contest": "joig2023-open",
     "atcoder_id": "joig2023_a",
-    "aoj_id": "",
+    "aoj_id": "0757",
     "tasktype": "Batch"
   },
   {
@@ -4869,7 +4869,7 @@
     "problem_id": "235102",
     "atcoder_contest": "joig2023-open",
     "atcoder_id": "joig2023_b",
-    "aoj_id": "",
+    "aoj_id": "0758",
     "tasktype": "Batch"
   },
   {
@@ -4879,7 +4879,7 @@
     "problem_id": "235103",
     "atcoder_contest": "joig2023-open",
     "atcoder_id": "joig2023_c",
-    "aoj_id": "",
+    "aoj_id": "0759",
     "tasktype": "Batch"
   },
   {
@@ -4889,7 +4889,7 @@
     "problem_id": "235104",
     "atcoder_contest": "joig2023-open",
     "atcoder_id": "joig2023_d",
-    "aoj_id": "",
+    "aoj_id": "0760",
     "tasktype": "Batch"
   },
   {
@@ -4899,7 +4899,7 @@
     "problem_id": "235105",
     "atcoder_contest": "joig2023-open",
     "atcoder_id": "joig2023_e",
-    "aoj_id": "",
+    "aoj_id": "0761",
     "tasktype": "Batch"
   },
   {
@@ -4909,7 +4909,7 @@
     "problem_id": "235106",
     "atcoder_contest": "joig2023-open",
     "atcoder_id": "joig2023_f",
-    "aoj_id": "",
+    "aoj_id": "0762",
     "tasktype": "Batch"
   },
   {
