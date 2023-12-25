@@ -5153,7 +5153,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0" ,
+    "level": "1" ,
     "name": "果物",
     "source": "24一次予選1-1",
     "problem_id": "241101",
@@ -5163,7 +5163,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "和の判定",
     "source": "24一次予選1-2",
     "problem_id": "241102",
@@ -5173,7 +5173,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "ハミング距離",
     "source": "24一次予選1-3",
     "problem_id": "241103",
@@ -5183,7 +5183,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "表れている数字",
     "source": "24一次予選1-4",
     "problem_id": "241104",
@@ -5193,7 +5193,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0" ,
+    "level": "1" ,
     "name": "飴の袋詰め",
     "source": "24一次予選2-1",
     "problem_id": "241201",
@@ -5203,7 +5203,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "火曜日",
     "source": "24一次予選2-2",
     "problem_id": "241202",
@@ -5213,7 +5213,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "画数数え",
     "source": "24一次予選2-3",
     "problem_id": "241203",
@@ -5223,7 +5223,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "3",
     "name": "繰り返し",
     "source": "24一次予選2-4",
     "problem_id": "241204",
@@ -5233,7 +5233,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0" ,
+    "level": "1" ,
     "name": "分",
     "source": "24一次予選3-1",
     "problem_id": "241301",
@@ -5243,7 +5243,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "桁",
     "source": "24一次予選3-2",
     "problem_id": "241302",
@@ -5253,7 +5253,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "揃った文字",
     "source": "24一次予選3-3",
     "problem_id": "241303",
@@ -5263,12 +5263,62 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "3",
     "name": "差",
     "source": "24一次予選3-4",
     "problem_id": "241304",
     "atcoder_contest": "joi2024yo1c",
     "atcoder_id": "joi2024_yo1c_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "カードゲーム 2",
+    "source": "24二次予選1",
+    "problem_id": "242101",
+    "atcoder_contest": "joi2024yo2",
+    "atcoder_id": "joi2024_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "買い物 2",
+    "source": "24二次予選2",
+    "problem_id": "242102",
+    "atcoder_contest": "joi2024yo2",
+    "atcoder_id": "joi2024_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "白色光 2",
+    "source": "24二次予選3",
+    "problem_id": "242103",
+    "atcoder_contest": "joi2024yo2",
+    "atcoder_id": "joi2024_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "庭園 2",
+    "source": "24二次予選4",
+    "problem_id": "242104",
+    "atcoder_contest": "joi2024yo2",
+    "atcoder_id": "joi2024_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "高速道路の通行料金",
+    "source": "24二次予選5",
+    "problem_id": "242105",
+    "atcoder_contest": "joi2024yo2",
+    "atcoder_id": "joi2024_yo2_e",
     "aoj_id": "",
     "tasktype": "Batch"
   }
