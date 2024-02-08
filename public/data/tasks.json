@@ -762,7 +762,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "Territory",
     "source": "09春合宿3-1",
     "problem_id": "094301",
@@ -1243,7 +1243,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "Deciphering",
     "source": "11春合宿3-1",
     "problem_id": "114301",
@@ -1499,7 +1499,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "12",
+    "level": "11",
     "name": "Sokoban",
     "source": "12春合宿3-3",
     "problem_id": "124303",
@@ -2039,7 +2039,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "Voltage",
     "source": "14春合宿3-3",
     "problem_id": "144303",
@@ -3089,7 +3089,7 @@
     "tasktype": "OutputOnly"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Worst Reporter 3",
     "source": "18春合宿2-3",
     "problem_id": "184203",
@@ -5103,7 +5103,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "7",
+    "level": "8",
     "name": "Smartphone",
     "source": "23JOIG春合宿2-1",
     "problem_id": "236201",
