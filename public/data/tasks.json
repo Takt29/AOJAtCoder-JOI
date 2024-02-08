@@ -5321,5 +5321,115 @@
     "atcoder_id": "joi2024_yo2_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "三連続",
+    "source": "24JOIG1",
+    "problem_id": "245101",
+    "atcoder_contest": "joig2024-open",
+    "atcoder_id": "joig2024_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "ダンス",
+    "source": "24JOIG2",
+    "problem_id": "245102",
+    "atcoder_contest": "joig2024-open",
+    "atcoder_id": "joig2024_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "座席 2",
+    "source": "24JOIG3",
+    "problem_id": "245103",
+    "atcoder_contest": "joig2024-open",
+    "atcoder_id": "joig2024_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "たくさんの数字",
+    "source": "24JOIG4",
+    "problem_id": "245104",
+    "atcoder_contest": "joig2024-open",
+    "atcoder_id": "joig2024_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "名前",
+    "source": "24JOIG5",
+    "problem_id": "245105",
+    "atcoder_contest": "joig2024-open",
+    "atcoder_id": "joig2024_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "感染シミュレーション",
+    "source": "24JOIG6",
+    "problem_id": "245106",
+    "atcoder_contest": "joig2024-open",
+    "atcoder_id": "joig2024_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "室温",
+    "source": "24本選1",
+    "problem_id": "243101",
+    "atcoder_contest": "joi2024ho",
+    "atcoder_id": "joi2024ho_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "建設事業 2",
+    "source": "24本選2",
+    "problem_id": "243102",
+    "atcoder_contest": "joi2024ho",
+    "atcoder_id": "joi2024ho_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "マラソン大会 2",
+    "source": "24本選3",
+    "problem_id": "243103",
+    "atcoder_contest": "joi2024ho",
+    "atcoder_id": "joi2024ho_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "プレゼント交換",
+    "source": "24本選4",
+    "problem_id": "243104",
+    "atcoder_contest": "joi2024ho",
+    "atcoder_id": "joi2024ho_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "道路網の整備 2",
+    "source": "24本選5",
+    "problem_id": "243105",
+    "atcoder_contest": "joi2024ho",
+    "atcoder_id": "joi2024ho_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
