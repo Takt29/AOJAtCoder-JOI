@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from 'react'
+import { Heading, Stack } from '@chakra-ui/react'
 import { AccountData } from '../types/form'
 import { TaskFilter } from '../types/task'
 import { DifficultyList } from '../components/difficultyList/DifficultyList'
@@ -7,7 +8,6 @@ import {
   DifficultyListFormData,
 } from '../components/forms/DifficultyListForm'
 import { Statistics } from '../components/statistics/Statistics'
-import { Heading, Stack } from '@chakra-ui/react'
 import { useSiteSubmissions } from '../hooks/http/submissions'
 import { useTasks } from '../hooks/http/task'
 import { toSubmissions } from '../helpers/submission'

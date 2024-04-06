@@ -9,8 +9,8 @@ import {
   useDisclosure,
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
-import { TopBarLink } from './TopBarLink'
 import { InternalLink } from '../common/InternalLink'
+import { TopBarLink } from './TopBarLink'
 
 export const TopBar = () => {
   const isMobile = useBreakpointValue({ base: true, md: false })

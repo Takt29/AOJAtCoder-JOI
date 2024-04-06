@@ -1,5 +1,5 @@
-import { fetchSiteSubmissions } from '../../api/submission'
 import { useQuery } from '@tanstack/react-query'
+import { fetchSiteSubmissions } from '../../api/submission'
 
 export const useSiteSubmissions = (
   atcoderUserId: string | undefined,

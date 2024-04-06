@@ -1,8 +1,8 @@
 import { MemoryRouter } from 'react-router-dom'
-import { TopBar } from './TopBar'
-import { render } from '../../test/testUtils'
 import { within } from '@testing-library/react'
 import { setMedia } from 'mock-match-media'
+import { render } from '../../test/testUtils'
+import { TopBar } from './TopBar'
 
 test('サイト名が表示されている', () => {
   const { getByRole } = render(
