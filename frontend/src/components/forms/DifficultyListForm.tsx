@@ -33,7 +33,7 @@ const defaultValues: DifficultyListFormData = {
     prelim1: true,
     prelim2: true,
     final: true,
-    springCamp: true,
+    spring: true,
     joig: true,
     joigSpring: true,
     open: false,

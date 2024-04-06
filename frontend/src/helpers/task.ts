@@ -15,9 +15,10 @@ export const filterTask = (tasks: Task[], filter: TaskFilter): Task[] => {
     ng ||= !contestType.prelim1 && /一次予選/.test(task.source)
     ng ||= !contestType.prelim2 && /二次予選|[^次]予選/.test(task.source)
     ng ||= !contestType.final && /本選/.test(task.source)
-    ng ||= !contestType.springCamp && /春合宿/.test(task.source)
+    ng ||= !contestType.spring && /(^|[^G])(春合宿|春トレ)/.test(task.source)
     ng ||= !contestType.open && /Open/.test(task.source)
-    ng ||= !contestType.joig && /JOIG/.test(task.source)
+    ng ||= !contestType.joig && /JOIG($|[^春])/.test(task.source)
+    ng ||= !contestType.joigSpring && /JOIG春/.test(task.source)
 
     // Year
     const sourceYear = parseInt('20' + task.source.substr(0, 2))
