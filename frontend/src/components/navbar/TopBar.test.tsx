@@ -20,7 +20,7 @@ test.each([
   { name: 'History', to: '/history' },
   { name: 'ChangeLog', to: '/changelog' },
   { name: 'Links', to: '/links' },
-])('PCで${name}ページへのリンクが表示されている', async ({ name, to }) => {
+])('PCで$nameページへのリンクが表示されている', async ({ name, to }) => {
   setMedia({ width: '1000px' })
   const { getByRole } = render(
     <MemoryRouter>
@@ -55,10 +55,10 @@ test.each([
   { name: 'ChangeLog', to: '/changelog' },
   { name: 'Links', to: '/links' },
 ])(
-  'モバイルでボタンをクリックすると${name}ページへのリンクが表示される',
+  'モバイルでボタンをクリックすると$nameページへのリンクが表示される',
   async ({ name, to }) => {
     setMedia({ width: '400px' })
-    const { getByRole, user } = render(
+    const { getByRole, findByRole, user } = render(
       <MemoryRouter>
         <TopBar />
       </MemoryRouter>,
@@ -67,7 +67,7 @@ test.each([
     const button = getByRole('button')
     await user.click(button)
 
-    const link = within(getByRole('navigation')).getByRole('link', {
+    const link = within(await findByRole('navigation')).getByRole('link', {
       name,
     })
     expect(link).toBeInTheDocument()

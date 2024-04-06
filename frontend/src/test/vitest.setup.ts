@@ -1,10 +1,9 @@
-import jestDomMatchers from '@testing-library/jest-dom/matchers'
+import '@testing-library/jest-dom'
 import { cleanup } from '@testing-library/react'
 import { matchers as emotionMatchers } from '@emotion/jest'
 import { afterEach, expect } from 'vitest'
 import { matchMedia, cleanup as cleanupMatchMedia } from 'mock-match-media'
 
-expect.extend(jestDomMatchers)
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 expect.extend(emotionMatchers)
