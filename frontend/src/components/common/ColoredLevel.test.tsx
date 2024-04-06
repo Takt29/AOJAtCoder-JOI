@@ -1,7 +1,7 @@
 import { within } from '@testing-library/react'
-import { ColoredLevel } from './ColoredLevel'
 import { Box } from '@chakra-ui/react'
 import { render } from '../../test/testUtils'
+import { ColoredLevel } from './ColoredLevel'
 
 test('levelが3の時、3が難易度3の色で表示される', () => {
   const { getByTestId } = render(

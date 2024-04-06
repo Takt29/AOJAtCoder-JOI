@@ -1,7 +1,7 @@
-import { TopBarLink } from './TopBarLink'
-import { render } from '../../test/testUtils'
 import { MemoryRouter, Router } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
+import { render } from '../../test/testUtils'
+import { TopBarLink } from './TopBarLink'
 
 test('titleで指定した文字列が表示されている', () => {
   const { getByRole } = render(

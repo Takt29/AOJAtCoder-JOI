@@ -1,5 +1,5 @@
-import { fetchContests } from '../../api/contest'
 import { useQuery } from '@tanstack/react-query'
+import { fetchContests } from '../../api/contest'
 
 export const useContests = () =>
   useQuery({

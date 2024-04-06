@@ -1,5 +1,5 @@
-import { fetchTasks } from '../../api/task'
 import { useQuery } from '@tanstack/react-query'
+import { fetchTasks } from '../../api/task'
 
 export const useTasks = () =>
   useQuery({

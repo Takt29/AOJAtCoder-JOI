@@ -1,7 +1,7 @@
 import { RenderOptions, render as originalRender } from '@testing-library/react'
 import { ReactElement } from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
-import userEvent from '@testing-library/user-event'
+import { userEvent } from '@testing-library/user-event'
 import { theme } from '../theme'
 
 export const render = (

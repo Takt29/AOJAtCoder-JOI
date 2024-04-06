@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { routes } from './routes'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { routes } from './routes'
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const root = createRoot(document.getElementById('app')!)

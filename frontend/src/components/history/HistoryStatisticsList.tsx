@@ -1,5 +1,5 @@
-import { HistoryStatistics } from './HistoryStatistics'
 import { useContests } from '../../hooks/http/contest'
+import { HistoryStatistics } from './HistoryStatistics'
 
 export const HistoryStatisticsList = () => {
   const { data: contests } = useContests()

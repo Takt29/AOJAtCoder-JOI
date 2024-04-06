@@ -1,5 +1,5 @@
-import { fetchChangeLog } from '../../api/changeLog'
 import { useQuery } from '@tanstack/react-query'
+import { fetchChangeLog } from '../../api/changeLog'
 
 export const useChangeLog = () =>
   useQuery({

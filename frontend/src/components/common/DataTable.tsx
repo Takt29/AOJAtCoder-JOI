@@ -1,4 +1,3 @@
-import { TriangleDownIcon, TriangleUpIcon, UpDownIcon } from '@chakra-ui/icons'
 import {
   Icon,
   Table,
