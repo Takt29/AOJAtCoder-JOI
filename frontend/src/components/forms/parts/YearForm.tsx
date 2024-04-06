@@ -29,7 +29,10 @@ export const YearForm = (props: Props) => {
         <Text>{title ?? '年度'}</Text>
       </GridItem>
       <GridItem colSpan={{ md: 5, base: 6 }}>
-        <Select size='sm' {...register(`${name}.begin`)}>
+        <Select
+          size='sm'
+          {...register(`${name}.begin`, { valueAsNumber: true })}
+        >
           {years.map((year) => (
             <option key={year} value={year}>
               {year}
@@ -41,7 +44,7 @@ export const YearForm = (props: Props) => {
         <Text textAlign={'center'}>〜</Text>
       </GridItem>
       <GridItem colSpan={{ md: 5, base: 6 }}>
-        <Select size='sm' {...register(`${name}.end`)}>
+        <Select size='sm' {...register(`${name}.end`, { valueAsNumber: true })}>
           {years.map((year) => (
             <option key={year} value={year}>
               {year}
