@@ -1,8 +1,9 @@
-import { AxiosError } from 'axios'
-import { SWRResponse } from 'swr'
-import useSWRImmutable from 'swr/immutable'
 import { fetchTasks } from '../../api/task'
-import { Task } from '../../types/task'
+import { useQuery } from '@tanstack/react-query'
 
-export const useTasks = (): SWRResponse<Task[], AxiosError> =>
-  useSWRImmutable('fetchTasks', () => fetchTasks())
+export const useTasks = () =>
+  useQuery({
+    queryKey: ['tasks'],
+    queryFn: fetchTasks,
+    staleTime: 24 * 60 * 60 * 1000, // 1 day
+  })
