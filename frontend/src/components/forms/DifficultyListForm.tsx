@@ -5,6 +5,7 @@ import {
   AccountData,
   ContestTypeData,
   HideFilterData,
+  LevelData,
   TaskTypeData,
   YearData,
 } from '../../types/form'
@@ -14,6 +15,7 @@ import { HideFilterForm } from './parts/HideFilterForm'
 import { SubmitButton } from './parts/SubmitButton'
 import { TaskTypeForm } from './parts/TaskTypeForm'
 import { YearForm } from './parts/YearForm'
+import { LevelForm } from './parts/LevelForm'
 
 export type DifficultyListFormData = {
   myAccount: AccountData
@@ -22,6 +24,7 @@ export type DifficultyListFormData = {
   hideFilter: HideFilterData
   contestType: ContestTypeData
   year: YearData
+  level: LevelData
 }
 
 type Props = {
@@ -54,6 +57,7 @@ export const DifficultyListForm = (props: Props) => {
           <HideFilterForm name='hideFilter' />
           <ContestTypeForm name='contestType' />
           <YearForm name='year' />
+          <LevelForm name='level' />
           <SubmitButton loading={loading}>表示</SubmitButton>
         </Stack>
       </form>

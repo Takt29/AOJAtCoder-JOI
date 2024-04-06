@@ -29,3 +29,8 @@ export type YearData = {
   begin: number
   end: number
 }
+
+export type LevelData = {
+  min: number | undefined
+  max: number | undefined
+}

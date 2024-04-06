@@ -30,6 +30,10 @@ const defaultFilterFormValues: DifficultyListFormData = {
     begin: 2007,
     end: 9999,
   },
+  level: {
+    min: undefined,
+    max: undefined,
+  },
 }
 
 export const HomePage = () => {

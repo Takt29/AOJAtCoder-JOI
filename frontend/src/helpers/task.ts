@@ -1,7 +1,7 @@
 import { Task, TaskFilter } from '../types/task'
 
 export const filterTask = (tasks: Task[], filter: TaskFilter): Task[] => {
-  const { taskType, contestType, year, hideFilter } = filter
+  const { taskType, contestType, year, hideFilter, level } = filter
 
   return tasks.filter((task) => {
     let ng: boolean = false
@@ -24,6 +24,13 @@ export const filterTask = (tasks: Task[], filter: TaskFilter): Task[] => {
     const sourceYear = parseInt('20' + task.source.substr(0, 2))
     ng ||= sourceYear < year.begin
     ng ||= year.end < sourceYear
+
+    // Level
+    if (level.min !== undefined || level.max !== undefined) {
+      ng ||= task.level === 0
+      ng ||= level.min !== undefined && task.level < level.min
+      ng ||= level.max !== undefined && level.max < task.level
+    }
 
     // Hide Filter
     ng ||=

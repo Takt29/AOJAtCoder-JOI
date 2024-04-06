@@ -1,4 +1,10 @@
-import { TaskTypeData, HideFilterData, ContestTypeData, YearData } from './form'
+import {
+  TaskTypeData,
+  HideFilterData,
+  ContestTypeData,
+  YearData,
+  LevelData,
+} from './form'
 
 export type TaskType = 'Batch' | 'Communication' | 'OutputOnly'
 
@@ -35,4 +41,5 @@ export type TaskFilter = {
   hideFilter: HideFilterData
   contestType: ContestTypeData
   year: YearData
+  level: LevelData
 }
