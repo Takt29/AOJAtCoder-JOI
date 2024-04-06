@@ -11,6 +11,7 @@
     "url": "git+https://github.com/Takt29/AOJAtCoder-JOI.git"
   },
   "author": "Takt29",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Takt29/AOJAtCoder-JOI/issues"
   },
