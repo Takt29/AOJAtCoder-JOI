@@ -12,10 +12,32 @@ import { useSiteSubmissions } from '../hooks/http/submissions'
 import { useTasks } from '../hooks/http/task'
 import { toSubmissions } from '../helpers/submission'
 
+const defaultFilterFormValues: DifficultyListFormData = {
+  myAccount: { atcoder: '', aoj: '' },
+  rivalAccount: { atcoder: '', aoj: '' },
+  taskType: { batch: true, communication: true, outputOnly: false },
+  hideFilter: { solvedTask: false, notExistTask: false, level: false },
+  contestType: {
+    prelim1: true,
+    prelim2: true,
+    final: true,
+    spring: true,
+    joig: true,
+    joigSpring: true,
+    open: false,
+  },
+  year: {
+    begin: 2007,
+    end: 9999,
+  },
+}
+
 export const HomePage = () => {
   const [myAccount, setMyAccount] = useState<AccountData>()
   const [rivalAccount, setRivalAccount] = useState<AccountData>()
-  const [taskFilter, setTaskFilter] = useState<TaskFilter>()
+  const [taskFilter, setTaskFilter] = useState<TaskFilter>(
+    defaultFilterFormValues,
+  )
 
   const onSubmit = useCallback((data: DifficultyListFormData) => {
     const { myAccount, rivalAccount, ...taskFilter } = data
@@ -51,6 +73,7 @@ export const HomePage = () => {
       <DifficultyListForm
         onSubmit={onSubmit}
         loading={loadingMySubmissions || loadingRivalSubmissions}
+        defaultValues={defaultFilterFormValues}
       />
       <Heading as='h3' size='lg'>
         統計

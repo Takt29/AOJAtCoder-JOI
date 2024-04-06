@@ -24,33 +24,14 @@ export type DifficultyListFormData = {
   year: YearData
 }
 
-const defaultValues: DifficultyListFormData = {
-  myAccount: { atcoder: '', aoj: '' },
-  rivalAccount: { atcoder: '', aoj: '' },
-  taskType: { batch: true, communication: true, outputOnly: false },
-  hideFilter: { solvedTask: false, notExistTask: false, level: false },
-  contestType: {
-    prelim1: true,
-    prelim2: true,
-    final: true,
-    spring: true,
-    joig: true,
-    joigSpring: true,
-    open: false,
-  },
-  year: {
-    begin: 2007,
-    end: 9999,
-  },
-}
-
 type Props = {
   onSubmit?: (data: DifficultyListFormData) => void
+  defaultValues?: DifficultyListFormData
   loading?: boolean
 }
 
 export const DifficultyListForm = (props: Props) => {
-  const { onSubmit, loading = false } = props
+  const { onSubmit, loading = false, defaultValues } = props
 
   const methods = useForm<DifficultyListFormData>({
     defaultValues,
