@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { AccountData } from '../types/form'
 import { TaskFilter } from '../types/task'
 import { DifficultyList } from '../components/difficultyList/DifficultyList'
@@ -8,7 +8,9 @@ import {
 } from '../components/forms/DifficultyListForm'
 import { Statistics } from '../components/statistics/Statistics'
 import { Heading, Stack } from '@chakra-ui/react'
-import { useSubmissions } from '../hooks/http/submissions'
+import { useSiteSubmissions } from '../hooks/http/submissions'
+import { useTasks } from '../hooks/http/task'
+import { toSubmissions } from '../helpers/submission'
 
 export const HomePage = () => {
   const [myAccount, setMyAccount] = useState<AccountData>()
@@ -22,12 +24,24 @@ export const HomePage = () => {
     setTaskFilter(taskFilter)
   }, [])
 
-  const { data: submissions, isLoading: loadingMySubmissions } = useSubmissions(
-    myAccount?.atcoder,
-    myAccount?.aoj,
+  const { data: siteSubmissions, isLoading: loadingMySubmissions } =
+    useSiteSubmissions(myAccount?.atcoder, myAccount?.aoj)
+  const { data: rivalSiteSubmissions, isLoading: loadingRivalSubmissions } =
+    useSiteSubmissions(rivalAccount?.atcoder, rivalAccount?.aoj)
+
+  const { data: tasks } = useTasks()
+
+  const submissions = useMemo(
+    () => siteSubmissions && tasks && toSubmissions(siteSubmissions, tasks),
+    [siteSubmissions, tasks],
   )
-  const { data: rivalSubmissions, isLoading: loadingRivalSubmissions } =
-    useSubmissions(rivalAccount?.atcoder, rivalAccount?.aoj)
+  const rivalSubmissions = useMemo(
+    () =>
+      rivalSiteSubmissions &&
+      tasks &&
+      toSubmissions(rivalSiteSubmissions, tasks),
+    [rivalSiteSubmissions, tasks],
+  )
 
   return (
     <Stack spacing={4}>
