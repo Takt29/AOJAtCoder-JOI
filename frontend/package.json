@@ -8,7 +8,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:all": "VITE_TEST_ALL=1 vitest run",
-    "format": "prettier --write '**/*.{tsx,ts,jsx,js}' && eslint --fix '**/*.{tsx,ts,jsx,js}'"
+    "format": "prettier --write '**/*.{tsx,ts,jsx,js}' && eslint --fix '**/*.{tsx,ts,jsx,js}'",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
