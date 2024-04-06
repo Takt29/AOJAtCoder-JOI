@@ -5431,5 +5431,165 @@
     "atcoder_id": "joi2024ho_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Fish 3",
+    "source": "24春合宿1-1",
+    "problem_id": "244101",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Ski 2",
+    "source": "24春合宿1-2",
+    "problem_id": "244102",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Spy 3",
+    "source": "24春合宿1-3",
+    "problem_id": "244103",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_c",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Board Game",
+    "source": "24春合宿2-1",
+    "problem_id": "244201",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Tricolor Lights",
+    "source": "24春合宿2-2",
+    "problem_id": "244202",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_e",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Growing Vegetables is Fun 5",
+    "source": "24春合宿2-3",
+    "problem_id": "244203",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Card Collection",
+    "source": "24春合宿3-1",
+    "problem_id": "244301",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "JOI Tour",
+    "source": "24春合宿3-2",
+    "problem_id": "244302",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_h",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Tower",
+    "source": "24春合宿3-3",
+    "problem_id": "244303",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Escape Route 2",
+    "source": "24春合宿4-1",
+    "problem_id": "244401",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Island Hopping",
+    "source": "24春合宿4-2",
+    "problem_id": "244402",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_k",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Table Tennis",
+    "source": "24春合宿4-3",
+    "problem_id": "244403",
+    "atcoder_contest": "joisp2024",
+    "atcoder_id": "joisp2024_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Together",
+    "source": "24JOIG春合宿1-1",
+    "problem_id": "246101",
+    "atcoder_contest": "joigsp2024",
+    "atcoder_id": "joigsp2024_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Baumkuchen 2",
+    "source": "24JOIG春合宿1-2",
+    "problem_id": "246102",
+    "atcoder_contest": "joigsp2024",
+    "atcoder_id": "joigsp2024_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Card Game 3",
+    "source": "24JOIG春合宿2-1",
+    "problem_id": "246201",
+    "atcoder_contest": "joigsp2024",
+    "atcoder_id": "joigsp2024_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Increase Chocolates",
+    "source": "24JOIG春合宿2-2",
+    "problem_id": "246202",
+    "atcoder_contest": "joigsp2024",
+    "atcoder_id": "joigsp2024_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
