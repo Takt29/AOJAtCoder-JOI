@@ -1,5 +1,6 @@
 import { TriangleDownIcon, TriangleUpIcon, UpDownIcon } from '@chakra-ui/icons'
 import {
+  Icon,
   Table,
   TableProps,
   Tbody,
@@ -16,6 +17,7 @@ import {
   getSortedRowModel,
   flexRender,
 } from '@tanstack/react-table'
+import { FaSort, FaSortDown, FaSortUp } from 'react-icons/fa6'
 
 type Props<T> = Pick<TableOptions<T>, '_features' | 'data' | 'columns'> &
   TableProps
@@ -52,11 +54,11 @@ export const DataTable = <T,>(props: Props<T>) => {
                 {header.column.getCanSort() ? (
                   <chakra.span pl='4'>
                     {header.column.getIsSorted() === 'desc' ? (
-                      <TriangleDownIcon aria-label='sorted descending' />
+                      <Icon as={FaSortDown} aria-label='sorted descending' />
                     ) : header.column.getIsSorted() === 'asc' ? (
-                      <TriangleUpIcon aria-label='sorted ascending' />
+                      <Icon as={FaSortUp} aria-label='sorted ascending' />
                     ) : (
-                      <UpDownIcon aria-label='sortable' />
+                      <Icon as={FaSort} aria-label='sortable' />
                     )}
                   </chakra.span>
                 ) : null}
