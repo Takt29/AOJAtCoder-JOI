@@ -561,7 +561,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Typhoon",
     "source": "08春合宿4-2",
     "problem_id": "084402",
@@ -926,7 +926,7 @@
     "atcoder_perfect_score": "20"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "ダンジョン",
     "source": "10本選5",
     "problem_id": "103105",
@@ -1203,7 +1203,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Joitter",
     "source": "11春合宿1-3",
     "problem_id": "114103",
@@ -1273,7 +1273,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Bookshelf",
     "source": "11春合宿4-2",
     "problem_id": "114402",
@@ -1393,7 +1393,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "7",
     "name": "釘",
     "source": "12本選4",
     "problem_id": "123104",
@@ -1489,7 +1489,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "Kangaroo",
     "source": "12春合宿3-2",
     "problem_id": "124302",
@@ -1629,7 +1629,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "5",
+    "level": "6",
     "name": "電飾",
     "source": "13本選1",
     "problem_id": "133101",
@@ -1889,7 +1889,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "小籠包",
     "source": "14予選6",
     "problem_id": "142106",
@@ -2429,7 +2429,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "3",
+    "level": "4",
     "name": "ロシアの旗",
     "source": "16予選3",
     "problem_id": "162103",
@@ -2459,7 +2459,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "屋台",
     "source": "16予選6",
     "problem_id": "162106",
@@ -2499,7 +2499,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "11",
     "name": "縄張り",
     "source": "16本選4",
     "problem_id": "163104",
@@ -3329,7 +3329,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "Naan",
     "source": "19春合宿1-3",
     "problem_id": "194103",
@@ -3619,7 +3619,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "スタンプラリー 3",
     "source": "20本選3",
     "problem_id": "203103",
@@ -4433,7 +4433,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "タクシー 2",
     "source": "22JOIG6",
     "problem_id": "225106",
@@ -4643,7 +4643,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Airport",
     "source": "22JOIG春合宿2-2",
     "problem_id": "226202",
@@ -4893,7 +4893,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "7",
+    "level": "8",
     "name": "運河",
     "source": "23JOIG5",
     "problem_id": "235105",
@@ -5074,7 +5074,7 @@
   },
   {
     "level": "9",
-    "name": "Bitaro's travel",
+    "name": "Bitaro's Travel",
     "source": "23春合宿4-3",
     "problem_id": "234403",
     "atcoder_contest": "joisp2023",
