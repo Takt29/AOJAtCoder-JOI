@@ -1,5 +1,6 @@
 import { createColumnHelper, TableFeature } from '@tanstack/react-table'
 import { useMemo } from 'react'
+import { TableContainer } from '@chakra-ui/react'
 import { useChangeLog } from '../../hooks/http/changeLog'
 import { ChangeLogRecord } from '../../types/changeLog'
 import { useTasks } from '../../hooks/http/task'
@@ -7,7 +8,6 @@ import { Task } from '../../types/task'
 import { getAtcoderUrl } from '../../helpers/url'
 import { ExternalLink } from '../common/ExternalLink'
 import { DataTable } from '../common/DataTable'
-import { TableContainer } from '@chakra-ui/react'
 
 export const ChangeLog = () => {
   const { data: originalChangelog } = useChangeLog()

@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { createColumnHelper, TableFeature } from '@tanstack/react-table'
 import { match } from 'ts-pattern'
+import { TableContainer } from '@chakra-ui/react'
 import { useTasks } from '../../hooks/http/task'
 import { mergeTaskAndSubmissions } from '../../helpers/submission'
 import { TaskFilter, TaskWithResult } from '../../types/task'
@@ -9,7 +10,6 @@ import { Submission } from '../../types/submission'
 import { ExternalLink } from '../common/ExternalLink'
 import { DataTable } from '../common/DataTable'
 import { getAizuOnlineJudgeUrl, getAtcoderUrl } from '../../helpers/url'
-import { TableContainer } from '@chakra-ui/react'
 
 type Props = {
   submissions?: Submission[]
