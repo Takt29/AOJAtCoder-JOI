@@ -22,10 +22,10 @@ export const ContestTypeForm = (props: Props) => {
               ['prelim1', '一次予選'],
               ['prelim2', '二次予選(旧予選)'],
               ['final', '本選'],
-              ['springCamp', '春合宿'],
+              ['spring', '春トレ(旧春合宿)'],
+              ['joig', 'JOIG本選'],
+              ['joigSpring', 'JOIG春トレ'],
               ['open', 'Open'],
-              ['joig', 'JOIG'],
-              ['joigSpring', 'JOIG春合宿'],
             ].map(([subId, label]) => (
               <GridItem key={subId} colSpan={{ lg: 3, md: 4, sm: 6, base: 1 }}>
                 <Checkbox

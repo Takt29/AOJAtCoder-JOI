@@ -5,6 +5,7 @@ import {
   AccountData,
   ContestTypeData,
   HideFilterData,
+  LevelData,
   TaskTypeData,
   YearData,
 } from '../../types/form'
@@ -14,6 +15,7 @@ import { HideFilterForm } from './parts/HideFilterForm'
 import { SubmitButton } from './parts/SubmitButton'
 import { TaskTypeForm } from './parts/TaskTypeForm'
 import { YearForm } from './parts/YearForm'
+import { LevelForm } from './parts/LevelForm'
 
 export type DifficultyListFormData = {
   myAccount: AccountData
@@ -22,35 +24,17 @@ export type DifficultyListFormData = {
   hideFilter: HideFilterData
   contestType: ContestTypeData
   year: YearData
-}
-
-const defaultValues: DifficultyListFormData = {
-  myAccount: { atcoder: '', aoj: '' },
-  rivalAccount: { atcoder: '', aoj: '' },
-  taskType: { batch: true, communication: true, outputOnly: false },
-  hideFilter: { solvedTask: false, notExistTask: false, level: false },
-  contestType: {
-    prelim1: true,
-    prelim2: true,
-    final: true,
-    springCamp: true,
-    joig: true,
-    joigSpring: true,
-    open: false,
-  },
-  year: {
-    begin: 2007,
-    end: 9999,
-  },
+  level: LevelData
 }
 
 type Props = {
   onSubmit?: (data: DifficultyListFormData) => void
+  defaultValues?: DifficultyListFormData
   loading?: boolean
 }
 
 export const DifficultyListForm = (props: Props) => {
-  const { onSubmit, loading = false } = props
+  const { onSubmit, loading = false, defaultValues } = props
 
   const methods = useForm<DifficultyListFormData>({
     defaultValues,
@@ -73,6 +57,7 @@ export const DifficultyListForm = (props: Props) => {
           <HideFilterForm name='hideFilter' />
           <ContestTypeForm name='contestType' />
           <YearForm name='year' />
+          <LevelForm name='level' />
           <SubmitButton loading={loading}>表示</SubmitButton>
         </Stack>
       </form>

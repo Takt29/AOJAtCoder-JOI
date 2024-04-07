@@ -19,7 +19,7 @@ export type ContestTypeData = {
   prelim1: boolean
   prelim2: boolean
   final: boolean
-  springCamp: boolean
+  spring: boolean
   joig: boolean
   joigSpring: boolean
   open: boolean
@@ -28,4 +28,9 @@ export type ContestTypeData = {
 export type YearData = {
   begin: number
   end: number
+}
+
+export type LevelData = {
+  min: number | undefined
+  max: number | undefined
 }
