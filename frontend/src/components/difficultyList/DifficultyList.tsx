@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { createColumnHelper, TableFeature } from '@tanstack/react-table'
 import { match } from 'ts-pattern'
+import { TableContainer } from '@chakra-ui/react'
 import { useTasks } from '../../hooks/http/task'
 import { mergeTaskAndSubmissions } from '../../helpers/submission'
 import { TaskFilter, TaskWithResult } from '../../types/task'
@@ -33,12 +34,14 @@ export const DifficultyList = (props: Props) => {
   }, [rivalSubmissions, submissions, filteredTasks])
 
   return (
-    <DataTable
-      size={'sm'}
-      data={tasksWithResult}
-      columns={columns}
-      _features={difficultyListTableFeatures}
-    />
+    <TableContainer>
+      <DataTable
+        size={'sm'}
+        data={tasksWithResult}
+        columns={columns}
+        _features={difficultyListTableFeatures}
+      />
+    </TableContainer>
   )
 }
 

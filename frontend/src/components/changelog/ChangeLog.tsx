@@ -1,5 +1,6 @@
 import { createColumnHelper, TableFeature } from '@tanstack/react-table'
 import { useMemo } from 'react'
+import { TableContainer } from '@chakra-ui/react'
 import { useChangeLog } from '../../hooks/http/changeLog'
 import { ChangeLogRecord } from '../../types/changeLog'
 import { useTasks } from '../../hooks/http/task'
@@ -27,12 +28,14 @@ export const ChangeLog = () => {
   }
 
   return (
-    <DataTable
-      size='sm'
-      data={changelog}
-      columns={columns}
-      _features={changelogTableFeatures}
-    />
+    <TableContainer>
+      <DataTable
+        size='sm'
+        data={changelog}
+        columns={columns}
+        _features={changelogTableFeatures}
+      />
+    </TableContainer>
   )
 }
 
