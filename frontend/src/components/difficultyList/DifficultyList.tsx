@@ -9,6 +9,7 @@ import { Submission } from '../../types/submission'
 import { ExternalLink } from '../common/ExternalLink'
 import { DataTable } from '../common/DataTable'
 import { getAizuOnlineJudgeUrl, getAtcoderUrl } from '../../helpers/url'
+import { TableContainer } from '@chakra-ui/react'
 
 type Props = {
   submissions?: Submission[]
@@ -33,12 +34,14 @@ export const DifficultyList = (props: Props) => {
   }, [rivalSubmissions, submissions, filteredTasks])
 
   return (
-    <DataTable
-      size={'sm'}
-      data={tasksWithResult}
-      columns={columns}
-      _features={difficultyListTableFeatures}
-    />
+    <TableContainer>
+      <DataTable
+        size={'sm'}
+        data={tasksWithResult}
+        columns={columns}
+        _features={difficultyListTableFeatures}
+      />
+    </TableContainer>
   )
 }
 

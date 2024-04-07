@@ -7,6 +7,7 @@ import { Task } from '../../types/task'
 import { getAtcoderUrl } from '../../helpers/url'
 import { ExternalLink } from '../common/ExternalLink'
 import { DataTable } from '../common/DataTable'
+import { TableContainer } from '@chakra-ui/react'
 
 export const ChangeLog = () => {
   const { data: originalChangelog } = useChangeLog()
@@ -27,12 +28,14 @@ export const ChangeLog = () => {
   }
 
   return (
-    <DataTable
-      size='sm'
-      data={changelog}
-      columns={columns}
-      _features={changelogTableFeatures}
-    />
+    <TableContainer>
+      <DataTable
+        size='sm'
+        data={changelog}
+        columns={columns}
+        _features={changelogTableFeatures}
+      />
+    </TableContainer>
   )
 }
 
