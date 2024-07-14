@@ -5591,5 +5591,35 @@
     "atcoder_id": "joigsp2024_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Examination 2",
+    "source": "24Open1",
+    "problem_id": "247101",
+    "atcoder_contest": "joiopen2024",
+    "atcoder_id": "joiopen2024_a",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "0",
+    "name": "Heat Stroke",
+    "source": "24Open2",
+    "problem_id": "247102",
+    "atcoder_contest": "joiopen2024",
+    "atcoder_id": "joiopen2024_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Library 3",
+    "source": "24Open3",
+    "problem_id": "247103",
+    "atcoder_contest": "joiopen2024",
+    "atcoder_id": "joiopen2024_c",
+    "aoj_id": "",
+    "tasktype": "Communication"
   }
 ]
