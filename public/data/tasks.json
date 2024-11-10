@@ -5621,5 +5621,85 @@
     "atcoder_id": "joiopen2024_c",
     "aoj_id": "",
     "tasktype": "Communication"
+  },
+  {
+    "level": "0",
+    "name": "鉛筆 2",
+    "source": "25一次予選1-1",
+    "problem_id": "251101",
+    "atcoder_contest": "joi2025yo1a",
+    "atcoder_id": "joi2025_yo1a_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "散歩",
+    "source": "25一次予選1-2",
+    "problem_id": "251102",
+    "atcoder_contest": "joi2025yo1a",
+    "atcoder_id": "joi2025_yo1a_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "OIJ",
+    "source": "25一次予選1-3",
+    "problem_id": "251103",
+    "atcoder_contest": "joi2025yo1a",
+    "atcoder_id": "joi2025_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "どら焼き",
+    "source": "25一次予選1-4",
+    "problem_id": "251104",
+    "atcoder_contest": "joi2025yo1a",
+    "atcoder_id": "joi2025_yo1a_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "徒競走",
+    "source": "25一次予選2-1",
+    "problem_id": "251201",
+    "atcoder_contest": "joi2025yo1b",
+    "atcoder_id": "joi2025_yo1b_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "鉄道旅行 3",
+    "source": "25一次予選2-2",
+    "problem_id": "251202",
+    "atcoder_contest": "joi2025yo1b",
+    "atcoder_id": "joi2025_yo1b_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "じゃんけん",
+    "source": "25一次予選2-3",
+    "problem_id": "251203",
+    "atcoder_contest": "joi2025yo1b",
+    "atcoder_id": "joi2025_yo1b_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "三角足し算",
+    "source": "25一次予選2-4",
+    "problem_id": "251204",
+    "atcoder_contest": "joi2025yo1b",
+    "atcoder_id": "joi2025_yo1b_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
