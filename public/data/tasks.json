@@ -5093,7 +5093,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "8",
     "name": "Teleporter",
     "source": "23JOIG春合宿1-2",
     "problem_id": "236102",
@@ -5573,7 +5573,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "6",
+    "level": "7",
     "name": "Card Game 3",
     "source": "24JOIG春合宿2-1",
     "problem_id": "246201",
