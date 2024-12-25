@@ -5623,7 +5623,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "鉛筆 2",
     "source": "25一次予選1-1",
     "problem_id": "251101",
@@ -5633,7 +5633,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "散歩",
     "source": "25一次予選1-2",
     "problem_id": "251102",
@@ -5643,7 +5643,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "OIJ",
     "source": "25一次予選1-3",
     "problem_id": "251103",
@@ -5653,7 +5653,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "どら焼き",
     "source": "25一次予選1-4",
     "problem_id": "251104",
@@ -5663,7 +5663,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "1",
     "name": "徒競走",
     "source": "25一次予選2-1",
     "problem_id": "251201",
@@ -5673,7 +5673,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "鉄道旅行 3",
     "source": "25一次予選2-2",
     "problem_id": "251202",
@@ -5683,7 +5683,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "2",
     "name": "じゃんけん",
     "source": "25一次予選2-3",
     "problem_id": "251203",
@@ -5693,12 +5693,102 @@
     "tasktype": "Batch"
   },
   {
-    "level": "0",
+    "level": "3",
     "name": "三角足し算",
     "source": "25一次予選2-4",
     "problem_id": "251204",
     "atcoder_contest": "joi2025yo1b",
     "atcoder_id": "joi2025_yo1b_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "所持金",
+    "source": "25一次予選3-1",
+    "problem_id": "251301",
+    "atcoder_contest": "joi2025yo1c",
+    "atcoder_id": "joi2025_yo1c_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "ブラックジャック",
+    "source": "25一次予選3-2",
+    "problem_id": "251302",
+    "atcoder_contest": "joi2025yo1c",
+    "atcoder_id": "joi2025_yo1c_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "いずれか片方",
+    "source": "25一次予選3-3",
+    "problem_id": "251303",
+    "atcoder_contest": "joi2025yo1c",
+    "atcoder_id": "joi2025_yo1c_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "周期文字列",
+    "source": "25一次予選3-4",
+    "problem_id": "251304",
+    "atcoder_contest": "joi2025yo1c",
+    "atcoder_id": "joi2025_yo1c_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "マスキングテープ",
+    "source": "25二次予選1",
+    "problem_id": "252101",
+    "atcoder_contest": "joi2025yo2",
+    "atcoder_id": "joi2025_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "ビリヤード",
+    "source": "25二次予選2",
+    "problem_id": "252102",
+    "atcoder_contest": "joi2025yo2",
+    "atcoder_id": "joi2025_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "ソフトクリーム",
+    "source": "25二次予選3",
+    "problem_id": "252103",
+    "atcoder_contest": "joi2025yo2",
+    "atcoder_id": "joi2025_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "親密なシェフ",
+    "source": "25二次予選4",
+    "problem_id": "252104",
+    "atcoder_contest": "joi2025yo2",
+    "atcoder_id": "joi2025_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "衝突",
+    "source": "25二次予選5",
+    "problem_id": "252105",
+    "atcoder_contest": "joi2025yo2",
+    "atcoder_id": "joi2025_yo2_e",
     "aoj_id": "",
     "tasktype": "Batch"
   }
