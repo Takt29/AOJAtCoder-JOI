@@ -5791,5 +5791,105 @@
     "atcoder_id": "joi2025_yo2_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "カードゲーム 4",
+    "source": "25JOIG1",
+    "problem_id": "255101",
+    "atcoder_contest": "joig2025-open",
+    "atcoder_id": "joig2025_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "ポスター 2",
+    "source": "25JOIG2",
+    "problem_id": "255102",
+    "atcoder_contest": "joig2025-open",
+    "atcoder_id": "joig2025_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "修学旅行",
+    "source": "25JOIG3",
+    "problem_id": "255103",
+    "atcoder_contest": "joig2025-open",
+    "atcoder_id": "joig2025_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "最悪の記者 5",
+    "source": "25JOIG4",
+    "problem_id": "255104",
+    "atcoder_contest": "joig2025-open",
+    "atcoder_id": "joig2025_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "神経衰弱 2",
+    "source": "25JOIG5",
+    "problem_id": "255105",
+    "atcoder_contest": "joig2025-open",
+    "atcoder_id": "joig2025_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "色塗り",
+    "source": "25本選1",
+    "problem_id": "253101",
+    "atcoder_contest": "joi2025ho",
+    "atcoder_id": "joi2025ho_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "勇者ビ太郎 2",
+    "source": "25本選2",
+    "problem_id": "253102",
+    "atcoder_contest": "joi2025ho",
+    "atcoder_id": "joi2025ho_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "ミ・テレフェリコ",
+    "source": "25本選3",
+    "problem_id": "253103",
+    "atcoder_contest": "joi2025ho",
+    "atcoder_id": "joi2025ho_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "長いだけのネクタイ 2",
+    "source": "25本選4",
+    "problem_id": "253104",
+    "atcoder_contest": "joi2025ho",
+    "atcoder_id": "joi2025ho_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "郵便局",
+    "source": "25本選5",
+    "problem_id": "253105",
+    "atcoder_contest": "joi2025ho",
+    "atcoder_id": "joi2025ho_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
