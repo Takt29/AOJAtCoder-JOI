@@ -4,7 +4,11 @@
 # client
 node_modules
 public/bundle.js
+public/bundle.js.*
 public/index.html
 
 # editor
 .vscode
+
+# firebase
+.firebase/

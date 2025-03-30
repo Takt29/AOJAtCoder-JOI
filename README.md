@@ -3,22 +3,6 @@ AOJ/AtCoder-JOI
 
 JOI過去問の正答状況表示サイト (React ver.)
 
-## FTP関連
-
-### 初期設定
-
-```sh
-git config git-ftp.url ftp://${hostname}/${dirpath}
-git config git-ftp.user ${username}
-git config git-ftp.password ${password}
-git ftp init -v
-```
-
-### 反映
-
-```sh
-git ftp push
-```
 ## 難易度色
 
 | 難易度 | 背景色 | 文字色 |
