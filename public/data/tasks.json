@@ -5891,5 +5891,185 @@
     "atcoder_id": "joi2025ho_e",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Exhibition 3",
+    "source": "25春合宿1-1",
+    "problem_id": "254101",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Fortune Telling 3",
+    "source": "25春合宿1-2",
+    "problem_id": "254102",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_b",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Bitaro's Travel 2",
+    "source": "25春合宿1-3",
+    "problem_id": "254103",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Ambulance",
+    "source": "25春合宿2-1",
+    "problem_id": "254201",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Collecting Stamps 4",
+    "source": "25春合宿2-2",
+    "problem_id": "254202",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Space Thief",
+    "source": "25春合宿2-3",
+    "problem_id": "254203",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_f",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Bitaro the Brave 3",
+    "source": "25春合宿3-1",
+    "problem_id": "254301",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Conference",
+    "source": "25春合宿3-2",
+    "problem_id": "254302",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Multi Communication",
+    "source": "25春合宿3-3",
+    "problem_id": "254303",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_i",
+    "aoj_id": "",
+    "tasktype": "OutputOnly"
+  },
+  {
+    "level": "11",
+    "name": "Circuit 2",
+    "source": "25春合宿4-1",
+    "problem_id": "254401",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_j",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "11",
+    "name": "Migration Plan",
+    "source": "25春合宿4-2",
+    "problem_id": "254402",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Uiro",
+    "source": "25春合宿4-3",
+    "problem_id": "254403",
+    "atcoder_contest": "joisp2025",
+    "atcoder_id": "joisp2025_l",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "Poker",
+    "source": "25JOIG春合宿1-1",
+    "problem_id": "256101",
+    "atcoder_contest": "joigsp2025",
+    "atcoder_id": "joigsp2025_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Snowballs 2",
+    "source": "25JOIG春合宿1-2",
+    "problem_id": "256102",
+    "atcoder_contest": "joigsp2025",
+    "atcoder_id": "joigsp2025_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "Magic Circles",
+    "source": "25JOIG春合宿2-1",
+    "problem_id": "256201",
+    "atcoder_contest": "joigsp2025",
+    "atcoder_id": "joigsp2025_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Japan Emerges",
+    "source": "25JOIG春合宿2-2",
+    "problem_id": "256202",
+    "atcoder_contest": "joigsp2025",
+    "atcoder_id": "joigsp2025_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Tea Party",
+    "source": "25JOIG春合宿3-1",
+    "problem_id": "256301",
+    "atcoder_contest": "joigsp2025",
+    "atcoder_id": "joigsp2025_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Radio Towers",
+    "source": "25JOIG春合宿3-2",
+    "problem_id": "256302",
+    "atcoder_contest": "joigsp2025",
+    "atcoder_id": "joigsp2025_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
