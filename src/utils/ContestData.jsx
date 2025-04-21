@@ -68,7 +68,7 @@ const applyFilter = (contests, solved, input) => {
     )
     .filter(
       (contest) =>
-        !contestType || contestType.springCamp || !contest.name.match(/春合宿/),
+        !contestType || contestType.springCamp || !contest.name.match(/[^G](春合宿|春トレ)/),
     )
     .filter(
       (contest) =>
