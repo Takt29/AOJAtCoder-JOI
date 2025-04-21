@@ -893,7 +893,7 @@
     "atcoder_perfect_score": "20"
   },
   {
-    "level": "7",
+    "level": "8",
     "name": "お菓子の分割",
     "source": "10本選2",
     "problem_id": "103102",
@@ -1163,7 +1163,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "7",
+    "level": "8",
     "name": "歩くサンタクロース",
     "source": "11本選4",
     "problem_id": "113104",
@@ -1203,7 +1203,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "Joitter",
     "source": "11春合宿1-3",
     "problem_id": "114103",
@@ -1889,7 +1889,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "小籠包",
     "source": "14予選6",
     "problem_id": "142106",
@@ -1929,7 +1929,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "フクロモモンガ",
     "source": "14本選4",
     "problem_id": "143104",
@@ -2959,7 +2959,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "7",
+    "level": "8",
     "name": "水ようかん",
     "source": "18予選4",
     "problem_id": "182104",
@@ -3329,7 +3329,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "10",
+    "level": "11",
     "name": "Naan",
     "source": "19春合宿1-3",
     "problem_id": "194103",
@@ -4333,7 +4333,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "2",
+    "level": "3",
     "name": "図書館 2",
     "source": "22二次予選1",
     "problem_id": "222101",
@@ -4643,7 +4643,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "8",
+    "level": "9",
     "name": "Airport",
     "source": "22JOIG春合宿2-2",
     "problem_id": "226202",
@@ -4943,7 +4943,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "9",
+    "level": "10",
     "name": "キャットエクササイズ",
     "source": "23本選4",
     "problem_id": "233104",
@@ -5523,7 +5523,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "11",
+    "level": "10",
     "name": "Escape Route 2",
     "source": "24春トレ4-1",
     "problem_id": "244401",
@@ -5543,7 +5543,7 @@
     "tasktype": "Communication"
   },
   {
-    "level": "11",
+    "level": "12",
     "name": "Table Tennis",
     "source": "24春トレ4-3",
     "problem_id": "244403",
