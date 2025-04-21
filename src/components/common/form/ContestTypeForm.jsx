@@ -59,7 +59,7 @@ class ContestTypeForm extends React.Component {
             <Col sm={4}>
               <Form.Check
                 type='checkbox'
-                label='春合宿'
+                label='春トレ(旧春合宿)'
                 name='springCamp'
                 id={`formContestTypeSpringCamp-${index}`}
                 checked={value.springCamp}
@@ -92,7 +92,7 @@ class ContestTypeForm extends React.Component {
             <Col sm={8}>
               <Form.Check
                 type='checkbox'
-                label='JOIG春合宿'
+                label='JOIG春トレ'
                 name='joigSpring'
                 id={`formContestTypeJOIGSpring-${index}`}
                 checked={value.joigSpring}

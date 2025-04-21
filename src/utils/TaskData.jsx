@@ -74,7 +74,7 @@ const applyFilter = (tasks, filter) => {
     )
     .filter(
       (task) =>
-        !contestType || contestType.springCamp || !task.source.match(/[^G]春合宿/),
+        !contestType || contestType.springCamp || !task.source.match(/[^G](春合宿|春トレ)/),
     )
     .filter(
       (task) => !contestType || contestType.open || !task.source.match(/Open/),

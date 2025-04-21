@@ -4965,7 +4965,7 @@
   {
     "level": "10",
     "name": "Two Currencies",
-    "source": "23春合宿1-1",
+    "source": "23春トレ1-1",
     "problem_id": "234101",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_a",
@@ -4975,7 +4975,7 @@
   {
     "level": "12",
     "name": "Festivals in JOI Kingdom 2",
-    "source": "23春合宿1-2",
+    "source": "23春トレ1-2",
     "problem_id": "234102",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_b",
@@ -4985,7 +4985,7 @@
   {
     "level": "11",
     "name": "Passport",
-    "source": "23春合宿1-3",
+    "source": "23春トレ1-3",
     "problem_id": "234103",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_c",
@@ -4995,7 +4995,7 @@
   {
     "level": "11",
     "name": "Belt Conveyor",
-    "source": "23春合宿2-1",
+    "source": "23春トレ2-1",
     "problem_id": "234201",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_d",
@@ -5005,7 +5005,7 @@
   {
     "level": "10",
     "name": "Council",
-    "source": "23春合宿2-2",
+    "source": "23春トレ2-2",
     "problem_id": "234202",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_e",
@@ -5015,7 +5015,7 @@
   {
     "level": "12",
     "name": "Mizuyokan 2",
-    "source": "23春合宿2-3",
+    "source": "23春トレ2-3",
     "problem_id": "234203",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_f",
@@ -5025,7 +5025,7 @@
   {
     "level": "12",
     "name": "Chorus",
-    "source": "23春合宿3-1",
+    "source": "23春トレ3-1",
     "problem_id": "234301",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_g",
@@ -5035,7 +5035,7 @@
   {
     "level": "12",
     "name": "Cookies",
-    "source": "23春合宿3-2",
+    "source": "23春トレ3-2",
     "problem_id": "234302",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_h",
@@ -5045,7 +5045,7 @@
   {
     "level": "11",
     "name": "Tourism",
-    "source": "23春合宿3-3",
+    "source": "23春トレ3-3",
     "problem_id": "234303",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_i",
@@ -5055,7 +5055,7 @@
   {
     "level": "12",
     "name": "The Last Battle",
-    "source": "23春合宿4-1",
+    "source": "23春トレ4-1",
     "problem_id": "234401",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_j",
@@ -5065,7 +5065,7 @@
   {
     "level": "12",
     "name": "Security Guard",
-    "source": "23春合宿4-2",
+    "source": "23春トレ4-2",
     "problem_id": "234402",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_k",
@@ -5075,7 +5075,7 @@
   {
     "level": "9",
     "name": "Bitaro's Travel",
-    "source": "23春合宿4-3",
+    "source": "23春トレ4-3",
     "problem_id": "234403",
     "atcoder_contest": "joisp2023",
     "atcoder_id": "joisp2023_l",
@@ -5435,7 +5435,7 @@
   {
     "level": "10",
     "name": "Fish 3",
-    "source": "24春合宿1-1",
+    "source": "24春トレ1-1",
     "problem_id": "244101",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_a",
@@ -5445,7 +5445,7 @@
   {
     "level": "11",
     "name": "Ski 2",
-    "source": "24春合宿1-2",
+    "source": "24春トレ1-2",
     "problem_id": "244102",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_b",
@@ -5455,7 +5455,7 @@
   {
     "level": "12",
     "name": "Spy 3",
-    "source": "24春合宿1-3",
+    "source": "24春トレ1-3",
     "problem_id": "244103",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_c",
@@ -5465,7 +5465,7 @@
   {
     "level": "11",
     "name": "Board Game",
-    "source": "24春合宿2-1",
+    "source": "24春トレ2-1",
     "problem_id": "244201",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_d",
@@ -5475,7 +5475,7 @@
   {
     "level": "12",
     "name": "Tricolor Lights",
-    "source": "24春合宿2-2",
+    "source": "24春トレ2-2",
     "problem_id": "244202",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_e",
@@ -5485,7 +5485,7 @@
   {
     "level": "11",
     "name": "Growing Vegetables is Fun 5",
-    "source": "24春合宿2-3",
+    "source": "24春トレ2-3",
     "problem_id": "244203",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_f",
@@ -5495,7 +5495,7 @@
   {
     "level": "12",
     "name": "Card Collection",
-    "source": "24春合宿3-1",
+    "source": "24春トレ3-1",
     "problem_id": "244301",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_g",
@@ -5505,7 +5505,7 @@
   {
     "level": "12",
     "name": "JOI Tour",
-    "source": "24春合宿3-2",
+    "source": "24春トレ3-2",
     "problem_id": "244302",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_h",
@@ -5515,7 +5515,7 @@
   {
     "level": "11",
     "name": "Tower",
-    "source": "24春合宿3-3",
+    "source": "24春トレ3-3",
     "problem_id": "244303",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_i",
@@ -5525,7 +5525,7 @@
   {
     "level": "11",
     "name": "Escape Route 2",
-    "source": "24春合宿4-1",
+    "source": "24春トレ4-1",
     "problem_id": "244401",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_j",
@@ -5535,7 +5535,7 @@
   {
     "level": "10",
     "name": "Island Hopping",
-    "source": "24春合宿4-2",
+    "source": "24春トレ4-2",
     "problem_id": "244402",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_k",
@@ -5545,7 +5545,7 @@
   {
     "level": "11",
     "name": "Table Tennis",
-    "source": "24春合宿4-3",
+    "source": "24春トレ4-3",
     "problem_id": "244403",
     "atcoder_contest": "joisp2024",
     "atcoder_id": "joisp2024_l",
@@ -5895,7 +5895,7 @@
   {
     "level": "12",
     "name": "Exhibition 3",
-    "source": "25春合宿1-1",
+    "source": "25春トレ1-1",
     "problem_id": "254101",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_a",
@@ -5905,7 +5905,7 @@
   {
     "level": "12",
     "name": "Fortune Telling 3",
-    "source": "25春合宿1-2",
+    "source": "25春トレ1-2",
     "problem_id": "254102",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_b",
@@ -5915,7 +5915,7 @@
   {
     "level": "10",
     "name": "Bitaro's Travel 2",
-    "source": "25春合宿1-3",
+    "source": "25春トレ1-3",
     "problem_id": "254103",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_c",
@@ -5925,7 +5925,7 @@
   {
     "level": "11",
     "name": "Ambulance",
-    "source": "25春合宿2-1",
+    "source": "25春トレ2-1",
     "problem_id": "254201",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_d",
@@ -5935,7 +5935,7 @@
   {
     "level": "10",
     "name": "Collecting Stamps 4",
-    "source": "25春合宿2-2",
+    "source": "25春トレ2-2",
     "problem_id": "254202",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_e",
@@ -5945,7 +5945,7 @@
   {
     "level": "12",
     "name": "Space Thief",
-    "source": "25春合宿2-3",
+    "source": "25春トレ2-3",
     "problem_id": "254203",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_f",
@@ -5955,7 +5955,7 @@
   {
     "level": "11",
     "name": "Bitaro the Brave 3",
-    "source": "25春合宿3-1",
+    "source": "25春トレ3-1",
     "problem_id": "254301",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_g",
@@ -5965,7 +5965,7 @@
   {
     "level": "12",
     "name": "Conference",
-    "source": "25春合宿3-2",
+    "source": "25春トレ3-2",
     "problem_id": "254302",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_h",
@@ -5975,7 +5975,7 @@
   {
     "level": "10",
     "name": "Multi Communication",
-    "source": "25春合宿3-3",
+    "source": "25春トレ3-3",
     "problem_id": "254303",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_i",
@@ -5985,7 +5985,7 @@
   {
     "level": "11",
     "name": "Circuit 2",
-    "source": "25春合宿4-1",
+    "source": "25春トレ4-1",
     "problem_id": "254401",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_j",
@@ -5995,7 +5995,7 @@
   {
     "level": "11",
     "name": "Migration Plan",
-    "source": "25春合宿4-2",
+    "source": "25春トレ4-2",
     "problem_id": "254402",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_k",
@@ -6005,7 +6005,7 @@
   {
     "level": "11",
     "name": "Uiro",
-    "source": "25春合宿4-3",
+    "source": "25春トレ4-3",
     "problem_id": "254403",
     "atcoder_contest": "joisp2025",
     "atcoder_id": "joisp2025_l",
