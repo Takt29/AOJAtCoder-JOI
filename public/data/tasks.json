@@ -6071,5 +6071,35 @@
     "atcoder_id": "joigsp2025_j",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Bubble Sort Machine",
+    "source": "25Open1",
+    "problem_id": "257101",
+    "atcoder_contest": "joiopen2025",
+    "atcoder_id": "joiopen2025_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "0",
+    "name": "Lottery",
+    "source": "25Open2",
+    "problem_id": "257102",
+    "atcoder_contest": "joiopen2025",
+    "atcoder_id": "joiopen2025_b",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "0",
+    "name": "Telepathy",
+    "source": "25Open3",
+    "problem_id": "257103",
+    "atcoder_contest": "joiopen2025",
+    "atcoder_id": "joiopen2025_c",
+    "aoj_id": "",
+    "tasktype": "Communication"
   }
 ]
