@@ -6101,5 +6101,184 @@
     "atcoder_id": "joiopen2025_c",
     "aoj_id": "",
     "tasktype": "Communication"
+  },
+  {
+    "level": "1",
+    "name": "面積",
+    "source": "26一次予選1-1",
+    "problem_id": "261101",
+    "atcoder_contest": "joi2026yo1a",
+    "atcoder_id": "joi2026_yo1a_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "ノートパソコン",
+    "source": "26一次予選1-2",
+    "problem_id": "261102",
+    "atcoder_contest": "joi2026yo1a",
+    "atcoder_id": "joi2026_yo1a_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "シャッフル 2",
+    "source": "26一次予選1-3",
+    "problem_id": "261103",
+    "atcoder_contest": "joi2026yo1a",
+    "atcoder_id": "joi2026_yo1a_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "oxゲーム",
+    "source": "26一次予選1-4",
+    "problem_id": "261104",
+    "atcoder_contest": "joi2026yo1a",
+    "atcoder_id": "joi2026_yo1a_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "宿題 2",
+    "source": "26一次予選2-1",
+    "problem_id": "261201",
+    "atcoder_contest": "joi2026yo1b",
+    "atcoder_id": "joi2026_yo1b_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "帰省 2",
+    "source": "26一次予選2-2",
+    "problem_id": "261202",
+    "atcoder_contest": "joi2026yo1b",
+    "atcoder_id": "joi2026_yo1b_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "葵とIOI",
+    "source": "26一次予選2-3",
+    "problem_id": "261203",
+    "atcoder_contest": "joi2026yo1b",
+    "atcoder_id": "joi2026_yo1b_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "距離",
+    "source": "26一次予選2-4",
+    "problem_id": "261204",
+    "atcoder_contest": "joi2026yo1b",
+    "atcoder_id": "joi2026_yo1b_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "1",
+    "name": "テスト",
+    "source": "26一次予選3-1",
+    "problem_id": "261301",
+    "atcoder_contest": "joi2026yo1c",
+    "atcoder_id": "joi2026_yo1c_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "リンゴ",
+      "source": "26一次予選3-2",
+    "problem_id": "261302",
+    "atcoder_contest": "joi2026yo1c",
+    "atcoder_id": "joi2026_yo1c_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "2",
+    "name": "ビルディング 5",
+    "source": "26一次予選3-3",
+    "problem_id": "261303",
+    "atcoder_contest": "joi2026yo1c",
+    "atcoder_id": "joi2026_yo1c_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "3",
+    "name": "走り幅跳び",
+    "source": "26一次予選3-4",
+    "problem_id": "261304",
+    "atcoder_contest": "joi2026yo1c",
+    "atcoder_id": "joi2026_yo1c_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "クラス分け",
+    "source": "26二次予選1",
+    "problem_id": "262101",
+    "atcoder_contest": "joi2026yo2",
+    "atcoder_id": "joi2026_yo2_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "5",
+    "name": "究極の団子職人",
+    "source": "26二次予選2",
+    "problem_id": "262102",
+    "atcoder_contest": "joi2026yo2",
+    "atcoder_id": "joi2026_yo2_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "JOIエリミネーター",
+    "source": "26二次予選3",
+    "problem_id": "262103",
+    "atcoder_contest": "joi2026yo2",
+    "atcoder_id": "joi2026_yo2_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "買い物 3",
+    "source": "26二次予選4",
+    "problem_id": "262104",
+    "atcoder_contest": "joi2026yo2",
+    "atcoder_id": "joi2026_yo2_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },{
+    "level": "7",
+    "name": "ビ太郎の旅 3",
+    "source": "26二次予選5",
+    "problem_id": "262105",
+    "atcoder_contest": "joi2026yo2",
+    "atcoder_id": "joi2026_yo2_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "船",
+    "source": "26二次予選6",
+    "problem_id": "262106",
+    "atcoder_contest": "joi2026yo2",
+    "atcoder_id": "joi2026_yo2_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
