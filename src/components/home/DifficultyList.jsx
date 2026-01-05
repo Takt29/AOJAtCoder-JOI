@@ -1,5 +1,5 @@
 import React from 'react'
-import { Alert, Table } from 'react-bootstrap'
+import { Table } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSort, faSortUp, faSortDown } from '@fortawesome/free-solid-svg-icons'
 import DifficultyListItem from './list/DifficultyListItem'
@@ -72,9 +72,6 @@ class DifficultyList extends React.Component {
 
     return (
       <div>
-        <Alert variant='warning'>
-          新しい問題は、AtCoderProblemsに登録されるまで正答状況に反映されません。
-        </Alert>
         <DifficultyListAccount
           className={styles.account}
           myAccount={myAccount}
