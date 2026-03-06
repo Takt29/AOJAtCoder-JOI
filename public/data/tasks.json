@@ -6280,5 +6280,65 @@
     "atcoder_id": "joi2026_yo2_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+  {
+    "level": "4",
+    "name": "座席 3",
+    "source": "26本選1",
+    "problem_id": "263101",
+    "atcoder_contest": "joi2026sf",
+    "atcoder_id": "joi2026_semifinal_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "6",
+    "name": "宝石商",
+    "source": "26本選2",
+    "problem_id": "263102",
+    "atcoder_contest": "joi2026sf",
+    "atcoder_id": "joi2026_semifinal_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "衣服",
+    "source": "26本選3",
+    "problem_id": "263103",
+    "atcoder_contest": "joi2026sf",
+    "atcoder_id": "joi2026_semifinal_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "川下り",
+      "source": "26本選4",
+    "problem_id": "263104",
+    "atcoder_contest": "joi2026sf",
+    "atcoder_id": "joi2026_semifinal_d",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "新たな橋",
+    "source": "26本選5",
+    "problem_id": "263105",
+    "atcoder_contest": "joi2026sf",
+    "atcoder_id": "joi2026_semifinal_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "奇妙な機械",
+    "source": "26本選6",
+    "problem_id": "263106",
+    "atcoder_contest": "joi2026sf",
+    "atcoder_id": "joi2026_semifinal_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
