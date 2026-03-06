@@ -5973,7 +5973,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "10",
+    "level": "9",
     "name": "Multi Communication",
     "source": "25春トレ3-3",
     "problem_id": "254303",
@@ -6233,7 +6233,7 @@
     "tasktype": "Batch"
   },
   {
-    "level": "5",
+    "level": "6",
     "name": "究極の団子職人",
     "source": "26二次予選2",
     "problem_id": "262102",
@@ -6261,7 +6261,8 @@
     "atcoder_id": "joi2026_yo2_d",
     "aoj_id": "",
     "tasktype": "Batch"
-  },{
+  },
+  {
     "level": "7",
     "name": "ビ太郎の旅 3",
     "source": "26二次予選5",
