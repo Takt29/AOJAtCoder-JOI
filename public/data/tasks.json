@@ -6341,5 +6341,205 @@
     "atcoder_id": "joi2026_semifinal_f",
     "aoj_id": "",
     "tasktype": "Batch"
+  },
+    {
+    "level": "11",
+    "name": "Legendary Dango Eater",
+    "source": "26春トレ1-1",
+    "problem_id": "264101",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Garden 3",
+    "source": "26春トレ1-2",
+    "problem_id": "264102",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Multi Communication 2",
+    "source": "26春トレ1-3",
+    "problem_id": "264103",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_c",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "10",
+    "name": "Casino",
+    "source": "26春トレ2-1",
+    "problem_id": "264201",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_d",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "12",
+    "name": "JOI Tour 2",
+    "source": "26春トレ2-2",
+    "problem_id": "264202",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Teleporter 2",
+    "source": "26春トレ2-3",
+    "problem_id": "264203",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_f",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Triangular Rainfall",
+    "source": "26春トレ3-1",
+    "problem_id": "264301",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_g",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Scarecrows 2",
+    "source": "26春トレ3-2",
+    "problem_id": "264302",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_h",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Collecting Stamps 5",
+    "source": "26春トレ3-3",
+    "problem_id": "264303",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "11",
+    "name": "Baker",
+    "source": "26春トレ4-1",
+    "problem_id": "264401",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "12",
+    "name": "Festivals in JOI Kingdom 3",
+    "source": "26春トレ4-2",
+    "problem_id": "264402",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "10",
+    "name": "Voltage 2",
+    "source": "26春トレ4-3",
+    "problem_id": "264403",
+    "atcoder_contest": "joi2026final",
+    "atcoder_id": "joi2026final_l",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+    {
+    "level": "5",
+    "name": "Macaron",
+    "source": "26JOIG春トレ1-1",
+    "problem_id": "266101",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_a",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Sports Festival",
+    "source": "26JOIG春トレ1-2",
+    "problem_id": "266102",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_b",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "9",
+    "name": "Cake 4",
+    "source": "26JOIG春トレ1-3",
+    "problem_id": "266103",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_c",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "7",
+    "name": "Railway Trip 4",
+    "source": "26JOIG春トレ2-1",
+    "problem_id": "266201",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_e",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Zoo",
+    "source": "26JOIG春トレ2-2",
+    "problem_id": "266202",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_f",
+    "aoj_id": "",
+    "tasktype": "Communication"
+  },
+  {
+    "level": "9",
+    "name": "Cheeses and Mice",
+    "source": "26JOIG春トレ3-1",
+    "problem_id": "266301",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_i",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Curry and Rice",
+    "source": "26JOIG春トレ3-2",
+    "problem_id": "266302",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_j",
+    "aoj_id": "",
+    "tasktype": "Batch"
+  },
+  {
+    "level": "8",
+    "name": "Packing Snacks",
+    "source": "26JOIG春トレ3-3",
+    "problem_id": "266303",
+    "atcoder_contest": "joig2026final",
+    "atcoder_id": "joig2026final_k",
+    "aoj_id": "",
+    "tasktype": "Batch"
   }
 ]
