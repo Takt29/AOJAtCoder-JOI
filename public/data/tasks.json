@@ -5085,7 +5085,7 @@
   {
     "level": "7",
     "name": "Rocket Launching",
-    "source": "23JOIG春合宿1-1",
+    "source": "23JOIG春トレ1-1",
     "problem_id": "236101",
     "atcoder_contest": "joigsp2023",
     "atcoder_id": "joigsp2023_a",
@@ -5095,7 +5095,7 @@
   {
     "level": "8",
     "name": "Teleporter",
-    "source": "23JOIG春合宿1-2",
+    "source": "23JOIG春トレ1-2",
     "problem_id": "236102",
     "atcoder_contest": "joigsp2023",
     "atcoder_id": "joigsp2023_b",
@@ -5105,7 +5105,7 @@
   {
     "level": "8",
     "name": "Smartphone",
-    "source": "23JOIG春合宿2-1",
+    "source": "23JOIG春トレ2-1",
     "problem_id": "236201",
     "atcoder_contest": "joigsp2023",
     "atcoder_id": "joigsp2023_e",
@@ -5115,7 +5115,7 @@
   {
     "level": "8",
     "name": "White Light",
-    "source": "23JOIG春合宿2-2",
+    "source": "23JOIG春トレ2-2",
     "problem_id": "236202",
     "atcoder_contest": "joigsp2023",
     "atcoder_id": "joigsp2023_f",
@@ -5555,7 +5555,7 @@
   {
     "level": "6",
     "name": "Together",
-    "source": "24JOIG春合宿1-1",
+    "source": "24JOIG春トレ1-1",
     "problem_id": "246101",
     "atcoder_contest": "joigsp2024",
     "atcoder_id": "joigsp2024_a",
@@ -5565,7 +5565,7 @@
   {
     "level": "10",
     "name": "Baumkuchen 2",
-    "source": "24JOIG春合宿1-2",
+    "source": "24JOIG春トレ1-2",
     "problem_id": "246102",
     "atcoder_contest": "joigsp2024",
     "atcoder_id": "joigsp2024_b",
@@ -5575,7 +5575,7 @@
   {
     "level": "7",
     "name": "Card Game 3",
-    "source": "24JOIG春合宿2-1",
+    "source": "24JOIG春トレ2-1",
     "problem_id": "246201",
     "atcoder_contest": "joigsp2024",
     "atcoder_id": "joigsp2024_e",
@@ -5585,7 +5585,7 @@
   {
     "level": "8",
     "name": "Increase Chocolates",
-    "source": "24JOIG春合宿2-2",
+    "source": "24JOIG春トレ2-2",
     "problem_id": "246202",
     "atcoder_contest": "joigsp2024",
     "atcoder_id": "joigsp2024_f",
@@ -6015,7 +6015,7 @@
   {
     "level": "5",
     "name": "Poker",
-    "source": "25JOIG春合宿1-1",
+    "source": "25JOIG春トレ1-1",
     "problem_id": "256101",
     "atcoder_contest": "joigsp2025",
     "atcoder_id": "joigsp2025_a",
@@ -6025,7 +6025,7 @@
   {
     "level": "8",
     "name": "Snowballs 2",
-    "source": "25JOIG春合宿1-2",
+    "source": "25JOIG春トレ1-2",
     "problem_id": "256102",
     "atcoder_contest": "joigsp2025",
     "atcoder_id": "joigsp2025_b",
@@ -6035,7 +6035,7 @@
   {
     "level": "6",
     "name": "Magic Circles",
-    "source": "25JOIG春合宿2-1",
+    "source": "25JOIG春トレ2-1",
     "problem_id": "256201",
     "atcoder_contest": "joigsp2025",
     "atcoder_id": "joigsp2025_e",
@@ -6045,7 +6045,7 @@
   {
     "level": "7",
     "name": "Japan Emerges",
-    "source": "25JOIG春合宿2-2",
+    "source": "25JOIG春トレ2-2",
     "problem_id": "256202",
     "atcoder_contest": "joigsp2025",
     "atcoder_id": "joigsp2025_f",
@@ -6055,7 +6055,7 @@
   {
     "level": "7",
     "name": "Tea Party",
-    "source": "25JOIG春合宿3-1",
+    "source": "25JOIG春トレ3-1",
     "problem_id": "256301",
     "atcoder_contest": "joigsp2025",
     "atcoder_id": "joigsp2025_i",
@@ -6065,7 +6065,7 @@
   {
     "level": "8",
     "name": "Radio Towers",
-    "source": "25JOIG春合宿3-2",
+    "source": "25JOIG春トレ3-2",
     "problem_id": "256302",
     "atcoder_contest": "joigsp2025",
     "atcoder_id": "joigsp2025_j",
